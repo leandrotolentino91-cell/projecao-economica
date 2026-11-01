@@ -7,27 +7,45 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="theme-color" content="#0b1214">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap">
 <style>
 /* Layout: relatório de research — título fino, faixas ▶, duas colunas, tabela com barra escura. Acento: azul petróleo. */
 :root{
-  --bg:#0b1214; --card:#111b1e; --fg:#e3eaec; --muted:#93a3a7; --line:#24343a; --soft:#152125;
-  --accent:#4fb0c2; --accent-2:#2c8798; --accent-3:#1d4f59; --accent-ink:#0b1214;
-  --head:#1a2a2f; --head-ink:#e3eaec; --bad:#e07b67; --good:#6cc28f; --warn:#e0b450; --real:#f2f5f6;
-  --f-body:"Source Sans 3","Segoe UI",Arial,sans-serif; color-scheme:dark;
+  /* Terminal: fundo preto, painéis com barra de título, números em fonte mono, acento azul petróleo */
+  --bg:#000000; --card:#090c0d; --fg:#e8eaeb; --muted:#8b9497; --line:#1e2629; --soft:#0f1517;
+  --accent:#29b0c4; --accent-2:#1a7d8c; --accent-3:#0e3b43; --accent-ink:#000000;
+  --head:#0f2a30; --head-ink:#bfe9f0; --bad:#ff6b5e; --good:#38d27f; --warn:#e8c547; --real:#ffffff;
+  --f-body:"IBM Plex Sans","Segoe UI",Arial,sans-serif; --f-mono:"IBM Plex Mono",Consolas,monospace; color-scheme:dark;
 }
 *{box-sizing:border-box}
 [hidden]{display:none!important}
+.mon th,.mon td{padding:7px 9px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+.mon th:first-child,.mon td:first-child{text-align:left}
+.mon thead tr:first-child th{color:var(--accent);font-weight:500;letter-spacing:.06em;font-size:11.5px;border-bottom:1px solid var(--accent-2)}
+.mon thead tr:nth-child(2) th{color:var(--muted);font-weight:400;font-size:11.5px}
+.mon td.ind{color:var(--fg);font-weight:600;font-family:var(--f-body)}
+.mon td.real{color:var(--real)}
+.mon td.prop{color:var(--good);font-weight:600}
+.mon .sep{border-left:1px solid var(--accent-2)}
+.mon small{color:var(--muted);font-size:11px;margin-left:3px}
+.mon .u{color:var(--bad);font-size:10px}.mon .d{color:var(--good);font-size:10px}
+h1{font-family:var(--f-body)}
+.kpi{border-radius:0!important;border-top:2px solid var(--accent)!important}
+.kpi .big{font-family:var(--f-mono);font-weight:500}
+.kpi .lb{font-family:var(--f-mono)}
+.news>div,.kpi{background:var(--card)}
+.mark{border-radius:0!important;font-family:var(--f-mono)}
+
 :root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.45}
 .page{max-width:1120px;margin:0 auto;padding-block:28px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 header.top{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:14px}
-h1{font-weight:300;color:var(--accent);font-size:clamp(32px,5.2vw,50px);line-height:1;margin:0;letter-spacing:-.01em;text-wrap:balance}
+h1{font-weight:300;color:var(--fg);font-size:clamp(32px,5.2vw,50px);line-height:1;margin:0;letter-spacing:-.01em;text-wrap:balance}
 .date{font-size:14px;margin-top:10px;display:flex;gap:6px 14px;flex-wrap:wrap}
 .date span{white-space:nowrap}
 .mark{display:grid;place-items:center;min-width:64px;height:64px;padding:0 10px;border-radius:12px;background:var(--accent);color:var(--accent-ink);font-weight:700;font-size:13px;line-height:1.1;text-align:center;letter-spacing:.04em}
-h2{color:var(--accent);font-weight:400;font-size:24px;margin:30px 0 12px;text-wrap:balance}
-h3{color:var(--accent);font-weight:400;font-size:19px;margin:0 0 8px;text-wrap:balance}
+h2{color:var(--accent);font-family:var(--f-mono);font-weight:500;font-size:14px;letter-spacing:.08em;text-transform:uppercase;margin:30px 0 10px;padding:6px 10px;background:var(--head);border-left:3px solid var(--accent)}
+h3{color:var(--accent);font-family:var(--f-mono);font-weight:500;font-size:13px;letter-spacing:.06em;text-transform:uppercase;margin:0 0 8px}
 .lead{margin:0;padding:0;list-style:none;display:grid;gap:10px}
 .lead li{position:relative;padding-left:22px}
 .lead li::before{content:"";position:absolute;left:2px;top:.42em;border-left:9px solid var(--accent);border-top:5.5px solid transparent;border-bottom:5.5px solid transparent}
@@ -43,7 +61,7 @@ h3{color:var(--accent);font-weight:400;font-size:19px;margin:0 0 8px;text-wrap:b
 .tabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 p.body{margin:0 0 10px;max-width:70ch}
 .tw{overflow-x:auto}
-table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums;font-size:13.5px}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums;font-size:13px;font-family:var(--f-mono)}
 .grid th,.grid td{padding:6px 8px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
 .grid th:first-child,.grid td:first-child{text-align:left}
 .grid thead th{background:var(--head);color:var(--head-ink);font-weight:600}
@@ -107,8 +125,11 @@ footer{margin-top:36px;border-top:1px solid var(--line);padding-top:12px;font-si
 
 <div class="banner" id="aviso" hidden></div>
 
-<h2 id="tituloPainel">Projeção do painel para o ano</h2>
-<ul class="lead" id="destaques"></ul>
+<h2>Monitor de projeções</h2>
+<div class="tw"><table class="mon" id="monitor"></table></div>
+<div class="src" style="text-align:left">Realizado: último dado oficial (dólar PTAX, Selic meta, IPCA 12 meses, PIB 4 trimestres). Bancos = mediana das últimas projeções de Bradesco, Santander, XP, BTG, BB e UBS. ▲▼ = acima/abaixo do Focus.</div>
+<h2 id="tituloPainel">Projeção própria</h2>
+<ul class="lead" id="destaques" hidden></ul>
 <section class="kpis" id="kpis" aria-label="Projeção do painel"></section>
 <div class="legenda" id="legKpi"></div>
 <div class="src" id="srcKpi">Projeção própria revisada a cada novo relatório. "Modelo" = Focus, Focus Top 5, Itaú, Bradesco, Santander, XP, BTG, BB e UBS ponderados pelo erro histórico e pela idade da projeção.</div>
@@ -455,18 +476,49 @@ tabs('tabsBigModo',['rev','ano'],['Revisões ao longo do tempo','Por ano: proje�
 tabs('tabsBigInd',ks,ls,k=>{big.k=k;drawBig()},0);
 const anosBig=[ANO-2,ANO-1,ANO,ANO+1];tabs('tabsBigAno',anosBig,anosBig.map(String),y=>{big.ano=y;drawBig()},2);
 const _da2=drawAll;drawAll=function(){_da2();drawBig();drawKpis()};
-function drawKpis(){const anos=[];for(let a=ANO-10;a<=ANO+1;a++)anos.push(a);
- for(const k of ks){const d=IND[k][2];
-  const parc=R.parcial?.[k]?.[1];
-  const ds=[{type:'bar',label:'Realizado',data:anos.map(a=>real(k,a)??(a===ANO&&parc!=null?parc:null)),backgroundColor:anos.map(a=>real(k,a)==null?css('--accent-3')+'66':css('--accent-3')),borderColor:anos.map(a=>real(k,a)==null?css('--accent-2'):css('--accent-3')),borderWidth:anos.map(a=>real(k,a)==null?1.5:0),borderDash:[3,3],barPercentage:.75,order:10}];
-  for(const src of SRC.filter(x=>x.id==='Focus'||x.id==='Itaú')){const pts=anos.map(a=>a>=ANO?(src.ult(k,a)?.v??null):src.proj(k,a,0));if(!pts.some(v=>v!=null))continue;const linha=src.id.startsWith('Focus');
-   ds.push({type:'line',label:src.id,data:pts,borderColor:cor(src.id),backgroundColor:cor(src.id),showLine:false,pointRadius:linha?3.5:4.5,pointStyle:ESTILO[src.id],order:2})}
-  ds.push({type:'line',label:'Própria',data:anos.map(a=>P?.anos?.[a]?.[k]?.v??null),borderColor:cor('Própria'),backgroundColor:cor('Própria'),showLine:false,pointRadius:7,pointStyle:'rectRot',order:0});
-  const o=base(d);o.plugins.legend={display:false};o.scales.x.ticks.maxTicksLimit=7;o.scales.y.ticks.maxTicksLimit=5;
-  o.plugins.tooltip.callbacks.label=c=>' '+(c.dataset.label==='Realizado'&&real(k,anos[c.dataIndex])==null?'Realizado até agora':c.dataset.label)+': '+fmt(c.parsed.y,d);
-  put('ck_'+k,{type:'bar',data:{labels:anos,datasets:ds},options:o})}
- const ids=['Realizado','Focus','Itaú','Própria'];
- document.getElementById('legKpi').innerHTML=ids.map(i=>`<span><i style="background:${i==='Realizado'?css('--accent'):cor(i)}"></i>${i}</span>`).join('')+'<span>Barras: realizado (a de '+ANO+' é parcial, até o último dado) · pontos: o que Focus e Itaú projetavam em janeiro de cada ano · à direita, projeções atuais. Demais bancos no gráfico completo abaixo.</span>'}
+function drawKpis(){
+ const x0=ts((ANO-4)+'-01-01'), x1=ts((ANO+1)+'-12-31')+45*864e5;
+ for(const k of ks){const d=IND[k][2];const ds=[];
+  const tr=(R.trajetoria?.[k]||[]).map(([dd,v])=>({x:ts(dd),y:v}));
+  ds.push({label:'Realizado',data:tr,borderColor:css('--real'),borderWidth:1.6,pointRadius:0,stepped:k==='selic'?'before':false,order:3});
+  // passado: projeção Focus de janeiro x fechamento do ano
+  const pf=[],pr=[];for(let a=ANO-4;a<ANO;a++){const f=focusProj(k,a,0),r=real(k,a);if(f!=null)pf.push({x:ts(a+'-12-31'),y:f,ano:a});if(r!=null)pr.push({x:ts(a+'-12-31'),y:r,ano:a})}
+  ds.push({label:'Focus em janeiro',data:pf,showLine:false,pointRadius:5,pointBorderWidth:1.5,borderColor:cor('Focus'),backgroundColor:css('--bg'),order:1});
+  // futuro
+  const fut=y=>({x:ts(y+'-12-31'),ano:y});
+  const fF=[ANO,ANO+1].map(y=>({...fut(y),y:F.indicadores[k]?.ultimo?.[y]??null})).filter(p=>p.y!=null);
+  const fI=[ANO,ANO+1].map(y=>({...fut(y),y:ultItau(k,y)})).filter(p=>p.y!=null);
+  const fP=[ANO,ANO+1].map(y=>({...fut(y),y:P?.anos?.[y]?.[k]?.v??null,min:P?.anos?.[y]?.[k]?.min,max:P?.anos?.[y]?.[k]?.max})).filter(p=>p.y!=null);
+  ds.push({label:'Focus hoje',data:fF,showLine:false,pointRadius:5,borderColor:cor('Focus'),backgroundColor:cor('Focus'),order:1});
+  ds.push({label:'Itaú',data:fI,showLine:false,pointRadius:5,pointStyle:'rectRot',borderColor:cor('Itaú'),backgroundColor:cor('Itaú'),order:1});
+  const ultimo=tr.length?tr[tr.length-1]:null;
+  ds.push({label:'Própria',data:[...(ultimo?[{x:ultimo.x,y:ultimo.y}]:[]),...fP],borderColor:cor('Própria'),backgroundColor:cor('Própria'),borderDash:[4,4],borderWidth:1.5,
+    pointRadius:c=>c.dataIndex===0&&ultimo?0:6,pointStyle:'rectRot',order:0});
+  const faixa={id:'faixa',afterDatasetsDraw(ch){const g=ch.ctx,X=ch.scales.x,Y=ch.scales.y;g.save();g.strokeStyle=cor('Própria');g.lineWidth=1.2;
+    for(const p of fP){if(p.min==null)continue;const x=X.getPixelForValue(p.x)+9;g.beginPath();g.moveTo(x,Y.getPixelForValue(p.min));g.lineTo(x,Y.getPixelForValue(p.max));g.moveTo(x-3,Y.getPixelForValue(p.min));g.lineTo(x+3,Y.getPixelForValue(p.min));g.moveTo(x-3,Y.getPixelForValue(p.max));g.lineTo(x+3,Y.getPixelForValue(p.max));g.stroke()}
+    const xh=X.getPixelForValue(Date.now());g.strokeStyle=css('--line');g.setLineDash([2,3]);g.beginPath();g.moveTo(xh,ch.chartArea.top);g.lineTo(xh,ch.chartArea.bottom);g.stroke();
+    g.fillStyle=css('--muted');g.font='10px '+css('--f-mono');g.fillText('hoje',xh+3,ch.chartArea.top+10);g.restore()}};
+  const o=base(d);o.plugins.legend={display:false};o.interaction={mode:'nearest',intersect:true};
+  o.plugins.tooltip.callbacks={title:c=>{const r=c[0].raw;return r?.ano?('Fim de '+r.ano):new Date(c[0].parsed.x).toLocaleDateString('pt-BR')},
+    label:c=>{const r=c.raw;let t=' '+c.dataset.label+': '+fmt(c.parsed.y,d);if(c.dataset.label==='Focus em janeiro'){const rr=real(k,r.ano);if(rr!=null)t+='  (realizado '+fmt(rr,d)+')'}if(r?.min!=null)t+='  faixa '+fmt(r.min,d)+'–'+fmt(r.max,d);return t}};
+  o.scales.x={type:'linear',min:x0,max:x1,grid:{display:false},border:{color:css('--line')},ticks:{color:css('--muted'),font:{size:10,family:css('--f-mono')},stepSize:365.25*864e5,callback:v=>{const t=new Date(v);return t.getMonth()===11?'fim '+String(t.getFullYear()).slice(2):''},autoSkip:false}};
+  o.scales.x.afterBuildTicks=ax=>{ax.ticks=[];for(let a=ANO-4;a<=ANO+1;a++)ax.ticks.push({value:ts(a+'-12-31')})};o.scales.x.grid={color:css('--line'),drawTicks:false};
+  o.scales.y.ticks.maxTicksLimit=5;o.scales.y.ticks.font={size:10,family:css('--f-mono')};
+  put('ck_'+k,{type:'line',data:{datasets:ds},options:o,plugins:[faixa]})}
+ document.getElementById('legKpi').innerHTML=`<span><i style="background:${css('--real')}"></i>Realizado</span><span><i style="background:transparent;border:1.5px solid ${cor('Focus')};border-radius:50%"></i>Focus em janeiro (o que se esperava para o fim do ano)</span><span><i style="background:${cor('Focus')};border-radius:50%"></i>Focus hoje</span><span><i style="background:${cor('Itaú')};transform:rotate(45deg)"></i>Itaú</span><span><i style="background:${cor('Própria')};transform:rotate(45deg)"></i>Própria, com faixa</span>`}
+function drawMonitor(){const med=a=>{a=a.filter(v=>v!=null).sort((x,y)=>x-y);return a.length?(a.length%2?a[(a.length-1)/2]:(a[a.length/2-1]+a[a.length/2])/2):null};
+ const bancos=Object.keys(B);
+ let h=`<thead><tr><th></th><th colspan="2">REALIZADO</th><th class="sep" colspan="5">${ANO}</th><th class="sep" colspan="5">${ANO+1}</th></tr><tr><th></th><th>${ANO-1}</th><th>Atual</th>`+[0,1].map(i=>`<th class="sep">Focus</th><th>Top 5</th><th>Itaú</th><th>Bancos</th><th>Própria</th>`).join('')+'</tr></thead><tbody>';
+ const nomes={ipca:'IPCA %',selic:'Selic %',pib:'PIB %',cambio:'Dólar R$'};
+ for(const k of ks){const d=IND[k][2];const pa=R.parcial?.[k];
+  h+=`<tr><td class="ind">${nomes[k]}</td><td class="real">${fmt(real(k,ANO-1),d)}</td><td class="real">${pa?fmt(pa[1],d)+'<small>'+fdata(pa[0]).slice(3)+'</small>':'–'}</td>`;
+  for(const y of [ANO,ANO+1]){const f=F.indicadores[k]?.ultimo?.[y], t5=T5[k]?.ultimo?.[y], it=ultItau(k,y);
+   const bc=med(bancos.map(b=>SRC.find(s=>s.id===b).ult(k,y)?.v));const pp=P?.anos?.[y]?.[k]?.v;
+   const seta=v=>v==null||f==null||Math.abs(v-f)<1e-9?'':v>f?' <span class="u">▲</span>':' <span class="d">▼</span>';
+   h+=`<td class="sep">${fmt(f,d)}</td><td>${fmt(t5,d)}${seta(t5)}</td><td>${fmt(it,d)}${seta(it)}</td><td>${fmt(bc,d)}${seta(bc)}</td><td class="prop">${fmt(pp,d)}${seta(pp)}</td>`}
+  h+='</tr>'}
+ document.getElementById('monitor').innerHTML=h+'</tbody>'}
+drawMonitor();
 /* ---- notícias ---- */
 const N=D.noticias;
 if(N&&N.indicadores){const nomes={ipca:'IPCA',selic:'Selic',pib:'PIB',cambio:'Câmbio',fiscal:'Fiscal'};
