@@ -25,6 +25,7 @@
   --accent:#5fb3c4; --accent-2:#3d95a6; --accent-3:#24555f; --accent-ink:#0f1517;
   --head:#26353a; --head-ink:#e3eaec; --bad:#e07b67; --good:#6cc28f; --warn:#e0b450; color-scheme:dark}
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 :root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.45}
 .page{max-width:1120px;margin:0 auto;padding-block:28px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
@@ -100,7 +101,17 @@ footer{margin-top:36px;border-top:1px solid var(--line);padding-top:12px;font-si
 <h2 id="tituloPainel">Projeção do painel para o ano</h2>
 <ul class="lead" id="destaques"></ul>
 <section class="kpis" id="kpis" aria-label="Projeção do painel"></section>
-<div class="src" id="srcKpi">Projeção própria revisada a cada novo relatório. "Modelo" = Focus e Itaú ponderados pela precisão histórica, menos metade do viés médio.</div>
+<div class="src" id="srcKpi">Projeção própria revisada a cada novo relatório. "Modelo" = Focus, Focus Top 5, Itaú, Bradesco, Santander, XP, BTG, BB e UBS ponderados pelo erro histórico e pela idade da projeção.</div>
+
+<hr class="rule">
+
+<h2>Histórico das projeções x realizado</h2>
+<p class="body" id="bigDesc"></p>
+<div class="tabs" role="tablist" id="tabsBigModo"></div>
+<div class="tabs" role="tablist" id="tabsBigInd"></div>
+<div class="tabs" role="tablist" id="tabsBigAno"></div>
+<div class="chartbox" style="height:min(560px,70vh)"><canvas id="cBig"></canvas></div>
+<div class="src" id="srcBig">Fonte: BCB (Focus, Top 5, SGS), Itaú BBA e projeções públicas de Bradesco, Santander, XP, BTG Pactual, Banco do Brasil e UBS.</div>
 
 <hr class="rule">
 
@@ -378,6 +389,47 @@ function drawInst(k){const d=IND[k][2];let t='<thead><tr><th>Instituição</th>'
  t+=`<tr><td class="painel">Modelo (combinação)</td>`+ps.map(p=>p?`<td class="painel">${fmt(p.v,d)}</td><td></td><td>100%</td>`:'<td>–</td><td></td><td></td>').join('')+'</tr>';
  document.getElementById('inst').innerHTML=t+'</tbody>'}
 tabs('tabsInst',ks,ls,drawInst,0);drawInst('ipca');
+/* ---- gráfico grande ---- */
+const COR={'Focus':'--accent','Focus Top 5':'--accent-2','Itaú':'--fg','Bradesco':'#b23a48','Santander':'#d1495b','XP':'#6d597a','BTG Pactual':'#3d5a80','Banco do Brasil':'#c9a227','UBS':'#8a9a9e','Modelo':'--warn','Própria':'--good'};
+const cor=id=>{const c=COR[id]||'#888';return c.startsWith('--')?css(c):c};
+const ESTILO={'Focus':'circle','Focus Top 5':'triangle','Itaú':'rectRot','Bradesco':'rect','Santander':'rectRounded','XP':'star','BTG Pactual':'crossRot','Banco do Brasil':'cross','UBS':'line'};
+let big={modo:'rev',k:'ipca',ano:ANO};
+function serieSafras(src,k,y){ // [data,valor] de todas as divulgações para o ano y
+  if(src.id==='Focus')return(F.indicadores[k]?.semanal?.[y]||[]);
+  if(src.id==='Focus Top 5')return(T5[k]?.semanal?.[y]||[]);
+  const ss=src.id==='Itaú'?H:(B[src.id]||[]);
+  return [...ss].filter(s=>s.proj?.[k]?.[y]!=null).sort((a,b)=>a.data<b.data?-1:1).map(s=>[s.data,s.proj[k][y]])}
+function drawBig(){const k=big.k,d=IND[k][2],y=String(big.ano);
+ if(big.modo==='rev'){
+  document.getElementById('bigDesc').textContent=`Cada linha mostra como a projeção de cada instituição para ${IND[k][0]} de ${y} mudou ao longo do tempo. A faixa horizontal é o realizado (quando o ano já fechou).`;
+  const series=SRC.map(src=>({src,pts:serieSafras(src,k,y)})).filter(x=>x.pts.length);
+  const datas=[...new Set(series.flatMap(x=>x.pts.map(p=>p[0])))].sort();
+  const ds=series.map(({src,pts})=>{const m=Object.fromEntries(pts);const semanal=src.id.startsWith('Focus');
+    return{label:src.id,data:datas.map(dd=>m[dd]??null),borderColor:cor(src.id),backgroundColor:cor(src.id),spanGaps:true,
+      borderWidth:semanal?2.5:1.8,pointRadius:semanal?0:5,pointStyle:ESTILO[src.id],stepped:semanal?false:'before',tension:semanal?.15:0,borderDash:src.id==='Focus Top 5'?[6,4]:[]}});
+  const r=real(k,+y);
+  if(r!=null)ds.push({label:'Realizado',data:datas.map(()=>r),borderColor:css('--good'),backgroundColor:css('--good'),borderWidth:4,borderDash:[10,5],pointRadius:0,fill:false});
+  put('cBig',{type:'line',data:{labels:datas,datasets:ds},options:Object.assign(base(d),{scales:Object.assign(base(d).scales,{x:{grid:{display:false},border:{color:css('--line')},
+    ticks:{color:css('--muted'),font:{size:11},maxRotation:0,autoSkip:true,maxTicksLimit:10,callback:function(v){const l=this.getLabelForValue(v);return l.slice(5,7)+'/'+l.slice(2,4)}}}}),
+    plugins:Object.assign(base(d).plugins,{legend:{position:'bottom',labels:{color:css('--fg'),usePointStyle:true,boxWidth:10,font:{size:12}}}})})});
+ } else {
+  document.getElementById('bigDesc').textContent=`Realizado de ${IND[k][0]} por ano e o que cada instituição projetava perto de 1º de janeiro daquele ano. À direita, as projeções vigentes para ${ANO} e ${ANO+1}.`;
+  const anos=[];for(let a=2006;a<=ANO+1;a++)anos.push(a);
+  const ds=[{label:'Realizado',data:anos.map(a=>real(k,a)),borderColor:css('--accent'),backgroundColor:css('--accent-3')+'55',fill:'origin',borderWidth:3,pointRadius:0,tension:.2,order:10}];
+  for(const src of SRC){const pts=anos.map(a=>a>=ANO?(src.ult(k,a)?.v??null):src.proj(k,a,0));if(!pts.some(v=>v!=null))continue;
+    const linha=src.id.startsWith('Focus');
+    ds.push({label:src.id,data:pts,borderColor:cor(src.id),backgroundColor:cor(src.id),showLine:linha,borderDash:linha?[4,3]:[],borderWidth:1.6,
+      pointRadius:linha?2:6,pointStyle:ESTILO[src.id],spanGaps:true,tension:.2,order:1})}
+  ds.push({label:'Modelo',data:anos.map(a=>a>=ANO?painel(k,a)?.v:null),borderColor:cor('Modelo'),backgroundColor:cor('Modelo'),showLine:false,pointRadius:8,pointStyle:'star',order:0});
+  ds.push({label:'Própria',data:anos.map(a=>P?.anos?.[a]?.[k]?.v??null),borderColor:cor('Própria'),backgroundColor:cor('Própria'),showLine:false,pointRadius:8,pointStyle:'rectRot',order:0});
+  put('cBig',{type:'line',data:{labels:anos,datasets:ds},options:Object.assign(base(d),{
+    plugins:Object.assign(base(d).plugins,{legend:{position:'bottom',labels:{color:css('--fg'),usePointStyle:true,boxWidth:10,font:{size:12}}}})})});
+ }
+ document.getElementById('tabsBigAno').hidden=big.modo!=='rev'}
+tabs('tabsBigModo',['rev','ano'],['Revisões ao longo do tempo','Por ano: projeção x realizado'],m=>{big.modo=m;drawBig()},0);
+tabs('tabsBigInd',ks,ls,k=>{big.k=k;drawBig()},0);
+const anosBig=[ANO-2,ANO-1,ANO,ANO+1];tabs('tabsBigAno',anosBig,anosBig.map(String),y=>{big.ano=y;drawBig()},2);
+const _da2=drawAll;drawAll=function(){_da2();drawBig()};
 drawAll();
 let tm;const redo=()=>{clearTimeout(tm);tm=setTimeout(drawAll,60)};
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change',redo);
