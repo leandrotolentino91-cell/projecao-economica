@@ -1,6 +1,6 @@
 """Baixa os valores realizados no SGS/BCB e grava data/realizado.json.
 Séries: 432 Meta Selic (fim de ano), 13522 IPCA 12m (dezembro), 7326 PIB real % a.a., 3696 R$/US$ fim de período (dezembro)."""
-import json, datetime as dt, sys, requests
+import json, datetime as dt, sys, time, requests
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parents[1] / "data" / "realizado.json"
@@ -8,8 +8,13 @@ SGS = "https://api.bcb.gov.br/dados/serie/bcdata.sgs.{}/dados"
 INICIO = 2005
 
 def sgs(cod, ini, fim):
-    r = requests.get(SGS.format(cod), params={"formato": "json", "dataInicial": ini, "dataFinal": fim}, timeout=120)
-    r.raise_for_status()
+    for t in range(4):
+        try:
+            r = requests.get(SGS.format(cod), params={"formato": "json", "dataInicial": ini, "dataFinal": fim}, timeout=120)
+            r.raise_for_status(); break
+        except Exception:
+            if t == 3: raise
+            time.sleep(8)
     return [(dt.datetime.strptime(x["data"], "%d/%m/%Y").date(), float(x["valor"])) for x in r.json()]
 
 def em_blocos(cod):

@@ -1,5 +1,5 @@
 """Baixa as expectativas anuais do Boletim Focus (API Olinda/BCB) e grava data/focus.json."""
-import json, datetime as dt, sys, requests
+import json, datetime as dt, sys, time, requests
 from pathlib import Path
 
 BASE = "https://olinda.bcb.gov.br/olinda/servico/Expectativas/versao/v1/odata/ExpectativasMercadoAnuais"
@@ -13,11 +13,22 @@ IND = {
 OUT = Path(__file__).resolve().parents[1] / "data" / "focus.json"
 
 def baixa(nome):
-    params = {"$filter": f"Indicador eq '{nome}'", "$format": "json", "$top": "1000000",
-              "$select": "Indicador,Data,DataReferencia,Mediana,baseCalculo"}
-    r = requests.get(BASE, params=params, timeout=180)
-    r.raise_for_status()
-    return r.json().get("value", [])
+    from urllib.parse import quote
+    linhas, skip, passo = [], 0, 50000
+    filtro = quote(f"Indicador eq '{nome}'")
+    while True:
+        url = (f"{BASE}?$format=json&$top={passo}&$skip={skip}&$filter={filtro}"
+               "&$select=Indicador,IndicadorDetalhe,Data,DataReferencia,Mediana,baseCalculo")
+        for tentativa in range(3):
+            try:
+                r = requests.get(url, timeout=180); r.raise_for_status(); break
+            except Exception:
+                if tentativa == 2: raise
+                time.sleep(5)
+        lote = r.json().get("value", [])
+        linhas += [l for l in lote if not l.get("IndicadorDetalhe")]
+        if len(lote) < passo: return linhas
+        skip += passo
 
 def main():
     hoje = dt.date.today(); ano = hoje.year
