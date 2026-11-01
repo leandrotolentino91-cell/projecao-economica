@@ -1,0 +1,2 @@
+data,indicador,ano,valor
+# Use para colar projeções antigas do Itaú que não estão em PDF. indicador: pib, ipca, selic, cambio, desemprego. data = data do relatório (AAAA-MM-DD)

@@ -1,0 +1,28 @@
+{
+ "data": "2026-11-01",
+ "metodo": "Projeção própria: parte dos números de Focus e Itaú, corrige pelos erros já observados (curto prazo em 2026 e histórico do Focus 2006–2025) e usa câmbio no nível spot (passeio aleatório), que historicamente erra menos que as projeções.",
+ "anos": {
+  "2026": {
+   "pib":    {"v":1.5,"min":1.4,"max":1.6,"porque":"Aritmética trimestral (1,8 / 2,0 / ~1,3 / ~1,0 % a/a) com o 3T e 4T abaixo do tracking do Itaú, que superestimou 5 das 6 últimas leituras mensais de atividade."},
+   "ipca":   {"v":5.2,"min":4.9,"max":5.4,"porque":"Itaú e Focus convergiram. O erro mensal do Itaú em 2026 foi de ~0,07 p.p.; com 3 meses à frente a faixa é estreita."},
+   "selic":  {"v":13.75,"min":13.50,"max":13.75,"porque":"Implícita 2027 em 6,8%, CDS e prêmio de risco subindo e petróleo alto tornam corte em dezembro improvável."},
+   "cambio": {"v":5.40,"min":5.20,"max":5.65,"porque":"Câmbio no nível spot (5,43). As revisões do Itaú no ano só seguiram o spot (5,15 → 5,30 → 5,40)."},
+   "desemprego": {"v":5.6,"min":5.4,"max":5.8,"porque":"PNAD veio em linha ou abaixo do Itaú; desemprego dessazonalizado estável em 5,4%."}
+  },
+  "2027": {
+   "pib":    {"v":0.6,"min":0.0,"max":1.2,"porque":"Carregamento estatístico próximo de zero e juro real ~8%. O Focus historicamente superestima o PIB em fases de desaceleração (2014–16)."},
+   "ipca":   {"v":5.6,"min":4.8,"max":6.4,"porque":"O Focus (4,3%) errou para baixo em média 0,7 p.p. desde 2006 e muito mais em anos de choque. O 6,1% do Itaú depende de repasse incerto da reforma tributária e da escala 6x1. A implícita (6,8%) inclui prêmio de risco."},
+   "selic":  {"v":13.25,"min":12.25,"max":14.25,"porque":"Inflação acima de 5% e expectativas desancoradas limitam cortes; PIB perto de zero abre espaço apenas para alívio tardio no 2S27."},
+   "cambio": {"v":5.45,"min":4.95,"max":6.00,"porque":"Passeio aleatório a partir do spot, com leve depreciação pelo prêmio de risco fiscal."},
+   "desemprego": {"v":6.4,"min":6.0,"max":7.0,"porque":"PIB perto de zero eleva gradualmente o desemprego, ainda abaixo do neutro estimado (7,5%)."}
+  }
+ },
+ "licoes": [
+  "Atividade: o Itaú projetou acima do realizado em 8 de 12 dados mensais de atividade (indústria, serviços e varejo), com erro médio de +0,20 p.p. O mercado errou ainda mais (+0,27 p.p.). As surpresas negativas se concentraram de julho em diante.",
+  "Inflação: no curto prazo o Itaú é preciso (erro médio de 0,07 p.p. no IPCA e IPCA-15), um pouco melhor que o mercado no IPCA-15 (0,10 p.p.). Errou para cima no meio do ano e para baixo em setembro: não há viés persistente.",
+  "Revisões em série: o PIB 2026 do Itaú caiu cinco vezes seguidas (2,1 → 1,6) e o de 2027 de 1,7 para 0,5, sem nenhuma reversão. Quando um analista revisa sempre na mesma direção, a próxima revisão tende a seguir o mesmo caminho.",
+  "Câmbio: as revisões do Itaú acompanharam o spot com atraso. Usar o spot como projeção é mais simples e historicamente mais preciso.",
+  "Contas externas e fiscal: o déficit em conta corrente veio pior que o projetado nas duas leituras recentes; o primário mensal é ruidoso (erro médio de R$ 5,5 bi) e não serve para calibrar.",
+  "Histórico Focus 2006–2025 (série aproximada): o consenso de janeiro subestimou o IPCA em 0,7 p.p. em média, com erros de 4 a 7 p.p. em anos de choque (2015, 2021), e superestimou o PIB em recessões."
+ ]
+}

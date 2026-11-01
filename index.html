@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Painel Projeção Econômica</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="theme-color" content="#0b5563">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&display=swap">
+<style>
+/* Layout: relatório de research — título fino, faixas ▶, duas colunas, tabela com barra escura. Acento: azul petróleo. */
+:root{
+  --bg:#ffffff; --fg:#1d2528; --muted:#5d6a6e; --line:#d5dee0; --soft:#eef4f5;
+  --accent:#0b5563; --accent-2:#2f8a9b; --accent-3:#9cc7cf; --accent-ink:#ffffff;
+  --head:#2b3134; --head-ink:#ffffff; --bad:#a23b2a; --good:#2e7d4f; --warn:#9a6a00;
+  --f-body:"Source Sans 3","Segoe UI",Arial,sans-serif; color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1517; --fg:#e3eaec; --muted:#97a6aa; --line:#2b3a3e; --soft:#1a2629;
+  --accent:#5fb3c4; --accent-2:#3d95a6; --accent-3:#24555f; --accent-ink:#0f1517;
+  --head:#26353a; --head-ink:#e3eaec; --bad:#e07b67; --good:#6cc28f; --warn:#e0b450; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1517; --fg:#e3eaec; --muted:#97a6aa; --line:#2b3a3e; --soft:#1a2629;
+  --accent:#5fb3c4; --accent-2:#3d95a6; --accent-3:#24555f; --accent-ink:#0f1517;
+  --head:#26353a; --head-ink:#e3eaec; --bad:#e07b67; --good:#6cc28f; --warn:#e0b450; color-scheme:dark}
+*{box-sizing:border-box}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.45}
+.page{max-width:1120px;margin:0 auto;padding-block:28px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.top{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:14px}
+h1{font-weight:300;color:var(--accent);font-size:clamp(32px,5.2vw,50px);line-height:1;margin:0;letter-spacing:-.01em;text-wrap:balance}
+.date{font-size:14px;margin-top:10px;display:flex;gap:6px 14px;flex-wrap:wrap}
+.date span{white-space:nowrap}
+.mark{display:grid;place-items:center;min-width:64px;height:64px;padding:0 10px;border-radius:12px;background:var(--accent);color:var(--accent-ink);font-weight:700;font-size:13px;line-height:1.1;text-align:center;letter-spacing:.04em}
+h2{color:var(--accent);font-weight:400;font-size:24px;margin:30px 0 12px;text-wrap:balance}
+h3{color:var(--accent);font-weight:400;font-size:19px;margin:0 0 8px;text-wrap:balance}
+.lead{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+.lead li{position:relative;padding-left:22px}
+.lead li::before{content:"";position:absolute;left:2px;top:.42em;border-left:9px solid var(--accent);border-top:5.5px solid transparent;border-bottom:5.5px solid transparent}
+.rule{border:0;border-top:1px solid var(--line);margin:26px 0}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.cols>*{min-width:0}
+.cap{font-size:13px;font-weight:700;margin:0 0 6px}
+.src{font-size:11.5px;color:var(--muted);text-align:right;margin-top:4px}
+.chartbox{position:relative;height:300px}
+.tabs{display:flex;flex-wrap:wrap;margin:0 0 10px;border-bottom:1px solid var(--line)}
+.tabs button{font:inherit;font-size:13.5px;background:none;border:0;border-bottom:3px solid transparent;color:var(--muted);padding:6px 12px;cursor:pointer;margin-bottom:-1px}
+.tabs button[aria-selected="true"]{color:var(--accent);border-bottom-color:var(--accent);font-weight:600}
+.tabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+p.body{margin:0 0 10px;max-width:70ch}
+.tw{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums;font-size:13.5px}
+.grid th,.grid td{padding:6px 8px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+.grid th:first-child,.grid td:first-child{text-align:left}
+.grid thead th{background:var(--head);color:var(--head-ink);font-weight:600}
+.grid td.ind{color:var(--accent);font-weight:700}
+.grid td.painel{font-weight:700;color:var(--accent)}
+.grid td small{color:var(--muted);font-weight:400}
+#placar{font-size:12.5px}#placar th,#placar td{padding:5px 6px}#placar td small{display:block;font-size:11px}
+.data th,.data td{padding:4px 8px;text-align:right;white-space:nowrap}
+.data th:first-child,.data td:first-child{text-align:left;white-space:normal;min-width:190px}
+.data thead tr.y th{background:var(--head);color:var(--head-ink);font-weight:700}
+.data thead tr.s th{font-style:italic;color:var(--accent);font-weight:600;border-bottom:1px solid var(--line);font-size:12.5px}
+.data tbody tr.sec td{color:var(--accent);font-weight:700;padding-top:10px;border-bottom:1px solid var(--line)}
+.data tbody tr:not(.sec):nth-child(even) td{background:var(--soft)}
+.data td.now{font-weight:700}
+.data td.prev{color:var(--muted)}
+.pill{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.04em;padding:1px 7px;border-radius:3px;border:1px solid currentColor}
+.pill.good{color:var(--good)} .pill.bad{color:var(--bad)} .pill.neu{color:var(--muted)}
+.banner{border-left:4px solid var(--warn);background:var(--soft);padding:10px 14px;margin-top:16px;font-size:13.5px}
+.banner[hidden]{display:none}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:3px solid var(--accent);border-bottom:1px solid var(--line);margin-top:22px}
+.kpi{padding:12px;border-right:1px solid var(--line);min-width:0}
+.kpi:last-child{border-right:0}
+.kpi .lb{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}
+.kpi .big{font-size:28px;font-weight:600;color:var(--accent);font-variant-numeric:tabular-nums;line-height:1.1;margin-top:4px}
+.kpi .rng{font-size:12px;color:var(--muted)}
+.kpi .cmp{display:flex;gap:12px;font-size:12.5px;margin-top:6px;font-variant-numeric:tabular-nums;flex-wrap:wrap}
+.kpi .cmp b{font-weight:600}
+code{font-size:12.5px;background:var(--soft);padding:1px 5px;border-radius:3px}
+footer{margin-top:36px;border-top:1px solid var(--line);padding-top:12px;font-size:12px;color:var(--muted);display:grid;gap:6px}
+@media (max-width:860px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.kpi:nth-child(2){border-right:0}.kpi:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+@media (max-width:720px){.cols{grid-template-columns:1fr}.chartbox{height:260px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="page">
+<header class="top">
+  <div>
+    <h1>Projeção econômica - Brasil</h1>
+    <div class="date" id="datas"><span>Carregando dados…</span></div>
+  </div>
+  <div class="mark" aria-hidden="true">MACRO<br>BR</div>
+</header>
+
+<div class="banner" id="aviso" hidden></div>
+
+<h2 id="tituloPainel">Projeção do painel para o ano</h2>
+<ul class="lead" id="destaques"></ul>
+<section class="kpis" id="kpis" aria-label="Projeção do painel"></section>
+<div class="src" id="srcKpi">Projeção própria revisada a cada novo relatório. "Modelo" = Focus e Itaú ponderados pela precisão histórica, menos metade do viés médio.</div>
+
+<hr class="rule">
+
+<h2>O que os relatórios ensinaram</h2>
+<ul class="lead" id="licoes"></ul>
+
+<div class="cols" style="margin-top:22px">
+  <div>
+    <p class="cap">Placar de curto prazo: Itaú x mercado (erro médio absoluto)</p>
+    <div class="tw"><table class="grid" id="placar"></table></div>
+    <div class="src">Projeção na véspera menos dado divulgado, abr–out/2026. Viés positivo = projetou alto demais.</div>
+  </div>
+  <div>
+    <p class="cap">Atividade: surpresas em relação ao Itaú (p.p.)</p>
+    <div class="chartbox" style="height:280px"><canvas id="cSur"></canvas></div>
+    <div class="src">Barra acima de zero = o Itaú projetou acima do dado. Fonte: relatórios Macro Brasil.</div>
+  </div>
+</div>
+
+<div style="margin-top:22px">
+  <p class="cap">Projeção própria e justificativa</p>
+  <div class="tw"><table class="grid" id="propria"></table></div>
+  <div class="src" id="srcPropria"></div>
+</div>
+
+<hr class="rule">
+
+<div class="cols">
+  <div>
+    <h3>Projeção x realizado</h3>
+    <p class="body">Linha cheia: realizado. Tracejado: o que o Focus projetava na primeira pesquisa de cada ano. Losangos: o primeiro Cenário Macro do Itaú no ano. À direita, as projeções vigentes.</p>
+    <div class="tabs" role="tablist" id="tabsHist"></div>
+    <div class="chartbox"><canvas id="cHist"></canvas></div>
+    <div class="src" id="srcHist">Fonte: BCB (SGS e Focus), Itaú BBA.</div>
+  </div>
+  <div>
+    <h3>Erro de projeção por ano</h3>
+    <p class="body">Projeção feita em janeiro menos o realizado. Barra acima de zero = projetou alto demais.</p>
+    <div class="tabs" role="tablist" id="tabsErr"></div>
+    <div class="chartbox"><canvas id="cErr"></canvas></div>
+    <div class="src">Horizonte: mesmo ano (projeção de janeiro para dezembro).</div>
+  </div>
+</div>
+
+<hr class="rule">
+
+<h2>Quem acerta mais</h2>
+<p class="body">Erro médio absoluto (EMA), viés médio e número de anos comparados. Horizonte 0 = projeção feita em janeiro do próprio ano; horizonte 1 = feita em janeiro do ano anterior. A cor mostra quem teve menor erro.</p>
+<div class="tw"><table class="grid" id="acc"></table></div>
+<div class="src" id="accNota"></div>
+
+<hr class="rule">
+
+<div class="cols">
+  <div>
+    <h3>Como as projeções mudaram</h3>
+    <p class="body">Focus semana a semana e cada revisão do Itaú para o ano escolhido.</p>
+    <div class="tabs" role="tablist" id="tabsEvo"></div>
+    <div class="tabs" role="tablist" id="tabsAno"></div>
+    <div class="chartbox"><canvas id="cEvo"></canvas></div>
+    <div class="src">Fonte: BCB/Focus (mediana), Itaú BBA.</div>
+  </div>
+  <div>
+    <h3>Revisões do Itaú</h3>
+    <p class="body">Cada linha é um relatório Cenário Macro Brasil lido pelo robô.</p>
+    <div class="tw"><table class="grid" id="safras"></table></div>
+    <div class="src">PDF = lido automaticamente; manual = inserido à mão.</div>
+  </div>
+</div>
+
+<hr class="rule">
+
+<p class="cap" style="font-size:15px" id="tituloTabela">Brasil | Dados e projeções (último Cenário Macro Itaú)</p>
+<div class="tw"><table class="data" id="tbl"></table></div>
+<div class="src" style="text-align:left">Fonte: IBGE, FGV, BCB e Itaú BBA.</div>
+
+<footer>
+  <span><b>Atualização automática:</b> toda segunda após o Focus (09:40) e todo dia útil às 18:15 o robô do GitHub busca dados novos no BCB e no site do Itaú. Os números do Itaú vêm dos relatórios Cenário Macro Brasil; os PDFs não são publicados.</span>
+  <span>Painel de estudo pessoal. Não é recomendação de investimento.</span>
+</footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+(async function(){
+const ARQ=['focus','realizado','itau_historico','itau_ultimo','surpresas','projecao_propria'];
+const D={};
+for(const a of ARQ){
+  try{const r=await fetch('data/'+a+'.json',{cache:'no-store'});if(!r.ok)throw 0;D[a]=await r.json()}
+  catch(e){D[a]=(window.__DADOS||{})[a]||null}
+}
+const IND={ipca:['IPCA','%',1],selic:['Selic','%',2],pib:['PIB','%',1],cambio:['Câmbio','R$/US$',2]};
+const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const fmt=(v,d=1)=>v==null||isNaN(v)?'–':Number(v).toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d});
+const fdata=s=>s?s.split('-').reverse().join('/'):'–';
+const hoje=new Date();const ANO=hoje.getFullYear();
+const P=D.projecao_propria,SU=(D.surpresas||{series:[]}).series;const F=D.focus||{indicadores:{}},R=D.realizado||{},H=(D.itau_historico||{safras:[]}).safras,U=D.itau_ultimo;
+
+/* ---- projeções por fonte ---- */
+function focusProj(k,y,h){const a=F.indicadores[k]?.anual?.[y];return a?a['h'+h]:null}
+function itauProj(k,y,h){const ini=(y-h)+'-01-01',fim=(y-h)+'-12-31';
+  const s=H.find(s=>s.data>=ini&&s.data<=fim&&s.proj?.[k]?.[y]!=null);return s?s.proj[k][y]:null}
+function real(k,y){return R[k]?.[y]??null}
+function stats(fn,k,h){const e=[];for(let y=2000;y<ANO;y++){const p=fn(k,y,h),r=real(k,y);if(p!=null&&r!=null)e.push({y,e:p-r})}
+  if(!e.length)return{n:0};const n=e.length;return{n,mae:e.reduce((a,b)=>a+Math.abs(b.e),0)/n,bias:e.reduce((a,b)=>a+b.e,0)/n,erros:e}}
+const ultItau=(k,y)=>{for(let i=H.length-1;i>=0;i--){const v=H[i].proj?.[k]?.[y];if(v!=null)return v}return null};
+function painel(k,y){
+  const h=y===ANO?0:1, f=F.indicadores[k]?.ultimo?.[y]??null, i=ultItau(k,y);
+  let sf=stats(focusProj,k,h), si=stats(itauProj,k,h);
+  if(!sf.n)sf=stats(focusProj,k,0); if(!si.n)si=stats(itauProj,k,0);
+  const parts=[];if(f!=null)parts.push({v:f,s:sf});if(i!=null)parts.push({v:i,s:si});
+  if(!parts.length)return null;
+  const w=p=>p.s.n?1/Math.max(p.s.mae,0.05):1;
+  const W=parts.reduce((a,p)=>a+w(p),0);
+  const combo=parts.reduce((a,p)=>a+w(p)*p.v,0)/W;
+  const bias=parts.reduce((a,p)=>a+w(p)*(p.s.n?p.s.bias:0),0)/W;
+  const mae=parts.reduce((a,p)=>a+w(p)*(p.s.n?p.s.mae:0),0)/W;
+  const k_=y===ANO?Math.max(0,(12-(hoje.getMonth()+1))/12):1;  // quanto do ano ainda falta
+  return{f,i,v:combo-0.5*bias*k_,faixa:mae*k_,bias,wF:f!=null?w(parts[0])/W:0}
+}
+
+/* ---- cabeçalho ---- */
+document.getElementById('datas').innerHTML=
+ `<span>Focus: pesquisa de ${fdata(F.data_pesquisa)}</span><span>Itaú: relatório de ${fdata(H.length?H[H.length-1].data:null)}</span><span>Realizado: ${fdata(R.atualizado)}</span>`;
+if(F.semente||R.semente){const a=document.getElementById('aviso');a.hidden=false;
+ a.textContent='Dados provisórios: a série histórica ainda é uma semente aproximada. Ela será trocada pelos dados oficiais do BCB na primeira execução automática do robô.'}
+
+/* ---- KPIs ---- */
+const anoAlvo=hoje.getMonth()>=9?ANO+1:ANO;  // a partir de outubro o foco passa para o próximo ano
+document.getElementById('tituloPainel').textContent=`Projeção ${P?.anos?.[anoAlvo]?'própria':'do painel'} para ${anoAlvo}`;
+const K=document.getElementById('kpis');const dest=[];
+for(const [k,[nome,un,d]] of Object.entries(IND)){const p=painel(k,anoAlvo);
+  const div=document.createElement('div');div.className='kpi';
+  const pp=P?.anos?.[anoAlvo]?.[k];
+  div.innerHTML=p?`<div class="lb">${nome} ${anoAlvo}</div><div class="big">${fmt(pp?pp.v:p.v,d)}${un==='%'?'%':''}</div>
+   <div class="rng">faixa ${pp?fmt(pp.min,d)+' a '+fmt(pp.max,d):fmt(p.v-p.faixa,d)+' a '+fmt(p.v+p.faixa,d)}</div>
+   <div class="cmp"><span>Focus <b>${fmt(p.f,d)}</b></span><span>Itaú <b>${fmt(p.i,d)}</b></span><span>Modelo <b>${fmt(p.v,d)}</b></span></div>`:
+   `<div class="lb">${nome} ${anoAlvo}</div><div class="big">–</div>`;
+  K.appendChild(div);
+  if(p&&p.f!=null&&p.i!=null){const gap=p.i-p.f;
+    const pp=P?.anos?.[anoAlvo]?.[k];
+    dest.push(`<li><b>${nome}:</b> Itaú em ${fmt(p.i,d)} e Focus em ${fmt(p.f,d)}. ${pp?`Projeção própria: <b>${fmt(pp.v,d)}</b>. ${pp.porque}`:`O modelo aponta <b>${fmt(p.v,d)}</b>.`}</li>`)}
+}
+document.getElementById('destaques').innerHTML=dest.join('');
+
+/* ---- gráficos ---- */
+Chart.defaults.font.family=css('--f-body');
+function base(d=1){return{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
+  plugins:{legend:{labels:{color:css('--fg'),boxWidth:14,boxHeight:2,font:{size:12}}},
+   tooltip:{backgroundColor:css('--head'),titleColor:css('--head-ink'),bodyColor:css('--head-ink'),
+    callbacks:{label:c=>' '+c.dataset.label+': '+fmt(c.parsed.y,d)}}},
+  scales:{x:{grid:{display:false},ticks:{color:css('--muted'),font:{size:11},maxRotation:0,autoSkip:true,maxTicksLimit:10},border:{color:css('--line')}},
+          y:{grid:{color:css('--line')},ticks:{color:css('--muted'),font:{size:11}},border:{display:false}}}}}
+const ch={};function put(id,cfg){ch[id]&&ch[id].destroy();ch[id]=new Chart(document.getElementById(id),cfg)}
+function tabs(el,keys,labels,on,ini=0){const box=document.getElementById(el);box.innerHTML='';keys.forEach((k,i)=>{const b=document.createElement('button');
+  b.type='button';b.setAttribute('role','tab');b.textContent=labels[i];b.setAttribute('aria-selected',i===ini);
+  b.onclick=()=>{box.querySelectorAll('button').forEach(x=>x.setAttribute('aria-selected',x===b));on(k)};box.appendChild(b)})}
+
+const anosHist=[];for(let y=2006;y<=ANO+2;y++)anosHist.push(y);
+let cur={hist:'selic',err:'ipca',evo:'ipca',ano:anoAlvo};
+function drawHist(){const k=cur.hist,d=IND[k][2];
+  const rl=anosHist.map(y=>real(k,y)), fj=anosHist.map(y=>y<ANO?focusProj(k,y,0):null), ij=anosHist.map(y=>y<ANO?itauProj(k,y,0):null);
+  const last=rl.reduce((a,v,i)=>v!=null?i:a,-1);
+  const fut=src=>anosHist.map((y,i)=>i===last?rl[i]:(y>=ANO?src(y):null));
+  put('cHist',{type:'line',data:{labels:anosHist,datasets:[
+   {label:'Realizado',data:rl,borderColor:css('--accent'),backgroundColor:css('--accent-3')+'55',fill:'origin',borderWidth:2.5,pointRadius:0,tension:.25},
+   {label:'Focus jan',data:fj,borderColor:css('--muted'),borderDash:[3,3],borderWidth:1.5,pointRadius:0,tension:.25,spanGaps:true},
+   {label:'Itaú jan',data:ij,borderColor:css('--fg'),backgroundColor:css('--fg'),showLine:false,pointStyle:'rectRot',pointRadius:5},
+   {label:'Focus hoje',data:fut(y=>F.indicadores[k]?.ultimo?.[y]),borderColor:css('--accent-2'),borderWidth:2,pointRadius:3,spanGaps:true},
+   {label:'Itaú hoje',data:fut(y=>ultItau(k,y)),borderColor:css('--fg'),borderWidth:2,pointRadius:3,pointStyle:'rectRot',spanGaps:true},
+   {label:'Própria',data:fut(y=>P?.anos?.[y]?.[k]?.v??painel(k,y)?.v),borderColor:css('--warn'),backgroundColor:css('--warn'),borderWidth:2.5,pointRadius:4,spanGaps:true}]},
+   options:base(d)})}
+function drawErr(){const k=cur.err,d=IND[k][2];const yrs=[];for(let y=2006;y<ANO;y++)yrs.push(y);
+  const ef=yrs.map(y=>{const p=focusProj(k,y,0),r=real(k,y);return p!=null&&r!=null?p-r:null});
+  const ei=yrs.map(y=>{const p=itauProj(k,y,0),r=real(k,y);return p!=null&&r!=null?p-r:null});
+  put('cErr',{type:'bar',data:{labels:yrs,datasets:[
+   {label:'Focus',data:ef,backgroundColor:css('--accent')},
+   {label:'Itaú',data:ei,backgroundColor:css('--accent-3')}]},options:base(d)})}
+function drawEvo(){const k=cur.evo,y=String(cur.ano),d=IND[k][2];
+  const fs=(F.indicadores[k]?.semanal?.[y])||[];
+  const is=H.filter(s=>s.proj?.[k]?.[y]!=null).map(s=>({x:s.data,y:s.proj[k][y]}));
+  put('cEvo',{type:'line',data:{datasets:[
+   {label:'Focus (mediana)',data:fs.map(([x,v])=>({x,y:v})),borderColor:css('--accent'),borderWidth:2.5,pointRadius:0,tension:.15},
+   {label:'Itaú (revisões)',data:is,borderColor:css('--fg'),backgroundColor:css('--fg'),stepped:'before',borderWidth:1.5,pointStyle:'rectRot',pointRadius:5}]},
+   options:Object.assign(base(d),{parsing:true,scales:Object.assign(base(d).scales,{x:{type:'category',labels:[...new Set([...fs.map(p=>p[0]),...is.map(p=>p.x)])].sort(),
+     grid:{display:false},ticks:{color:css('--muted'),font:{size:11},maxRotation:0,autoSkip:true,maxTicksLimit:7,callback:function(v){const l=this.getLabelForValue(v);return l.slice(8,10)+'/'+l.slice(5,7)+'/'+l.slice(2,4)}},border:{color:css('--line')}}})})})}
+const ks=Object.keys(IND),ls=ks.map(k=>IND[k][0]);
+tabs('tabsHist',ks,ls,k=>{cur.hist=k;drawHist()},1);
+tabs('tabsErr',ks,ls,k=>{cur.err=k;drawErr()},0);
+tabs('tabsEvo',ks,ls,k=>{cur.evo=k;drawEvo()},0);
+const anosEvo=[ANO,ANO+1,ANO+2];tabs('tabsAno',anosEvo,anosEvo.map(String),y=>{cur.ano=y;drawEvo()},anosEvo.indexOf(anoAlvo));
+let drawAll=function(){drawHist();drawErr();drawEvo()}
+
+/* ---- tabela de acurácia ---- */
+let t='<thead><tr><th>Indicador</th><th>Horizonte</th><th>Focus EMA</th><th>Focus viés</th><th>n</th><th>Itaú EMA</th><th>Itaú viés</th><th>n</th><th>Mais preciso</th></tr></thead><tbody>';
+let semItau=true;
+for(const [k,[nome,,d]] of Object.entries(IND)) for(const h of [0,1]){
+  const a=stats(focusProj,k,h),b=stats(itauProj,k,h);if(b.n)semItau=false;
+  let win='<span class="pill neu">sem dados</span>';
+  if(a.n&&b.n)win=a.mae<=b.mae?'<span class="pill good">Focus</span>':'<span class="pill good">Itaú</span>';
+  else if(a.n)win='<span class="pill neu">só Focus</span>';
+  t+=`<tr><td class="ind">${h?'':nome}</td><td>${h?'ano anterior':'mesmo ano'}</td><td>${a.n?fmt(a.mae,d):'–'}</td><td>${a.n?(a.bias>0?'+':'')+fmt(a.bias,d):'–'}</td><td>${a.n||'–'}</td>
+   <td>${b.n?fmt(b.mae,d):'–'}</td><td>${b.n?(b.bias>0?'+':'')+fmt(b.bias,d):'–'}</td><td>${b.n||'–'}</td><td>${win}</td></tr>`}
+document.getElementById('acc').innerHTML=t+'</tbody>';
+document.getElementById('accNota').textContent=semItau?'O histórico do Itaú ainda não cobre anos já realizados. Envie relatórios antigos (PDF) para a pasta itau/ e a comparação aparece aqui.':'Viés positivo = projetou acima do realizado.';
+
+/* ---- safras Itaú ---- */
+const ult6=H.slice(-8).reverse();
+let s='<thead><tr><th>Relatório</th><th>Origem</th>'+ks.map(k=>`<th>${IND[k][0]} ${ANO}</th><th>${ANO+1}</th>`).join('')+'</tr></thead><tbody>';
+for(const sf of ult6){s+=`<tr><td>${fdata(sf.data)}</td><td>${sf.origem==='pdf'?'PDF':'manual'}</td>`+
+  ks.map(k=>`<td>${fmt(sf.proj?.[k]?.[ANO],IND[k][2])}</td><td>${fmt(sf.proj?.[k]?.[ANO+1],IND[k][2])}</td>`).join('')+'</tr>'}
+document.getElementById('safras').innerHTML=s+'</tbody>';
+
+/* ---- tabela completa do último relatório ---- */
+if(U&&U.tabela){document.getElementById('tituloTabela').textContent=`Brasil | Dados e projeções (Cenário Macro Itaú de ${fdata(U.data)})`;
+ const dec=r=>{const all=[...r.hist,...r.atual].filter(v=>v!=null);return all.every(v=>Number.isInteger(v))||all.some(v=>Math.abs(v)>=1000)?0:all.some(v=>Math.round(v*100)%10!==0&&Math.abs(v)<50)?2:1};
+ let h='<thead><tr class="y"><th></th>'+U.anos_hist.map(a=>`<th>${a}</th>`).join('')+U.anos_proj.map(a=>`<th colspan="2" style="text-align:center">${a}P</th>`).join('')+
+  '</tr><tr class="s"><th></th>'+U.anos_hist.map(()=>'<th></th>').join('')+U.anos_proj.map(()=>'<th>Atual</th><th>Anterior</th>').join('')+'</tr></thead><tbody>';
+ const nc=1+U.anos_hist.length+2*U.anos_proj.length;
+ for(const r of U.tabela){if(r.secao){h+=`<tr class="sec"><td colspan="${nc}">${r.secao}</td></tr>`;continue}
+  const d=dec(r);h+=`<tr><td>${r.rotulo}</td>`+r.hist.map(v=>`<td>${fmt(v,d)}</td>`).join('')+
+   r.atual.map((v,i)=>`<td class="now">${fmt(v,d)}</td><td class="prev">${fmt(r.anterior[i],d)}</td>`).join('')+'</tr>'}
+ document.getElementById('tbl').innerHTML=h+'</tbody>'}
+
+/* ---- lições, placar, própria ---- */
+if(P){document.getElementById('licoes').innerHTML=(P.licoes||[]).map(l=>`<li>${l}</li>`).join('');
+ const nomes={pib:'PIB',ipca:'IPCA',selic:'Selic',cambio:'Câmbio',desemprego:'Desemprego'};
+ let t='<thead><tr><th>Indicador</th><th>Ano</th><th>Própria</th><th>Faixa</th><th>Focus</th><th>Itaú</th><th style="text-align:left">Por quê</th></tr></thead><tbody>';
+ for(const [ano,obj] of Object.entries(P.anos)) for(const [k,x] of Object.entries(obj)){const d=k==='selic'||k==='cambio'?2:1;
+  const f=F.indicadores[k]?.ultimo?.[ano], i=ultItau(k,+ano);
+  t+=`<tr><td class="ind">${nomes[k]||k}</td><td>${ano}</td><td class="painel">${fmt(x.v,d)}</td><td>${fmt(x.min,d)} – ${fmt(x.max,d)}</td><td>${fmt(f,d)}</td><td>${fmt(i,d)}</td><td style="text-align:left;white-space:normal;min-width:280px">${x.porque}</td></tr>`}
+ document.getElementById('propria').innerHTML=t+'</tbody>';
+ document.getElementById('srcPropria').textContent=`Revisada em ${fdata(P.data)}. ${P.metodo} Não é recomendação de investimento.`}
+if(SU.length){const g={};for(const x of SU){(g[x.ind]=g[x.ind]||{grupo:x.grupo,un:x.un,ei:[],em:[]});g[x.ind].ei.push(x.itau-x.real);if(x.mercado!=null)g[x.ind].em.push(x.mercado-x.real)}
+ const m=a=>a.reduce((s,v)=>s+v,0)/a.length,ma=a=>m(a.map(Math.abs));
+ let t='<thead><tr><th>Dado</th><th>n</th><th>Itaú EMA</th><th>Itaú viés</th><th>Mercado EMA</th><th>Melhor</th></tr></thead><tbody>';
+ for(const [k,v] of Object.entries(g)){const a=ma(v.ei),b=v.em.length?ma(v.em):null,dd=v.un.includes('bi')?1:2;
+  const win=b==null?'<span class="pill neu">–</span>':Math.abs(a-b)<0.005?'<span class="pill neu">empate</span>':a<b?'<span class="pill good">Itaú</span>':'<span class="pill bad">Mercado</span>';
+  t+=`<tr><td>${k} <small>(${v.un})</small></td><td>${v.ei.length}</td><td>${fmt(a,dd)}</td><td>${(m(v.ei)>0?'+':'')+fmt(m(v.ei),dd)}</td><td>${b==null?'–':fmt(b,dd)}</td><td>${win}</td></tr>`}
+ document.getElementById('placar').innerHTML=t+'</tbody>'}
+function drawSur(){const at=SU.filter(x=>x.grupo==='Atividade');
+ put('cSur',{type:'bar',data:{labels:at.map(x=>x.ind.replace(/ \(.*\)/,'').replace('Varejo ','Varejo ')+' '+x.ref),datasets:[
+  {label:'Erro Itaú',data:at.map(x=>+(x.itau-x.real).toFixed(2)),backgroundColor:at.map(x=>x.itau-x.real>0?css('--bad'):css('--accent'))},
+  {label:'Erro mercado',data:at.map(x=>x.mercado==null?null:+(x.mercado-x.real).toFixed(2)),backgroundColor:css('--accent-3')}]},
+  options:Object.assign(base(2),{scales:Object.assign(base(2).scales,{x:Object.assign(base(2).scales.x,{ticks:{color:css('--muted'),font:{size:10},maxRotation:60,minRotation:45,autoSkip:false}})})})})}
+const _drawAll=drawAll;drawAll=function(){_drawAll();if(SU.length)drawSur()};
+drawAll();
+let tm;const redo=()=>{clearTimeout(tm);tm=setTimeout(drawAll,60)};
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',redo);
+new MutationObserver(redo).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+})();
+</script>
+</body>
+</html>
