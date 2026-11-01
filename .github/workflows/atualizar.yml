@@ -2,14 +2,17 @@ name: Atualizar dados
 
 on:
   schedule:
-    - cron: "40 12 * * 1"     # segunda 09:40 (Brasília): Focus sai às 08:25
-    - cron: "15 21 * * 1-5"   # dias úteis 18:15: procura novos relatórios do Itaú
+    - cron: "7 * * * *"       # de hora em hora: notícias, Focus, realizado e Itaú
   push:
     paths: ["data/itau_manual.csv"]
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: atualizar
+  cancel-in-progress: false
 
 jobs:
   atualizar:
@@ -24,6 +27,8 @@ jobs:
         run: python scripts/update_focus.py || echo "Focus falhou; mantendo dados anteriores"
       - name: Realizado (SGS/BCB)
         run: python scripts/update_realizado.py || echo "SGS falhou"
+      - name: Notícias de mercado
+        run: python scripts/update_noticias.py || echo "Notícias falharam"
       - name: Itaú BBA
         run: python scripts/update_itau.py || echo "Itaú falhou"
       - name: Salvar
@@ -32,4 +37,4 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add data
           git diff --cached --quiet || git commit -m "Dados atualizados $(date -u +%F)"
-          git push
+          git pull --rebase -q && git push

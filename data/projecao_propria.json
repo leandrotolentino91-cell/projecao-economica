@@ -22,10 +22,10 @@
     "porque": "Implícita 2027 em 6,8%, CDS e prêmio de risco subindo e petróleo alto tornam corte em dezembro improvável."
    },
    "cambio": {
-    "v": 5.4,
-    "min": 5.2,
-    "max": 5.65,
-    "porque": "Câmbio no nível spot (5,43). As revisões do Itaú no ano só seguiram o spot (5,15 → 5,30 → 5,40)."
+    "v": 5.45,
+    "min": 5.25,
+    "max": 5.7,
+    "porque": "Spot em R$ 5,45 após a maior alta semanal desde 2008 (pós-eleição). Uso o spot como projeção."
    },
    "desemprego": {
     "v": 5.6,
@@ -44,7 +44,7 @@
    "ipca": {
     "v": 5.2,
     "min": 4.5,
-    "max": 6.0,
+    "max": 6.1,
     "porque": "Focus (4,3) e Top 5 (4,4) projetam baixo e erraram para baixo em 20 anos; mas em 2025 todos os bancos (5,0–5,5) erraram para cima após o choque cambial de fim de 2024, quando o dólar devolveu. O 6,1 do Itaú extrapola o choque atual (petróleo, câmbio, tributos)."
    },
    "selic": {
@@ -54,10 +54,10 @@
     "porque": "Em 2024 e 2025 as projeções de Selic do Itaú e do BB ficaram 1,5 a 3 p.p. abaixo do realizado: o mercado subestima quanto tempo o BC mantém juro alto. O modelo (12,2) herda esse viés."
    },
    "cambio": {
-    "v": 5.4,
-    "min": 4.9,
-    "max": 6.0,
-    "porque": "Nenhuma fonte supera o passeio aleatório: Focus e Top 5 erram ~0,50 por ano. Fico no spot. BTG (6,25) e XP (5,85) erraram em 2025 ao extrapolar a alta do dólar."
+    "v": 5.5,
+    "min": 4.95,
+    "max": 6.1,
+    "porque": "Passeio aleatório a partir do spot (5,45) com leve depreciação pelo risco fiscal pós-eleição. Em 2025, quem extrapolou a alta do dólar (BTG 6,25, XP 5,85) errou."
    },
    "desemprego": {
     "v": 6.4,
@@ -77,5 +77,6 @@
   "Padrão comum: projeções feitas logo após um choque (dólar a R$ 6 no fim de 2024) extrapolam o choque. Quando ele se desfaz, todos erram na mesma direção.",
   "Focus Top 5 tem erro menor que o Focus geral na Selic (1,77 vs 2,00 p.p.) e igual no IPCA e câmbio. No PIB o histórico do Top 5 é curto.",
   "Histórico Focus 2006–2025 (dados oficiais do BCB): o consenso de janeiro subestimou o IPCA em 0,6 p.p. em média, com erros grandes em anos de choque (2015, 2021)."
- ]
+ ],
+ "noticias": "01/11/2026: Lula reeleito; dólar a R$ 5,45 com a maior alta semanal desde 2008; mercado já fala em IPCA 2027 de até 6%; governo estuda ajuste fiscal para 2027; Copom decide esta semana (aposta: Selic mantida em 13,75%)."
 }
