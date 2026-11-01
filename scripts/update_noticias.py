@@ -13,6 +13,7 @@ BUSCAS = {
     "pib":    ["PIB Brasil atividade econômica", "IBC-Br varejo indústria serviços"],
     "cambio": ["dólar real câmbio", "dólar fecha"],
     "fiscal": ["arcabouço fiscal déficit dívida pública", "Haddad meta fiscal"],
+    "bloomberg": ["Bloomberg Línea Brasil economia", "Bloomberg Brasil juros inflação dólar", "estimativas compiladas pela Bloomberg Brasil"],
 }
 SINAIS = {
     "ipca": (["acima do esperado", "acelera", "sobe", "alta da inflacao", "press", "reajuste", "aumento", "dispara", "desancor", "piora", "encarece", "revisa inflacao para cima", "inflacao de ate", "mais cara"],
@@ -32,6 +33,8 @@ def norm(t):
     return "".join(c for c in t if not unicodedata.combining(c))
 
 def sinal(ind, titulo):
+    if ind not in SINAIS:
+        return 0
     t = " " + norm(titulo) + " "
     up = sum(w in t for w in SINAIS[ind][0]); dn = sum(w in t for w in SINAIS[ind][1])
     return (up > dn) - (dn > up)
@@ -58,6 +61,9 @@ def main():
                 for x in rss(q): itens.setdefault(x["t"], x)
             except Exception as e:
                 print(f"[noticias] falha {q}: {e}", file=sys.stderr)
+        if ind == "bloomberg":  # só manchetes de macro Brasil
+            chave = re.compile(r"brasil|selic|copom|ipca|infla|dolar|real |juros|pib|fiscal|ibovespa|banco central|galipolo|haddad|focus", re.I)
+            itens = {t: x for t, x in itens.items() if chave.search(norm(t))}
         lim = (agora - dt.timedelta(days=7)).isoformat()
         lista = sorted((x for x in itens.values() if x["data"] >= lim), key=lambda x: x["data"], reverse=True)[:80]
         for x in lista: x["sinal"] = sinal(ind, x["t"])

@@ -5,42 +5,48 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Painel Projeção Econômica</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="theme-color" content="#0b1214">
+<meta name="theme-color" content="#000000">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap">
 <style>
 /* Layout: relatório de research — título fino, faixas ▶, duas colunas, tabela com barra escura. Acento: azul petróleo. */
 :root{
-  /* Terminal: fundo preto, painéis com barra de título, números em fonte mono, acento azul petróleo */
-  --bg:#000000; --card:#090c0d; --fg:#e8eaeb; --muted:#8b9497; --line:#1e2629; --soft:#0f1517;
-  --accent:#29b0c4; --accent-2:#1a7d8c; --accent-3:#0e3b43; --accent-ink:#000000;
-  --head:#0f2a30; --head-ink:#bfe9f0; --bad:#ff6b5e; --good:#38d27f; --warn:#e8c547; --real:#ffffff;
+  /* Cores de terminal Bloomberg: fundo preto, âmbar nos rótulos, branco nos dados, azul de destaque, verde/vermelho para variação */
+  --bg:#000000; --card:#0b0b0b; --fg:#f2f2f2; --muted:#9a9a9a; --line:#262626; --soft:#141414;
+  --accent:#fb8b1e; --accent-2:#b8650f; --accent-3:#3d2507; --accent-ink:#000000;
+  --head:#1b1b1b; --head-ink:#fb8b1e; --bad:#ff433d; --good:#4af6c3; --warn:#ffd23f; --real:#ffffff; --blue:#0068ff; --blue-l:#5aa9ff;
   --f-body:"IBM Plex Sans","Segoe UI",Arial,sans-serif; --f-mono:"IBM Plex Mono",Consolas,monospace; color-scheme:dark;
 }
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 .mon th,.mon td{padding:7px 9px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
 .mon th:first-child,.mon td:first-child{text-align:left}
-.mon thead tr:first-child th{color:var(--accent);font-weight:500;letter-spacing:.06em;font-size:11.5px;border-bottom:1px solid var(--accent-2)}
+.mon thead tr:first-child th{color:#000;background:var(--accent);font-weight:500;letter-spacing:.06em;font-size:11.5px;border-bottom:1px solid var(--accent-2)}
 .mon thead tr:nth-child(2) th{color:var(--muted);font-weight:400;font-size:11.5px}
 .mon td.ind{color:var(--fg);font-weight:600;font-family:var(--f-body)}
 .mon td.real{color:var(--real)}
-.mon td.prop{color:var(--good);font-weight:600}
+.mon td.prop{color:var(--warn);font-weight:600}
+.mon tbody tr:hover td{background:#141414}
 .mon .sep{border-left:1px solid var(--accent-2)}
 .mon small{color:var(--muted);font-size:11px;margin-left:3px}
 .mon .u{color:var(--bad);font-size:10px}.mon .d{color:var(--good);font-size:10px}
 h1{font-family:var(--f-body)}
 .kpi{border-radius:0!important;border-top:2px solid var(--accent)!important}
-.kpi .big{font-family:var(--f-mono);font-weight:500}
+.kpi .big{font-family:var(--f-mono);font-weight:500;color:var(--warn)!important}
 .kpi .lb{font-family:var(--f-mono)}
 .news>div,.kpi{background:var(--card)}
 .mark{border-radius:0!important;font-family:var(--f-mono)}
+.chip.on{border-color:var(--accent)!important}
+.tabs button[aria-selected="true"]{color:#000!important;background:var(--accent);border-bottom-color:var(--accent)!important}
+.grid thead th,.data thead tr.y th,.mini thead th{background:var(--accent)!important;color:#000!important}
+.data tbody tr.sec td{color:var(--accent)!important}
+a{color:var(--blue-l)}
 
 :root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.45}
 .page{max-width:1120px;margin:0 auto;padding-block:28px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 header.top{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:14px}
-h1{font-weight:300;color:var(--fg);font-size:clamp(32px,5.2vw,50px);line-height:1;margin:0;letter-spacing:-.01em;text-wrap:balance}
+h1{font-weight:500;color:var(--accent);font-family:var(--f-mono)!important;text-transform:uppercase;letter-spacing:.02em;font-size:clamp(32px,5.2vw,50px);line-height:1;margin:0;letter-spacing:-.01em;text-wrap:balance}
 .date{font-size:14px;margin-top:10px;display:flex;gap:6px 14px;flex-wrap:wrap}
 .date span{white-space:nowrap}
 .mark{display:grid;place-items:center;min-width:64px;height:64px;padding:0 10px;border-radius:12px;background:var(--accent);color:var(--accent-ink);font-weight:700;font-size:13px;line-height:1.1;text-align:center;letter-spacing:.04em}
@@ -117,10 +123,10 @@ footer{margin-top:36px;border-top:1px solid var(--line);padding-top:12px;font-si
 <div class="page">
 <header class="top">
   <div>
-    <h1>Projeção econômica - Brasil</h1>
+    <h1>Projeção econômica Brasil <span style="color:var(--fg);font-size:.45em;vertical-align:middle;background:var(--blue);padding:2px 8px">GO</span></h1>
     <div class="date" id="datas"><span>Carregando dados…</span></div>
   </div>
-  <div class="mark" aria-hidden="true">MACRO<br>BR</div>
+  <div class="mark" aria-hidden="true" style="background:var(--accent);color:#000">BR<br>MACRO</div>
 </header>
 
 <div class="banner" id="aviso" hidden></div>
@@ -429,7 +435,7 @@ function drawInst(k){const d=IND[k][2];let t='<thead><tr><th>Instituição</th>'
  document.getElementById('inst').innerHTML=t+'</tbody>'}
 tabs('tabsInst',ks,ls,drawInst,0);drawInst('ipca');
 /* ---- gráfico grande ---- */
-const COR={'Focus':'--accent','Focus Top 5':'--accent-2','Itaú':'#f0a6ca','Bradesco':'#e05263','Santander':'#b388ff','XP':'#ffd166','BTG Pactual':'#6fa8ff','Banco do Brasil':'#a3e635','UBS':'#9aa5ab','Modelo':'--warn','Própria':'--good'};
+const COR={'Focus':'--accent','Focus Top 5':'#ffc06a','Itaú':'--blue-l','Bradesco':'#ff433d','Santander':'#c792ea','XP':'#ffd23f','BTG Pactual':'#4af6c3','Banco do Brasil':'#a3e635','UBS':'#9a9a9a','Modelo':'--warn','Própria':'--warn'};
 const cor=id=>{const c=COR[id]||'#888';return c.startsWith('--')?css(c):c};
 const ESTILO={'Focus':'circle','Focus Top 5':'triangle','Itaú':'rectRot','Bradesco':'rect','Santander':'rectRounded','XP':'star','BTG Pactual':'crossRot','Banco do Brasil':'cross','UBS':'line'};
 let big={modo:'rev',k:'ipca',ano:ANO};
@@ -521,7 +527,7 @@ function drawMonitor(){const med=a=>{a=a.filter(v=>v!=null).sort((x,y)=>x-y);ret
 drawMonitor();
 /* ---- notícias ---- */
 const N=D.noticias;
-if(N&&N.indicadores){const nomes={ipca:'IPCA',selic:'Selic',pib:'PIB',cambio:'Câmbio',fiscal:'Fiscal'};
+if(N&&N.indicadores){const nomes={ipca:'IPCA',selic:'Selic',pib:'PIB',cambio:'Câmbio',fiscal:'Fiscal',bloomberg:'Bloomberg'};
  const pill=x=>x>0.15?'<span class="pill bad">pressão de alta</span>':x<-0.15?'<span class="pill good">pressão de baixa</span>':'<span class="pill neu">neutro</span>';
  const quando=s=>{const h=(Date.now()-new Date(s))/36e5;return h<24?Math.max(1,Math.round(h))+'h':Math.round(h/24)+'d'};
  document.getElementById('news').innerHTML=Object.entries(N.indicadores).map(([k,v])=>{
