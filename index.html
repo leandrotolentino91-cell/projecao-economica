@@ -13,7 +13,7 @@
 :root{
   --bg:#0b1214; --card:#111b1e; --fg:#e3eaec; --muted:#93a3a7; --line:#24343a; --soft:#152125;
   --accent:#4fb0c2; --accent-2:#2c8798; --accent-3:#1d4f59; --accent-ink:#0b1214;
-  --head:#1a2a2f; --head-ink:#e3eaec; --bad:#e07b67; --good:#6cc28f; --warn:#e0b450;
+  --head:#1a2a2f; --head-ink:#e3eaec; --bad:#e07b67; --good:#6cc28f; --warn:#e0b450; --real:#f2f5f6;
   --f-body:"Source Sans 3","Segoe UI",Arial,sans-serif; color-scheme:dark;
 }
 *{box-sizing:border-box}
@@ -67,6 +67,11 @@ table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums;font
 .kpi{padding:14px 14px 10px;min-width:0;background:var(--card);border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:6px}
 .kpi .top{display:flex;justify-content:space-between;align-items:flex-end;gap:10px;flex-wrap:wrap}
 .kchart{position:relative;height:230px;margin-top:8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 10px}
+.chip{font:inherit;font-size:12.5px;display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer}
+.chip i{width:9px;height:9px;border-radius:50%;display:inline-block;opacity:.35}
+.chip.on{color:var(--fg);border-color:var(--accent-2);background:var(--soft)}
+.chip.on i{opacity:1}
 .legenda{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--muted);margin-top:10px}
 .legenda i{display:inline-block;width:12px;height:12px;border-radius:2px;margin-right:5px;vertical-align:-1px}
 .news{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
@@ -121,7 +126,8 @@ footer{margin-top:36px;border-top:1px solid var(--line);padding-top:12px;font-si
 <div class="tabs" role="tablist" id="tabsBigModo"></div>
 <div class="tabs" role="tablist" id="tabsBigInd"></div>
 <div class="tabs" role="tablist" id="tabsBigAno"></div>
-<div class="chartbox" style="height:min(560px,70vh)"><canvas id="cBig"></canvas></div>
+<div class="chips" id="chipsBig"></div>
+<div class="chartbox" style="height:min(520px,65vh)"><canvas id="cBig"></canvas></div>
 <div class="src" id="srcBig">Fonte: BCB (Focus, Top 5, SGS), Itaú BBA e projeções públicas de Bradesco, Santander, XP, BTG Pactual, Banco do Brasil e UBS.</div>
 
 <hr class="rule">
@@ -402,7 +408,7 @@ function drawInst(k){const d=IND[k][2];let t='<thead><tr><th>Instituição</th>'
  document.getElementById('inst').innerHTML=t+'</tbody>'}
 tabs('tabsInst',ks,ls,drawInst,0);drawInst('ipca');
 /* ---- gráfico grande ---- */
-const COR={'Focus':'--accent','Focus Top 5':'--accent-2','Itaú':'--fg','Bradesco':'#b23a48','Santander':'#d1495b','XP':'#6d597a','BTG Pactual':'#3d5a80','Banco do Brasil':'#c9a227','UBS':'#8a9a9e','Modelo':'--warn','Própria':'--good'};
+const COR={'Focus':'--accent','Focus Top 5':'--accent-2','Itaú':'#f0a6ca','Bradesco':'#e05263','Santander':'#b388ff','XP':'#ffd166','BTG Pactual':'#6fa8ff','Banco do Brasil':'#a3e635','UBS':'#9aa5ab','Modelo':'--warn','Própria':'--good'};
 const cor=id=>{const c=COR[id]||'#888';return c.startsWith('--')?css(c):c};
 const ESTILO={'Focus':'circle','Focus Top 5':'triangle','Itaú':'rectRot','Bradesco':'rect','Santander':'rectRounded','XP':'star','BTG Pactual':'crossRot','Banco do Brasil':'cross','UBS':'line'};
 let big={modo:'rev',k:'ipca',ano:ANO};
@@ -411,47 +417,56 @@ function serieSafras(src,k,y){ // [data,valor] de todas as divulgações para o 
   if(src.id==='Focus Top 5')return(T5[k]?.semanal?.[y]||[]);
   const ss=src.id==='Itaú'?H:(B[src.id]||[]);
   return [...ss].filter(s=>s.proj?.[k]?.[y]!=null).sort((a,b)=>a.data<b.data?-1:1).map(s=>[s.data,s.proj[k][y]])}
-function drawBig(){const k=big.k,d=IND[k][2],y=String(big.ano);
+const visiveis=new Set(['Realizado','Focus','Itaú','Própria']);
+function chipsBig(ids){document.getElementById('chipsBig').innerHTML=ids.map(i=>`<button type="button" class="chip${visiveis.has(i)?' on':''}" data-id="${i}"><i style="background:${i==='Realizado'?css('--real'):cor(i)}"></i>${i}</button>`).join('');
+ document.querySelectorAll('#chipsBig .chip').forEach(b=>b.onclick=()=>{const i=b.dataset.id;visiveis.has(i)?visiveis.delete(i):visiveis.add(i);drawBig()})}
+const ts=d=>new Date(d+'T12:00:00').getTime();
+function drawBig(){const k=big.k,d=IND[k][2],y=+big.ano;const o=base(d);o.plugins.legend={display:false};o.interaction={mode:'nearest',intersect:false,axis:'x'};
+ o.plugins.tooltip.callbacks.title=c=>c.length?(typeof c[0].parsed.x==='number'&&big.modo==='rev'?new Date(c[0].parsed.x).toLocaleDateString('pt-BR'):String(c[0].label)):'';
+ const ds=[];let ids=['Realizado'];
  if(big.modo==='rev'){
-  document.getElementById('bigDesc').textContent=`Cada linha mostra como a projeção de cada instituição para ${IND[k][0]} de ${y} mudou ao longo do tempo. A faixa horizontal é o realizado (quando o ano já fechou).`;
-  const series=SRC.map(src=>({src,pts:serieSafras(src,k,y)})).filter(x=>x.pts.length);
-  const datas=[...new Set(series.flatMap(x=>x.pts.map(p=>p[0])))].sort();
-  const ds=series.map(({src,pts})=>{const m=Object.fromEntries(pts);const semanal=src.id.startsWith('Focus');
-    return{label:src.id,data:datas.map(dd=>m[dd]??null),borderColor:cor(src.id),backgroundColor:cor(src.id),spanGaps:true,
-      borderWidth:semanal?2.5:1.8,pointRadius:semanal?0:5,pointStyle:ESTILO[src.id],stepped:semanal?false:'before',tension:semanal?.15:0,borderDash:src.id==='Focus Top 5'?[6,4]:[]}});
-  const r=real(k,+y);
-  if(r!=null)ds.push({label:'Realizado',data:datas.map(()=>r),borderColor:css('--good'),backgroundColor:css('--good'),borderWidth:4,borderDash:[10,5],pointRadius:0,fill:false});
-  put('cBig',{type:'line',data:{labels:datas,datasets:ds},options:Object.assign(base(d),{scales:Object.assign(base(d).scales,{x:{grid:{display:false},border:{color:css('--line')},
-    ticks:{color:css('--muted'),font:{size:11},maxRotation:0,autoSkip:true,maxTicksLimit:10,callback:function(v){const l=this.getLabelForValue(v);return l.slice(5,7)+'/'+l.slice(2,4)}}}}),
-    plugins:Object.assign(base(d).plugins,{legend:{position:'bottom',labels:{color:css('--fg'),usePointStyle:true,boxWidth:10,font:{size:12}}}})})});
+  document.getElementById('bigDesc').textContent=`Linha branca: o que de fato aconteceu com ${IND[k][0]==='Câmbio'?'o dólar (PTAX diária)':IND[k][0]==='Selic'?'a Selic meta':IND[k][0]==='IPCA'?'o IPCA acumulado em 12 meses':'o PIB acumulado em 4 trimestres'}. As demais mostram, em cada data, quanto cada instituição esperava para o fim de ${y}. Toque nos nomes para mostrar ou esconder.`;
+  const inicio=ts((y-2)+'-01-01'), fim=Math.min(ts(y+'-12-31'),Date.now());
+  const tr=(R.trajetoria?.[k]||[]).map(([dd,v])=>({x:ts(dd),y:v})).filter(p=>p.x>=inicio&&p.x<=fim+864e5);
+  if(visiveis.has('Realizado')&&tr.length)ds.push({label:'Realizado',data:tr,borderColor:css('--real'),backgroundColor:css('--real'),borderWidth:2.6,pointRadius:0,stepped:k==='selic'?'before':false,tension:0,order:0});
+  const r=real(k,y);
+  if(visiveis.has('Realizado')&&r!=null)ds.push({label:`Fechamento ${y}`,data:[{x:ts(y+'-12-31'),y:r}],borderColor:css('--real'),backgroundColor:css('--bg'),pointRadius:7,pointBorderWidth:2.5,showLine:false,order:0});
+  for(const src of SRC){const pts=serieSafras(src,k,String(y)).map(([dd,v])=>({x:ts(dd),y:v})).filter(p=>p.x>=inicio);if(!pts.length)continue;ids.push(src.id);
+   if(!visiveis.has(src.id))continue;const semanal=src.id.startsWith('Focus');
+   ds.push({label:src.id,data:pts,borderColor:cor(src.id),backgroundColor:cor(src.id),borderWidth:semanal?2:0,showLine:semanal,pointRadius:semanal?0:5,pointStyle:ESTILO[src.id],tension:.2,borderDash:src.id==='Focus Top 5'?[5,4]:[],order:2})}
+  o.scales.x={type:'linear',min:inicio,max:Math.max(fim,ts(y+'-12-31')-(y>=ANO?0:0)),grid:{display:false},border:{color:css('--line')},
+   ticks:{color:css('--muted'),font:{size:11},maxTicksLimit:9,callback:v=>{const t=new Date(v);return String(t.getMonth()+1).padStart(2,'0')+'/'+String(t.getFullYear()).slice(2)}}};
+  put('cBig',{type:'line',data:{datasets:ds},options:o});
  } else {
-  document.getElementById('bigDesc').textContent=`Realizado de ${IND[k][0]} por ano e o que cada instituição projetava perto de 1º de janeiro daquele ano. À direita, as projeções vigentes para ${ANO} e ${ANO+1}.`;
-  const anos=[];for(let a=2006;a<=ANO+1;a++)anos.push(a);
-  const ds=[{label:'Realizado',data:anos.map(a=>real(k,a)),borderColor:css('--accent'),backgroundColor:css('--accent-3')+'55',fill:'origin',borderWidth:3,pointRadius:0,tension:.2,order:10}];
-  for(const src of SRC){const pts=anos.map(a=>a>=ANO?(src.ult(k,a)?.v??null):src.proj(k,a,0));if(!pts.some(v=>v!=null))continue;
-    const linha=src.id.startsWith('Focus');
-    ds.push({label:src.id,data:pts,borderColor:cor(src.id),backgroundColor:cor(src.id),showLine:linha,borderDash:linha?[4,3]:[],borderWidth:1.6,
-      pointRadius:linha?2:6,pointStyle:ESTILO[src.id],spanGaps:true,tension:.2,order:1})}
-  ds.push({label:'Modelo',data:anos.map(a=>a>=ANO?painel(k,a)?.v:null),borderColor:cor('Modelo'),backgroundColor:cor('Modelo'),showLine:false,pointRadius:8,pointStyle:'star',order:0});
-  ds.push({label:'Própria',data:anos.map(a=>P?.anos?.[a]?.[k]?.v??null),borderColor:cor('Própria'),backgroundColor:cor('Própria'),showLine:false,pointRadius:8,pointStyle:'rectRot',order:0});
-  put('cBig',{type:'line',data:{labels:anos,datasets:ds},options:Object.assign(base(d),{
-    plugins:Object.assign(base(d).plugins,{legend:{position:'bottom',labels:{color:css('--fg'),usePointStyle:true,boxWidth:10,font:{size:12}}}})})});
+  document.getElementById('bigDesc').textContent=`Barras: realizado de ${IND[k][0]} em cada ano. Pontos: o que cada instituição projetava perto de 1º de janeiro daquele ano. À direita, as projeções atuais para ${ANO} e ${ANO+1}. Quanto mais perto o ponto do topo da barra, melhor a projeção.`;
+  const anos=[];for(let a=ANO-12;a<=ANO+1;a++)anos.push(a);
+  const parc=R.parcial?.[k]?.[1];
+  ds.push({type:'bar',label:'Realizado',data:anos.map(a=>real(k,a)??(a===ANO&&parc!=null?parc:null)),backgroundColor:anos.map(a=>real(k,a)==null?css('--accent-3')+'66':css('--accent-3')),borderColor:css('--accent-2'),borderWidth:1,barPercentage:.7,order:5,hidden:!visiveis.has('Realizado')});
+  for(const src of SRC){const pts=anos.map(a=>a>=ANO?(src.ult(k,a)?.v??null):src.proj(k,a,0));if(!pts.some(v=>v!=null))continue;ids.push(src.id);
+   if(!visiveis.has(src.id))continue;
+   ds.push({type:'line',label:src.id,data:pts,borderColor:cor(src.id),backgroundColor:cor(src.id),showLine:false,pointRadius:src.id==='Focus'?5:6,pointStyle:ESTILO[src.id],order:1})}
+  ids.push('Própria');
+  if(visiveis.has('Própria'))ds.push({type:'line',label:'Própria',data:anos.map(a=>P?.anos?.[a]?.[k]?.v??null),borderColor:cor('Própria'),backgroundColor:cor('Própria'),showLine:false,pointRadius:9,pointStyle:'rectRot',order:0});
+  o.interaction={mode:'index',intersect:false};
+  put('cBig',{type:'bar',data:{labels:anos,datasets:ds},options:o});
  }
- document.getElementById('tabsBigAno').hidden=big.modo!=='rev'}
+ chipsBig(ids);document.getElementById('tabsBigAno').hidden=big.modo!=='rev'}
 tabs('tabsBigModo',['rev','ano'],['Revisões ao longo do tempo','Por ano: projeção x realizado'],m=>{big.modo=m;drawBig()},0);
 tabs('tabsBigInd',ks,ls,k=>{big.k=k;drawBig()},0);
 const anosBig=[ANO-2,ANO-1,ANO,ANO+1];tabs('tabsBigAno',anosBig,anosBig.map(String),y=>{big.ano=y;drawBig()},2);
 const _da2=drawAll;drawAll=function(){_da2();drawBig();drawKpis()};
 function drawKpis(){const anos=[];for(let a=ANO-10;a<=ANO+1;a++)anos.push(a);
  for(const k of ks){const d=IND[k][2];
-  const ds=[{label:'Realizado',data:anos.map(a=>real(k,a)),borderColor:css('--accent'),backgroundColor:css('--accent-3')+'99',fill:'origin',borderWidth:2.5,pointRadius:0,tension:.25,order:10}];
-  for(const src of SRC){const pts=anos.map(a=>a>=ANO?(src.ult(k,a)?.v??null):src.proj(k,a,0));if(!pts.some(v=>v!=null))continue;const linha=src.id.startsWith('Focus');
-   ds.push({label:src.id,data:pts,borderColor:cor(src.id),backgroundColor:cor(src.id),showLine:linha,borderDash:linha?[4,3]:[],borderWidth:1.5,pointRadius:linha?1.5:4.5,pointStyle:ESTILO[src.id],spanGaps:true,tension:.2,order:2})}
-  ds.push({label:'Própria',data:anos.map(a=>P?.anos?.[a]?.[k]?.v??null),borderColor:cor('Própria'),backgroundColor:cor('Própria'),showLine:false,pointRadius:7,pointStyle:'rectRot',order:0});
+  const parc=R.parcial?.[k]?.[1];
+  const ds=[{type:'bar',label:'Realizado',data:anos.map(a=>real(k,a)??(a===ANO&&parc!=null?parc:null)),backgroundColor:anos.map(a=>real(k,a)==null?css('--accent-3')+'66':css('--accent-3')),borderColor:anos.map(a=>real(k,a)==null?css('--accent-2'):css('--accent-3')),borderWidth:anos.map(a=>real(k,a)==null?1.5:0),borderDash:[3,3],barPercentage:.75,order:10}];
+  for(const src of SRC.filter(x=>x.id==='Focus'||x.id==='Itaú')){const pts=anos.map(a=>a>=ANO?(src.ult(k,a)?.v??null):src.proj(k,a,0));if(!pts.some(v=>v!=null))continue;const linha=src.id.startsWith('Focus');
+   ds.push({type:'line',label:src.id,data:pts,borderColor:cor(src.id),backgroundColor:cor(src.id),showLine:false,pointRadius:linha?3.5:4.5,pointStyle:ESTILO[src.id],order:2})}
+  ds.push({type:'line',label:'Própria',data:anos.map(a=>P?.anos?.[a]?.[k]?.v??null),borderColor:cor('Própria'),backgroundColor:cor('Própria'),showLine:false,pointRadius:7,pointStyle:'rectRot',order:0});
   const o=base(d);o.plugins.legend={display:false};o.scales.x.ticks.maxTicksLimit=7;o.scales.y.ticks.maxTicksLimit=5;
-  put('ck_'+k,{type:'line',data:{labels:anos,datasets:ds},options:o})}
- const ids=['Realizado',...SRC.map(s=>s.id),'Própria'];
- document.getElementById('legKpi').innerHTML=ids.map(i=>`<span><i style="background:${i==='Realizado'?css('--accent'):cor(i)}"></i>${i}</span>`).join('')+'<span>Linhas tracejadas: Focus de janeiro · símbolos: projeção de início de ano de cada instituição · à direita, projeções atuais</span>'}
+  o.plugins.tooltip.callbacks.label=c=>' '+(c.dataset.label==='Realizado'&&real(k,anos[c.dataIndex])==null?'Realizado até agora':c.dataset.label)+': '+fmt(c.parsed.y,d);
+  put('ck_'+k,{type:'bar',data:{labels:anos,datasets:ds},options:o})}
+ const ids=['Realizado','Focus','Itaú','Própria'];
+ document.getElementById('legKpi').innerHTML=ids.map(i=>`<span><i style="background:${i==='Realizado'?css('--accent'):cor(i)}"></i>${i}</span>`).join('')+'<span>Barras: realizado (a de '+ANO+' é parcial, até o último dado) · pontos: o que Focus e Itaú projetavam em janeiro de cada ano · à direita, projeções atuais. Demais bancos no gráfico completo abaixo.</span>'}
 /* ---- notícias ---- */
 const N=D.noticias;
 if(N&&N.indicadores){const nomes={ipca:'IPCA',selic:'Selic',pib:'PIB',cambio:'Câmbio',fiscal:'Fiscal'};

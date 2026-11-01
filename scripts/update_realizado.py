@@ -49,6 +49,35 @@ def main():
         except Exception as e:
             print(f"[realizado] falha em {k}: {e}", file=sys.stderr)
             out[k] = old.get(k, {})
+    # Trajetória observada (para comparar com as revisões das projeções ao longo do tempo)
+    ini = f"01/01/{hoje.year-4}"; fim = hoje.strftime("%d/%m/%Y")
+    traj = old.get("trajetoria", {})
+    def tenta(chave, f):
+        try: traj[chave] = f()
+        except Exception as e: print(f"[realizado] trajetória {chave} falhou: {e}", file=sys.stderr)
+    tenta("cambio", lambda: [[d.isoformat(), round(v, 4)] for d, v in sgs(1, ini, fim)])
+    def selic_passos():
+        pts, ult = [], None
+        for d, v in sgs(432, ini, fim):
+            if v != ult: pts.append([d.isoformat(), v]); ult = v
+        if pts and pts[-1][0] != hoje.isoformat(): pts.append([hoje.isoformat(), ult])
+        return pts
+    tenta("selic", selic_passos)
+    tenta("ipca", lambda: [[d.isoformat(), round(v, 2)] for d, v in sgs(13522, ini, fim)])
+    def pib_4t():
+        r = requests.get("https://apisidra.ibge.gov.br/values/t/5932/n1/all/v/6562/p/all/c11255/90707", timeout=120)
+        r.raise_for_status(); pts = []
+        for x in r.json()[1:]:
+            per = x.get("D3C", ""); v = x.get("V")
+            if len(per) != 6 or v in (None, "...", "-"): continue
+            a, t = int(per[:4]), int(per[4:])
+            if a < hoje.year - 4: continue
+            fimtri = {1: "03-31", 2: "06-30", 3: "09-30", 4: "12-31"}[t]
+            pts.append([f"{a}-{fimtri}", float(v)])
+        return pts
+    tenta("pib", pib_4t)
+    out["trajetoria"] = traj
+    out["parcial"] = {k: (v[-1] if v else None) for k, v in traj.items()}
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print("[realizado] ok")
 
