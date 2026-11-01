@@ -1,0 +1,35 @@
+name: Atualizar dados
+
+on:
+  schedule:
+    - cron: "40 12 * * 1"     # segunda 09:40 (Brasília): Focus sai às 08:25
+    - cron: "15 21 * * 1-5"   # dias úteis 18:15: procura novos relatórios do Itaú
+  push:
+    paths: ["data/itau_manual.csv"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - run: pip install requests
+      - name: Focus (BCB)
+        run: python scripts/update_focus.py || echo "Focus falhou; mantendo dados anteriores"
+      - name: Realizado (SGS/BCB)
+        run: python scripts/update_realizado.py || echo "SGS falhou"
+      - name: Itaú BBA
+        run: python scripts/update_itau.py || echo "Itaú falhou"
+      - name: Salvar
+        run: |
+          git config user.name "robo-painel"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Dados atualizados $(date -u +%F)"
+          git push
