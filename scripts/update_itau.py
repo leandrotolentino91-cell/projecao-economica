@@ -66,37 +66,56 @@ def data_relatorio(txt):
 def le_pdf(caminho):
     txt = subprocess.run(["pdftotext", "-layout", str(caminho), "-"], capture_output=True, text=True).stdout
     data = data_relatorio(txt)
-    en = bool(re.search(r"Macro scenario|Current\s+Previous", txt))
+    en = bool(re.match(r"\s*Macro scenario", txt)) or (not re.match(r"\s*Cen[aá]rio", txt) and bool(re.search(r"Current\s+Previous", txt)))
     linhas = txt.splitlines()
     # cabeçalho de anos: linha com vários 20xx e pelo menos um 20xxP/E
     ini = next((i for i, l in enumerate(linhas) if len(re.findall(r"\b20\d\d[PEF]?\b", l)) >= 4 and re.search(r"20\d\d[PEF]", l)), None)
     if ini is None or data is None: return None
     anos = re.findall(r"\b(20\d\d)([PEF]?)\b", linhas[ini])
     hist = [int(a) for a, p in anos if not p]; proj = [int(a) for a, p in anos if p]
+    bloco = "\n".join(linhas[ini: ini+40])
+    en = len(re.findall(r"\d\.\d{1,2}(?!\d)", bloco)) > len(re.findall(r"\d,\d{1,2}(?!\d)", bloco))
     tabela, proj_out = [], {}
     for l in linhas[ini+1: ini+80]:
         if re.match(r"\s*(Fonte|Source)", l): break
-        m = re.match(r"^\s*(.+?)\s{2,}(-?[\d.,]+(?:\s+-?[\d.,]+)+)\s*$", l)
+        m = re.match(r"^\s*(.+?)\s{2,}((?:-?[\d.,]+|-)(?:\s+(?:-?[\d.,]+|-))+)\s*$", l)
         if not m:
             r = l.strip()
             if r and not re.search(r"\d", r) and len(r) < 40 and r not in ("Atual Anterior", "Current Previous"):
                 tabela.append({"secao": r})
             continue
         rot = m.group(1).strip()
-        try: vals = [num(v, en) for v in m.group(2).split()]
+        try: vals = [None if v == "-" else num(v, en) for v in m.group(2).split()]
         except ValueError: continue
         nh, np_ = len(hist), len(proj)
         if len(vals) == nh + 2*np_:
             h, p = vals[:nh], vals[nh:]; atual = p[0::2]; ant = p[1::2]
         elif len(vals) == nh + np_:
             h, atual, ant = vals[:nh], vals[nh:], [None]*np_
+        elif len(vals) == nh + 2*np_ - 1:   # último ano projetado só com "Atual"
+            h, p = vals[:nh], vals[nh:] + [None]; atual = p[0::2]; ant = p[1::2]
         else:
             continue
         tabela.append({"rotulo": rot, "hist": h, "atual": atual, "anterior": ant})
         for chave, rx in CHAVES:
             if chave not in proj_out and re.search(rx, rot, re.I):
-                proj_out[chave] = {str(a): v for a, v in zip(proj, atual)}
+                proj_out[chave] = {str(a): v for a, v in zip(proj, atual) if v is not None}
                 proj_out.setdefault("_realizado", {})[chave] = {str(a): v for a, v in zip(hist, h)}
+    # Layout antigo (2024–25): rótulos em inglês sobrepostos quebram as linhas. Pega os últimos 2*n números do bloco.
+    np_ = len(proj)
+    for chave, rx in CHAVES:
+        if chave in proj_out: continue
+        for i, l in enumerate(linhas[ini+1: ini+90]):
+            if re.match(r"\s*(Fonte|Source)", l): break
+            if re.search(rx, l, re.I):
+                for l2 in linhas[ini+1+i: ini+1+i+4]:
+                    toks = re.findall(r"(?<![\w.,])-?\d{1,3}(?:[.,]\d{1,3})*(?![\w])", l2)
+                    if len(toks) >= 2*np_:
+                        try: vals = [num(t, en) for t in toks[-2*np_:]]
+                        except ValueError: continue
+                        proj_out[chave] = {str(a): v for a, v in zip(proj, vals[0::2])}
+                        break
+                break
     if not proj_out: return None
     return {"data": data.isoformat(), "arquivo": caminho.name, "anos_hist": hist, "anos_proj": proj,
             "proj": {k: v for k, v in proj_out.items() if not k.startswith("_")},

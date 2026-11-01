@@ -12,6 +12,13 @@ numa "projeção do painel", ponderada pela precisão histórica de cada uma.
 | `scripts/update_itau.py` | Procura novos PDFs do Cenário Macro Brasil no site do Itaú e lê a tabela "Dados e projeções" de todos os PDFs em `itau/`. |
 | `.github/workflows/atualizar.yml` | Roda tudo sozinho: segunda 09:40 (Focus) e dias úteis 18:15 (Itaú), e sempre que você envia um PDF. |
 
+## Outras instituições
+- **Focus Top 5** (ranking oficial do BCB) é baixado automaticamente junto com o Focus.
+- **Itaú**: histórico de Cenários Macro desde 2023 em `data/itau_historico.json`.
+- **Bradesco, Santander, XP, BTG Pactual, Banco do Brasil e UBS**: `data/bancos.json`, uma linha por divulgação.
+  Para incluir uma nova revisão, acrescente um item com `data`, `fonte` e `proj`.
+O modelo pondera cada fonte pelo erro histórico (encolhido para a média quando há poucos anos) e pela idade da projeção.
+
 ## Publicar (uma vez)
 1. Em github.com clique em **New repository** → nome `projecao-economica` → Public → Create.
 2. Na página do repositório: **uploading an existing file** → arraste todo o conteúdo desta pasta (inclusive `.github`) → Commit.

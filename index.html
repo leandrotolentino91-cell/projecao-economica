@@ -147,8 +147,16 @@ footer{margin-top:36px;border-top:1px solid var(--line);padding-top:12px;font-si
 
 <hr class="rule">
 
+<h2>Todas as instituições</h2>
+<p class="body">Última projeção de cada fonte e o peso que ela recebe no modelo (mais peso para quem errou menos e para projeções recentes).</p>
+<div class="tabs" role="tablist" id="tabsInst"></div>
+<div class="tw"><table class="grid" id="inst"></table></div>
+<div class="src">Fontes: BCB (Focus e Top 5), relatórios Cenário Macro do Itaú e projeções públicas de Bradesco, Santander, XP, BTG Pactual, Banco do Brasil e UBS divulgadas em relatórios e na imprensa.</div>
+
+<hr class="rule">
+
 <h2>Quem acerta mais</h2>
-<p class="body">Erro médio absoluto (EMA), viés médio e número de anos comparados. Horizonte 0 = projeção feita em janeiro do próprio ano; horizonte 1 = feita em janeiro do ano anterior. A cor mostra quem teve menor erro.</p>
+<p class="body">Quanto cada instituição errou, em média, na projeção feita no início do ano. O Focus Top 5 é a mediana das cinco instituições que mais acertam no ranking do Banco Central.</p>
 <div class="tw"><table class="grid" id="acc"></table></div>
 <div class="src" id="accNota"></div>
 
@@ -186,7 +194,7 @@ footer{margin-top:36px;border-top:1px solid var(--line);padding-top:12px;font-si
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script>
 (async function(){
-const ARQ=['focus','realizado','itau_historico','itau_ultimo','surpresas','projecao_propria'];
+const ARQ=['focus','realizado','itau_historico','itau_ultimo','surpresas','projecao_propria','bancos'];
 const D={};
 for(const a of ARQ){
   try{const r=await fetch('data/'+a+'.json',{cache:'no-store'});if(!r.ok)throw 0;D[a]=await r.json()}
@@ -201,25 +209,43 @@ const P=D.projecao_propria,SU=(D.surpresas||{series:[]}).series;const F=D.focus|
 
 /* ---- projeções por fonte ---- */
 function focusProj(k,y,h){const a=F.indicadores[k]?.anual?.[y];return a?a['h'+h]:null}
-function itauProj(k,y,h){const ini=(y-h)+'-01-01',fim=(y-h)+'-12-31';
+function itauProj(k,y,h){return janela(H,k,y,h)}
+function itauProjOld(k,y,h){const ini=(y-h)+'-01-01',fim=(y-h)+'-12-31';
   const s=H.find(s=>s.data>=ini&&s.data<=fim&&s.proj?.[k]?.[y]!=null);return s?s.proj[k][y]:null}
 function real(k,y){return R[k]?.[y]??null}
 function stats(fn,k,h){const e=[];for(let y=2000;y<ANO;y++){const p=fn(k,y,h),r=real(k,y);if(p!=null&&r!=null)e.push({y,e:p-r})}
   if(!e.length)return{n:0};const n=e.length;return{n,mae:e.reduce((a,b)=>a+Math.abs(b.e),0)/n,bias:e.reduce((a,b)=>a+b.e,0)/n,erros:e}}
 const ultItau=(k,y)=>{for(let i=H.length-1;i>=0;i--){const v=H[i].proj?.[k]?.[y];if(v!=null)return v}return null};
+/* ---- todas as fontes ---- */
+const B=(D.bancos||{instituicoes:{}}).instituicoes, T5=F.top5||{};
+const dist=(a,b)=>Math.abs((new Date(a))-(new Date(b)))/864e5;
+function janela(safras,k,y,h){  // safra mais próxima de 1º/jan do ano-alvo (h=0) ou do ano anterior (h=1)
+  const alvo=(y-h)+'-01-01', ini=(y-h-1)+'-10-01', fim=(y-h)+'-03-31';
+  let best=null;for(const s of safras){const v=s.proj?.[k]?.[y];if(v==null||s.data<ini||s.data>fim)continue;
+    if(!best||dist(s.data,alvo)<dist(best.data,alvo))best=s}
+  return best?best.proj[k][y]:null}
+function ultimaSafra(safras,k,y){for(let i=safras.length-1;i>=0;i--){const v=safras[i].proj?.[k]?.[y];if(v!=null)return{v,data:safras[i].data}}return null}
+const SRC=[
+ {id:'Focus',proj:(k,y,h)=>focusProj(k,y,h),ult:(k,y)=>{const v=F.indicadores[k]?.ultimo?.[y];return v==null?null:{v,data:F.data_pesquisa}}},
+ {id:'Focus Top 5',proj:(k,y,h)=>T5[k]?.anual?.[y]?.['h'+h]??null,ult:(k,y)=>{const v=T5[k]?.ultimo?.[y];return v==null?null:{v,data:F.data_pesquisa}}},
+ {id:'Itaú',proj:(k,y,h)=>janela(H,k,y,h),ult:(k,y)=>ultimaSafra(H,k,y)},
+ ...Object.entries(B).map(([nome,saf])=>{const ss=[...saf].sort((a,b)=>a.data<b.data?-1:1);
+   return{id:nome,proj:(k,y,h)=>janela(ss,k,y,h),ult:(k,y)=>ultimaSafra(ss,k,y)}})];
+function statsSrc(src,k){return stats(src.proj,k,0)}
 function painel(k,y){
-  const h=y===ANO?0:1, f=F.indicadores[k]?.ultimo?.[y]??null, i=ultItau(k,y);
-  let sf=stats(focusProj,k,h), si=stats(itauProj,k,h);
-  if(!sf.n)sf=stats(focusProj,k,0); if(!si.n)si=stats(itauProj,k,0);
-  const parts=[];if(f!=null)parts.push({v:f,s:sf});if(i!=null)parts.push({v:i,s:si});
-  if(!parts.length)return null;
-  const w=p=>p.s.n?1/Math.max(p.s.mae,0.05):1;
-  const W=parts.reduce((a,p)=>a+w(p),0);
-  const combo=parts.reduce((a,p)=>a+w(p)*p.v,0)/W;
-  const bias=parts.reduce((a,p)=>a+w(p)*(p.s.n?p.s.bias:0),0)/W;
-  const mae=parts.reduce((a,p)=>a+w(p)*(p.s.n?p.s.mae:0),0)/W;
-  const k_=y===ANO?Math.max(0,(12-(hoje.getMonth()+1))/12):1;  // quanto do ano ainda falta
-  return{f,i,v:combo-0.5*bias*k_,faixa:mae*k_,bias,wF:f!=null?w(parts[0])/W:0}
+  const partes=[];const maes=SRC.map(s=>statsSrc(s,k)).filter(x=>x.n).map(x=>x.mae).sort((a,b)=>a-b);
+  const pool=maes.length?maes[Math.floor(maes.length/2)]:1;
+  for(const src of SRC){const u=src.ult(k,y);if(!u)continue;const st=statsSrc(src,k);
+    const mae=(st.n*(st.mae||0)+3*pool)/(st.n+3), bias=st.n?st.n*st.bias/(st.n+3):0;
+    const idade=dist(u.data,hoje.toISOString().slice(0,10));
+    const w=Math.exp(-idade/120)/Math.max(mae,0.05);
+    partes.push({id:src.id,v:u.v,data:u.data,n:st.n,mae,bias,w})}
+  if(!partes.length)return null;
+  const W=partes.reduce((a,p)=>a+p.w,0);partes.forEach(p=>p.peso=p.w/W);
+  const combo=partes.reduce((a,p)=>a+p.peso*p.v,0), bias=partes.reduce((a,p)=>a+p.peso*p.bias,0), mae=partes.reduce((a,p)=>a+p.peso*p.mae,0);
+  const k_=y===ANO?Math.max(0,(12-(hoje.getMonth()+1))/12):1;
+  const f=F.indicadores[k]?.ultimo?.[y]??null, i=ultItau(k,y);
+  return{f,i,v:combo-0.5*bias*k_,faixa:mae*k_,bias,partes}
 }
 
 /* ---- cabeçalho ---- */
@@ -295,17 +321,14 @@ const anosEvo=[ANO,ANO+1,ANO+2];tabs('tabsAno',anosEvo,anosEvo.map(String),y=>{c
 let drawAll=function(){drawHist();drawErr();drawEvo()}
 
 /* ---- tabela de acurácia ---- */
-let t='<thead><tr><th>Indicador</th><th>Horizonte</th><th>Focus EMA</th><th>Focus viés</th><th>n</th><th>Itaú EMA</th><th>Itaú viés</th><th>n</th><th>Mais preciso</th></tr></thead><tbody>';
+let t='<thead><tr><th>Indicador</th>'+SRC.map(x=>`<th>${x.id}</th>`).join('')+'</tr></thead><tbody>';
 let semItau=true;
-for(const [k,[nome,,d]] of Object.entries(IND)) for(const h of [0,1]){
-  const a=stats(focusProj,k,h),b=stats(itauProj,k,h);if(b.n)semItau=false;
-  let win='<span class="pill neu">sem dados</span>';
-  if(a.n&&b.n)win=a.mae<=b.mae?'<span class="pill good">Focus</span>':'<span class="pill good">Itaú</span>';
-  else if(a.n)win='<span class="pill neu">só Focus</span>';
-  t+=`<tr><td class="ind">${h?'':nome}</td><td>${h?'ano anterior':'mesmo ano'}</td><td>${a.n?fmt(a.mae,d):'–'}</td><td>${a.n?(a.bias>0?'+':'')+fmt(a.bias,d):'–'}</td><td>${a.n||'–'}</td>
-   <td>${b.n?fmt(b.mae,d):'–'}</td><td>${b.n?(b.bias>0?'+':'')+fmt(b.bias,d):'–'}</td><td>${b.n||'–'}</td><td>${win}</td></tr>`}
+for(const [k,[nome,,d]] of Object.entries(IND)){
+  const st=SRC.map(x=>statsSrc(x,k));const best=Math.min(...st.filter(x=>x.n).map(x=>x.mae));
+  if(st[2].n)semItau=false;
+  t+=`<tr><td class="ind">${nome}</td>`+st.map(x=>x.n?`<td${x.mae===best?' class="painel"':''}>${fmt(x.mae,d)} <small>${x.bias>0?'+':''}${fmt(x.bias,d)} · ${x.n}a</small></td>`:'<td>–</td>').join('')+'</tr>'}
 document.getElementById('acc').innerHTML=t+'</tbody>';
-document.getElementById('accNota').textContent=semItau?'O histórico do Itaú ainda não cobre anos já realizados. Envie relatórios antigos (PDF) para a pasta itau/ e a comparação aparece aqui.':'Viés positivo = projetou acima do realizado.';
+document.getElementById('accNota').textContent='Erro médio absoluto da projeção feita perto de 1º de janeiro do próprio ano (pequeno: viés · anos comparados). Em destaque, o menor erro. Instituições com poucos anos têm o erro puxado para a média do grupo ao ponderar.';
 
 /* ---- safras Itaú ---- */
 const ult6=H.slice(-8).reverse();
@@ -347,6 +370,14 @@ function drawSur(){const at=SU.filter(x=>x.grupo==='Atividade');
   {label:'Erro mercado',data:at.map(x=>x.mercado==null?null:+(x.mercado-x.real).toFixed(2)),backgroundColor:css('--accent-3')}]},
   options:Object.assign(base(2),{scales:Object.assign(base(2).scales,{x:Object.assign(base(2).scales.x,{ticks:{color:css('--muted'),font:{size:10},maxRotation:60,minRotation:45,autoSkip:false}})})})})}
 const _drawAll=drawAll;drawAll=function(){_drawAll();if(SU.length)drawSur()};
+function drawInst(k){const d=IND[k][2];let t='<thead><tr><th>Instituição</th>';const anos=[ANO,ANO+1];
+ t+=anos.map(y=>`<th>${y}</th><th>Data</th><th>Peso</th>`).join('')+'</tr></thead><tbody>';
+ const ps=anos.map(y=>painel(k,y));
+ for(const src of SRC){t+=`<tr><td class="ind">${src.id}</td>`+anos.map((y,j)=>{const p=ps[j]?.partes.find(x=>x.id===src.id);
+   return p?`<td>${fmt(p.v,d)}</td><td><small>${fdata(p.data)}</small></td><td>${Math.round(p.peso*100)}%</td>`:'<td>–</td><td></td><td></td>'}).join('')+'</tr>'}
+ t+=`<tr><td class="painel">Modelo (combinação)</td>`+ps.map(p=>p?`<td class="painel">${fmt(p.v,d)}</td><td></td><td>100%</td>`:'<td>–</td><td></td><td></td>').join('')+'</tr>';
+ document.getElementById('inst').innerHTML=t+'</tbody>'}
+tabs('tabsInst',ks,ls,drawInst,0);drawInst('ipca');
 drawAll();
 let tm;const redo=()=>{clearTimeout(tm);tm=setTimeout(drawAll,60)};
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change',redo);
