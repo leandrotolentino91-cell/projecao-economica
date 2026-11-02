@@ -2,33 +2,49 @@
  "nota": "Projeções de outras instituições compiladas de relatórios e notícias públicas. Cada linha é uma divulgação (safra). Valores de fim de ano: Selic e câmbio; IPCA e PIB no ano.",
  "instituicoes": {
   "Bradesco": [
-   {"data":"2025-03-15","fonte":"BP Money","proj":{"pib":{"2025":1.9},"ipca":{"2025":5.0},"selic":{"2025":14.75},"cambio":{"2025":5.90,"2026":5.90}}},
+   {"data":"2025-03-15","fonte":"BP Money","proj":{"pib":{"2025":1.9},"ipca":{"2025":5.0},"selic":{"2025":14.75},"cambio":{"2025":5.9,"2026":5.9}}},
    {"data":"2026-01-12","fonte":"Forbes Brasil","proj":{"pib":{"2026":1.5},"ipca":{"2026":3.8},"selic":{"2026":12.0}}},
-   {"data":"2026-06-29","fonte":"Times Brasil/CNBC","proj":{"pib":{"2026":2.0,"2027":1.5},"ipca":{"2026":5.3,"2027":4.1},"selic":{"2026":13.75,"2027":11.0},"cambio":{"2026":5.00,"2027":5.20},"desemprego":{}}}
+   {"data":"2026-06-29","fonte":"Times Brasil/CNBC","proj":{"pib":{"2026":2.0,"2027":1.5},"ipca":{"2026":5.3,"2027":4.1},"selic":{"2026":13.75,"2027":11.0},"cambio":{"2026":5.0,"2027":5.2},"desemprego":{}}},
+   {"data":"2026-09-21","fonte":"Bloomberg Línea","proj":{"pib":{"2026":1.7,"2027":1.0},"ipca":{"2026":4.9,"2027":4.1},"selic":{"2026":13.25,"2027":11.0}}}
   ],
   "Santander": [
    {"data":"2024-12-20","fonte":"Money Times","proj":{"pib":{"2025":1.8},"ipca":{"2025":5.5,"2026":4.2},"selic":{"2025":15.5}}},
-   {"data":"2026-01-12","fonte":"Forbes Brasil","proj":{"pib":{"2026":1.5},"ipca":{"2026":3.8},"selic":{"2026":12.5},"cambio":{"2026":5.90}}},
+   {"data":"2026-01-12","fonte":"Forbes Brasil","proj":{"pib":{"2026":1.5},"ipca":{"2026":3.8},"selic":{"2026":12.5},"cambio":{"2026":5.9}}},
    {"data":"2026-07-06","fonte":"Bancários TB","proj":{"pib":{"2026":1.8,"2027":1.3},"ipca":{"2026":5.0,"2027":3.0},"selic":{"2026":13.75,"2027":12.75}}}
   ],
   "XP": [
-   {"data":"2024-12-10","fonte":"Notícias Agrícolas","proj":{"pib":{"2025":2.0,"2026":1.2},"ipca":{"2025":5.2,"2026":4.5},"selic":{"2025":13.25},"cambio":{"2025":5.85,"2026":6.00}}},
-   {"data":"2026-01-12","fonte":"Forbes Brasil","proj":{"pib":{"2026":1.7},"ipca":{"2026":4.0},"selic":{"2026":12.5},"cambio":{"2026":5.60}}},
-   {"data":"2026-05-07","fonte":"BP Money","proj":{"ipca":{"2026":5.3,"2027":4.0},"selic":{"2026":13.75,"2027":11.5},"cambio":{"2026":5.00}}},
+   {"data":"2024-12-10","fonte":"Notícias Agrícolas","proj":{"pib":{"2025":2.0,"2026":1.2},"ipca":{"2025":5.2,"2026":4.5},"selic":{"2025":13.25},"cambio":{"2025":5.85,"2026":6.0}}},
+   {"data":"2026-01-12","fonte":"Forbes Brasil","proj":{"pib":{"2026":1.7},"ipca":{"2026":4.0},"selic":{"2026":12.5},"cambio":{"2026":5.6}}},
+   {"data":"2026-05-07","fonte":"BP Money","proj":{"ipca":{"2026":5.3,"2027":4.0},"selic":{"2026":13.75,"2027":11.5},"cambio":{"2026":5.0}}},
    {"data":"2026-10-15","fonte":"XP Macro Mensal out/26","proj":{"pib":{"2026":1.7,"2027":1.0},"ipca":{"2026":5.1},"selic":{"2026":13.25,"2027":11.5}}}
   ],
   "BTG Pactual": [
    {"data":"2024-12-12","fonte":"BTG Macro Mensal","proj":{"pib":{"2025":1.5},"ipca":{"2025":5.5},"selic":{"2025":14.75},"cambio":{"2025":6.25}}},
-   {"data":"2026-01-12","fonte":"Forbes Brasil","proj":{"pib":{"2026":1.5},"ipca":{"2026":4.5},"selic":{"2026":12.0},"cambio":{"2026":5.20}}},
-   {"data":"2026-02-27","fonte":"Suno","proj":{"pib":{"2026":1.7,"2027":1.5},"ipca":{"2026":4.1,"2027":3.8},"selic":{"2026":12.0,"2027":10.5},"cambio":{"2026":5.20,"2027":5.10}}},
-   {"data":"2026-06-15","fonte":"Money Times","proj":{"pib":{"2026":2.0,"2027":1.1},"ipca":{"2026":5.3,"2027":4.5},"selic":{"2026":14.25},"cambio":{"2026":4.90}}},
-   {"data":"2026-07-15","fonte":"Seu Dinheiro","proj":{"pib":{"2026":2.0,"2027":1.1},"ipca":{"2026":5.3,"2027":4.5},"selic":{"2026":13.75},"cambio":{"2026":5.40}}}
+   {"data":"2026-01-12","fonte":"Forbes Brasil","proj":{"pib":{"2026":1.5},"ipca":{"2026":4.5},"selic":{"2026":12.0},"cambio":{"2026":5.2}}},
+   {"data":"2026-02-27","fonte":"Suno","proj":{"pib":{"2026":1.7,"2027":1.5},"ipca":{"2026":4.1,"2027":3.8},"selic":{"2026":12.0,"2027":10.5},"cambio":{"2026":5.2,"2027":5.1}}},
+   {"data":"2026-06-15","fonte":"Money Times","proj":{"pib":{"2026":2.0,"2027":1.1},"ipca":{"2026":5.3,"2027":4.5},"selic":{"2026":14.25},"cambio":{"2026":4.9}}},
+   {"data":"2026-07-15","fonte":"Seu Dinheiro","proj":{"pib":{"2026":2.0,"2027":1.1},"ipca":{"2026":5.3,"2027":4.5},"selic":{"2026":13.75},"cambio":{"2026":5.4}}}
   ],
   "Banco do Brasil": [
    {"data":"2023-12-07","fonte":"BB Investimentos – Perspectivas 2024","proj":{"pib":{"2024":1.5},"ipca":{"2024":3.9},"selic":{"2024":9.25},"cambio":{"2024":4.95}}}
   ],
   "UBS": [
-   {"data":"2026-01-12","fonte":"Forbes Brasil","proj":{"pib":{"2026":1.5},"ipca":{"2026":3.8},"selic":{"2026":11.75},"cambio":{"2026":5.30}}}
+   {"data":"2026-01-12","fonte":"Forbes Brasil","proj":{"pib":{"2026":1.5},"ipca":{"2026":3.8},"selic":{"2026":11.75},"cambio":{"2026":5.3}}}
+  ],
+  "Safra": [
+   {"data":"2026-08-31","fonte":"O Especialista (Safra)","proj":{"pib":{"2026":1.9,"2027":1.4},"ipca":{"2026":4.8,"2027":3.9},"selic":{"2026":13.25,"2027":11.0},"cambio":{"2026":5.1,"2027":5.2}}}
+  ],
+  "ASA": [
+   {"data":"2026-10-26","fonte":"BP Money","proj":{"pib":{"2027":0.0},"ipca":{"2026":5.1},"selic":{"2026":13.5,"2027":13.0}}}
+  ],
+  "Warren": [
+   {"data":"2026-11-01","fonte":"CNN Brasil","proj":{"ipca":{"2027":5.2}}}
+  ],
+  "Daycoval": [
+   {"data":"2026-11-01","fonte":"CNN Brasil","proj":{"ipca":{"2027":4.7}}}
+  ],
+  "Banco Pine": [
+   {"data":"2026-11-01","fonte":"CNN Brasil","proj":{"ipca":{"2027":4.5}}}
   ]
  }
 }

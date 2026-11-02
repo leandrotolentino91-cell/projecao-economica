@@ -1,5 +1,5 @@
 {
- "data": "2026-11-01",
+ "data": "2026-11-02",
  "metodo": "Projeção própria: parte dos números de Focus e Itaú, corrige pelos erros já observados (curto prazo em 2026 e histórico do Focus 2006–2025) e usa câmbio no nível spot (passeio aleatório), que historicamente erra menos que as projeções.",
  "anos": {
   "2026": {
@@ -45,7 +45,7 @@
     "v": 5.2,
     "min": 4.5,
     "max": 6.1,
-    "porque": "Focus (4,3) e Top 5 (4,4) projetam baixo e erraram para baixo em 20 anos; mas em 2025 todos os bancos (5,0–5,5) erraram para cima após o choque cambial de fim de 2024, quando o dólar devolveu. O 6,1 do Itaú extrapola o choque atual (petróleo, câmbio, tributos)."
+    "porque": "Focus (4,3) e Top 5 (4,4) projetam baixo e erraram para baixo em 20 anos; mas em 2025 todos os bancos (5,0–5,5) erraram para cima após o choque cambial de fim de 2024, quando o dólar devolveu. O 6,1 do Itaú extrapola o choque atual (petróleo, câmbio, tributos). Revisões pós-eleição (02/11) ficaram entre 4,5 e 6,1, com mediana perto de 5,2: mantenho."
    },
    "selic": {
     "v": 13.25,
@@ -78,5 +78,5 @@
   "Focus Top 5 tem erro menor que o Focus geral na Selic (1,77 vs 2,00 p.p.) e igual no IPCA e câmbio. No PIB o histórico do Top 5 é curto.",
   "Histórico Focus 2006–2025 (dados oficiais do BCB): o consenso de janeiro subestimou o IPCA em 0,6 p.p. em média, com erros grandes em anos de choque (2015, 2021)."
  ],
- "noticias": "01/11/2026: Lula reeleito; dólar a R$ 5,45 com a maior alta semanal desde 2008; mercado já fala em IPCA 2027 de até 6%; governo estuda ajuste fiscal para 2027; Copom decide esta semana (aposta: Selic mantida em 13,75%)."
+ "noticias": "02/11/2026: semana pós-reeleição de Lula com dólar a R$ 5,44 (maior alta semanal desde 2008) e Ibovespa no pior mês desde 2022; pesquisa da BGC já vê IPCA 2027 em 5,3% e casas revisam (Itaú 6,1%, Warren 5,2%, Daycoval 4,7%, Pine 4,5%; ASA vê PIB 2027 zero e Selic 13% no fim de 2027). Copom decide na quarta (4) com aposta majoritária em manutenção em 13,75%; Focus sai na terça (3) por causa do feriado. Números mantidos: as novas projeções ficam dentro das faixas."
 }
