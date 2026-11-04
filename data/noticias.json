@@ -1,13 +1,55 @@
 {
- "atualizado": "2026-11-04T06:09+00:00",
+ "atualizado": "2026-11-04T15:23+00:00",
  "fonte": "Google News (RSS), últimos 7 dias",
  "indicadores": {
   "ipca": {
-   "indice": 0.236,
+   "indice": 0.206,
    "n": 80,
-   "alta": 19,
+   "alta": 17,
    "baixa": 0,
    "itens": [
+    {
+     "t": "Inflação da zona do euro chega a 4% e amplia expectativa de alta dos juros em dezembro",
+     "fonte": "Revista Empreende",
+     "data": "2026-11-04T14:37+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZ0w4SllBUGRPU3J0REROZmZnLTRNN25ZaTJtVXd3RTVEczVVSVRTbEJXallBcmNyWlNJWTd0Q3Z6RjVMYzFSZE5JeXFRY2x4Z1FXZkdWQnhEOHNqNDNPdlowOGFRNDRTeEZUbEdxUEYzeVlQS2dlWGVCVHR0dHR3VXVPZ3BTN0FwbmR6LUlKeENGa1REM1RIcjgzM0RpdWVucTgtMGFQaEQwWDR3Yzgya3EySWlmRWJHdmhHcHRlLUpKRm5nT2VsRGpTSmY0ZjczR2ZCZGpJQzZLR2xqWGlWRVRaaWVQMmdaekJKeU0zTHRyU0U?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Copom deve reduzir taxa Selic para 13,5% ao ano nesta quarta-feira",
+     "fonte": "Oeste Mais",
+     "data": "2026-11-04T13:46+00:00",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcl8yVk9Rekc3MXRwQ1hhUHZyOC11VHc4MXVKQUlpWHhwQzQ4ZjAxbkJQeVBrclJXLVBQdnZFY0l3bFZ5MnIwV0t3bWRWR3AxOWJuMnNCbDhuTW5UZzZsM2pPTkhtNzJCU0lNLUhXdkZlWGltQ19JeUpRQjZpUkRoamdLVWxfc3Zlb0hUMXBfeWhjaldQeVFOT3NaTS1QTXlNemdLZzI0dTA3WjdpMHlOSkYweU0?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Inflação anual na zona do euro atinge maior nível em três anos",
+     "fonte": "CNN Brasil",
+     "data": "2026-11-04T13:43+00:00",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ1RUUjFTSmpXbE5oMXV2SVhuSW50M0dBbVpna0dtYmU4UHVDWFhRdF9uX2VCMUp3eG1xZXd3dmJmRU9xdk8taHFreGRNMVY4X0pDN3B0SDY1Vk54MlRMdXlkQW1seGJkSkRrN2ppZjhZRW1JTGxlOHk0VTNMeEF1MWN3Q1hvRUhKNUZDWjNOM05RdFBvQjJEMElybWIyLVRyV1M3NHIxME85ejQ5dFJXLW56VklxYUdETnJLZnNR?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Inflação em São Paulo desacelera para 0,44% em outubro, aponta IPC-FIPE",
+     "fonte": "tmc.com.br",
+     "data": "2026-11-04T12:44+00:00",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNS19kSzJMd3dPcHZ4T2JkajB0OEpfbFhOQ2oteVJ5dnVHQ2JkZVZheFRVT0xGaWo4dGx0T0FueFN2MW9VQm9lN3cyOEU2SGpUOXFnVVNWMm1CLUh0LTlEUk9zX2QyV3dwSWJabm1CNWNycUdWNUJoMlBLbTU1dE11OA?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Mercado eleva previsão para inflação, juros e dólar e reduz estimativa de crescimento do PIB",
+     "fonte": "Se Ligue Bahia",
+     "data": "2026-11-04T12:33+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNT2g1TUhJdHczbTRkNEJ3TlZBV3hwT1EzYTlGZlI4SWJuWVBtRElDZUs1cDRUbzJGNlljcGZnb1NjbmYwZzhYdEFlVlg1MzVtdjE2aHdTQ0JrYlBnN05EcWZFeGw3VzU1UG9UbXEyMWxoZHRwS0hKYnBOOWJRVTBrZVZ2bkd3SGhPckM0Mk5RZGhUQkF0c0h5NDNpVlJ4cXVaTk9VVzZkZUVPaEFubUp3dldtclplVUd6bzJsamNta0dnUmQzUURnUw?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Expectativa de falta de ajuste fiscal rebaixa projeções para o PIB brasileiro",
+     "fonte": "Valor Econômico",
+     "data": "2026-11-04T08:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQktPd3BUd1dfNmU1dzNJczNja3lreEZwdmRlVnpCZ21qeTBVN1RJRHdDYm9id2VTYTNnMkVLT2FyN21FWVZEYnNVc082QVdNeXBNNmlndUxtQXRFSVJQRTRDUEkwZ0tYMnpJS3IwUXlCSndBWi1zdmVScjBPel8yeUpHeW1vcGtpaVJMWlFvQlMxNFpxTDkyVnJkRlBoSmZXODZZUTkwdnpMX3F6SExvX18za25wLWIxVlZPeml4U1Jjc19QbEd5MkdBbnk2QdIB3AFBVV95cUxPeHl4M0RJejF4S0hQU2hKQWhnOWstNDlOZGswSjRvVlJnMXJnQWZ6UjRINVVIQ091emhZMWdZMzRJUWxQLW96QVR0c3l1R05FRVV4RmFsSVZJLVFSLTNUd3NWR3YxSUxJYW9FM21ET19iby10bTZkWHFNY3pibUREUHhHWFppaWhEVHRoNVhadDI4bFZ2ZUtVaDZBdFB3MzlsTWYwTlFyX3RwWEVUd2FjT3RodHpEaVBWOGM0OG1kMFhwU0I3Z3JsbzZVclNQemswcnhmZDBZTEtBSnlf?oc=5",
+     "sinal": 0
+    },
     {
      "t": "ICMS SOBRE GASOLINA, DIESEL E GÁS DE COZINHA TERÁ AUMENTO A PARTIR DE FEVEREIRO DE 2027",
      "fonte": "TV São Bernardo",
@@ -72,10 +114,24 @@
      "sinal": 1
     },
     {
+     "t": "Gasolina bate recorde nos EUA no dia da eleição, a US$ 4,15",
+     "fonte": "TV Sim Brasil",
+     "data": "2026-11-03T19:59+00:00",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcHk4SmpzTmtjRmhUbnpkTkJ4ZUNHSy1uMUt5Z2RJSTYxQlJNTW94WHVhdk9LZVl6TFlCOGx3Yll6V0I3eF9ZS0RSNU9aQjQ0Y242OTNmYjVheERxMURSNEJJcWktd0VEUlppeWdWeEo1bk15R2pOYm9SY2xXcS1IMWVQbVk0dEtEOC1PV3JMTlU3dV9XbVZMT3FjeWpyLXJzOXVwMg?oc=5",
+     "sinal": 0
+    },
+    {
      "t": "Focus eleva projeções para inflação, dólar e Selic após eleições",
      "fonte": "BPMoney",
      "data": "2026-11-03T19:56+00:00",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQkxoTmpOY2FtT2V3Vk5tZ0JNWWdtaXh0QktjbEloUWo5NklPRVBIQjIzaXRYR2lib19NNFdNdmRnUWtPWmxxZVpvU3BjRHlCYjU5aDVLcWJ2UVlUTmdWdjFEMFUxLWFrQlVZb3lId2FlQ1VZVGg5SlZkeEFiVmpYSmg5SHQ3ei1EQlRrZVIwUWV1VWhOcVZiTUlrOXc?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Focus eleva projeção do IPCA e do dólar para 2026",
+     "fonte": "Acionista.com.br",
+     "data": "2026-11-03T19:53+00:00",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQWo4N3NQWGVxTWkzcmFfdlNMZHpRT2N6YkI0RldJbjljRVJMZExKMGtoV0JFdE5QN0FqUzk4OTlkUVpkbWprcFduX2xQVTlMYWVMSjhxS1RRdEJ3Vkp1YWV4MWNUUXJERlRGcGJfNGZ3dFUtLXB3UVBtLVc0YTVKZg?oc=5",
      "sinal": 0
     },
     {
@@ -289,6 +345,13 @@
      "sinal": 1
     },
     {
+     "t": "Mercado financeiro eleva estimativas de inflação e Selic para 2026",
+     "fonte": "Agência Brasil",
+     "data": "2026-11-03T13:39+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORW95b2U2S2c3cmVXS2ZWMk1YVTBXeHRUN1RmN1VxRFJhS1RsbWZuWTJxOU5IXzhnQzIzRC05MHV2eUJfOTF4cGlFYjFnVWg2cFNOa3Awbk4tNjVCYy1LRmFpd09YYm10WGVkcjhBVVpjemgxT3dWVk5SYVg5bVlVLWNEbGN0U2xJSVNqMXI3di16YkE0NzRTUll3bW9VLTE5UDRrX2JOTjNEdmx2TC16dGRvbERfV0xiaWxhbGxzSzRfc2FucTlMdjI3Znd4VUFoNVRXVXlQdXdVaXc?oc=5",
+     "sinal": 0
+    },
+    {
      "t": "Boletim Focus: inflação sobe, dólar dispara e mercado prevê Selic de 13,50% em 2026",
      "fonte": "Portal de Camaquã",
      "data": "2026-11-03T13:36+00:00",
@@ -322,6 +385,13 @@
      "data": "2026-11-03T13:08+00:00",
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPb0ZxQlVLR2hJZkR0YUNYTDB3V2IxRWo2amdxRGxtWlJWUWozNmh3SjM5RDc2ZTNtWjJON2FjRi1MUEpDQXJwYTlKT0Q4Q0d3SG1FbDh3eGVTRWc4U0wzVVJnOXRwYUQ5TktNZWp6bHQ4bEVwb1hJMldYM1NJUWxzMGlmbWxhUjNHUWlZ?oc=5",
      "sinal": 0
+    },
+    {
+     "t": "Diante da piora nas expectativas do mercado, Durigan fala em melhorar contas públicas sem recorrer a 'narrativa fácil'",
+     "fonte": "G1",
+     "data": "2026-11-03T13:03+00:00",
+     "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOUUVVS3Y3ZThDZHBoc1BOXzFrd0tsb3gxQ0ZETjlwdFl1TEdXOE1PVE5YV3BMQzIyZWZ5NXpmbnJQM014dHFoMGJHdkp3WEZwUkRnQWNsRkZIZHJ0TlUwNzJQRE42ZkFJS3o4eFpQeXBublRXYldQaUJSNy16Mjc0dnNrUUZoTjJUOF9ka3FkZkxCZjl1bUdwcmFPVmFmRmlFdkpNTUlIdXNxekE3eTl6NEtKSlB1RlUzSmRZaGVZUFVOUzI1VEJjWnJKdFI4ZzBBQWhvOHFHa2N6dUItX2N3eURlRTVCVUVRdDlsM1JVejhHMnVBVzNMR3UyVkVZZnctcHllSThyQ041dVhMVmh4V9IBnwJBVV95cUxQdWh0dTJwbVIzb2RRSEpJY1M0cnBDck1TNWJScGVySWtBZXhLN2owdkFBelo5WHNOTEpMWWU0MDBUcFFlQ1lLR3pmWTY1bTh5TjhrSFpKY2pGXzVVbl9ZcndGc3M0RFoySGJLS0J0Zm13UkNfRWlNYkJKc2VBb2ZWMjRuWWhmSUZITVR5YUNtWm5NbG1VaXVUVXZrWW5sQ1hhc08wSW9IMWhiWFN6NU4xT2E5dExNaE9yZ2pQYU1mTTR3SWx5bjJ4eXNLZzB4NzA0ZGNieUwtUnVtcHlQV01JSUh6TGRpUjJnNjZOSWJNTzRvTVVoN3pJWXQ5MG5zd3NicHVsUTZNUDNpUFBFNmw4NHFqaGRsVl9yRlN1Skl4RQ?oc=5",
+     "sinal": 1
     },
     {
      "t": "Taxas de juros sobem até 20 pontos com piora das expectativas de inflação e exterior",
@@ -497,90 +567,244 @@
      "data": "2026-11-03T11:45+00:00",
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeWRNcFF6RDBQWUQ4Z2FHRHpjQXhDVVE1QkFCelE2Yk50MDM3WHZyN3p1RzRsYTRTQlJ6SlFmSk9idFhZbzVRUDNVQ21RM1hlWW5NWGIyeXYwcEpFRzU3Nl9CczdQRXdicDJjQkVpU0lyd05sNUtQMjk4MkhfbFl2LTBFcWE3T1F0ZXJDNVN3?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Efeito eleição: economistas revisam quase todas as projeções; veja o Focus desta segunda-feira (3)",
-     "fonte": "Money Times",
-     "data": "2026-11-03T11:44+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeEtFRDhDV3l4c0Vnd2I5Y2NpdU5mMmdKWTktcC1vLV9wbnFWZFBwTkdSZURqb25oSkwyaktxaVlHS3ZSU2tYU2NYVXJjbWlRSTZYQXZteEo5bXFnRUhUdWFFRVNQQTY0bktFTXNBUFA1RkhtczdoSDViYXpsRXR0LWJ4SjFkVkdvME9QNHZrOERDVU5vcXkweGl6U3hnQ3pWcTExTHdMOGJwaE1XejFlckd1TlVRaTdOSVdRRG1kMnFvcVk?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Boletim Focus: mercado eleva projeções para Selic, dólar e inflação",
-     "fonte": "InfoMoney",
-     "data": "2026-11-03T11:37+00:00",
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9SalNzN0tieDB4d3B3SHM1UFVUZUN0NUlkcDQzV1ZUOTRvZG0yRVdjQVliMG1tcm5yVjFsVHRRal9pV0U5VXlWUGlRWFcyYUhYcC16NGVyeDJ3NVEzUUFGWXRXVllXaW5zc1BjRmN2bXRnMDEzUmdldWhNb9IBgAFBVV95cUxQMlhabjRYckhITm94ZXRVUzVTZnhmT1NXQlQ3VkFHU0hsZEFqSGFiTUJhdjhoMG0wcWJmN1F4TlhsZGxROWliWHVYVVdOWVItZU5Uc2pNZnROaGhfTVU0ejNVd2FxcTRnMlMxajc5ZnI2dU1VS1lMZEJjS2kyT1R0eQ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Primeiro Focus pós-eleição prevê juros e inflação maiores em 2027",
-     "fonte": "VEJA",
-     "data": "2026-11-03T11:36+00:00",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYUgwcy1QaC1NR2huZlhwS0NpeF9faTVWVEJDbkI1LWE1RnN1R2lNSS1KNmNlWjRKU3ZPUE9WVlJKR3R0eXFJRFUzWXl3VGJ5OG5JWTFvOEVwTnlzbnNPZ29Jd3BZM3ozUWVWdllQMlcwZFp5ZTQyVVl5VlZfRWRtdTNfRy1ya1dyTFZMc2tCZENGME5HOHVPbmNBejRoVkxE?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Boletim Focus: Dispara expectativa para inflação e juros em 2026, 2027 e 2028 após eleição",
-     "fonte": "Valor Investe",
-     "data": "2026-11-03T11:36+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNQ1JlTFpNelhwN1hrZHl5NExKMUM2X0RJb2dEZFM4dVl0YVgwSm9WMmtlM3c0V0wxY0ZYT21pdy14U2NPUnlpbl9uRm9kemFoT1BlZTNMMF91dy1iQ1JQNlhoVnp6RUh1QjhKSHFkektJRF93MXBLNEJCcTdVWldIZjQ2MTJ1eUpzVzRBZGpkYnlHa0RvZkx4dVNGMllGc2lSVGIxdE9NU3lTWVRYSWg5Y0ZtLXh6V2tOVW0weVJvX09KRFY1MGRDcGp3cl9rc0hVU1hnaXR2elc3a3k4bjhHc0IzOXZFQzJzU2xTZjMwY3Nkd9IBgAJBVV95cUxNU1p0TmkxT1dIR1pjNjQ3NDh1SldxWEJrUWwxNGdaeDFwSlN1TTNmUk5XaFJvazNfdi1xREYteEFhdEl2UDhfSFltUDUzNWxTWmt3ak90VE9lb2hjT2xjVGtJM01xbVR6Z0x0YkhJWTc1UjFqdnV2S2tfdXBlVVhVc0ZEVHBrOEZiV29DbnlJOWcyaC13dlRPbG5HNllpeU8wYmJ4dU02WTlzSkJpdXo3MDduOHh6QlRQQm56azNRQkY4ZTlIZHJnMTQzTlhMSGNqTjJad0hPQVNMbmZPbTI3VDVSM2pjWG4zTWNrSHBRMjVwa1RRSE05T2Z4WG5VaE1a?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Após reeleição de Lula, mercado financeiro vê inflação mais alta e piora previsão para taxa de juros e dólar",
-     "fonte": "G1",
-     "data": "2026-11-03T11:31+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWVczMlQyck1uVFprMm50NDVLaDVqWVFSWjdDYU5rbnZjZTJucmQ0a0loOGpyQnRiLXJMakJPdVo5Q1oydTZSVkpBZlY0SjEtbVhGQmlZcXRfZDFRLUlLMGdERnlXd2NFMHRhcUtzTXE1QjV5NEJPVWlhN0h1UWtFQmNoaUhQV2cxaFFtM3RQNnR6MU02N2w3Y1NMTmVTTlMzczUzbjktZlV0R0VobC1kNGU4YlZrdmYxVUVGQ3NFUks2cVI0dEVhYzdlOWxfY3JxX0tHRXBGbW9XX1VyRkJPVG9YQWNiN2tab2fSAfgBQVVfeXFMT1NwYWt3aXVvYWZ4VnNCN1BZblJZOVNyZmxFMFRwT0R6eGtXc2ZsaVljX084MElXWUtmTGRfd2dSUHBncjlvSW8tQXBQeWI2N0hvay1EVXgyWEYza1psaTBTQ19xVFFEb29xNzIwTHBOdW5EMlVoSG56REJpdnBzVmk0RXFzTnYxWDlMWXBmU3VSb3pIUXEtd29MTGp6cnFWRmVXejNTXzktVEFVYkJWRHRhVmh4Tzd4WnVmZXktd1hpQ2J6THJIeG1WRGM1eWhNS3ZpcFlCRXEweTF0SWZCcUM0RjB2YldzRFl1cVM0SFhNTThEM1dMR2w?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Após eleições, mercado eleva projeção para Selic, inflação e câmbio",
-     "fonte": "CNN Brasil",
-     "data": "2026-11-03T11:30+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOX1VXRGx4RHBzVW5pZlhEUldtZGEwelJ1NVZnaUlUdWZ5OGpUMTR6YVhIQzZ4SXRfbkdHM0VLQWtfSkJKSWZwdW9DMlNMQTYyZE9ORTNvZkgwOFNSNDFZWUdPLXF1aEVCWVhSSFBRdlJQcE96dlBwTy1mMDdFYWFDY1FFLXVKVTlZZjdUOTY5YnA3YXktRGlmM1ZoTlBfcWdPNWNJcHlBT0Y5TjR1TUJpVmkycFBlSVlG?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Mercado financeiro eleva projeção da inflação e dos juros para 2026",
-     "fonte": "Gazeta Brasil",
-     "data": "2026-11-03T09:51+00:00",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSHBwNE0zSVMzXzM0TDJNaDZTVi1qT19KWE80RWx1TklZTVU0aFlONEU4Q0FLLXhXR21waHg4TllHbHN2anBEeWxlWFlNSkFwaHBoOHprem15alk5dlZ4Wl81OC1jZFZpaDZ2NVMxS3Q5Yk9yd1ROZ1dGcU5MNE45enZmVGFaZlNYenp3YUZWbFN5WGljWWFuN3BYbGdJazdIR1pIX1BxYm5YdjhzMmFLeVByTTRNVjlDQzZSZUpSRdIBvwFBVV95cUxQSHBwNE0zSVMzXzM0TDJNaDZTVi1qT19KWE80RWx1TklZTVU0aFlONEU4Q0FLLXhXR21waHg4TllHbHN2anBEeWxlWFlNSkFwaHBoOHprem15alk5dlZ4Wl81OC1jZFZpaDZ2NVMxS3Q5Yk9yd1ROZ1dGcU5MNE45enZmVGFaZlNYenp3YUZWbFN5WGljWWFuN3BYbGdJazdIR1pIX1BxYm5YdjhzMmFLeVByTTRNVjlDQzZSZUpSRQ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Fundações de esquerda querem \"novo\" CMN e BC sem olhar só para inflação",
-     "fonte": "CNN Brasil",
-     "data": "2026-11-02T23:42+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQTRUVVQ1X090aTBJTkZWN1BmWjVRbzdBaGJpRXBrOTQybExCWnNYdV9OWjI1RTA3VVRieXE2bzEwMHhpcUpSWEhSSjZicGtOR09kUkxhcktVM1RYdlZfY3JwMG9nV0Nxa0NzVzBMdGRUSUpvQ2pEclRxQ0dZRGlWQ2pTdVNBWkJDRzdtUzk3NnB4ODM3V2dvN3paOXRZNGs5am1Td2pTNTJqTjk1ZTdKcUxyRlkyOFlEWVhESlFaNTdaZE40YzdjOWlxUWNrdVhlLTl6ZC0xUFNWZkZtNy11TGZ3Zw?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Em 2017, Galípolo alertou sobre efeito negativo dos juros na dívida",
-     "fonte": "BOL",
-     "data": "2026-11-02T22:23+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUF9iV29SZEREMVg4dGotY05JcFdYYW0wU2xPdldSR3lZZG9LVVNNR1pKNlFqWktsRGRSMzJPU2l0LWo4d3dOZm5MTzRYNDJKYm5MQ05KbFJFRTZOOHBmZ3FMaV8zRUJwUE9BaERqMURKNldHQkV4czhPc2dDc2htU3VqaXlhemJ5WXNJNkdyTUhqbTlDcnZRQXB5dDN5My1BdHRCTnBvZXJTdmRsZXgtUWxFOXphc0FzcC1KWEQzQVctcWvSAcgBQVVfeXFMTkFzaWFlaXpHcWpCRV9nZ3laMFRlMGFLX3hFQ2plQllmOE0xczU1ZzZSdWFiOWhUdnp6MEl5amx4Ul9EMVdibU5GT1hHLUViWHR4RUd0am53SHRxbmxqbVllcG9vT2liS3FvTEpmdVRaczRYMFZISTl4N1VKcEFieDR2X2hJN0FobkUxQ1VpamR0Rzd2Wjd4NEJNVnRQcmF1d3hST0M3bzlJa0VpRFd1NWk3YzA5ZXVYdkkxOXliZkpIZVJMNGlncGk?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Focus deve mostrar piora das expectativas antes do Copom",
-     "fonte": "O GLOBO",
-     "data": "2026-11-02T22:05+00:00",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNM2FfdnM0eVJLTndKVTJqNjh2NktlMWVoUmVOXzJIOUJBTms3Q3JuWmtFV19EWDkyQ3k1dEFfbXA3YmRKNFhvNUZXbHRXZFNDOUpKTk8wUy10X29pMV82cjF5WWctdlBNcEl5NndQcXJnMXFsLVJWbXQ2TVpILThnWXkyVlJsMHZtQjFBSWMzTm9oTV9VMTZSa1hHcHFMS2lHYVNpUkRuaGVKaEtDVm5RX3VoTFI0Q2h5eUlQdNIBywFBVV95cUxQZElVYVkzRFVmc25WcXVobXdMNjhNRFRYRUEwXzg5SjdvLUlPaWZtMUFpZGdHanF5OFU3ZXpnNFJqYkF5S2R4S0U4bldJd2RtYlBJXzQ2dVZPcnFCU2lYeTFEV0R6TWlDaFY4ODh1WHNLV2pNbFZOT0I4VWJMV0FOaU5PS3k1Uk43ODhjZXZwVG1wbnZlb1pUYVppVGRmZ2ZaYU40Y0M4TXNiWVZnQm9xVDZEdlBoVDhzTi1JNW5fRzBXazFnR2ZQOTJNbw?oc=5",
-     "sinal": 1
     }
    ]
   },
   "selic": {
-   "indice": -0.043,
+   "indice": 0.065,
    "n": 80,
-   "alta": 5,
-   "baixa": 9,
+   "alta": 12,
+   "baixa": 7,
    "itens": [
+    {
+     "t": "Copom decide hoje se mantém cortes da Selic",
+     "fonte": "Jornal GGN",
+     "data": "2026-11-04T14:54+00:00",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRXR2bHlsc0tSNzJFaHBwU2ZkbmJuSi1pRkJra0FGTTRJRlRISHlLV1gyZzJ2Wnd6eV9YVEVjRHpxX1NIaFpvYnM5djBvMTZjTHRoOUlJSV9aUUd6OFZXQmNTcGtkbS10dFVJU3dFWExNNUZxSmdjYTdEalVOcnU2UTJqOA?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Tesouro Direto hoje recua dos 8% reais antes do Copom; veja as taxas desta quarta-feira",
+     "fonte": "Estadão",
+     "data": "2026-11-04T14:20+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNSGxHbThwX0dITFgwcERPX3ZKcWpIQmRERUZZb1JQV3FEV2prME5iODRjN281b05OQm4yc2ZwOG9NMDBfaWVDMDU3ek5FWGVKbzY5QVVHS0U2QlJ6S2dYN0wyZjAxbWJrcXhyVlNCZjJKdUxXbng1U1UtMklVb0VwNTJQUGxoODFNbEJ4YTkyc1RYV3VWMEVLb3pXRUdIMnl4UEdzZnZETklkalBORlFoTzhMcG51LVRmY2hkLTExUVV3SlRRaXVIZUJqUmJVRDdRVml0c1Z1a2Q0aktr0gHiAUFVX3lxTFBEVFhLSXRsdjRrS2NjMGNnQTJvNFg1OFptSzV6NF9oT0ZFMlFMYmxlU2hJU2x3bGRtczhJam9YWGE4Z2QzUkpqeXdpTWZRWlE2Y0dDR05EVExQQURtZWJOQXE2OHg5aS15ZldKSnhQSGVhbVhRTGNyVU1nc0NiR0V1a295RnU2VERUT01ZVVR0VE41MUVXVHBEa05lUzB1MGJOcmxYYXcwMkxMMXdTU25hMm51MXpFU0N1VUJSUThvQlB6dzAydDlaU0NZcmI1MkpXZ3B2cTBaYng4UWVGS1R2SGc?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Copom decide hoje se corta ou mantém a Taxa Selic",
+     "fonte": "TV Guararapes",
+     "data": "2026-11-04T14:10+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPY1BuWHdqRTlFaEJtMF9zTWJraEdQYlNzZjFWTlhTWWV3VWhmXzF4VGhDTkM2Rmk3dW1vSjlIeklXT3FOVEh5LVlrdjd6cmV5RGJrenllMVY2dF9mc3JTNTdsUnhiMjNYTWlDenMwZE1YdGIycXVKR2xiSUdKbW9Zb2RXZGtFcFJJNFM3cVpTdm1GWGZtRy1xSTE1bmYyZS0yX1V4Z2F4c0MyUQ?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "As pressões que tornam mais crítica a decisão do Copom sobre os juros",
+     "fonte": "VEJA",
+     "data": "2026-11-04T13:54+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1FoQWw2THJyZkRHUFJGWVJTeWtaZFBUOVk1aEtPTUYzSnBYWnE0T0xDb3QyN3N3Q1FUQlAtcklDc0h1ZDVxMGo5NTd3dUJ6bWN4TmtWOGRQaXR2NUVnTThGWkFrWFdMeFZmb2U4Qm5oajgxdzhxOWc5WkU5TUVrLVFINHc5TDh2R010V0ZUSHVzZktfamp4MDc3VVBsMWlYT3Zqa040dms?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Copom decide sobre pressão: maioria do mercado espera manutenção da Selic",
+     "fonte": "InvestNews",
+     "data": "2026-11-04T13:47+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWEhqZXl5dGhnSXRCVTF0bVhQRmlrekpJWmVqRmNKZ0hJMkppcmNiTl9VQnY1aFlqZ25vaGtFYVUzT2xPYWVJQVgycmhGWllOMkEzMDR3TU1jRTRSY0hRLWxheEhtRTdmRHVIVFM2U1owQ2ZOU3JaOWVPWW4xRDZmVklCLTAtTWpSVl81QWJXNDhINDNQN1V3MXlBdTVRQVY5OXNvWkh1YTdNT184UG5Bc3R4TdIBuAFBVV95cUxQS01CZXI1Ty1TN3RnV0QwdUJ1dnIyZTVPSzJaWUx3Skh2ZkxaRXpZOHJ5SVo5bUNpTEF1T3VBamhGZXZjUXdIVGVLZWx0a0NSQm8yRUozbEh3eENZN2hkZHd6cXlISzZaYndlVDhOSlJ4R0RLZFFscEM3RXlURVlQQmVhQjY5alpPTy1RRGdXRnFuanlwQTV3Y19yU2MxRFhhYVotNjJxOTJJdjlUTks0cVdDdFowZHpG?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Mercado espera que Copom interrompa cortes na Selic e reconheça piora do cenário econômico",
+     "fonte": "Valor Econômico",
+     "data": "2026-11-04T13:40+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOd1dURTM1RC1VVUppdnVNeGdfRXFnY0pGbEtVRnRBUFJiXzJHQ0R3S0wwRDRta0JJbS1URHlmX3hJS3B2aGgxd0dENTlZVklBSlRGM0dvd201YnpBZ2hEbnRzcmlrWDBsR1dMWU45eEh4Z1hWNlZ1TnBOc3VDMExWTmtqZ2FZMm93cVFBckwtdDRqbzlWellYMldjOHNKbE5MVHcwYXd5MXRVQnN1b2c0Szhvd0Vyd0p5SFRDd2xCS0NXOU9Nd1QtZnZlM1BGZWZwLS1td3JtUC0wUTU2THfSAewBQVVfeXFMUFJLQ1NDbk11VDRYUDJ0eFJvYldUV2JJWjJVcjltNWR6c01RU3dGYTI2VHc2cndnRm9oM1FMYTJ1b2dmdVVNel9Nc0dWTUFmOFRwVjNYVE1RM1hYRHZHdzF6d0FvT1RDVWJoRVVFdzZVclpob3ZRMXBsbjdfRU9hbXliQjBsWGZFWlBoUHQwamg4SzJhSUFjU1JCZk96VUR2YWVkWllEUDFxYlVUVGR6VV96ekpvV045NkRPRkxaSXhZM0FsQzRWdFhnWkVrVGFBclQtVEdCeE9NdE8zMkdpNWl5LU1pSjBVZGxVVlc?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Taxas do Tesouro Direto recuam seguindo exterior após “midterms” e antes do Copom",
+     "fonte": "InfoMoney",
+     "data": "2026-11-04T12:52+00:00",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQmJnMXBlNWJCX3czX3B1eFlzQ2xMbjB6YU1CT1VKTjRRMDltLWxlVFhWSGFxRG4yeWRHcFpJRzRmcXJhd3B2RmIzWW5od185enVoU0kzWVk1YVZESE9mckR4RS1sUmpHSmtmU3lRcTFONGkyNTV5S2dUSEh6RVdpNF96NFNvbVNMN3Q5UGJlbFHSAZYBQVVfeXFMUHZ1azgwQzZfYTdQOFo0T2hNVGZhR0Z1b0hmT3FBMElyWFNTcUcxM3pzVnZYWmdDQzdBRWo5M1pDYzBkTzNVUnN5NWJmZW1mM2JoaFdiWVNuXy1JN09CWUpRbWZpVUtCaDFkTTVOaFEtSWx5LWNuV3JSLW1OQ21hMWFuaW1rZU9KY3BObGk1NzRFdEJ3UmtR?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Copom decide Selic nesta quarta; mercado espera sexto corte seguido, para 13,5%",
+     "fonte": "CartaCapital",
+     "data": "2026-11-04T12:37+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMFVqNHczVk1nY3dram12cUF1eURta0xvN2tUOEVLc2U5Q1hnV0ZDU1F5SDU3UzlONXBPY3diUDFyRnVuc2ZYUVFvRGtEVjB4MmNNS1BQQXI5QWVIZ2pNVGhuRUNQZzZzZFdRa2xvV1NkZm92RGg1YjU5LUcwUC10TUJBQWJtSVVnWUhjVzloSHByeHJ4OWI0SlJWTzFpRWhSbjlTTk8xV3pPTjFPNTZ1NGhWaWdzNEZR?oc=5",
+     "sinal": -1
+    },
+    {
+     "t": "Copom decide nesta quarta se reduz ou mantém Selic em 13,75% ao ano",
+     "fonte": "Contec Brasil",
+     "data": "2026-11-04T12:07+00:00",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMjlZbHRNV2JWUTlsTk5TY0hOcDdWeHZGc0lEX2Q3VWpidzhOZHdLai1yckVwWjFyREdha0lKeHo2YjB4blNWUDlNOThRRmJDZkEwbG5TZS1WTDRLYzJUdFFpalNJYndyTDloV0ZuT0NYVzZFQkJiVXF5WE8wRC1iSFhvTXg5YzlDMmJoSlRzNjE5QQ?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Copom deve reduzir Selic pela sexta vez seguida, apesar de pressão sobre preços",
+     "fonte": "OpiniãoCE",
+     "data": "2026-11-04T12:06+00:00",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOGdwS0JnUmlTSkdrQl9QRzk4X09KRVBFZU03RGxJaTVUbEZKRHRET1RlQ0pvb1Z4dVprOFM2RGFZaHhiRG9KRUJEdDBwOGI5OFVaWXQ5aElwQ1F4Y05ucGJ1a3hZaHVqTW05T09JTENFcDNxTkJLREZicEpnV243MlpPNk85Rkh3bGpNRzJfUXJ3OVhqWWF1SlU0VXpxTTlFWjA0Sk5wRkIzdFZwSThjWFp3VlZ6aDlQc05TR01tazVyMnJ5bGhj?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Selic vai parar de cair? Maioria dos bancos espera pausa do Copom amanhã; veja projeções",
+     "fonte": "Money Times",
+     "data": "2026-11-04T12:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOTk2ajRJQ2JqM0Y3MnFUQkk2MVZCU3VfdURwdjVzNXZ4blVqc1FYNXg0ZVFvcVBuaXJlSHhQVzl0MEZ6VmhoZEtGRFpULXh4OVRUTlhDOENaano3bmhMaTh4VkEwaWNIMWM3N3AwdW9xLXNacXhGVjRobks2YVhveEJkT3ROc0VBYzlIci10bmVJbWtZb252RjZBQ19LWDVhM3ZEUU9wQzhsOE1xQi1HUzdJRHdhemdxVG5RRkJNQQ?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Copom decide nesta quarta nova taxa Selic; expectativa do mercado é que o percentual seja mantido",
+     "fonte": "BandNews",
+     "data": "2026-11-04T11:40+00:00",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRDhuOGtZcFFfbnlMYmNpSDl1RXVXczVEU2NLNW92U1Z2aW5DVThXbDJ2dVU5S3dSWG5jZUpLQW1kZnFvdnoxUnJZV2ROQkp1dnZCWlhqcGdNMEFuZGdSTV9oOFBoRHRJYjA5UFFDeUtnZk0zLVd4al8yQjBkTkxFNjljQkxGaFc2b3g2MG1uZWxzTHV5UDhEeXlMbUJDdm4wbVlZSDVyb2hDdmNCN2lJdlF0c29RQ3k5NE5YYUJrWUQ4c2JncXR5LV9uc3U?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Copom deve reduzir Selic pela sexta vez seguida, em anúncio nesta quarta-feira (4)",
+     "fonte": "Movimento Econômico",
+     "data": "2026-11-04T11:32+00:00",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbjNFWUU2ZHhuS2VJckRra1JFTU1qT2VpVUlHVm05S2xtcWx6dE4zMkVUUF9aUGU2RnZYamtYOU5IaDJOak9yb3l1bm9Vci1CbnJkYlY1OXpVOW42ZUFYM256dXU2U3o2bThMYkZYXzhyc3F2VnRMOU9Ca0dpSDNMd1BlTzZvczUyT25VT1RVaDRjRkJEU3ZERE4zdlRJejhrcUxtaGNqUTNhZ0NsRGx0aEJ1Q3l6QjMzc0VJTEc5WUQtLXhmODNNa05JUlZvNlU?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Manhã no mercado: À espera do Copom, investidores monitoram ‘midterms’ e notícias sobre o Lula 4",
+     "fonte": "Valor Econômico",
+     "data": "2026-11-04T11:28+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOMTdiTUhMOUs5dk9rWnluSndoRWlxLWsyalR3aTNOTDlhUVRGa2doVGFEVGJQQnBDUWNYdmEzUzNMbjVIeEJKRjNDTmFDSEJCT2NhaWlMQmw1RjdMMVBNYjNUTFdMMmlLbWs5VVpLeEI3ZmJod3h1cHNyTkR1aWJ4Q3FQelRKYmlHNEhsZUE4b1k2Q3lKeVdyZjNWR0szU3dJbjFVTHp5WWs3ZVhWbDNkbUhoSVFtSXd5RnZRbUpfU1l0bV9BU193aWlaSDdXc2kyTDQ4cHdsM1VLVl9KX2VBeTJ4aVrSAfMBQVVfeXFMUHhfaGx4RDAxYWRfYkNGYWhSdFZnUFduVmVnczF4eExNRmM5dVhEZUpZU0Z2OUlMbU5wdzJ0ajFSb0RzcktaazRfN1dRWGFTdldLVnN1RUdEZ0QxNVhCdktyQ3FjVG1oUFJ6alEzeTlPUzJZZGY2LTJ0dlU4dTQ3ZEpEZUh4WklmeTQ4WjU5RHJLZ1paRDh1Q09BMWEtNlFOT1g4cXdxZEphS0VpbmVjd0w0ZjFmbHpEdGM4Nm5BSEdDVDNsWU5DQ3Z3UTc5b240NGl6LU1HOXNtc3ZsQ2pzSUt5dVFLbEpFcU8wLXMxb3ppcEw4?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Copom decide nesta quarta se interrompe cortes da Selic em meio à alta do dólar e da inflação",
+     "fonte": "Canal Rural",
+     "data": "2026-11-04T11:19+00:00",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNY0p0V05BXzY3RzJhaWp6MG1LQ2pkbGhIQm1BeS1pQlZCdXNGMEU0MkdJWWxWeXRBZEZwVzg4S2kxVERURHhpT3dtaV9uTm1VY1E2c2VNbFptUzJISFNJLTNjcnY1VFE0QXk3cnBEM3BlNk9HUlNLYUNRek5aUVU2amp6UkZYUTJPbVdjWWRBR241aHJjQ0I1QlBrdmc3R3g5SWVSU18zYXNMZmZJdFV5UEl4dE1zZkt6ZVZ5eHNreVBZWEEtNmx1ZldKa2RmQQ?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Bolsas sobem com vitória democrata nos EUA, e mercado brasileiro aguarda Copom",
+     "fonte": "VEJA",
+     "data": "2026-11-04T11:14+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPV2dYZDk3NWR3VV80VWdCQ3pjTXRVeDlNenY2aGlwMHhoMWdteHJ0LTZrbjNabWZTdDZRRDdoQ3NsREtwd25yTWpOaDRNWk8yVVJ3dnM1bGJTYkZRQk8tYTA2M0RoUnNSSXVLZXd5enBsZzlzSTMwaXZVYUVXT1hSLWdLcGNldDU2M3c0Yms0Q3FDbnV0Q2xMTDNOdHJyM1IyUmNuX1I1Z0hPeFliODE4QkZaMA?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Copom deve interromper redução da Selic nesta quarta-feira",
+     "fonte": "Valor Investe",
+     "data": "2026-11-04T10:58+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPOXQ0SUxPYlhFQXNiU0hVMWdYQmJVSThTVkJoS0gtV1E2QzZtUVJncFgzaXNEQVlrRm0tX1k0a2V2OXY0MW93N1NzVnBhVlAtenBjSWRNTk1fSjhNYWNmcFBRci1tVGdQMmlLd0QxdVdNNF8zLXpsTmVaU3pEa0dBM05SWS0yVE12dHdueFpYb3pVbzd1ZGdXRkpjZk5DdEVYS2FTb1dKX2gwVm9DWEZUSTNIMDlDQWh4cTlpTnQwNlVERVJFYXlTUGN3RDl4dUF5cVBZb0dRekdub1p6SkZ3QnBZQW9Td1U0VVVj0gH6AUFVX3lxTFBvaDh2TGtlcFBUazQyaXRqOXZyZDVnWWdDWkYtdHJQeGN4QlZILVF0RlVEQXpZVE1aaVRPREk1NWhGVUU5d3oyT0dVUFVBekR2aFB5aEpyb29raG4ycTJHenY1cTRtTk1VZEh5d0lLLW5IQV9PU21hc0lxdDlqeG9ER0xockgzSUhiUHptVjM3SmNzeGNPVjlnNlpTcEhwdFA4Qm1xS2JzQk5NamF0a1lHOEw0UjlSZjBUY3ZIajI5aWVUQkNTeHF3VWV4ZFlQVmZJU01JRFJwRDE2VkRjM0oxVWRSV3hBWWpLUmh1aWZuNDNzclJ1SzVFVlE?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Copom decide taxa Selic com mercado dividido sobre novo corte",
+     "fonte": "Vero Notícias",
+     "data": "2026-11-04T10:50+00:00",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPd2VPWXZNd2tRaUxpS0l0MDd6eWlKTEhPb0xndHB5YjE1SDFaMXE5TWE0cTY0ODFOdW5wUHRkYjUtejM3Wjc3dmp3OUg4WW1HdXkxbV9LUFhLYl9tWjlrQXNXUWROd2JnOUxMNFd2bFdwM3NRMFFtSE9CejJfSng4enZmM3ZtS0FTck9BNnZ0SHZsaVpCOTUyX2ExM0c?oc=5",
+     "sinal": -1
+    },
+    {
+     "t": "O Galípolo do Velho Testamento – André Vieira",
+     "fonte": "Brasil 247",
+     "data": "2026-11-04T10:21+00:00",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE04MU1hbFFkMzhvMWZqYVVRN2RLR2xrU1VJQThXMGFHc25hVkNhdm96QV9MSUxWQlNpWjlrM2h1SExEUzE4MU1vblgwcWtEMGRHQUE3MG9zTWFuN3hkdjdzSTVENi1iRXlEekhVWV85cw?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Copom: Selic a 13,75% e o comunicado que pesa mais que a decisão",
+     "fonte": "www.ativovirtual.com.br",
+     "data": "2026-11-04T10:08+00:00",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWUp3aGRyT2VOV1U2a2h0NmJ0TjRzRTNmcHdDeXVPWkpsQzlYNVBtRGk5S0pUOGdGMzJ0SWpBQUNSaGF1ZUhySC1kVWE2VjBSNnJ1NTdhRjVhNjl5YkZTWXA2U0pvRlVDM1ZQQ2puNkEtajdzM21LX0tQWXJkdnpZWFV5UmJ3cVJpRW1lVGcyTGFYYmhhUTZPWTdDbE1TQno5UWpGMG4tWVBnX2xY?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Copom decide nesta quarta-feira se corta ou mantém a Taxa Selic",
+     "fonte": "Agência Brasil",
+     "data": "2026-11-04T10:01+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSnRSVWhCT040TmtjMTJhV1JFcV9WWUxXSFo0SDh1Wm15LWwwbnh5N1pBaVp3OUtKX19IcnM1M2VhUFZfUXhnMmp1cWYxVXpXVE5Mb1VMZG5WdGZtUnh2TUc1MXdQRkk0OUdQZGlMbE5xRmlHYi1MeEZFcHpXY0s3OTdQTVpRVE5uOFBaZEx2Ny13dWJySEdqcXpWeVJiUC1SdV9RNHlTNU9PeHdJdUNNZXBQZVd4SnItNmNr?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Copom se reúne hoje para decidir sobre a Taxa Selic",
+     "fonte": "Tribuna do Sertão",
+     "data": "2026-11-04T10:01+00:00",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQV1AyTy1ZOUtZMFc1SDJDc080Z3lHMVZmX1RfSWd6WW9XUkZLdUJ4UktyYms3TGNpSE1SdGM3bFVKZ0E2Y25FTGpXNFZCeDlJbGQtbEZjOHY4UVVXZ2E2dDZQYjhRRHVaQTB6V2llVm5Dc0tCZkpEUi1kdmJLUzlBVEhSMkhWUTNKNnNWT1RkOHByM3NlWDFfTUZXc253MUhEV3JMVWFsU3BJRkhTSkhPUg?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Há uma pedra no caminho da Selic – e o próximo corte de juros pode depender de Lula",
+     "fonte": "Seu Dinheiro",
+     "data": "2026-11-04T09:43+00:00",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOblVuMk9LWnZTVTExTVpLdVBSYkJaNDRYT2c5YmRxOV9xOW8xMThtRHhpekU0TWdpdDRMa1Q0bmdDeTNUQ3I0MjdZbW1OVWtiRFhIX2c2NmdMRjJtenBkLVgtaUNrNUk2QkxBVnNWVVpPTVZXUGhpSER0anJMOVdEUllCV0lfVU9xWmtRMkRtclR1OWlaWHBjak10dVd5bXZmcDc4bG1tcjE4dkI3aUpTQk43RHRSRFVKVEdXcWFZZ05XOGV3?oc=5",
+     "sinal": -1
+    },
+    {
+     "t": "Copom pode encerrar ciclo de cortes na Selic hoje: como ficam os seus investimentos?",
+     "fonte": "Exame",
+     "data": "2026-11-04T09:30+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORUhZZDl4LU1ESHROWXZKRWhhTWJ2c0hmam42MnNLalplU1NmQkR1c3NqdFZsTFIzcjNvdGpnRU90SjRYeXZXYUlpWW9EVDdsdUFaSmk5SmVIejQtNlBKYngtbHc4SHB2d0hSeE1mdmxxUFgzN0tCVlpQbE9DOURWNDRZb3VVellMNGwyLW9lMUpKQnQwalhsV2habXhxaWdVY0I0ZFR2cnkwT0VmbEp6X1E0M1ltcmZN?oc=5",
+     "sinal": -1
+    },
+    {
+     "t": "Selic: mercado muda projeções e vê decisão do Copom como teste de credibilidade do BC",
+     "fonte": "Estadão",
+     "data": "2026-11-04T08:31+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVVNPbF8yalpHZUtXZ3gtSVhQNUItR3RfUzZGSzBIb21yT1paTHZ1djBuendQZm9qVHFFZEx4eGljY2gzX1lTSE5rYkRSTDdocVlsdmdXYWZCRjdGTFlyZXdHdjNoOXRFM2V6aUsyQUFCMWhhRU1HSDJKV1pCeWtEUm85c2EtWmxVaW5veFF4VkZhbzNCU050WXVkbnd4TERQeGhzMElIOHFRRW00bGpFT3dUOE1iU0Z2emZxOUpweS00Nkd5enRPSVhhMDFmU3FhT3UxYnM1TFZ5RUZyM0xMZHRENEFIUQ?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "BC define hoje novo patamar dos juros básicos em meio a incertezas fiscais",
+     "fonte": "UOL Economia",
+     "data": "2026-11-04T08:30+00:00",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNT3V3R0cyTUM0WE93b053QVZOdHJQRmVpaU84MHUyNEVIX05yZWNLN3hTVkJUQ0FVQ2UwM1BqWlpjZDF4amVrYmRLdWl4bjljOHlNal94M1huQlBrc1lHT3FldVRmRGl3WV9qZGxyWmxHRUdkbUIzbE9HXzVraElnbjEwVEcyS1ViZGtvTg?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Copom decide taxa de juros sob pressão inflacionária e desconfiança do mercado",
+     "fonte": "InfoMoney",
+     "data": "2026-11-04T08:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWlp1Z2xscnVCaDI1ZC1yS2tlTm8tQXBPUWFiTmJiRmp5c0xMWk1jUS1pcTFneEF6bVN3VTlGdlFDQlpVWnE4dWhhbEZ4SGZCUnlfT0RTWW1KdmQ2a2NSSTZOTnNMaFJXWkZWVW44VVFtNGd4R0JOUFh2Ynl4RzBiR3lSY3VVdnNtTmlFSHMzV19FdnfSAZgBQVVfeXFMTTJZSTlYazRRbFVCM19zaFU3MlZSb0NZeWRUU19LU2lJSXVzMngxdE1PVDF2VjJ1Z1hqUEtMemVTUl8tWGxCZ2F3SUgzczhpRFdQTURpMTNBcUVXdG13X19lazZsS1VSWDlUdS01SFRCdlp4bHhpeGxFU2FiWmg3Q0hzZlpxQVNVQ3lXSmlGVTBXSmZpZ2N3enQ?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Em meio a incertezas, como Bolsa e câmbio podem reagir ao Copom?",
+     "fonte": "InfoMoney",
+     "data": "2026-11-04T08:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTk5mTEhIVEFvWjhLb2J2ZnNnSHkyT3NET0dNaE1OMzJYNzBoUzl2dWktc1FEWTNOLXBBLWI2QkV3NjFJd2NYdlBhYVlCOFhUSGczNU9Sa1VCRFB2bUg1aXN5cG1TR1lQdzgxYVVPT0NEYi1OTG1OQVp3X0E5eGJJR0t3dFpuVHRFcHc3VHE0M2J0V1l0bWNzWHNKVXczM1IwWGpaNU5CTTNRN1NaN3fSAbMBQVVfeXFMTzM2c1FQU0R6TWlvRkduTjByaHdWUUVVbzhmdjlGUVA5YW1NSkJqWXRSTWdteElaa3BCd0NjcFlYbnB2aW5DQUY5bDB1RzQ0WV9zTExSeUk2dzkzWmFWN1Nob1RNaFptdVEzN3o4T29TQ0N0NTN0WENlRUtNb29GSTgzVDh1SjA1cDBiSnNjS3JKbzh4cFZwSWRhcC12OURQVlJmSXhoUTM5bnE2LUNFNXYyMzA?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Copom: mercado vê teste de credibilidade para o BC e teme piora na curva de juros",
+     "fonte": "InfoMoney",
+     "data": "2026-11-04T08:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMWpwUXl3dXVvdF9vNDdmc0VBdWR1eVZqUVRFVGx2cElQeUQxQTBmdGsyMnc4ZXZIckhfMjBfZWM1WkNFMV93anlTeUQyY0JFZXJIamw3c3FHcVdUOWpiVFlBU2drcG1NQy1lRmROM1BYb21GT0tzVTJ5cmpHN05JdWxFdGE3WHhXZmlKeFp0aUpULW9nRVF4ZW9HdEZSXzjSAaQBQVVfeXFMT1J1blZPSS1zN0JDRkF0UFp5ZFdJalYxMC1lSE5zRnBLcXhfc3F4R05zbHVwbGRCODBVcDN0UlUyV2ttSllvZ0FUQl9temNySUdFY3cxTzRYTnY1cnBVTmZqRVlWZ2VzRzg0V1NBLU1JLWpoa21uMnpZNFdicExJVnBWTkMxNlM2ZFl0alpSS0swQ3lSeHRoUU0tUmRMdU1GTkdpOXA?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Ibovespa sobe à espera de decisão do Copom; Itaú salta mais de 3% após balanço",
+     "fonte": "Estadão",
+     "data": "2026-11-04T07:29+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWXNNR2MtNE52Ny16dUVjNWUtUllBZW1mSlBmQ3lJbml3NUNyemRhaWwxTDdnUFBrV0VSYjdvSFR2TXJPamEyMDlkdDNmaFowRXdUckVPSzJpaUY5V1lKa3YzX0RkZnZIZ2JhR2RxX2dfdDY4QlYtcXhtTWF0cV9VbU92X2VkWHI1WUM1WFhrbnVpT0ZhM2oxWmo2UG5pVHc0SlYtMFRiZE9QMUFlalpDMEVwUTZ5TXM0cEFmcTRLSmlsZDIxNG15dnpwa04wSDVUWXQwOTJUTnZtUdIB3wFBVV95cUxPV1FZbktjOGVIVFF4UlVkeWk0TTJkblJjN1FuckZtVnJQcUs3QkVMVF9CM0dPYXVSRkx1YjlkMmdrLWNhdFliUV9iNFZOelY2S1hqTHdwVHYwNGZSUGtXTHJuOURrSzRiUWJORFpWbzllTWtGNTVoZVpmSG9RcVROSWNZWHZodXJrWGVJYU43WUdVRzRDUXdBREI5YXJOTGRNTERJR25BS3VFVWZ6UHNkdXphdVNxOWlhdlVfaHlSVTdvZFQzZEc0Tjd1eHdXQUFvZlpwRE5VQmpDeTFkVDJv?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Copom deve manter Selic em 13,75% e interromper ciclo de cortes",
+     "fonte": "Folha de S.Paulo",
+     "data": "2026-11-04T07:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYXpzUm82YjNVVTBJSmZlb05EU0JpMld5NFBjYWJsR3I2Xy1oUjF0QVZtRHEtcmpvbEpyZFJOVTRJSnlSaXgtSzNKYWhaYWdDQlhVbkxNSEpnZFBnazBsNWRvcVlwTGM5T2lNWHpmcGZ0c1JjTVMtNHYyQVZtejU2c1ladEc2T1JQZEVZT1RGQUNYVEF4R1NQdDlmRUo0SEU3OUs5U0FjQXNIN3FEZmZNLXJoQQ?oc=5",
+     "sinal": 0
+    },
     {
      "t": "Copom deve optar por pausa nos cortes da Selic",
      "fonte": "Bom Dia Mercado",
      "data": "2026-11-04T04:32+00:00",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVDh2REZEcXZsaEMydEN2dFAta00xdnJEOXo3WHVLQzl3TUV2MDRzeTFDUm1iSUkya19wdHprS3lteUk2ZXNYWXpEVm5GQV82NzJYVkNENXctcjl5T05sNTMyUmlWbmIzVlUxNUhMSjJYOGMwdjZfdkNyN3JwdHZoSmVOOGNweGJDX2MyUWUta3JSSHc2SFQtWQ?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Vai rolar: Copom deve optar por pausa nos cortes da Selic",
+     "fonte": "Bom Dia Mercado",
+     "data": "2026-11-04T04:29+00:00",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQN0k1V1ZkTHlPak1OX3kyV2JQb2hyRlNoTGhiTUJLd3dEa2s3SV9MSkJxSGgxYzRfUXlwSlpnMGZYUHo2WDBJTDBITHhfbzBpWk9memlYd3ZPRGNNaThma0x1UWNiNXZYM29lbC1sOTZMblRWMHV2aF9MQm5DXzdmWV95ajRVRmhvMV9Kdl9BVlRtcXNpVk9JVjA3QmdUNHRTbzhULWZQQnAzMWtYNktIN0JJcWw2b1d0X1E0MjZlYk16REJqUkE?oc=5",
      "sinal": 0
     },
     {
@@ -617,6 +841,20 @@
      "data": "2026-11-04T03:00+00:00",
      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQQTBOaFZqVTRqM0VCR0wtNHdZdzZWZFR2aXJITl9kZFR5ZUhDWUZIWGdoRlY4MDRXclpvX2wzNnRNTWYybl9GX25LUUVKU1pKRGRWcnlhRmVXR1VtYUxIcm1TWUFReUdIcDhRNlA5MEFScWFpUnBlQW1MUmZFbHNKSnNkM3daeHlDekpSMVlhdlZqNGpFaFFUSjFVVGZvOGh3WmJ6SmRMRFV2elBmcktFSmNCZFhyUHRtWUZ5UWZyZGo0clBuU0NtTkdLT3ZzeGhKR2V5blVLY1lWaTdnLUNrRWZnTzNqbTdjVXlpeGRVb2wyUnJmTE5Wa0VYMGFIQdIBjAJBVV95cUxQWHV5TF9NdjB4VHhmRzVGbmZ3aGtfZXp1SFUtaHBmMzdlc0tTWGl5Z25ybERoaFptSGlnZmgyTXhwd3dWZDY4U3FaTHIyVldNc3BHUmthbFVZOGw5dEhhVWZXQlM5d29WRm5IQXVfVFVlUGJSbTQzVG1BaTVfQl9Ia3BYaGpiaHNGOVctWUtLMlNfNjB3QnEtZ0w0c2gtUk14YUk4TENRR2F6a1hIckF4Ri1UV2VFU3dncWdtb2t5V19KYTZLSFFwUThGdjdjR2ZqY1Rhd0MwcGFQMWQwdjVKc0NQWnJhRlYtcm5EWmR1Q29SVDJLM29fdk1oeXZ2VzkzaXhzRjE1SmdoUEpS?oc=5",
      "sinal": 0
+    },
+    {
+     "t": "Copom decide Selic pela 1ª vez após eleições e EUA divulgam payroll; o que move o mercado na semana",
+     "fonte": "Estadão",
+     "data": "2026-11-04T01:45+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQZ2Y3Y2ZfdFBkOTAxTDFmUzZNbHRxeFBZLTZBMFBFZnktRVg2Q1padDFrVENodW5HV3B2MHlDYmlSTG4xTlRfOHV3NHVKbXQ3V2NQWEh5OEVpSzdicHRUXzJFZjQtYUZzU1Q1WHBLdllZWnVWMlRlUkJzYjRkNmFFdy1rcGZrdC1vZVE5by0tSGlNcnJ2RDlQMHU1X3laNFVMbThDb0tweXBwRnZVNmx3QWt5QjZ3UnZCeWNHb3d2ZjlINzZQTWFhbFBsUGJmcHJoc2htY1FYNVk3UWhkZ3o1WkQwYlRFU1VDRjdUUTJJZ0pvYXpHV0FR?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Copom anuncia a Selic hoje, com mercado apostando em pausa e dólar no maior valor do ano",
+     "fonte": "diariodenoticias.com.br",
+     "data": "2026-11-04T01:07+00:00",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUXB3OVd2VXZZZ3pYNXRiTFBjOFlTUEQ4R3BwLUdDUUV4UUlSc29HeHpraEtNcVFSamJVdlRBYnFZc0o5ZHVRa193bHNUcUtoZ3BPQXlHRDdBVzdBaGNhSW1WbGRxRkk1Rm9GZ2ZqMzkzU2l5OTBoWWpQV2U5c0NuNENVSHVFNUwyQkJBckhib2tMWG1DTlBIakR3RlJodmd5NVJOVU1DTQ?oc=5",
+     "sinal": 1
     },
     {
      "t": "Copom decide Selic nesta quarta-feira com mercado dividido entre manutenção e corte dos juros",
@@ -897,253 +1135,22 @@
      "data": "2026-11-03T14:50+00:00",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbVExOXlibmVsNWxQMjUycTJWT2J0YWg4RWNOQVk0V2sxZEhySnVHNE45eUxMRUl4XzVsTXRxUFpjV3RrWTB6NldQZ3VLVGNJek9xUk9PQTJYajdodXp5emplb1M4cXpCaFh2Mm9PWWFraUZNOS10V3poVjhpTnNRMGRtWDE2TkV0MHF1LWg0YjJKZVc5SF93a045dw?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Incerteza na equipe econômica de Lula 4 trava mercado e pressiona dólar e juros",
-     "fonte": "Canal MyNews",
-     "data": "2026-11-03T13:38+00:00",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUGkzaEc1bjB4QWc2MzgyME1kcExybE9ObC1oZEZobFlpN05pV1UwUmtnQklQR1B5cTl1SjlpWHpXTVB3bWJjSzc5UGJOOHR2c3M1MFU1MDJXc3VPWXRqWGNPUnZnVlVVUUN4RGdTTjJKNmlQdFg2OE14bnNxbjlCTzNrTk5rNkVDSjF2RjVkeU1vbGo1LXR4MkdtaUFEZ1VqVGhsVDFtcVNZV0I2eXNncllIT2VuUFNGZlNsck9QRQ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Taxa Selic deve ser mantida em 13,75% na reunião de novembro do Copom",
-     "fonte": "SAFRAS & Mercado",
-     "data": "2026-11-03T13:33+00:00",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa0c3N01ZaFdNTHVvU2lDNnV6ck5uSmdUYVFyZTdiR01jNFlsM3MxeGZ5MWV2Ny1ocC1SRGtYbHM1SDh2ZW9PbHAzOHVfbnptVzktelo1ZHE2MEI0M2JmeVNpazhjU1RVSmszaGF0bGdkWktWa0hrcTI0cE9MZTE1eFduNUI3VWZvT3gxRURsOFY0c0VO?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Risco fiscal após reeleição de Lula ameaça ciclo de corte da taxa de juros",
-     "fonte": "UOL Economia",
-     "data": "2026-11-03T13:30+00:00",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRmpMUU4tVzhoUFo3YlVkOHJ2UGNLV2FGaFpLcHRKYXdBNDE5S3g3cnQ3dFBYNVQ5UExwNUloYVNSSGpIVVc4b1laVXJsem14bFZZUzVZX3NHU2FtVjI5QlczN2FRUER6aE1kendGSXRoOWQ4T0FVTUszd25zemd1MG9oSWo?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "Tesouro volta aos 8% reais antes do Copom; Prefixado 2032 chega a 15,63%",
-     "fonte": "Estadão",
-     "data": "2026-11-03T13:28+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQllmb1E4bW9aT1VkMG44bU1ySjJRVmFzYmFmSGZ1MGVqc1JaZ25UY2hULUZhV3ZMYkR0NmpEakcyeXF1NDk5THhYb0R5UERGRDRJczFnZ1JMQzRrUThEeXB6c2hoWHU0UVlpbTRBN0hSSWk1dnM5eHQwbWtKMjExN1hkSlVOSHBrSkFGUlAwbG1BRGdWLW1RVWtKejlXamhLd0s4SXl3bWIyc19DaHVINVJjZkxsam9rM3NiWGU0UlcxZTN4ZFFjTGxDRdIBywFBVV95cUxPQllmb1E4bW9aT1VkMG44bU1ySjJRVmFzYmFmSGZ1MGVqc1JaZ25UY2hULUZhV3ZMYkR0NmpEakcyeXF1NDk5THhYb0R5UERGRDRJczFnZ1JMQzRrUThEeXB6c2hoWHU0UVlpbTRBN0hSSWk1dnM5eHQwbWtKMjExN1hkSlVOSHBrSkFGUlAwbG1BRGdWLW1RVWtKejlXamhLd0s4SXl3bWIyc19DaHVINVJjZkxsam9rM3NiWGU0UlcxZTN4ZFFjTGxDRQ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Expectativa para a Selic no fim de 2026 sobe de 13,25% para 13,50% no Focus do BC",
-     "fonte": "Folha PE",
-     "data": "2026-11-03T13:02+00:00",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdEFENGM2c0VLTk1nZEZhVVgzdGdqSmlMNTNLN2phWVY2Mi05bWQwekEtXzVLNDQyUzRBdWQ5NndMWmtvSVhoSHZGSWxDcjJ4aldvZTIwTlpTeXdBRWc0dGxDT0twdmxXOGNmWm9kaWhJSEY1VUtFMzVoR2RTNTd2TDRlZDYwT0VJdFhFQlpQUS1zZlpuRElVd29uMWVzeHNUNlZlRnVNSmxNNko4ZGZZWjhR0gGyAUFVX3lxTE90QUQ0YzZzRUtOTWdkRmFVWDN0Z2pKaUw1M0s3amFZVjYyLTltZDB6QS1fNUs0NDJTNEF1ZDk2d0xaa29JWGhIdkZJbENyMnhqV29lMjBOWlN5d0FFZzR0bENPS3B2bFc4Y2Zab2RpaElIRjVVS0UzNWhHZFM1N3ZMNGVkNjBPRUl0WEVCWlBRLXNmWm5ESVV3b24xZXN4c1Q2VmVGdU1KbE02SjhkZllaOFE?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Tesouro Direto: taxas disparam e renovam pico pós-eleições antes do Copom",
-     "fonte": "InfoMoney",
-     "data": "2026-11-03T13:02+00:00",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPN1hQTGpxV3l4Z0ctX01IVFhSVWpaOVFDQjhGTlV4OWFkUFE0LWJZOUc0MkVBcEFfM0g1WFJoX1F1U3ZzekE3LTlmQ05CdEVuNDEyRjNHOTZ2ZkpSVjdWV3NjLXdrRjQtd08wZG1zN2N0cXZ1ODBNNmplN3JEYVlSUjloY1pMeFZzd3FtRjFJOUzSAZYBQVVfeXFMTW03ZE5oeEU5TDhGVmNnU0hTbVhkOG1VSDFoZ2szYnV5WU1VLTNCYjdvRVViY2w3NUdMczE3WWRTMzRkaGpaRjBfQ2pmMDA2QjQxMXRMNkw1WlVaZ1U1cmRrS29wMUhWTkNLUFpQOGR2SFR1ZHBiYU4tY0lBVkJjeEFPYjctR3FMaTlrYmY0eXRvb2RlaW9B?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "A preocupante proposta do economista André Lara Resende que soou como música aos ouvidos dos petistas",
-     "fonte": "Jornal da Cidade Online",
-     "data": "2026-11-03T12:57+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVVg1TTNQV1c2bkdEcDdrb3htTld2aHZoSGMzMTFOZmY0UkFfZU16UUpHV0VRbDVUNnVEd25KSXJtLU9UTDR6QWRLQlQ5eTRVSC1IMW02ZVNIXy1MYkQzUnFhR0JFVnpKVWYtYzlQVnZyNElnanJJbFNwUnc0OEdVZEpsX0FyakhKVkFvZVFQcnE2eW1vYkdJSlI2X1BjM2U5SjhZSWtGSUc0WjlpeXNBeW9nZS1Sdm1CYUoxTnhoMkgzUF96RkRuWHFaMTJNODlRRGpwcElmN0lvQ3YwZWVDMDlyWGN3RzA0aEVRZXlReHBGUdIB8gFBVV95cUxNVVg1TTNQV1c2bkdEcDdrb3htTld2aHZoSGMzMTFOZmY0UkFfZU16UUpHV0VRbDVUNnVEd25KSXJtLU9UTDR6QWRLQlQ5eTRVSC1IMW02ZVNIXy1MYkQzUnFhR0JFVnpKVWYtYzlQVnZyNElnanJJbFNwUnc0OEdVZEpsX0FyakhKVkFvZVFQcnE2eW1vYkdJSlI2X1BjM2U5SjhZSWtGSUc0WjlpeXNBeW9nZS1Sdm1CYUoxTnhoMkgzUF96RkRuWHFaMTJNODlRRGpwcElmN0lvQ3YwZWVDMDlyWGN3RzA0aEVRZXlReHBGUQ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Curva de juros se inclina com alta nas taxas longas e pressão externa",
-     "fonte": "boca.com.br",
-     "data": "2026-11-03T12:56+00:00",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdTJ4VnFHbkUxYTFvSDhtYlBqb1ZkQjlCZFhpMTV0bXZzcTZrcE02emFYaVVZenFoRHJtZ3p1NF9rWk9hRGg2ektNS3FPaTZaNlJyWmdqTFVOZE5RWjZQa09nWXdvY214XzMzT2NRQ2tXRl85OG8xZ19YS0tBVWZtY3lzdGE?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Taxas de juros sobem até 20 pontos com piora das expectativas de inflação e exterior",
-     "fonte": "Diario de Pernambuco",
-     "data": "2026-11-03T12:54+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNY3NyQ2NNdlQ2UTN6YkdmR2Utc3FQMGRLMHM4TUFRbkFfWU9wS29OS09zZXFsaU9lek1fbG9lMFNLN1hSV1prX2Zwcjc0MUpJY3BlZWU3c25TLUlkRmVVWFhoeUpEZktHTnltN0E2cFh0NkVVQWJ6Y0Zmc1BvQ2ppa3dxcjZkMV9IZDNsYjdiV1ZvdlR3dlJVbUowOVRtejZvNmJjb1BfZVpGWTFsbXFsS041LU1LU01SWnV5Y08ydXNPNTRWN0ZsTGRrZW1CTXVqWEhLOWhSbVJXdEpkTTZmMXB3WkxRaGh5?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Focus Eleva Projeções de Inflação, Dólar e Selic Às Vésperas da Decisão do Copom",
-     "fonte": "Forbes Brasil",
-     "data": "2026-11-03T12:47+00:00",
-     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBWQXZvemRnZHk0dFowR1ptM0NTWkFieXBzblVFZllzQzc5a2RTQmRCV1loRmxiZU55YmRBeFpJNTE3QmhvUXFMVnlaMjF1Y0Z3aVJBWnRMeHhoYlJwbjQxcGFaYk4yOEpIanRNV3FfRmZmR1ZfUGxaNE1oODg?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Ibovespa Futuro cai após feriado com eleições nos EUA e Copom no radar",
-     "fonte": "ISTOÉ DINHEIRO",
-     "data": "2026-11-03T12:44+00:00",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdngwT1RNMi1qbGlaaHhlODdIV1pkWnNabUN5NVcwUUgtUjl1MzhBM2U1ZXE5WnZVY3d6dHV5cWdyMksteW9EaGFZOExPX1Q2VmQxSVZIRVgzMklBZnBJWWVxWU15azdnc0RlUlZEdjJCWlhCWnI3QXh6NTd1emlPYWtTUkZ0NVFTVS01X2pn?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Taxas de juros sobem até 20 pontos com piora das expectativas de inflação e exterior - TNOnline",
-     "fonte": "TNOnline",
-     "data": "2026-11-03T12:29+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTHhfb2lPT3ZQb1NMY3Niak14MTJ1MktDREFjTGNsckhTb3ZUaUh2WTJ1RzRJV0J5VGJRRzZaYzlkYXR6NTFYN2NBMk9oaXhkMkh5dXBza3lodzhVMUozNVNNTDh3WjR2QTY4cFNodTJIeldLdnFFQkVfeEtQVlN0OVYyMmh5VU9rdUpTcTc4SnJOLVNtS3dTWTc2XzJnRHJEVmhwaEF4eWFRNFFMTE95OHZvbHRaR0ExRDdBVVdVcTZxTjAzbHVBWXhDTUJnUkE1dWo4Z9IB3wFBVV95cUxOTXh4d1lyakRKTjhUbEZaOFUzNjFJR0JSeWhhOXBPNnBaZDJrVHdROTdRQXlHZ3FWMzNaeWNXWkllc1czQlNCRHAybXI3T2IzN3pqY0RkcElvZGcyNk5jNTNzMWRlV3RRWlFMOEx6QnpNWTF2TVJIMW1wc185aXI2cGhmZXMwbkZWWC1qRmtUM0pyUklQRVh1MS1EdUJSdjg3cHBkSEpSdGVaRWJ5Y1BLMTNJbThDWTJWTXdNVjB3cVItQmF0MGVmM0lyYjBHUG9YUzhWbVY0ekRKWkxscUNJ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Mercado eleva projeção para juros, inflação e dólar e reduz previsão para o PIB após reeleição",
-     "fonte": "Estadão",
-     "data": "2026-11-03T12:27+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSHVWQ2ZzeUl0bS1PYTFrTzVNbWw0M1lnV2dfQW5ZUVVvdnc2dTRUMnVVbmRoc0E4UTlZMTJOVXhiTkxVeFVOcWdZZzhscGxPWDNVZFZfNXF3S1o2SnRqem9PcDdXODhJQXpVLTJCdi1VSFhmbTluSXBHakhDLVhHc2doenJ2NFBzSTlBaDdaWlVZX0xBRXRjUTMtdUk3M0dyOG9ETUFMNTHSAa4BQVVfeXFMTVdIYWhMVFJyY1ZobXRJZ2diMWNnSW1HbnZpMHJzRVpwYjdHcmxNamVhbWNzSjVJbGxzQUR6T3Y4b3lQSTNnbEJ4UU5QRkIxM3BJT2NnaXZhak5rNE1rTUIzM1hkRjJxQmo3M1ZzamtmTUJEbWdHZFlLNmY3d25leHZRNURvQjMwazVGUGhmTzhEV3ktVmRYS0pqQjkzS2xEWFkxNldHRzMyRkc1bDlB?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Juros futuros disparam com temor por agenda econômica do novo governo Lula",
-     "fonte": "Valor Econômico",
-     "data": "2026-11-03T12:25+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNRlRGV01ObDI2Nlp3YTJ6c21ZVlN4SWJmWlg5ZkQ0dHJhSGQybGYtZ0JkeDdUS2F2M2VkbFdrYXhQazBBdmdfTXdlcDhMSGVKVnRvejBVbzNIaFdoYjdWUjV2emVyZ1RvQnViQ3Zra2NRSG51UDF1RVlsMkNlZU9tSEFBUy11ZVd5TGNiNEljZGV4QTJLeF9mT3ZRcTRJazFYdEhJcUhRWlZNYVR6cnVSMDROaHBmUkFwbGszWi1YSWJYdHJMbDBkcDYzTThENDZ6NEhIb3o2Z3ZkM1JPY002adIB7wFBVV95cUxNY2podGlIeGtTajdHSDZNQU9la3hqWWZUV191NWpVRnlJai1GVkpzOFNVRFQ4dlQ0OGRMaEI1RV84UlpUZHNQU3BCbEJGYml1WWVNalVmR3FkbVkzYXNYMDF6cTUxSklxV0gyV0xrQ1FiMF85N1BMcWhCOG9lOVRibmNTT2pyM29FRkR5Si0xSUwzenVrMU1OOGVZbU1ELVB3cDJqSy1jc3RpdkZqV1NDVDdGQU5WWmtGdXVTSnIzRmVWRDVDSnZPU2RCUVY1QVJla1RaZ3djOU1VSFhDQ0FBNzFxekVEbmZBQi1ZY1RLRQ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Menos cortes nos juros, mais inflação: Focus muda de cara às vésperas do Copom",
-     "fonte": "Seu Dinheiro",
-     "data": "2026-11-03T12:10+00:00",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcjJvN1NyajFPYnZ1WGF2QWsyN0lHNFBvenM5SWJHUHkwTXdfVXlCODNtX3V2TXp6a2VVc3cxZmFBODlpQnlrNnl0QXppcnpPXzVtYzNTV0xXSEp3eFlRTDFrQnkxb1NnNFhhZGhDSjRNOWN1R1FNcXpEOEU1VXVMMW1wd0lnZS04dENHT2tSWndBVzctcmhyeTcwalFzbVRUZXdFZk5XeVFYZE5VRkM2dmZ0V0E?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "Copom deve interromper corte de juros após reeleição de Lula, prevê mercado",
-     "fonte": "DComercio",
-     "data": "2026-11-03T12:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUW5uMTd1dnZEYWVpZUVNeWp3Z0hjb0F2WE9WN0tHTnZoTmd4aTMxZnNtSXJPejQyNUlCUXBKVzRpcnpnMnMxNkpQV0ZHeWJYOU5JdkpiNUdVa1RIQ3dMczNxQnd6T1ZFd2xiU3RualU1d1BxenpHRXlqa3VqdFZaODBxZ0R0dWlpS09tZmlSbFBLQW82ejQzUzZidm1VVC1SaERQS0dGdzh3cVdzMGpnVGZB?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Focus: expectativa para dólar dispara após eleição; mercado eleva projeções para inflação e Selic",
-     "fonte": "Estadão",
-     "data": "2026-11-03T11:55+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNSlFDQ2Z0NFF0VkpEQU5YQ25UY3RYU3QxOWljUEkzU0F1SUU3X2xXUjZzWUx5dlp5bzdHUmw2eUM1c1gxcDZxejhDcWtUVURuOUlKNnlOM21OVkYxRmw1Z2NIRkR3azJiVlJZQTdnUWlqTUR5VnhJbC1IQ1pMT1BPSVM1R0ZRQkhDTTMycGRvVXRnLTk4VjRJdFZ4UWdsZHRWQnJXN2l6T095NDVPd284RnZXVUNBdFh0cVhTdktTcWNOcGNJaC0tandfLVRSVEZkb1RWVjJSUDBpWFhQ0gHiAUFVX3lxTFBKWWNJS0JpVmZCelloZWZlU0tGUVFBbkx4b05BZnpFUnYxbFRYbjQtMTlKVzVSZDA4VVNFN3hqVV9WYzV2UVNneVlqSnZVbHA3cDdtSFFUcFFLcnk2Q25Oek9hTFo3QmhfcnNSOUFSSmIzeUkzR2VkdW8wYTQxSHhPZkJpSFl1dGhxNVZaVUxpWWE3ZTdsRkg0NHhTaUxLWVVnT1VUTWlBMF9ZSzVOdkxtdmU0ejZZTlMyZnRDam95RVA4bDNZZHRQZFJWak9mcWhkd3ZGVXkweVd3S2NlUlY3NWc?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "BC se reúne para decidir juros com o Focus piorando as expectativas, o dólar em alta, e muito debate interno sobre taxa de juros",
-     "fonte": "O GLOBO",
-     "data": "2026-11-03T11:50+00:00",
-     "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOTjF5dERNVzdEQ0dOenhzMHFkaFUtdy1wT1FLYjcycXlabTF5eUgtdFhnSDRmazZZSS1GbkI2bTF1ZnNBLVBfMEtrVFNZNVRtd2h0dy1vc1dpUG5IM2s2TEctelpBSHdablJuSDFtdjZub3NHVHV4bWtRd0pZVUpMem1DRl9vb08wbEhuUlNZQUNzdTA0OXAxQndKdVdsNnJ0MnkyVHdCZmN3V3BDemY2Y0tXejhDTHhTTnptLVlLd1RDYlU4N1puWkdtSU9iT19FZ2RIWDB3RmExZmRpVklXT1pnd3dZZV9sZmFxSWt1ZDFQS093b0NwaUJyTEFDZTUtYXFEekwxNVhPd2Z6cVM1WjVzUmhFWlYyRXfSAagCQVVfeXFMUFh3YUFPbTFiQzZfMlI4bWFMeUZWRVBlTFo4MWFrZXFLWG03ZUVHY0dUd3VTbWFxYmFjcDhsRVUweTF1ZExVNGN5S0xYcUpJa0xrZ25qaFhmbkdBTFB6aEhlYjRfTXBfMmFLZHh5ZDVFcmdVcTBudm1Oa29XekZ0UDQ5NU50SkRlMzI3NEVBenJfZENPZlVUTTVaX3F1Y2JLYWdHUUNsTVFPMHFFRjNCNS1mWXFBMkpJU1QtZWhqenk0Mmg0NWNRdU5ocDBkckNXVHFtSXVBNU9QSHA4eDREOU50TnhBc3VvMVhxY3lDc3MwT1lhRzlrTXBXazVQQ0c4bGt3aGR5YnlUZHQwSmQ0QWl2N0ZFSW5vQjI4d1c3MEFDdHVwWnZ4T2I?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Pré-mercado: Copom Deve Manter Selic em 13,75%; Expectativa com Eleição nos EUA",
-     "fonte": "Forbes Brasil",
-     "data": "2026-11-03T11:42+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMGt3YlRhTEtIZnpYLXRWZ1hhZ2FBbUx6ZjVVZDJ6NTloRENWQnY0T3hPdWlUZVd0R096aTdIU0cyUkxsSGE5eGJVYkxRQ2luSVdDM2JkX0wxaFRPWjREbEdvLThVbWtnYzhuYWZyd190Y25QQ19PUzRsMVFJMUVUcTJ0a3VYMERnSklvVkp4dU5rWXRfUDJJLTE5bWp2WWR3d2V1NU53cVhjTmdRX1FMUGhkekhvMmxBeGVr?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "André Lara e o princípio de Lampedusa, por Luís Nassif",
-     "fonte": "Jornal GGN",
-     "data": "2026-11-03T11:40+00:00",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnZiMnRVZ2pSMnZlLVRkempWMWc1SFpUd2YzVjQyMVB0OUdqWWpOaFE2OTl6SG9MeHRuQzhsaHhwRlVET1dWckhILXZWNmlLRGFpdFpKSlRaaWNFUUlfOElnMDAxYkdfcHd6RzBVSEh0RGwyRVhVelV6enp1eGtlcGM2QzZudFVfQi1OcXhKajhXMlo2RDZmbl93M1Q?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Boletim Focus: Em semana de Copom, mercado projeta alta de juros para este ano",
-     "fonte": "O GLOBO",
-     "data": "2026-11-03T11:36+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQ3kxVzRJM216a3hXeWRvM2l5NzU3LTl5RDdaYkpLUzd4TUFFanBFNkRZeXdtcm9Fakw1RWo1MlROTEZVMzI3SVc4QzZSZXZiT1FvOEVSeEZCTEZCYTFGcEVKbDZYSWJMZGpwbnBkdDZ0NnhvOUxJSV9vN2FvZWFIZjhtdXZCUkNSTTZrZDFEcno2TlBTdmlCdVU2RkxIMkw5TWU2RzdyVGprNlJablVYRmlFcVBTd3Ytd0ZkeW9SbG53ckJQNl9NLXBoMzFObjIzMV9UbzNtd9IB5gFBVV95cUxNQzBRcTBtRGRVRWo3U1hTRmlOdXNNWWZkZXF4VHdLbXdyTkdPWWtGVDdrb21fdWRBOXVRNjZiT09VcmFFc25wVHRVU0hKUjNiWnFXRnVTb0VqeWtxQUd2MEVjWVQ1R0FZc3FCM2ZUNmpzRHZUcEhGazBfcE9fTngtbzZ0NDlub2JqWm9ERzh3elN2WXladkp4VzhnNUxnTXpydF9wNG5VNmhWeExjeXNoMXU2Tk9Xa2JrWFgzUVduOWlXOV9uX1hOTlc3Nk51Q2tFek9pTm4wZkREMGo4ZGlzWGttaE1PUQ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Banco Central começa a discutir novo percentual da taxa Selic nesta terça",
-     "fonte": "BandNews",
-     "data": "2026-11-03T11:25+00:00",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVTlPeE9WOHJBakpkWnEyNEN1SXpNR3VWWjNPelRGNzJKLS1YX1FYLVFnVlprTTMzam5DVF9zOURMZlg1ZHJWRzR2SHluOE9kZ2s1aFoyWUJ1cjJhM2xvM2Q3WUdPZzZPZHVGaS1Zc3pfVEZIVVV5SW1Nc3NJWVRyMGNZZzBVWUN6UlJvVnhZN25iODJ0WUM0M2pBQkFrd1hoMlFrckhWaW9TLU9tbFE?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Copom inicia reunião para definir próximos passos da Selic",
-     "fonte": "band.com.br",
-     "data": "2026-11-03T11:21+00:00",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQU2EzcGNyYlNFNEFOVEpkaGdmVmtsTVVkcE5VNW05OS1ObTNKY0pjYzNHWEFUbVJxZWpZRnppYjlxUXgwTG0xOUJweDl6YU9WRmdLekNHWDVQUjVncU82aWx5eVNRMlh5NmowT1AxR1hSRk1iM3c4dms5TWh6VlpoQWQ4N0RiQ21aYS00Tnd0Q2Z0WE4xRmNpeDdhbmJIWl9mRjNzZmJDMGEtck41czVkYQ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Por que o mercado agora aposta que o Copom vai manter os juros",
-     "fonte": "TV Sim Brasil",
-     "data": "2026-11-03T11:17+00:00",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSFJ4dkhmMktXak8wWVdCaElfZjU5QXUwQ0Mwd2JDTjJOaUFDYUNfTVo5U0xFSG5LUXA2ckFHbUdyRFJZeW4zSV92NG1fLUtVR3FfZ3U2dGZqQTNIQklva2JCdUJNTGZiYVMzSUd4VFlab3VENGVTeGRBQ29GbjJuVXQxaTFKSjFxTzZWRVNtbHhmWGQ1Q3FvSWNYdUlmSWJEYWRVWmln?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Pressão de Lula sobre Banco Central por corte de juros",
-     "fonte": "Acia Araçatuba",
-     "data": "2026-11-03T11:04+00:00",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNd2RMbUxRRnEwbDRyaUxjc2w3bDZRc1k3aFpmc1FZSk1hLVBvOTR3bkhNYThHN1pSX09LRFZyZWVCelN5TVZCN0dtTnBkb1dycjRnLUtVcU12aXFQMFRScHFJQ0l1Zi1RX3ZWcUFMRmlwZTdMM2hfNHlmTlkyUlpZUUlRcw?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "Freio na queda de juros",
-     "fonte": "O TEMPO",
-     "data": "2026-11-03T10:51+00:00",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOel9SQndLS3JNRXJLc0ktQi1CNU01dHU5OGpzeHlXV21paEd2RmhXWFc1UU94SllGc09xOGMzUV92MjZlODE1R3RCVXlSc3I4MzR5ZGgwdHVWckZqb21tUTMwSGxoNTRBZE1GbFlWYVJPWG9FVnF4MVNnQ0NBX1NJcHhYcVlHcE95akMyNllCNEF2UldSV3c?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Copom, encontro de Lula com André Lara Resende e eleição nos EUA estão no foco",
-     "fonte": "Valor Investe",
-     "data": "2026-11-03T10:50+00:00",
-     "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPY3oyY2hKNnlNQi1tZG9sb2Zpd3lDbWs5UlcwWEpsVXlPRU9CZ3M5RDZSeXJqTUNJRHJXRHNlejB5U2stc0tEelM4RjU5MEhjd1pMOTJGaml2bTlLZmIzTFotTkJVRy1rbGVCaWRncXB4Qy1oQ19BbjdvYmx2SWVJWi1zeXdYaGFLZ21Tbkl0TTRMYkU1QTdFUTYzQVJHZWQ5ckRRYjZQYzM5Wm9McXBJYmFRUmxOcnZoNU5veXBpblJzS0tWRmxJNi1kVEdsVEpyRHlRSl9ZYmlKZ2Nnam9nRHBwd1EzNmw4TDlmTFEtZUlZTXFlSnlCdW55bFBRMjhrVnZQNkZzNDVheDc2MkhwVXBmQdIBkwJBVV95cUxPY3oyY2hKNnlNQi1tZG9sb2Zpd3lDbWs5UlcwWEpsVXlPRU9CZ3M5RDZSeXJqTUNJRHJXRHNlejB5U2stc0tEelM4RjU5MEhjd1pMOTJGaml2bTlLZmIzTFotTkJVRy1rbGVCaWRncXB4Qy1oQ19BbjdvYmx2SWVJWi1zeXdYaGFLZ21Tbkl0TTRMYkU1QTdFUTYzQVJHZWQ5ckRRYjZQYzM5Wm9McXBJYmFRUmxOcnZoNU5veXBpblJzS0tWRmxJNi1kVEdsVEpyRHlRSl9ZYmlKZ2Nnam9nRHBwd1EzNmw4TDlmTFEtZUlZTXFlSnlCdW55bFBRMjhrVnZQNkZzNDVheDc2MkhwVXBmQQ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Após eleições, mercado volta as atenções para decisão do Copom e dados da inflação",
-     "fonte": "Canal Rural",
-     "data": "2026-11-03T10:50+00:00",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZzJHUWNfeDU2V3gzV3ZLY0l5NW1QblVmdlBUQXlKZEFKVHc0YTVId0xRZ3lEZE51aUh6Z1ZaWV9SMVY0S19JNlkwVTdDZktlRmRZRlJhZnp0cWI5NFZ2UzBPeU5BRTJvM3ktN0d0ZEotb1RRd0VmZGZnX0hDVFJmRVR5enRoQnJyMXFiUzNPa0IzRTVvRVp0My1SckExWTRpRjZxSjZGV1lrbHpwbW5wZTk1NlpTQ2paakN3cElB?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Selic em 13,75%: Copom decide nesta quarta se há novo corte",
-     "fonte": "Agora RN",
-     "data": "2026-11-03T10:20+00:00",
-     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1MN1hReS1MYXNpMVdVTXRyZlNYS0c3d2VhRllLR1pMb0M0VU1pVWNvU0pSUTlvRWRKOFRsZGdVc1pjeG1oZm9HTmcxVUtaeHpnSUFLVU1JVTNybmNMU3RIcDlqUE15bHMyNnpsUUtwZEJjUQ?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "Copom inicia reunião nesta terça para definir o futuro da taxa Selic",
-     "fonte": "Brasil 247",
-     "data": "2026-11-03T10:16+00:00",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPLXdoY2RXQWl3QU9KX0U0T2ZOdEtPUS10X0lpc1otcEZSR2tiVEl1M252Z0F6V3dsam5zS0lfak5vYXRJbTNnTkVSTVdKV1ZlcnRMblkzcHlRVkV0WkVJTWk2RWNiTS01b0lXc2tDck1oa3REdGZxM2hsV3FINjhYcTVDb3Vmb25aMDkxd3paTkxaVXBDVU1oNGQ3c01keEZjRjlacUlEQQ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Vai rolar: Selic em suspense, Copom na berlinda",
-     "fonte": "Bom Dia Mercado",
-     "data": "2026-11-03T10:15+00:00",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR2sxNzJ6em80SFhoXzhWY2k5MjJsQXBRNm1WTENJcTdueVV3djNWSGZ4el95OV9VLVVOU2VYWEFPRHhRRjhtRnQ1RkdGcVNmOHRFekpRN0RlSVBPRW1WXzdfZXhBYmg5MHFSS1ZzTzlWVlZmMFRTRlVmZHNOcDhJTDdyazJ5QUJ5WHdDZWRadXc2NlRxelhmMzh2bTRhWHVmTDd1Z3ItdTBYS1gzQlFseXMxYTgwTW8?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "COPOM se reúne para definir juros no Brasil",
-     "fonte": "band.com.br",
-     "data": "2026-11-03T10:13+00:00",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMVBfVVR3VG5mUnlqTjhTMlJCemViMVVzNFR6ZWI1Wkphc2VvVVljZVlkcmZGOWZxYldvZnJTaVBqN3g4NkZGR2lkbEh1X3U5SEFXaFQyV3A3VV9BYTlFMERaZy1VSklkbGpoNGVTeU1aSVZ5OUVXRmdmdTJHbHYxQktkd3d5RlpsOXVCaHFoZG9EdTJSeVZnb09FV18?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Notícia Copom deve cortar Selic nesta reunião, mas dezembro fica em dúvida, diz economista",
-     "fonte": "Kinvo",
-     "data": "2026-11-03T10:11+00:00",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTmJoQXBfS0tNQ3gxOHp1aGl1Q2N6ck14Z25oVHdoQXdZN25JVXBYWmJJY0tMNEZmdlg3Tk1kYnR1UGZMMFVHdHVWaXU0SURLeERyNl9fS3NGQkhmUTBiU1NKVEtSWDhpWnI5MlBPRno3YVBmN2xzak1yVm5aTnd2bmlrcVR2V3BLcklScU9yeXNja1J0OElzMXFqYndocko2OWN5Yl94NlRNb25udUE?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "Copom deve cortar Selic nesta reunião, mas dezembro fica em dúvida, diz economista",
-     "fonte": "Money Times",
-     "data": "2026-11-03T10:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYlU3TGh4TjVnZ2RPM2FUMTQ0bktlUE1ubjZkWUJ4Nmd5bFJzWUwyWnlqVzEwZXljLUZjY3ZBOGFSTFg0ZDI4Q0Z0bzgwa3dOdmZwdkE5TTVxVWdFSzRCWGh5VHNfZU9EZFdaLXpVVU82LXdBcGdWRGNkS04zdzBTYUhqX0FweVlFLVZvQXJWcVFCOWNzLWxXamhnM0pDNmNJTUZWSlNleHotOTlSeURtS2szeTFpWXdITEE?oc=5",
-     "sinal": -1
     }
    ]
   },
   "pib": {
-   "indice": -0.061,
+   "indice": -0.058,
    "n": 80,
    "alta": 10,
    "baixa": 9,
    "itens": [
+    {
+     "t": "Mercado eleva previsão para inflação, juros e dólar e reduz estimativa de crescimento do PIB",
+     "fonte": "Se Ligue Bahia",
+     "data": "2026-11-04T12:33+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNT2g1TUhJdHczbTRkNEJ3TlZBV3hwT1EzYTlGZlI4SWJuWVBtRElDZUs1cDRUbzJGNlljcGZnb1NjbmYwZzhYdEFlVlg1MzVtdjE2aHdTQ0JrYlBnN05EcWZFeGw3VzU1UG9UbXEyMWxoZHRwS0hKYnBOOWJRVTBrZVZ2bkd3SGhPckM0Mk5RZGhUQkF0c0h5NDNpVlJ4cXVaTk9VVzZkZUVPaEFubUp3dldtclplVUd6bzJsamNta0dnUmQzUURnUw?oc=5",
+     "sinal": 0
+    },
     {
      "t": "Boletim Focus eleva projeção da inflação para 5,22% e do dólar para R$ 5,34 em 2026",
      "fonte": "Portal do Agronegócio",
@@ -1226,6 +1233,13 @@
      "fonte": "Impactto News",
      "data": "2026-11-03T15:22+00:00",
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONWxldVdsY3RVV3d4QW9zTlJSSmZVSkRodTkxTG5aY1EwS0o2TVU5dlV1aEdmQ3pjanYyTmlYSHpPTVZlWWpSV3lZTU1UVTZYWTNfMXdBb2g2amMydnNIS0xWdV80YVA2QzkxN1pNRWV0UkY4cTFMbGVfdlpnM2ZpX1VTZGlicnh6MEdHMF9GTmhOdTNpa2p6aFVVcHVSWWdwUWl0ZDFhRXJscFNRY0lmMUlmdVZUdzJZLUhWQUxrM2dLRDZVU3JV?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Mercado eleva projeção para inflação, juros e dólar em 2026",
+     "fonte": "Agência Brasil",
+     "data": "2026-11-03T13:43+00:00",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTG9BTnRFOTh0Vmx2eEtEOGRYUGNOZFlncHBwUXJ3NXhqbGNpN1JpVk81UG5ENUdaNjYtbDByU1JtaTNpc0plWVJONV95SGVyLTN2dVBOX2QxWDhuT2FWQjRmVDJCcTdxaTVUUW5OeFFaVVlaVlM4WUczWWxsQzVHYVFxSUsxMWtkZ3hBZm1aS09WMUtzNzJvaUhsSkdmbXpuc1hKQWVhTVZpbHhPUTUxeVRMMGRxaWM?oc=5",
      "sinal": 0
     },
     {
@@ -1689,29 +1703,99 @@
      "data": "2026-10-28T17:20+00:00",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQVNESzZQRlFlSTBTMDhaWWNEdVRFZ0JwZWhqejVkVm1SenRRZTZDLWJnczd4Mm9lVWNOUjFhcUNvVHpRUkQtc2w1Tm1zT01uMWVfbF8yY0J4cEhGcHh0VHZwTkdRakVqY015aTNHRjBVWTUyOW9BRkpHSWM3enFEOUN5cDU5aE5rMV9aXzVvdVMzYk1CR2Nsb1RBUHRvSlRCTU84V0thbnVDVFBUS21ZNUxBVkRSTV9xVjRzbg?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "CNI revisa projeção de crescimento do PIB para 1,6% em 2026",
-     "fonte": "VEJA",
-     "data": "2026-10-28T17:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUUZfRTcyMElCQ1BjSWE3Mk1TSXl0R1RLdWlDZ1VaZkNubUI1TU9MalFUMUxtNnF1dl9zREJxbk01ZHQydGZkXzZZRVUwZ0kzcmlEdzkzX1IwWF9uS0tzQnM5ZGtNUm1nVk45NGhNU2tvVFJYZVBvNUxMeHdPcjE1N2RRbzE2My1qR3l3LVkzOVUzTDNTZXBIbg?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "IBGE realiza encontro sobre economia digital e CNAE com criadores de conteúdo digitais - Agência de Notícias",
-     "fonte": "Agência de Notícias - IBGE",
-     "data": "2026-10-28T14:40+00:00",
-     "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOXzM3UkR1cHVqVFhaWmhxREF0QngxRzBGZUNSNUtoMF9FTlROUXdoTE1KNXZOcTdWcEJTenZ6Ykp2V3drWWc4RVQ0UzlmVDZSeHR5X28ySkJCSUNTWEdsN2ZJTlJPVGx4S1h1RUFfSk1WM211YzFZdkxfeGQ2cGRGMTF1dlFnb0RHeVFiMWdOUUYtSk1uNFBLYUFOYUQ1UzZoSlJTb0hia0tGUkpiOTlhVGxjOUI5Sko2UzhvdGVPbGNOamRMTDBGbXhfck42MUY3ZHppcDhNTU42V2JHOXV2bWpYeWJyTkZFeVl5SGVYS2cyODlnU05YaXoyWnhVd253SExsVXBCZnlNbXJNRlE?oc=5",
-     "sinal": 0
     }
    ]
   },
   "cambio": {
-   "indice": 0.256,
+   "indice": 0.208,
    "n": 80,
-   "alta": 19,
-   "baixa": 0,
+   "alta": 24,
+   "baixa": 5,
    "itens": [
+    {
+     "t": "Dólar recua para R$ 5,46 após eleições nos EUA e antes de decisão do Copom",
+     "fonte": "Brasilturis",
+     "data": "2026-11-04T15:10+00:00",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOG1fOHZmX0tacmd1NWd3cDRmYVZjR2JVREdtX1Z3YTFyUTRiREF4V0l2MGZqR2lzUlFxMExEVzhrcGpHT1V5WE5YMHRSM1h1UE1uOGxIX1V6Z3E2S2tsNWVuQk13b0xUR0Rtb3dZcnctZnBuVFpyN2Z4aGpJWm5BQjMtbmdBNG96aXRNUEl2Vnp5VURDZzBMaW5ZRFI1T2lhX1JtWlkzalhOQVoydlUxNg?oc=5",
+     "sinal": -1
+    },
+    {
+     "t": "Café cai em Nova York e arábica testa nível abaixo de 280 cents; robusta tenta reação",
+     "fonte": "Portal do Agronegócio",
+     "data": "2026-11-04T14:53+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSTdPa1FsODBicWdXY2picW94M29fSDZGYVg0VFMxZzBCZFl2VGJSczU3ekhlRU9oX2U0T1p4YVpBanlMdlhOS2IxSWNFV3VNSEdBLS0zQXJickM2Z2YtdlpKTHBnWFJpY2JJNzI4NGJ4MTRCdFRXRTUtMU1RV0ctS1ZndGFLOTE4MXJNYzZ3cnVvblVZSjBQQlh5cFZkUXFaY0Vjd1lkOUdSWTdiVURwUmR3MlZ6bHN0Y19ab3NMUmNsYWt5M2IzcDQzT3JiV0N4UzlkNlVza3JqenNOQVpQSGtZaw?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar cai ante real com resultado eleitoral nos EUA e expectativa por Copom",
+     "fonte": "Notícias Agrícolas",
+     "data": "2026-11-04T14:48+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPaER0TFk2Qm8yWFB0NGNCTDBfaFd2M0ozZTVGUXhjQzZtSjk3NWpleWVkN1ZWR3pzZnBjZ2xyLW55MzZ5WkJzMldKMl83YTdjUGsxZGJUaUFQMVdRUEFXUmZXUnlibDF6cWdqVUtEQURwMjJFQXVJNmdiYTNMTWd0WUY5emktUk4yVWxNMU1FSkVGblBOUzFfeElnelZnRnA3OHM0d1JFTkw4SW4xbld1TDc0UGE1RmNENkZINGlYOGozT0NWTnJlZGFtaGdOcDNwQkVNeGRYTXdYakxsY25obGRiaDBLd9IB6wFBVV95cUxQVlVIeEFjX282VkNuUFl4MlhLcjRzYXZ1NnEyWjVjWHVyOGM3LXIxNVlKeWJaTFlSazEwZWlWX2hKNjZoZlJQUHdsbzJTb2RQTldkUEhrTDJQd0huZXgwY3otXzJEdG5pT0piakU3ZXdEOXJscWQ0MDBlVzBkTm5YblZSX3pHaWtRMTlXQTZERFRTR0Y0QnhGa0tHTHZXN2hNMlY3Ym8wLVBoOWhTcUh4NWpOLWdDSjJoVTBVYTNlNWEwRW91dTRFbzZQTVpEcm0xVzdQZWltUmF1Mkl3MmEtLTZOckcyaXZMNm1V?oc=5",
+     "sinal": -1
+    },
+    {
+     "t": "Dólar cai para R$ 5,46 com vitória democrata nos EUA e expectativa pela decisão do Copom",
+     "fonte": "Portal do Agronegócio",
+     "data": "2026-11-04T14:38+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPRGYzcGljXzd6bko1emstT083NFlFZF9SVENLRzRXekVWcnpVb1hXSnFveFJ2eXRyUEpraE9ZRGI0dF9aNTh3bFJjdmdKeFNVdUdWZ0l6N3Y5WEI2V3l4elVxS2JsRUJaUV9xNlFNd1R5RlE0NFd4VGJVTE5QQzB3RENXOTA0OUNtT0YtVkVoVVZkQ2Q2TFV0MHJvNXoySTBOS29velktYzNCUlo3V0RaWHBnTm5TcnBrZmQyRjBBdTJFa2NWNU0zV0FVWWotMFRXRnJZN0xKaklpTE1peXNEZ1BCa21BM1NUei1LVmIyTjdDNDNJT1E?oc=5",
+     "sinal": -1
+    },
+    {
+     "t": "Ibovespa Hoje Ao Vivo: Bolsa sobe e tenta quebrar sequência de 6 quedas",
+     "fonte": "InfoMoney",
+     "data": "2026-11-04T13:31+00:00",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRUJYTTI5Nl9DYmk0a2YwR2VhRU1MZ25TenFpMlplSU5TdmxfdkhDNGxReHp5X2xjVEJ4cVRGOS1CY0J4SlZhRzlVY1JkdzhBZTZaa0NYeGNmUzhkMHQ2M0dCZzBaVjV1UmJQYy12b2NwdGxwZ3AtY0xzYnVfN3VJdzNLUlgxVHlOU3lDTVRrbw?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar recua ante o real com vitória democrata nos EUA e Copom no radar",
+     "fonte": "BPMoney",
+     "data": "2026-11-04T13:23+00:00",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbVdVQ1lfM1Y1bHhMem1MamxlMW1TY3FGcnhxSUtBZ3RGWXBIUXBranpTMjNQZjVnQ2NBSFhOUzA3VF82bUtUMlh3VlByT2RmMENRSkgwZjJKRkVFZnFycmdCN2Vma0hOeXBZZVBZUjQ5ZVVCNkFQVnR2YWx5TWJ1TVRscEU0Q3pqbEJyeA?oc=5",
+     "sinal": -1
+    },
+    {
+     "t": "Dólar cai ante real com resultado eleitoral nos EUA e expectativa por Copom Por Reuters - Investing.com Brasil",
+     "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+     "data": "2026-11-04T13:22+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMks5UFk3VjExaTAzemF0anQ5X1ZxVjVtNDQtdTNtS2gyRHdiRGxXcG5oVFJuUWFSQlNVX3lPcExDQnpyU0thVU1zOXpnbEJmMUZRX01hT1RXLXBKWm9PdjRmTzZFZmpXOEk5OE02cFRUNUFhd3BTVHdFOGdHMmQyYjhoYXBySHI5eTBBT3oyalpIM29JN2pUdW1kWERZRkxoM0Fuci1aSlJWanZrN2VDLVhLNjJta2RWR0x4RS1iTFNfZw?oc=5",
+     "sinal": -1
+    },
+    {
+     "t": "Boletim Focus aponta alta para juros, dólar e inflação em 2026",
+     "fonte": "Portal N1N",
+     "data": "2026-11-04T13:01+00:00",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORzBiLXZfcUJVX3RfU1lPN1cwV1U4TTlKQ1V1em5qUlZHS21SMHgwc0x4c0JNRjJISHpLRGJYYjFaZFJlTTVrQXVOcnprT3lVMmhJLVJUWV9zWEw4UWU0UThHVUlRdmdjWTlnQVA4X2pYenBLMmM0djU4VW52U1V1Mmt3LUVQTjB1TndwaV9uVTZaU3pLalhZeDFHX0RQQQ?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar hoje cai com resultado eleitoral nos EUA e expectativa por Copom",
+     "fonte": "InfoMoney",
+     "data": "2026-11-04T12:30+00:00",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZmt5UVRWNmNJdWk4M3UxWjdNMzJ0c0dYM1dhUVJKaEVfaWt2UDJYWGYxQWxkQ1pMbjExRlRaeGZ2dlI0RmxXZk1rQ1pFY1dNbDVUVjU0OFoxNjBzVjB5OXc5cDUzcDVpM3Yxd3ByZnhNak9DU1JweUJVVzFRRXY0TzJ4WTJEM3pSX2hLcUc2YkZNX2dzUmVKOTVITVnSAaIBQVVfeXFMT0VYU0hGN19tNGdBZlB4LURKREJjSTRTZTFDNzFUS0EzVjhSMjdlS1JzdXprZWc4c3puUzFmbkFveUlRczBKTGMtLVpTbWk1YURrZzlvX1NPdFBfSk81NmVGYlRCNVduc2RlZmQ0aUczVEhfVFJMdkk3enV3VTlBUzdqeDUySHN0QWpaZ0hpRDUwUVNDMGN0NF94dUVYTFQ4Q0Jn?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar acompanha alívio externo após ‘midterms’ e opera em queda ante o real",
+     "fonte": "Valor Econômico",
+     "data": "2026-11-04T12:26+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZDZnQks5R29pWTdJSjExanZFQXR1dFpsVENoRG9tUkZHbXFTbGtuRnVrampoVVVCUmoya3Y2WmlOWXJLWFEwQzhlMHN6QU1jckxyZURxdUFYcUJhOGlQZkV1X0J0SjNRVWNRWVluU3dFTFdMeFlFQ3hndHNVb2VkWF9vVlY1S3ZndVdqcTMyRG04YmJ1S2pxcm5WVFZOVlphVHJJc3hEUkpXTTlBNUlUMnpsNjRYVXlfbjZnVTJUcDBXRlNYeXF1UjVxUdIB2gFBVV95cUxOSUx0M1huaE1fdmtRdUQ3UThhblR4YzFSc0t5eWt0OW1Qc3M0Um1MZ005N2U3SGxFQ2ZVNXFORWUtZDhuWTdfSjVBNk9NNE5rdHpUM2daTW9SZUFGQURNUkdnNzBqWTdKTFp5VlZhemVFWF9ST21oUXp1QzZwWFJfNFNEcGVjeFg5R3NGRmlBNHRTMHNSaWRsS2NYdDhxcktSd0NfQzg5NTZ4eHdBUVR0aGR3XzFnM0JKNmtJSlhEWVNkcGJCX3NWM2JWM2FzdGtNUkZyOVh1d2ZyZw?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar hoje: Câmbio estressado com o fiscal e à espera da Selic - Investing.com Brasil",
+     "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+     "data": "2026-11-04T11:29+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb25pZnZwLTFzenU2WTNzSFVYRjFZajVVX2lzLXItdm1jaExuMjI0R2o2RmU0Y3lsWHB6ZzZBVEx1ZmpGS2Z2U2xIeGpQV0pDd3c1NkZfcHRRT0ZYb092SUt0Rjd4TVJyN3FzYzlmV21tRlZtNkhFZmJfTjZhdzJmMnNIaTNzdUM3TXNzNGpBNl9rMXJlbmEycHVGU0VMMkpNa0tweDN3by0?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar atinge maior patamar do ano, fecha a R$ 5,48 e Bolsa cai 1,42%",
+     "fonte": "Blog do BG",
+     "data": "2026-11-04T09:27+00:00",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUUZ1ZUlWMnNpY0dYM2huVlZqb2VYSXhYamFWX0xxWHlsZi13YlBFd2xROU1DUDlnQ3FXNFozcy1LY2U5RXVFNHRKNlhWQ2ViZHBhWUgyYTZibWJPUWVCRTRmNFo1M1U5ZS10VzZ3ajhPZ3pkdjdPcExPcDB5cXJsTmluaVZncTNoMmZpLUV5QS1yNlFYbTl3?oc=5",
+     "sinal": 0
+    },
     {
      "t": "Dólar fecha a R$ 5,48, maior valor do ano, e Bolsa cai 1,42%",
      "fonte": "Vero Notícias",
@@ -1720,10 +1804,31 @@
      "sinal": 0
     },
     {
+     "t": "Brasil — Ibovespa tem 6ª queda seguida com piora do cenário doméstico; dólar fecha na maior cotação do ano",
+     "fonte": "Prensa Mercosur",
+     "data": "2026-11-04T02:26+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdXd3bXJrRmZUbVVlWVk1Yi1QOHFGbmtqOGFUTFE2SVNnYWxPdGF0RVZncnpTTUZkRXZlZ0JOd2tuZjB3UExJc053bWhEaVZRN2lTSUJKdTJQSFRRTXZ0c2tTQTcyVnUtSTBJU0tTS2w5bklfNzNLMjZsUWE3a2UxMFBHa2V6S1p4UFZQc3JwVFNDVnd6MGNCUlUzYUVQeGktT3lnb2JaSkFMRHRZZ0c2SzUwU20yd2FialNtTHRSNDZ4UWxVMDBpbHlIdERtd1dHaGhhdUhDcWFYdw?oc=5",
+     "sinal": 0
+    },
+    {
      "t": "Dólar sobe 0,74% e fecha a R$ 5,4863 no Brasil",
      "fonte": "Brasil 247",
      "data": "2026-11-04T02:18+00:00",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORU5KWS1CM1FLQlhNWG8zUVZrMGJTd2Z2T1lTSk9VUkx2b3dpbWd1dGJwT21vckFpamZETm5JM0I3NWYxbXBtZllFS2pVZVFjalo1ZTEzdTVpbEFMM3dKOFBmT2dHNVh5VWJ3SjlzaDAwOE5CcmdPc0thaVFmWHd5MFp3RnI?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar sobe 0,74% e fecha a R$ 5,486; Ibovespa registra sexta queda consecutiva",
+     "fonte": "OREPORTER.COM",
+     "data": "2026-11-04T01:09+00:00",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObnBGZW5hVEtOTGRuLVR6c0lSR0JCaE5sbWs3SjZPbGpxRE1KcnE5SG5IYjFFdGxFRjdibjVZdm5BTkIxNEZMZEo0cEtaOUZIbTZaam5XQzFuT2hoLXlCWGY4T3hlaEdPaVZ1ZHg5dU5ka21aSjVNY1NHakVVZ0pFa19wVnlqQlQ1dVZ0Nk04X04wdDBU?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar sobe 0,79% e fecha a R$ 5,48, no maior valor do ano",
+     "fonte": "O Cafezinho",
+     "data": "2026-11-04T01:01+00:00",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNalJuMW01a2x5UXlaNDNiWTVQb2pfazlKTi02bkxfQV8xN01nLXZFLVNoTk94MXgyRlRMckZfRWpyN2J0SUw4VnBkUUhkOW1UcElVcVJRNzRqR2s4TlluMWdGU2pHelJ1UnMwYWo5U1REUTI4MHc4ZjZKWFllamFUbXo0YjZvY1k2SWVEamZCekJrUDl1ZWfSAZsBQVVfeXFMUGNJd3p0STRpcVBIX3RKUFNtNWI1MldpLTVuSVRBUFVoOTFNdEduNl9IaEtvYm9sbDRpWjVOQ2psczkySFBpTEdlVzk4NXhpN2pBYXVOczJsaWxQNmU3eDBEVUR2cHZySTk3U2NHelJpazR6SHBKdzkzTndWZkpvRHVQSEpCTnRfR01JcXhySkZZc3NSSVhLSVpMeU0?oc=5",
      "sinal": 1
     },
     {
@@ -1797,6 +1902,13 @@
      "sinal": 1
     },
     {
+     "t": "Ibovespa cai quase 1,5% e dólar fecha a R$ 5,49 antes de decisão do Copom",
+     "fonte": "ncnews.com.br",
+     "data": "2026-11-03T21:59+00:00",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5PSXE2SUdkTzBnNkdpNkEyRkFhYUlfaHk4RW9Ha25rSEN4NDZ1QndJMm5udmE0TTV6YXh1VThVN2JIQ0RVQm5qWUhaNWtlMHNVTjBGdEphcjFrcmV2elkxQlVZaWREOG9SRFpja3RveGlNQ0ROaklkcWRGQmtBUQ?oc=5",
+     "sinal": 0
+    },
+    {
      "t": "Dólar atinge maior patamar do ano e fecha cotado a R$ 5,48; Ibovespa recua 1,42%",
      "fonte": "Portal VV8",
      "data": "2026-11-03T21:54+00:00",
@@ -1823,6 +1935,13 @@
      "data": "2026-11-03T21:48+00:00",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbEtyZ2pQaEJJZG12WjJVNlN4eTFkTG9ORTRzUXMydzB5Zm1TUjBoa3ZOLVM3LVVNOWJaNzBLemdIY2F1WUVBLTNOWEJDcTVlWkFJMi1vWmxxTDhuN08ySER3TUp3UXhBRkFsOVItM0JMZVdMMS0zSjU4Q28zUU03SUpwcXJjUEFPR2dFaXNzVXRyT0w5RklIdjlOWElwZXFaRUM0cg?oc=5",
      "sinal": 0
+    },
+    {
+     "t": "Ibovespa fecha em -1,42%; dólar sobe a R$ 5,48",
+     "fonte": "Finance News",
+     "data": "2026-11-03T21:46+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORXRYbGRQVC1yN0pZcXZJU2xkRnRmU01TQXBWQmpmMGlHTy1fWXo3SGVlUEhNQVFJQ1hzbUhhU3lPM3hocHZ2OWZGaTlpRVJXWEZGblVOWXVLYmZjSXAzM1FGLUlfdUYyZTJBbTg1REY5MzBiVWZQa1p0OEtzQ3J0S3BR?oc=5",
+     "sinal": 1
     },
     {
      "t": "Ibovespa cai mais de 1,4% antes do Copom; dólar fecha no maior patamar do ano, a R$ 5,48",
@@ -1860,6 +1979,13 @@
      "sinal": 0
     },
     {
+     "t": "Cotação do dia: dólar fecha em alta a R$ 5,49",
+     "fonte": "Bonito Informa",
+     "data": "2026-11-03T21:30+00:00",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPS3otN0RTTmN5c0JURkxpR3IwT1NPcWFpSWFjZzhiZHMySW5rWmFrOXZSbmNvQWFHZHlHVU9IZDJocXRjZkpDaTJhTHFDOUFJR2RZcDIwV3V3SjBXaV80Q1dsVy1HTDAzeHVWU2o4a0g5UUk1c2NDUnNGRW5ZSmhmV0VwN1pOeXVrXzRtY1psN0huV3dtUFpoYUNB?oc=5",
+     "sinal": 1
+    },
+    {
      "t": "Ibovespa tem 6ª queda seguida com piora do cenário doméstico; dólar fecha na maior cotação do ano",
      "fonte": "Money Times",
      "data": "2026-11-03T21:25+00:00",
@@ -1886,6 +2012,13 @@
      "data": "2026-11-03T21:03+00:00",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUWFfVzZmdXZQMHdtc1FtQmFpc1lvRW1rc1RrU3FvOGVQOWQ0VUFXOFotSmhKeG0xSEVONF9hYUdWQzEzRlFPdEYtTkF3Nmp4ejAzSXBvOUVSNWxvTFZHdW1PYjh1ZWprTEs5Z1dHcjNfLUxZcElVV0dEdlVxZ3lyaVZsTktNQ1RVNVk1QkY0R1RNRTNZSkNkenJBdlpPcGlUUEZz0gGyAUFVX3lxTFBuUFZuNGp5TThHal92TmZwNWJuUWpwVzJLVFk4X0xyR2xZOFFXdmZ6MUVBVGlGNDF5eDJDSVVIZ1ZIQW5vcHhEa3FZcS1MdHRNbmg0SUNwekhwUmdIaGpnNXJFblBWWmdNSWZyOTk1N0NDNU0zUFJQRXhFOWhmbVVPT21Pb3ZPMm5SZkxwdmluYllxX202ZjJVYkRYNWpNd1dDaE1KYldxNDd3MHpHam0xbmc?oc=5",
      "sinal": 0
+    },
+    {
+     "t": "Cotação do dia: dólar fecha em alta a R$ 5,50",
+     "fonte": "Fátima News",
+     "data": "2026-11-03T21:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcXBweGpBeGx6VU95elNWd2RBZ0RrVFpiaEs1bFBSRzVvSmNRekloSTMweGhVLUNfQi1TV1hNWUh1eWRsTjlmR2xVaXBEa3pxNVlmRUxNYnBvR3dHNDFmZW5YSWJhT01Vc3ZoRHpiSXRlOTVCM0swTGYxMEF5R2ZsamFLLVdsdXlFczR3QUNRanZmdFhRN0E?oc=5",
+     "sinal": 1
     },
     {
      "t": "Dólar à vista fecha em alta com preocupações sobre agenda econômica do governo",
@@ -2126,158 +2259,25 @@
      "sinal": 0
     },
     {
+     "t": "Cotação do dólar hoje: PTAX fecha a R$ 5,4935; mercado monitora Copom e midterms nos EUA",
+     "fonte": "boca.com.br",
+     "data": "2026-11-03T08:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4xZ09FZGJRdk92RXBsQzRPWWI3WVNKQVFIXzZLT29PYW9aNVlMVDUtYmpRWlpqY1BqaDlsX3BicFJvQXQ3SEYycmU1Wlh0R3hvRXV4b3RDb1czZlJhN2l6VjZaVThCbWFza1ZaZG8yYVR2OVNXbVBJ?oc=5",
+     "sinal": 0
+    },
+    {
      "t": "Ibovespa abre novembro após uma das piores semanas da história; veja o que pode mexer com o mercado",
      "fonte": "Estadão",
      "data": "2026-11-03T07:30+00:00",
      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPXzZUV2tWVUVpdGdsSFI2R0NCd0VibFVmZzg4cDIycUZLZ0Mwb0lnamdJYmxsTUk4c285R242cTVTbjU2UnAxckdmNXgzSThMQTVVMF91T0MxTTBuekdzMXFqWno3aHMtdDJSa002dTNWR0FjNDQtZXpHM2lrOUd4SWdFRGFYMXN5UE9qM2dWcTBlRkItMUFVMVM1akJWQUMwa1p6RFVFTDliYTdaN0Z6RVJyM2FPV18zSFVqMFdEeGsxdlAtc19zU210b29zRFRqUFRqdVZXQy1yV0lidFV6NTFjR2NVQ3ppcHJhX2ZB0gHzAUFVX3lxTE1lNmszMUZvMnJ0Z29tUEh5dmFRRWRaSklGUTJ6ZjdhcXhXNWctYmlITzBWOWhBWVRndlpWcVJ2ekphNzZGcUtQUlVqVEsxb2R5b1c1S2ZsVGxKQlB2cVh4NS1BcnJrRDdaNUNLT21oamowRGVTNUlTV1FXZ3hSRHpnTUpWbWs4MmQ2SV9YRmk4dHdjT3BkZ2JoTUIyY3ZCUkZNQkZfOVZuSUhybnRNWV9JdGZxdTdDaGR0SmloVUdGaHJTLUg3bWFsM0VQdnhpckVEYnd2RHh6OExPVnBiYVZhOUlJZGRSUF8tbktUNE80TUQ3bw?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Ibovespa cai mais de 1% com tombo da Petrobras na véspera de decisão do Copom",
-     "fonte": "Estadão",
-     "data": "2026-11-03T07:30+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPXzZUV2tWVUVpdGdsSFI2R0NCd0VibFVmZzg4cDIycUZLZ0Mwb0lnamdJYmxsTUk4c285R242cTVTbjU2UnAxckdmNXgzSThMQTVVMF91T0MxTTBuekdzMXFqWno3aHMtdDJSa002dTNWR0FjNDQtZXpHM2lrOUd4SWdFRGFYMXN5UE9qM2dWcTBlRkItMUFVMVM1akJWQUMwa1p6RFVFTDliYTdaN0Z6RVJyM2FPV18zSFVqMFdEeGsxdlAtc19zU210b29zRFRqUFRqdVZXQy1yV0lidFV6NTFjR2NVQ3ppcHJhX2ZB0gHzAUFVX3lxTE1lNmszMUZvMnJ0Z29tUEh5dmFRRWRaSklGUTJ6ZjdhcXhXNWctYmlITzBWOWhBWVRndlpWcVJ2ekphNzZGcUtQUlVqVEsxb2R5b1c1S2ZsVGxKQlB2cVh4NS1BcnJrRDdaNUNLT21oamowRGVTNUlTV1FXZ3hSRHpnTUpWbWs4MmQ2SV9YRmk4dHdjT3BkZ2JoTUIyY3ZCUkZNQkZfOVZuSUhybnRNWV9JdGZxdTdDaGR0SmloVUdGaHJTLUg3bWFsM0VQdnhpckVEYnd2RHh6OExPVnBiYVZhOUlJZGRSUF8tbktUNE80TUQ3bw?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar volta a subir com incerteza sobre política econômica, mas fecha longe da máxima da dia",
-     "fonte": "Bom Dia Mercado",
-     "data": "2026-11-03T03:16+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQT1NmWkJaaTJraXVDczZFTU9Wci01cHhkOTVoWVZnWTJ6dlNCWGV2WVAzOE9qWmlnOTBjTmxjMmhINDVENktoejJUOFFQNzZwWjFHbVVUeWlSUG93bjdiWUxac2w0RWhjbVAtWndXcW5VUnh4Z3F1cGtza1hmSTdFRE1Tcl9CeWc4czlpRTNHRGtGYkFWYkpFQmtaT255UHhnQVQtVDZsaWdyQ2U3Smd0UjhTU1ZJdzVZTEJ3WkM1a3ozNldwR1ZMY1ktOVE2bG1LRUNEdEJYZ2twQm9JbVczOG1oMDNvdw?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Eleições nos EUA podem favorecer Bolsa e real, mas riscos domésticos limitam ganhos, dizem especialistas",
-     "fonte": "O GLOBO",
-     "data": "2026-11-03T03:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNX2lxOGxaajRNSFZkWERuLXB5bzFEcDNxTjhJbDBCMTd3VUNZLVgtNmRxRkdiczJkWUNkbWxYejBkSDZRRzJUSHVaWDJ3NGtyUUVQa2FCVWlnY1l5Y3hiS2xpZll6LW1LckhIVFJtRFV3blhFTTVzdUNqSGtEQ3hHcU1UMzQtRURYNzc1QnBxalMwLUdSWW42OHBfRzlieTZlMlB0N0JpMEE2NXBoakhQQ01FYmZnUWpEcWpBTGgyWVV2enB3ekxyVjd0LTBBbG16WGNTOFJxdUczVThoZzZZa1B1REtWTFQtT3pWQVlQdS1kTHRCOGN5N3c4MnJYT0XSAY4CQVVfeXFMUGFFM3pqN0VKQXhQaS1wZXcwRlBqODI3Z2FJVmFucnQxR2RNbXVaZTgzZlNoU1dYMFhibWFtZXFrNEI3aVZ4MDVlWlh6VVhRTTRlOWRVdGpSQ0dPdThxNmpES3NMT0E1OVhLczYtcWJhNE9wVjRQU09PdUtwdDdHaEdGbEV2cGtqc21jRU9PM3VZd2JLTGZUbEJvR0FuQTU0TVBySHpMbGVhRDc5dmhXeHFTdGVJSVlZbWVqV2xtaUpFSGJEMG10NFpKRDIzNGE4ajNLNXZ0SW5vWENVMVdKck1Rb1JiR19aX1pFYnFmNk5OMEpfbnpIa01BYzdTdklfYU1IbE5VeDBPQzRrN2xR?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Midterms dos EUA podem elevar o dólar e juros no Brasil",
-     "fonte": "TV Sim Brasil",
-     "data": "2026-11-03T00:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORnZ2LXpla3lEVGc3Q1duS3BEMldzX0ZWaHczTjVMbUhHdHhPZllNZGdoRlRaSmFlUnZJUEhVajFBNm9pQ3hhUkVxcmVzb0p6YVZPM1h2T3VnZnhXZDhXd2Jhak03LURhV01icEd3LTNRdTd0ME9ZYklvbU0yTWJXeThZSjdHV1VjT1JkSE9wNlJiaUk3QmI4SFhFbU9SQ1REeG11YlM4RHJ0UQ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Converter 10 CAD (Dólar canadense) em LIT (Lighter)",
-     "fonte": "Bybit",
-     "data": "2026-11-03T00:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ick5PdDZuRjRMelFXMld3MFJyQjc4VjZSdXZsOEJYSDdWVXY1N1ZVRWZnUkV3R21FeGgtSXZodlV3cHBDOTExZEJIUnR0bzdSZlc1VkYySk1VMFJQX0tF?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Converter 1 XAUT (Tether Gold) em USD (Dolar dos Estados Unidos)",
-     "fonte": "Bybit",
-     "data": "2026-11-03T00:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3dmJRM3J5czY2MjUyQmxZSWNheWpWLVU2NGVjb25CR2hRcDBQVEx6RE56amJKRlAxM1d6b25mZVdkVm1tY19GS3pQcDVOZlhfbkhzVmhBaUxqUnBa?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Eleições nos EUA 2026: os impactos no dólar e na bolsa",
-     "fonte": "Correio Braziliense",
-     "data": "2026-11-02T20:17+00:00",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNld5WUtWVDJWcnQtSjQzaHhwUThTT2tnYTJlUG8tajJFSXQ4YVpHcVNTUmMwME54ZFFsRml3VThaUW82TEtOOXZnTEh0RVVDdm1LSTBPRHlKa2hTSW1HYnd6UjVBbDdhNTlfWnpHMUtYaWItWC1PWHNZbVMxSnpyenFYbTRlRFI3bVppM093NVBZVk1HUTJleW1lS1pUWlR2SHlDdkx2MUd4T3lmeDBVcGhEUmlmbkFFZWNJWjVn0gHDAUFVX3lxTE1DYTYwLW1IWjN3dkZEbVVwbDBJS19hSU90ME5QMXB6aXRUVXI2cHptenUyWDdocVBubWdWX2k3dG9SSnQ3QWlrUG9vQUZ1R0lQMF8ycE5kbnpBRG5JTEtiYUgwNWhkSjF1NWNVaWZ3S2J5WVB5Q01yNVpJbnNVdHJrSU5DNWltRjJJbG5QN0ttZEttN004QkZRd0dzdFItYkZiOGJvRmxHeDlmb0NnY2x0OV93b2haMF9qVktLMW9nNHZJRQ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Café fecha em alta de 1,71% na bolsa de Nova York com estoques reduzidos",
-     "fonte": "CNN Brasil",
-     "data": "2026-11-02T19:21+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUlRNOTZ1NmhUM3RiclV1ZkotN2w1eWpvMGJCeWpYQWc2X1JUdUdPVjR6VTFZZ3FDUWRJVWNxdzdlclMybVNrMHBSRUJuOHBzT2J4UmdxQl91ZUlzLW9QTzFQNVBOWGQwa3A0SXlTeGxYbkU3MGNQVVprQldFSE5INkU1S1M5VWZLR3JxeFU5Q3N4bnhFaWJQT1R4TXBJSG1TT2VKWk9yR0o?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Midterms 2026: como as eleições dos EUA afetam o dólar e a Selic no Brasil",
-     "fonte": "Game Overdrive",
-     "data": "2026-11-02T17:52+00:00",
-     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5oc0V5U2RyeEV3dXhobUNqa0k5alNYdXc0aW45Njlaby1IaVNJMTRFRVNuVEUwTGdWOGdfWWRMVXp3QXRXU05BNldGNlJMTThnM1VWQ0dPTkVyeDNwemlyd0w5akpwalhEdTJweWU2OGdqYnh2WDhN?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Converter 0.1 ARB (Arbitrum) em USD (Dolar dos Estados Unidos)",
-     "fonte": "Bybit",
-     "data": "2026-11-02T16:37+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBOcDlMWXl5UzZETEU1Z2YzdmVCVmhnREJBeVppcVFQRld6ZTV2SmJEQTZIalZDYm9QVHIxYTZsMHBfRDRqajFWTGRwcWpIUTEzbkVrN3dQOWxXenBwUlF4dg?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Boi a R$ 400: arroba dispara com dólar, China e ciclo pecuário no limite",
-     "fonte": "InfoMoney",
-     "data": "2026-11-02T13:37+00:00",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOVAwUFEtTV9BdW56TGduVVlpTFhKOUdsMjVwUnVObDdfa3JwY1pqTHNQU2FhUmlVbW00TnZMaTh5NS0ybHMwR0hZME84MVZ6LTQ1VXd6azl5WVVBOGt3bUZkX1Z3YkRZZHhya0dvcmtXVFpXUFdKRHNZWlBxYTRYcWw5aXZhdVM1TTFFdElqaDJPY1Fyd2JmRThhWWFJcDBCZEU0T0U0OFNVVURn0gGyAUFVX3lxTE5YLUZ6TVkwQjh0OWJpQW52ZzFWWVdwZkdRQktTUFNUZm1YOTFzT1U1eUpieXRCRzVxTXVBNjJRSnllc1NJOHNZNFdLeDZFWkNVcVhNWXhQdU5uZ2VCdkcwTmFyeGhJV3M0akxTOXBkN1J5TW4ydmFhelVFOGVDbU1MRkxRc25XYUZkZDZxY3hseEZ4UmxmZmt6V2RNc2JwR1p5Zi1Pd0tpRlJITG5TU2xkZlE?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Cotação do dólar hoje: dólar comercial perto de R$ 5,44 com leve alta",
-     "fonte": "boca.com.br",
-     "data": "2026-11-02T12:35+00:00",
-     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLX0NON3JjT0lPOTVPajdyeUxvN0p3SmtjWlNneEdLd0tGXzVHdFpERDQ5ejlOSHhHWVgyVkx6QzlOZUVhVC1tQ1liUUhhWEV3Q3dOSFZDLTM1ek01ME42TEtMVzhaUVhUaG96ek1WWXNNZw?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Euro hoje: siga ao vivo o valor da cotação",
-     "fonte": "GZH",
-     "data": "2026-11-02T12:18+00:00",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNV2RyeDh0S2VjRURHaVlHSjl5cUpuNHY5ZEhhOFBEUXduVGdSYnUxa19QblZTOXJPeTM0OG5GMWltQTFjUWlTTWEyc2hwSVVCX1JycndZN2JMSHhxT3RNanF1SUstM0xxaG1xWlNWRFYyZHBtSncxMnNqNUVxbU1Uc0JfdWZocllOMEp4WjFHMGgtN0tES2pUNFpQRUdvSDA5NDdZWmZRQ0lPYnQxRlJoRVVuMTlpUmtsQUJyUnB5WmlCR0VI?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar hoje: siga ao vivo o valor da cotação",
-     "fonte": "GZH",
-     "data": "2026-11-02T12:02+00:00",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNemM4ZzZqSHN2Z2lFQURUcHZrOFJVUXNmM2RSUWZUUmZoMUthb2RmdmZlM1VSY1VNdUVVdDA2b0cyU3BNTmlCdzBpeXJzb0JLOU5TZXJjRVNjaXFCSnBNR2NGZ2ctc29OMGpUSGVjVkUyRVg0UkpzZHBLSkxhWExTUGdNSlRvS2cxbGppUzlrTlUzaG9ZN3RneXIzbTFXT0liYTVGQ1NEb285TFE3NFh6MldKdmdpYXI0c2FWTHRSRlZJYVl0eFE?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Converter 1 BAN (Comedian) em USD (Dolar dos Estados Unidos)",
-     "fonte": "Bybit",
-     "data": "2026-11-02T08:02+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XWEVnMXZiWVdpRnpabWJnRVVjX2k3YmpLYk5ISGplTUR0a0FzckdyQVhsY0NmaGdMU2lISG9NbkFia0tMMTF2NWsxMy0yaXY0OXRQQ2JBUXBucDk3RlE?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Assustado com o dólar? Gestores explicam o que fazer com o investimento lá fora",
-     "fonte": "InfoMoney",
-     "data": "2026-11-02T08:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMld5UHZkWmhjQkpfSkxiUTZkSUpnN1A0ZmM1MTJ4LWZya1VBZDlWRXpxT2JUdFJLcmVicTFzaXRONWM0X2VwRk1RU2Y3ZFVKdnE4OHQydjRpSV9jd1p5QzRXZXlpRjUyRGZvV0NSbWVjbDloYUN3VVVWVnZSZTdta0dYRmRSaGs1UVMybXdIOUVxekdfMlNQVTQtNU9IVzNTaG5yczFQY1h2ejR6MVJYdWh1Rk4zZDktWGtJQVVJY9IBxAFBVV95cUxOMFREZ3BaVjRFbWlrQ2s1TnJKRDh0aFpnYUQ0WnMtMk56RGIycTRiczV5Y3Z0RG1kSXVqLVhLc2RVT1pKMzBrRXEtdlp1ckE0b2FwQ3VaSHlwQVRib2hKRmVSODBPRmZ1STk1QjFuVWNXY01vTGhPcnlrdkg3eFF2aXpuVXNFanMzU2llSEJ5WW9VazdlRjZ0X2dzcl91bWNlN0xlWWlTU0EtV3cteTF1bWVsRlhpLXk4LS1yTWM1aVc0TzVr?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Ibovespa encerra semana pós-eleição com perda de 18%; dólar vai a R$ 5,44",
-     "fonte": "CNN Brasil",
-     "data": "2026-11-02T08:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZnZDTFYzTGxiNnhXcTFxR1RHNnNKRFUzWVFEMjhSZDhSVzUwMGxMdzk0allUb3NUMWY1N2I3R1lUSDZMNmxYQ2h4c2NESXdueWtpSTJMa3c1QXpDa05IQUt0R05UTmZiVkhUV1IxQjItbjVkVXVweUF2TG1WbFVRTm91d1Y5S1BUNHQydUhlN2VmdjVNSV9menRWYVl1aEs0d2Jobw?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Converter 5 ATOM (Cosmos) em CAD (Dólar canadense)",
-     "fonte": "Bybit",
-     "data": "2026-11-02T04:39+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5EOGJacDY2MDVnZ1dkaTdQZllJSDRrY2wxQ1QxZDNHYmFlMFdnRXlydHI0SzlyeENmTmtBRjU0dUxwWDBmX3BXVFZELVA0TkhjODR3b19ndHVkYjFMclFZ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Volatilidade pós-eleições impulsiona busca por ativos de proteção",
-     "fonte": "Folha de S.Paulo",
-     "data": "2026-11-02T02:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObFUza1B0NkFjZFR2Ymp0S2sxOTNlX0RKRDcyTVo4WDZKSEpCa3VfTkhET3VnMFZpTTRTODRzOEJFLU9yZzRESnBVdGhUd3loMVVfREYxMURuaWluSjdjUnF2NldRcTV1bUxYYWZYUERiZUxHcm9FTWowVW9xalJKZldiWjJlYXBJN1pXYkZ3bTVDblFUNTViR21HTUd1bm9aZVpuMmRyLVhjT3dGaW5vaVdCMDdudlhj?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar comercial fecha outubro a R$ 5,42, abaixo dos picos de 2021 e 2024",
-     "fonte": "O Cafezinho",
-     "data": "2026-11-02T00:51+00:00",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZm0xMjBQVFNKTnBnZlV6aUx1b01lQ05aYldLT2cwanpXQ2dyOFNkSk1udjktd25GODVJNExPT3ZuT0ROWG9VdEI0dFgxTU1WMEJYZlBuMmVkZ0d1TUNaczltUFJUZE1JcUc1ZzlFQ0p0S1NtcS1ZdC0wekpvMEtSaDFhc2hFMFVIVGZwdW1xTmtKQ3NOQmQ5VHBvcVVNVk9PYkR2NTBkTm1DTC1xVnBmZUNvNkJ0eTTSAbwBQVVfeXFMUEZ5S0dNRTRZNEVhbUNDeFI0LU5BTlAxb0xpVkMwbWxUWDI2ZlowZ3pNc0gzOHRTQWtWNTh6UjRCSFRmZDhPVFk5SXB5R05UV1dPRzNNOWd6dk5pQjdDaklvZUlJUjNQakh1YkRrYllyandEa1lERTl6V0M2WFRTcUE1TnQwZ0ZCVGhpM2w5aDN1cFppOG1yanZldHUxUnJzaXNBU2JxTVRLQl94andvY004MVo0OXVHNzRUSTc?oc=5",
-     "sinal": 0
     }
    ]
   },
   "fiscal": {
-   "indice": -0.223,
-   "n": 36,
-   "alta": 5,
+   "indice": -0.159,
+   "n": 35,
+   "alta": 6,
    "baixa": 11,
    "itens": [
     {
@@ -2300,6 +2300,13 @@
      "data": "2026-11-03T13:37+00:00",
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbEV2aWJFY3B3aFNzSFRoMnFQMzRnMDVGV3RaT3E2X2xXai1oai1WblFtb0RsUWFpemtOSktJdk91OFYwM3hxeS1YcFRKbmJfOW4tT3ExWXJObjI5Nm4xSldrZkQtNkJvNy1QVzdGN1BVWkpZT0RUY0xGOWhaZzF6VFZocEFsOGtPUm53NWVKXzcwZ2RjMHFILXBXS3NucUVKMUs5c295U1ZrN25sLVBkVDM2ZS15ZmJ4bm5GQVRoS0MwQkk2WnBj?oc=5",
      "sinal": 0
+    },
+    {
+     "t": "Economista de Plano Real acusa BC de causar rombo fiscal via juros",
+     "fonte": "Agência Brasil",
+     "data": "2026-11-02T17:09+00:00",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORklUNEVaYzJ2WFFkVUZkRVFTdFgtREVrRnFrOFppSlpaYWlxZnR5QzRHYjQ1emcxVjg3NUtVVThrTFRvRGlLazZjaVZhb0tIVTBuUjdFV1phS3lfRU1BbWFoMjllM1lRWHNWVG1fNXlvYmNjZkNkTVljdHNVT3gtNEhiVkNpTzZfSm1zQVl5eGYtWTVSQVkwT2pxX2RhY3FtUDd1dE5hSFZKNFFReEUySEpxdnJpRlJWMmNEWA?oc=5",
+     "sinal": 1
     },
     {
      "t": "IFI vê 81,6% de risco de dívida superar 90% do PIB até 2030 e alerta para R$ 180,5 bilhões em saída líquida com crédito fora da meta",
@@ -2517,20 +2524,6 @@
      "data": "2026-10-28T18:40+00:00",
      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRnlDRENnMHU4V191UF95ZTlVREthc2RIUThhV2kxVXpIVlNvU0Y1anZwejF0Y2JXbU9Yc1c1MzRYV3ZfQUVLRUkyVG9fQ2dCRjNJWTc2UnFDMGRqaUg3OUM1Sl9NS2VsQjFhMFhnTlFNMmw5d0pVLUpsX21aTURGcjZNeUh1UUF0YXFtVXpXM1hJdFZhXzhJT0ZSLWxGcUlieXQzdWtIQ21KcmEyeFUzWFdHYlFCaWlmaF9DeTV5SVgwV3Bu0gHKAUFVX3lxTE5xQmIxck1SR3l5ZTRfdEVtTlZoQzk5NTJUcE1LaUNLdHVjdjNXeUtHcDdrTUhtdEhiMmN5Y3BUSkU1VmY4bVNrd3lsUjdqTXF2aWl6RHhIRmRUZjRXanVVWVI0WmdnQ3h2YlhWUzVYVXZnTlhGckhCM1JSTEttcHhCeFgzNmdVUVhadERvUHhDbWxHai01bFhmc09reWY1SktBT1MyNjdMalJRTHJ3SlhxVFVTcEdBRWJVZ2d5N25PUWdEaVMxME9jVWc?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Menos Haddad e mais Janones",
-     "fonte": "AEPET",
-     "data": "2026-10-28T10:48+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HRHR5QldyeUlrVVhkSTJLQ1FYUExoYTZ3ZHZtbG5HMkp4WEJlamE1b01XamxVZkVBcU9QcjlpeWZuUlhrNkdhYkk4RFIwOE4zZVB2LThKYnNITzZiZ0lIMDBkRk92eHM?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "A Economia Real e o desafio da gestão: por que não desperdiçar Haddad, por Luís Nassif",
-     "fonte": "Jornal GGN",
-     "data": "2026-10-28T10:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdlVtTkZDVjNtVXJsTFZHeE9hRkdWbEI5Mld2TldsRi1NRmNGektFdm9PRUM5WllSbVBZeEtCTVJiVkVkLVdYUFVfXzhlVG1HYnVncmt1TVNxSi1INzlxeW9XRXc1YzVlbXRvX1lwVmVwbzF5SEZOWTBIUEtKdmNvNkMtbzRNYzN3SHZZWDJOT0hwZWs?oc=5",
-     "sinal": 0
     }
    ]
   },
@@ -2540,6 +2533,20 @@
    "alta": 0,
    "baixa": 0,
    "itens": [
+    {
+     "t": "Copom decide nesta quarta-feira se reduz ou mantém a taxa Selic em 13,75%",
+     "fonte": "Impactto News",
+     "data": "2026-11-04T10:42+00:00",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX2pUN1B3S01uSlctdFc2ekxObVVUUnBHODZqVHZCVi1BMkl5Z05HMHhOeHQtSWdlbElJSFlBODRhYkRGVmVvLVNVOGRtcVpUS3owT2gxYjZRN25FU1Q3WlJONjZNTnJ5Vl9RX216RkdlWEJzX1ktZENObEs5eGcyeF9ROFA1eE5JeEx5Q2ZBNTVsVVFKcW54TWlrWWxERVduVzBuUklkcGlia3JmekRodjNFVllZMWs?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Mercados reagem à vitória democrata nos EUA com dólar em queda e Treasuries em alta",
+     "fonte": "Bloomberg Linea Brasil",
+     "data": "2026-11-04T09:56+00:00",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMEFEZjNmTEdfbUdRQVl3RUJzSnlfYjZETzdTZER4TUV3WUJ4UWVyU0UzN1ZhVE4xZDRibW00TVBzbmdTOG9MWjRLQ3lKSHhtOVpTRlZjQ2JRaTd4a0hkTUlJLVpOdXV6ejdkOFMxNXV5d0hkZ01EenljbVJid2RUTDE0a3dDRVQ4eXlvM3gxUC1JXy04RThmYnF4ZDFaVjhXNWRzVEtTblZPTENnckVMaWQyT2t1UG05MmRfVmlmNFFfcVpRbUHSAdoBQVVfeXFMUDk2OG9Xbmgxdk1BWEFNT29GVm5HV3djNy1yX0hSYTB1T0ozWU9mdnpJdlg0MHJMQmlSSkJGeGJjWkltMWlCT0hQcXd6S1FfemtEc3M4aHlTVFdFM0VaVlNjWU1aaHRaZkxGLXB1TG9FUHRSRTNiWGNVNmVUR3dCMjBvQ056QUpSWEFwVlRxcUhKazVsSi0xa3JIN2ZVYTJ3WEx2R1NCZWVBWWx6TWlxdlJ3YUlNclFWLXIzV2tDVnZfaE1RRnJXalEyNm1wdTRmR21KVmJYY1dWRXc?oc=5",
+     "sinal": 0
+    },
     {
      "t": "Risco-país do Brasil sobe 13,5% em outubro e chega a 194 pontos - Portal IN - Pompeu Vasconcelos - Portal IN",
      "fonte": "Portal IN - Pompeu Vasconcelos",
@@ -2713,20 +2720,6 @@
      "fonte": "Bloomberg Línea Brasil",
      "data": "2026-10-28T15:25+00:00",
      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUnlpZGowQm4zMGJBRUlubkFETjlwUmNzaXpXQmFmZkJmekVuMnhtODdMWU5sbkhBdm1NbFVXelRLMHRzNDUyN0trRWU2djV5UHhJMTY0RmpIRGtsQnBVZzFSa0xUQlVhczVIcnFMLXRIMGQ4VnVUcG15YjBHRlBNckszczVLbVhxdUhuc3MzZHZDZE5UWDRkOUFlMmdFSGNhRWtkOG1UWHoydjZ3cmxhdFpyMk93WFl3WFBjNFZZd29SQWNFV09vSTQ0c0NhT2p4cHVDWUFhbUs2Z9IB2gFBVV95cUxPUnlpZGowQm4zMGJBRUlubkFETjlwUmNzaXpXQmFmZkJmekVuMnhtODdMWU5sbkhBdm1NbFVXelRLMHRzNDUyN0trRWU2djV5UHhJMTY0RmpIRGtsQnBVZzFSa0xUQlVhczVIcnFMLXRIMGQ4VnVUcG15YjBHRlBNckszczVLbVhxdUhuc3MzZHZDZE5UWDRkOUFlMmdFSGNhRWtkOG1UWHoydjZ3cmxhdFpyMk93WFl3WFBjNFZZd29SQWNFV09vSTQ0c0NhT2p4cHVDWUFhbUs2Zw?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Projeto brasileiro que emprega presos para reflorestar áreas ganha prêmio internacional",
-     "fonte": "Bloomberg Línea Brasil",
-     "data": "2026-10-28T13:27+00:00",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWlp1dk5hTl92akZQWE9FZXdWRXQ1Tml6Vkhpam9kS1BzZGt6ZWl4Yk9oVHBkcDRlZnNTZkhSZU82ZXpZVXpmbzJHWlVWWVVhTGg2Xy03VnNOMFJNWjFyZHFnb3JuNTVmRy1kMVVYQVBzc1ltekloMVoxY056Qi1HeU9Kbm5xZmdhNWJqSFU1WUJJQmFyRTBodEJDbWtkSjQ5dWFUbVZlN0ZBckh2Yk42NE9DeEVUWXd5MU5Ba1duV3o0WGx2UXY0MUhJQjNqQdIB4gFBVV95cUxQV1U1NV8tV29PRG9ud29UeHBCWEVnSlZVQTZKbDdoUE5MaGFzNWEtRlUzUENaaUhEclNTNTBPNXJtTlpDVDlVcDBzdzB4Q0tUWG9qUXM2VlJ3NDdyUXVuMHBwdkdTTklYUjRodmthVWRhVDdyVXdSSHB5QkNKRk1jQVVHRXJHWTVraVA4a3ZOYktzNExFREZLQ2RxdFNVWFg1QkFaRl9jMGNwdHVlSEphUmxnSG12M0tma1RrdEhPNVBzMHlzNkN6VW5Wa0FjSjdLd1I0ZE9heEJzbm1nMFJWb2JR?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Reeleição de Lula fortalece Brasil no Brics e abre novos investimentos, dizem analistas",
-     "fonte": "Bloomberg Línea Brasil",
-     "data": "2026-10-28T09:17+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNYWlRa0QwVERMblRCODQ1cUxjZ0k5TUVyMW1MOGZIbFFkQ1JFbXV3QTlaYjhLblNMeS02YVltZi1OamQydVlMX2xzRHI1bDB3Uy1UZ0dpWnhZa1pBYTFuMDY5MHl6WFNpbm1QbnRZT2d0T0JGVVdkMWxZRllhNS1FS2dWRVBpY2pnZUtaSWdKbHNiV1lVYTVyckEwaEVBV2tKbHU3SUNKSnpIM0ZoWU9aQXdKakZPYmVGWTBQZjZfMUxEejREY2xNWFRXdnc0YWVZVEV6X3YxeWIteUXSAdsBQVVfeXFMTWFpUWtEMFRETG5UQjg0NXFMY2dJOU1FcjFtTDhmSGxRZENSRW11d0E5WmI4S25TTHktNmFZbWYtTmpkMnVZTF9sc0RyNWwwd1MtVGdHaVp4WWtaQWExbjA2OTB5elhTaW5tUG50WU9ndE9CRlVXZDFsWUZZYTUtRUtnVkVQaWNqZ2VLWklnSmxzYldZVWE1cnJBMGhFQVdrSmx1N0lDSkp6SDNGaFlPWkF3SmpGT2JlRlkwUGY2XzFMRHo0RGNsTVhUV3Z3NGFlWVRFel92MXliLXlF?oc=5",
      "sinal": 0
     }
    ]
