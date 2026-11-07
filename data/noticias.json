@@ -1,9 +1,9 @@
 {
- "atualizado": "2026-11-07T08:42+00:00",
+ "atualizado": "2026-11-07T15:38+00:00",
  "fonte": "Google News (RSS), últimos 7 dias",
  "indicadores": {
   "ipca": {
-   "indice": 0.181,
+   "indice": 0.18,
    "n": 80,
    "alta": 15,
    "baixa": 1,
@@ -188,6 +188,13 @@
      "fonte": "CNN Brasil",
      "data": "2026-11-04T23:22+00:00",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZEFzZEV5enZOY1NpS0hIMW9hOWNKQWNyUGp5SjBvUHB3V0FwQ0RFZG5LaDM1SUhOUXZrZ3RTUWdhcGVSVDRUSHQ0a3J2Rm9oQmVqMFZjQWlJbDdSTTZGeXZnVndxTVZEaC1GVm1pdmhCVWFUZnR6NGs1TmhmTjBleEt6Wm5aTUdoejJ5XzQtSUJNWnlhcDhPSVRTejRwTkJFWGxzU0FpLXltYTdYN25TZnFZUQ?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Selic a 13,75%: ciclo de cortes pode ter chegado ao fim, diz especialista",
+     "fonte": "BPMoney",
+     "data": "2026-11-04T22:30+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOS3RlSFcxUmxyd1NsbjVDblp1Ujd5MlBBbjlFRmVmVzRSVUozTGFUYnR3RXR0d2JKdndTdE5IcnJvdTNaeUJ0YlJDUkhoV3k4TndRaVVweXVUcG9yc1dxdlRZemFVOEVVTlExU3JUbWFsTWNuNU9KRTJRWWVvUkgxc0VOVGFPb25lc0FFLUdWdkNOeW5ZTEhMVGpnQ2d3SHRFYXdr?oc=5",
      "sinal": 0
     },
     {
@@ -560,18 +567,11 @@
      "data": "2026-11-03T15:01+00:00",
      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUUY5NWhfWUd3a3VpQm5JY2JSQXpkSEV2TTZLRHJrR0xZdzc2ZjR4SUFxNEJ5RjVUczZCQi1YMW1EVHEzNm9Hc2tQNlNkbzVuNnVjeHVTNUpSN0hmRkhJRVpQd1NuMTVYUjNRQVNOY3R6TEJaNThMYk5vSWwzS1ltNg?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Mercado eleva projeção de inflação e passa a prever só mais um corte da Selic em 2026",
-     "fonte": "PIRANOT",
-     "data": "2026-11-03T15:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR3dpOEdzZkZoVXdOd0hWWkFCWXVLc3pEVEswRUxvWUVMZnk2REtTazJRYkthZjdQeXFoenNLS0d1WlMyaEZBaVZRcllvb2JpWF9nR3VGNmRFaWgtZC01cWZOZHN0cmxhZ0xvRTlZb1VUT2hoOXJlMGZhQmVydGQ2MmIzb096alpDcGJrZGJwLU9rMzlSZFlXRGl3?oc=5",
-     "sinal": 0
     }
    ]
   },
   "selic": {
-   "indice": 0.295,
+   "indice": 0.294,
    "n": 80,
    "alta": 27,
    "baixa": 4,
@@ -829,6 +829,13 @@
      "sinal": 0
     },
     {
+     "t": "Juros futuros recuam no pós-Copom e com mercado de olho em possível ajuste fiscal",
+     "fonte": "Valor Econômico",
+     "data": "2026-11-05T12:28+00:00",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSDIzTThlS1JFbG1hN2wzRGs0amF1YklnQkZjenZpUE55dnJxX1pIaExCYkdFbmp6Zk9JNFcwdHA4dmI0SlItcjQtNGdNWkRuWVFhUFFYeEFNR0kzQktsXzJiXzlyMDg5Rl8yYnp6UDl1Z05NM19mTUhndTlDeVJEdi1PQzltcDdKckpZWVdvWkhtSXZCZGpkaVh4TENnSVZhVHRyeUI2Uk1uejRZU0xRdnlueWE2Rlo2eWxGcWhDR1FzZTNpclFlU3FUZFLSAdsBQVVfeXFMT0ZESTR2U1lnVnJGMFkzLW5PODgzWW9oZG43Tkp2V1YzUkhYZVF3NXlERUkyX29WaWVHcEJnc2NaN3BPMFZYLVZha2lXM1JHZ1RIcm9XTUdZZ3ZQQ3JUWUxuZWpzRXVrdk1rcThoOUpWc3FmY1puTFI3Nmk1VXFYN2hUMnoxQlotbGNrTGYwdXFWZ2gxT0hZNUtGT2VhTm5hMmZ6V2U5SUExRHB5aVFUZE1fSVlEY0NGaVdEazBjTUZSOFZvM0lZV051ODZibHRvYWRJMWd2cU9rOGdF?oc=5",
+     "sinal": 0
+    },
+    {
      "t": "Após Copom, Ibovespa fecha em leve queda diante da sangria em NY; dólar sobe a R$ 5,49",
      "fonte": "Valor Investe",
      "data": "2026-11-05T12:02+00:00",
@@ -1067,6 +1074,13 @@
      "sinal": 1
     },
     {
+     "t": "Banco Central mantém Selic em 13,75% e interrompe ciclo de cortes dos juros",
+     "fonte": "brazileconomy.com.br",
+     "data": "2026-11-04T22:28+00:00",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLVBOZHR4VWViSVVmUF9Md0ZhYV82U2o4cHpBZk9GUVNDVnB6TmNCWElxV21TMzN4UjlTdlV3SlJ6bUNZVF9ZNm1GcE5VdDdPd3ZISnJtTkxZcHJSSVhoTlBvZ1JHaTlLZXA3LWVaNnVjb0R6NW5kSmNxMGRKYlhmVGd4UFdsZlQ4M2V6R2lnODBoS0lKTXVOQ3QtTmNGeTJ5UGVFc3RTNDBqU1VCRmRIekFfWTliRzNwZUZGMQ?oc=5",
+     "sinal": 1
+    },
+    {
      "t": "Piora do ambiente externo e pressão inflacionária levam Copom a manter a taxa Selic em 13,75% a.a.",
      "fonte": "Jornal do Brasil",
      "data": "2026-11-04T22:26+00:00",
@@ -1121,29 +1135,43 @@
      "data": "2026-11-04T22:04+00:00",
      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fa0NHcVFBQVprWHhZNExmSGFtdjFMdElGUXZlX2dlZTNjRlRkTFdaNkthODlabFVQd1VSUmpDb1ctZ0ZucGlYZ1JrZTBEUWNwcmlDeEhnZTJoNGh5cEpfay0xUUdrSVJYakNxc0pvZ1RCdS1zOXJLNnJZNk5TeEnSAYQBQVVfeXFMT2czMUpDMU94dnR1ZkxlSVZFWEZRaERHZEtTOV8xZTV1aml2VjVWN0N6ajdIWENBSTg2LUdSRVpmYV95WHV1cTlxdnFGVUJOdmNVLUtPeEl6WUpJVFMyMHFoalJJdm1aQ251RWNYTG92WDZNc0Z1QlpEbG9MSU83dVpxeGx2?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Selic: Banco Central mantém taxa básica de juros em 13,75% ao ano",
-     "fonte": "Extra online",
-     "data": "2026-11-04T22:02+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZldZRVVBSlBZcHhDUVhlYV9zbzJqOEwtb0hEM3VLSWVBSFlLdXMtZWhJOS1WQnVCRFNrWDJkLWRhUU5ncXZHTElsbXAxaUJCczduUEFhTldHTllJVnY5OVZXSWQtTkdnal9wVllQNldjcnhPU29GWnZRMG1YOUJJcFhXcW5ROElNcmxabXl3bEFtYmZqX0FnQnRHd2VsRW5UMU5jRktZemE4TjNJUWkyRnlOQWRDdHpTdXl6LUxiNkQwd9IB0AFBVV95cUxQYmJsRnN5d3piWnctaEpnRGEzbzd4MzgxajMya3BuTWpUSkZCc29va3RIWnp5TTNRRThWak96MHRGejRuZEY2OXRCY2txZDhObmprVjFZaXJraUd6YlVOYnJHYWs4Q0ZCVERNeHRzVkV1THlrZlloQkVSVWZJaHN0b3lJTGJPUzVTZlRWWU50NzR2Z0hNSlY5UXNXbl8tcHJqa0w2bFR6Wk1QQ2JVbWFCSi1EMkt5bTlOY2pCQjgtNHdfNmJSZWNRYktKcmtMQ2VO?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Aceleração da inflação justifica Selic em 13,75%, diz Copom",
-     "fonte": "Poder360",
-     "data": "2026-11-04T22:01+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOTZQaFByT0hrSy0tQWZLYW5FQWlFLWU2WnZGajNTOXNRcXpqS0c5SS1qekRuTTFjcm9ZdjEzbGloemxoc2YzRnQxb0pqdk43YUplVnY3VGplM2VGb0ttb3hMc3V0b3pyaEVxSWxURkpYSlBrMGhuZEFCN2I0akpnWl9pdG5wN1R3SmMyQnk2S0RqNEg4TFR5M1laU0RJUWpHdVE?oc=5",
-     "sinal": 0
     }
    ]
   },
   "pib": {
-   "indice": 0.191,
-   "n": 77,
-   "alta": 14,
-   "baixa": 9,
+   "indice": 0.164,
+   "n": 80,
+   "alta": 15,
+   "baixa": 10,
    "itens": [
+    {
+     "t": "Setor de saúde é resiliente à economia, diz CEO do Fleury",
+     "fonte": "CNN Brasil",
+     "data": "2026-11-07T13:01+00:00",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbXBEeG13ODBSc1NUVWNZeXNuUVRWdTZGVExkV0xBYS1hVy1lX3NmVkJVQ1ZGNnpsWlhGLTU0TzNIbEt5WFZsMURCODFDb2JZck42VF9yOE9tWDVXLUd6dEpGeVJWTW4wYmFXWmQxVnM1bW9JdE91NlNxOGNMLTg3YmtpcGlxbnhRVWhRcGFjc3g3a0M4VVY4VzRwTldPQ1hoN09Xbk51QnpGOFh5Smpn?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Brasil corre risco de recessão em 2027? Veja o que dizem economistas e os sinais da economia",
+     "fonte": "Exame",
+     "data": "2026-11-07T11:05+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUm5FYXp0enBraDRuUVUxdlZaMmFPcVRuV1A0NS1EbVVXQ2Y3d0YyN3JtbXR3NU84MmpjZGUyaFNpREgxTnVnU0xGZ0FVOGNCbHl2Y2oxOURfQngwazAydC1OU2t4UzdJWldTU0tIVFlISWVMUHpZOHN0dC1SVDZMeUxBOG56eWJWQ3oySWE3NjhwVWVUb1RtMmdiRHY4ZGFGem13QVpCSnhoUHJMN29KTjNmN0NGMEtBV2Vr?oc=5",
+     "sinal": -1
+    },
+    {
+     "t": "OS PROBLEMAS CRUCIAIS DA SOCIEDADE BRASILEIRA",
+     "fonte": "Portal North News",
+     "data": "2026-11-07T11:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVWpXTGJkOG5lTXAwMHc5aWxuOTFTRGF2eHpsaUNnUFYxZXVfakJPeTRzQ1otMy1VOXF5bTZNUzdzLURXMFJVa3hzLS1HeGV2RmdKVjZnSUxEVm9rZDhuWlZlcEIzMEJ0M0hCcENrT21Ca0FQOTdNMTZXZ2hLNEhDRWdDMjlfS0U1YXg0bg?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Bancos cortam previsão do PIB para 2027 diante de juros altos e inflação",
+     "fonte": "Brasil 247",
+     "data": "2026-11-07T10:55+00:00",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcHN3aWs4SERoZnFXUnJoQng2UWJreTZmZkhXTG1TQmNBT1lwV1oxT2h5T09kN0I3d29uQlROWGgzcFNWeEV0VHJocTNVQ1FncGVNYThtWnpkeDFZeDlNLTlNaEo1UnJQV2RiREJKVEFYU1NUczQwX3kzd2NaczhmX1ZpeF9WLUxxOEk3N01EWkZGYUNUWlBLZE91dUhtQVhmRG14dndwdjUzR3dD?oc=5",
+     "sinal": 0
+    },
     {
      "t": "Ladislau Dowbor: “Taxa de juros de 13,75% ao ano é surrealista”",
      "fonte": "Brasil 247",
@@ -1262,6 +1290,13 @@
      "data": "2026-11-06T15:09+00:00",
      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPVlZwREh2eDhhcEthVGZhQUYtUzBxMFJnYTlPc2xtUHlsOVJERkt5cmIxdWsxRm50X3NZMmxnQUdza25STklVanhlR3ZHQWJpam1LNnM0djR1d2s4R3lkelFCRWsyVkRoTXNpMS13UzlMbXNUVm8tNHRrUzZObGlGWXNRME1YT3k1R2MyY19RNTc2T2NCRm9ldFdlQ1FCeFRyLVFLeEVvV3VoWENwcUJ1ZjZaOUlGWnQ2Rlg5YTZ5Y3o4VDhQdmo5Y2FTYlB2ZEhKRndoYkdsVWhQNk9rWlRUbWM1TUxjWWwyMnBSQ1lQMUg3MElEQlpKd2VlMENNakJDSjZj?oc=5",
      "sinal": 0
+    },
+    {
+     "t": "PIB do Brasil cresce 3,4% e chega a R$ 11,7 trilhões em 2024, aponta IBGE",
+     "fonte": "Portal Agro2",
+     "data": "2026-11-06T15:04+00:00",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNUR5M2JZdnV2U2ZzUGZmMVFnWk5LMktDS3FoWVFjVUdJZ0RhSFpqMmlaSGR4Yy02TE1ST2NSQXJTN2sxdkRkeFlSY3J2Wjg5b2JNZUhKaUpBajdzR2lYZnE4MnlHOVZzZnl2d19MX3U0N2Z3WmE2N3hOSUtCZGpxUVctWHZ2VXh3dldZT3NGenNTQlRIM0l5M1pLV0tLbXFGMFY5VA?oc=5",
+     "sinal": 1
     },
     {
      "t": "Bradesco revisa crescimento do PIB em 2027 para 0,4%, menos da metade da previsão anterior",
@@ -1668,29 +1703,29 @@
      "data": "2026-10-31T19:48+00:00",
      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LVEpYZS00V2xVTThPV0tqMS1JWFJ3dnpWb2hXeVU4X1laUTJNdURZZVF4SEROc0VERjhXUE90dzF1cHFxSVRTSmFHYm9zdDZrSmNOcjg1T3MzZ2lhX0J5aHFNeHpjUmc?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Alto Acre concentra R$ 2,54 bilhões em riquezas, mas desenvolvimento econômico apresenta diferenças entre municípios",
-     "fonte": "Acre Agora",
-     "data": "2026-10-31T10:25+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQNUpOWUM5M2NiYXUxc1Uxb0dOaGlzQW5LN1k4T2lnUkN3XzJwdkhib084N2lzN055QzdyV2FUNTFEOTI4akN6TzZCeE5ic0IzTm13VUoxd2dWRF9ub19lbC1jUTA2TC1XVzlJY0E3dkpHSWtxYW9NTzF4WjJNZzJOOUVranI0RzZUVGQ3TkRDWFE0UXZmQ0Q5NmNBUUhENWI1dkZTZl80Zjl0SkVNUkw5T2xxdzBiVWdEZnlQREhlaFFFMnJoMWtYc1g4blZkOFpIS3lKOXJnbzNiajRPNWhNMF9hM1pnOGF10gHoAUFVX3lxTFA1Sk5ZQzkzY2JhdTFzVTFvR05oaXNBbks3WThPaWdSQ3dfMnB2SGJvTzg3aXM3TnlDN3JXYVQ1MUQ5MjhqQ3pPNkJ4TmJzQjNObXdVSjF3Z1ZEX25vX2VsLWNRMDZMLVdXOUljQTd2SkdJa3Fhb01PMXhaMk1nMk45RWtqcjRHNlRUZDdORENYUTRRdmZDRDk2Y0FRSEQ1YjV2RlNmXzRmOXRKRU1STDlPbHF3MGJVZ0RmeVBESGVoUUUycmgxa1hzWDhuVmQ4WkhLeUo5cmdvM2JqNE81aE0wX2EzWmc4YXU?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "E7 versus G7: O PIB PPC e as projeções econômicas para 2027 do FMI",
-     "fonte": "Portal North News",
-     "data": "2026-10-31T09:08+00:00",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONFAweVNUWmI3THdWakY4alpydDU0azBoZHJld0FBQkExT3BaeEVta2ZrM2pVcExnRU9DZWNPb20wZndWRXlqWXlSRmhKS0lCRU9iUXpVclRvMi12bFVId3JiS0pBdWcxb1ctRXVxTHJSb0lTSTYyQzNkVlJKay1Kd2tPcEJhZzZia09td2pIWmdkVERWN2xrWlljbTdIcW5pU3ZiQU0yTQ?oc=5",
-     "sinal": 0
     }
    ]
   },
   "cambio": {
-   "indice": 0.418,
+   "indice": 0.405,
    "n": 80,
-   "alta": 36,
+   "alta": 35,
    "baixa": 2,
    "itens": [
+    {
+     "t": "Estrangeiros veem exagero em tombo do real pós-eleição e destacam Congresso conservador",
+     "fonte": "UOL Economia",
+     "data": "2026-11-07T15:01+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNd2RIRllDWmFrZi1RcjNxQ3RWMnB0ZWlGUUstNlVRZ25STWhFSDFzX3AyVlBkNDBiNzljdnRqN3libU5PWlNpa1JVRmpPVEV0YnZyWWtPVTRQNllQaVE1dS1VQVJVRnlJR2NhZzhudjR1WTFsM2FkZHJsZV9rbC11OElKVXdPdm9mY3lJVHZSOUxQbFZ5cFljX3gwZ1VqTk1VYXk0UnJhdTFQR0VUcy1LSDQ3TmU3M19vTGFvTmZBclFTb0dlQlBSeUQwczBKdTNPSXcwSTg3TGd4cEpUUVdHNXFnbWdVUVF3dzdQSw?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar fecha a R$ 5,51 após dados dos EUA",
+     "fonte": "Jornal O Fluminense",
+     "data": "2026-11-07T14:03+00:00",
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SdkxTS0xxT0ZEUmJFdkQzR2U4NmJrRVFRSXRPazhoM2hIWkljM2t2d1o4eGV0eXNjMWcwNEFsZHYtUUptM0VFZHFaZjFHdXZrTV9fbFhRdmFyWnhlN3hraTJtMkRYN3RabV90bmtBWml4THp3WlNqcVdfODM?oc=5",
+     "sinal": 0
+    },
     {
      "t": "Ibovespa sobe 1,39% e fecha semana positiva; dólar vai a R$ 5,50",
      "fonte": "Vero Notícias",
@@ -1703,6 +1738,13 @@
      "fonte": "UOL Economia",
      "data": "2026-11-07T00:58+00:00",
      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWERBMzNlSDMzTzZxOThKSHhDcWg2ZFlUeG5OZnkwT1BTZWNZbWZuTFdLYUdTUURGSTNFOTk1WEoxQUJ0akhFSVhYN2RSWUg2d09QajUxNXFtaktucGctSENIb0dPakNXM1ZRMXJmQm1uTEE0bGt3VnR5aUFjaXRvV0pQcHNyVlNnai1LejZFTHpDS0dYSXJCWUMxUEE5TVNGTGdxM1Y5OWZwS0dXWEJrSnhUUVBBaUwyQ1l0SG4tQjJ5WkdkWTdhZVdjR2ZkNHFWal9jd0V3?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar sobe 0,44% e fecha a sexta-feira cotado a R$ 5,52",
+     "fonte": "Brasil 61",
+     "data": "2026-11-07T00:30+00:00",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPXzAxa0tEWWcwRVJLc0VEX09QazN0RjdXUG50NWJtTC1QZVlBbUpIZHBQdGV5SDNUQlVhaHBiTUh2ekFZYWhyQmhRY1dzMndtcjZBLWUtOExYeTlqYV9mQlhUejVnYWZoNGxrVTMyYTZCb091TUVkOUZTOVM2dXhxSEpSdmxXaHh2a3paLUd5ODZDd9IBlwFBVV95cUxPc21ZcWxBdHpXUExVUjFsaE5IVzRTRHhzdkl1eVJDRGl4NEgwXzJablIzRTJ4Q1diT3lXdnlocHhoUW9sbFp4a2lrWF9aUkJQelBRSy1EclNmZndQbVNEVjJNWWRfeFZOam90eHdYZ0F3NmREM1VmaXYtRjlhMW1ramY0Zm1TMTZid3BFVVFMcGlQZjBLeXlN?oc=5",
      "sinal": 1
     },
     {
@@ -2229,36 +2271,22 @@
      "data": "2026-11-05T21:00+00:00",
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOUxJdG00Vnp2R3doSVY2WGxyN1VzejR3TGRJeWFvQmZ3Q1BLZGVrdTNQSUdZU0FEdUhSSC0xS2hnUWpOSHpTX2hPSzNUem1KVlJZam5LV2dzaFBWRzBjUjg2MklWWkY3R1d2elhNOWk5SE15WXhLQWJTQjdEN1pXVTVwTzJFekRCc0FRWHBjVEhXekVkVVE?oc=5",
      "sinal": 1
-    },
-    {
-     "t": "Dólar hoje dispara e fecha perto de R$ 5,50 em meio a preocupações com juros",
-     "fonte": "EuQueroInvestir",
-     "data": "2026-11-05T20:59+00:00",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaUdjUzlhdGhPUmp1R1pjN2pYRk5MNHRLaU9aMTNTZGZIMG5IdkRHaTZOdTd3WG9ORVVWelpGZ2xNRC1EWC0yX3g3Vl82YVZ3cDJIVFJreGN5QS1UWlZWSFNYSGxnOGtJZ2VzdHRGWUliVzFzOUtmSHJKazBaVE5xUFZMTkFQUDIwckZtUmNBU0tBR1RaTmZiSEJCbFFjNkNuMlFEWTR2enBCQlNGSHc?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Café fecha em baixa em NY com alta do dólar e maior oferta global",
-     "fonte": "SAFRAS & Mercado",
-     "data": "2026-11-05T20:44+00:00",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeXJZSW1Lcm9UbW1GcjFhM29lQ1FRTGJHeERjVHhQZTU1UTdCY0VkUjNHN1B1SktDZUYyamRwQ3pwaXlYSno0SUxZWWhpMEw5dllobDBUZFVGWEt3OHpVbDZfQ3RvNHZMX0RPYUw5UFFBQXBEbU1IRXktQXBNalVDWmRoOF8yY2hNUmN1TFRjNHd3QQ?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Dólar sobe após decisão do Copom, com incertezas fiscais e aversão ao risco global",
-     "fonte": "ADVFN",
-     "data": "2026-11-05T20:42+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdTdLTzRSdjI3MlNueGp4ZC1rVFd6UFZueWI1dUxtcjVnWGR2RVFTN2lnTkx6eFdWOVdLQjJjNXV5R0FwYmlzTlR6WTE1MWw4Tm4zZTNKQ3Q3dDF6aGthMTBVbW9RYk9TYlh3cFZNOGRpVEpZT1QycGFnQ2xXZWlfWnRCZG9HV2ZQay1WSVBLckl3V1llUVRKRjBDMFJmOW1YWXdKYTVlb19qWTV6SmVkMnlMZ3l3d3BF?oc=5",
-     "sinal": 1
     }
    ]
   },
   "fiscal": {
-   "indice": -0.174,
+   "indice": -0.162,
    "n": 47,
    "alta": 7,
    "baixa": 15,
    "itens": [
+    {
+     "t": "PENDURICALHOS: Judiciário e Ministério Público querem R$ 533 milhões fora do teto fiscal para pagar benefícios extras",
+     "fonte": "Blog do BG",
+     "data": "2026-11-07T15:15+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOUmZ5d09hZW9LeWFQcl83Zmo3YzBOa3pCUVJoajk5ek9fTjJ5cHlfbHdVZy1SNS1nZjRQU3pXWFU4UDgzOGd5MG1FaHFneXBMMFNSaEMxNC1kbG56eml5TkU1ZVRINXVUejNwN3JTZDlKcGd3V2R0dm4xWGsxMWZEMlp1WDk1UXYza2hoMlRWV3hYVTROU09CU2I2cXVJNFFBTmhyUGo0Mml6b2o2bzRJOTNzdHFfS1Q5SklvRDlPU0VrdnJic2RwSkJYbGpzVG5LRDQwVVBfU2c0RjZC?oc=5",
+     "sinal": 0
+    },
     {
      "t": "Juliane Furno: se optar por ajuste fiscal, Lula precisa arrecadar dos mais ricos, não cortar investimentos",
      "fonte": "Brasil de Fato",
@@ -2355,6 +2383,13 @@
      "fonte": "Valor Econômico",
      "data": "2026-11-05T17:21+00:00",
      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTElFT3NMZTNmYkM3U1pWT1h0emRxY1JXQ2FkVUNYaU5ta3lnNDRlbnI2ZWNrQWRXdkFGLXBoNGprSFg5MTJkLXFLRUdkWk9SQ3BOQTVyTF9LYUNZSUxOT21UOGNyNmUwdHVkV284ZDIydlYzOFcwS0ljTXJTSlprelJ2bGNFMWVkcFNReHBmRmtGby1pYlExQXlraW95b2xGblFqSVhKQWh6Q1ZXRnpLVmhtY0E1ZnRpNjFSOHg4NGFXTGtLRHF6U1d5SVJjeTVCS1ZRb0NfMDNqamZudG1QddIB7wFBVV95cUxPdmRWUVF1R2FVSl9qQ2F2WEVjaEdwaE1pZlFpZXlMM2RSR1FPcnBuUklZXzM0VDlWSFp5Uk5lMXJuZzF3bHdVYmF2dGZuX1VVRTg2WklnbmdjZE9EN1JCRWFvSkh6MnlsbW45Z25CTjFVX3RQV3BJV3JOT2VpVkV0RDFITzZTc2llaWhHckM4UDkyU2ViVXJxMzBjMXN5TTh0eXdBb002OHoyU1N0X2RWektIZHZJZ1RnQjF6SjYxZjNuUGV1anBIQnhSd1hfTXh0Y0VpZk1UdlJpN25lUlRrOTQxbG5LQmxiLTJiTS04Yw?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Em reunião com Durigan, Haddad, Mantega, Luciano Coutinho e outros economistas, Lula discute medidas econômicas para o 4º mandato | Brasil",
+     "fonte": "Valor Econômico",
+     "data": "2026-11-05T17:21+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTElFT3NMZTNmYkM3U1pWT1h0emRxY1JXQ2FkVUNYaU5ta3lnNDRlbnI2ZWNrQWRXdkFGLXBoNGprSFg5MTJkLXFLRUdkWk9SQ3BOQTVyTF9LYUNZSUxOT21UOGNyNmUwdHVkV284ZDIydlYzOFcwS0ljTXJTSlprelJ2bGNFMWVkcFNReHBmRmtGby1pYlExQXlraW95b2xGblFqSVhKQWh6Q1ZXRnpLVmhtY0E1ZnRpNjFSOHg4NGFXTGtLRHF6U1d5SVJjeTVCS1ZRb0NfMDNqamZudG1QdQ?oc=5",
      "sinal": 0
     },
     {
@@ -2573,29 +2608,22 @@
      "data": "2026-10-31T16:00+00:00",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaTIxeF9TcG5iTHhSMXFOM09JZWc5QU9mNTBkakk3bm94VElJVVQyaWlIUmVIdWxsMzBXaVZWV3RMVk1zZ3ZsOUZKMnQzZW1OWW9xNGhhaTdka0lfR1BlWHJULTBTSXhnOFg0SXBRVTdaNjFCMFVyMUJjXzNkR1Q3UTBqeG02aEt0cEx6azlkQzJIbnV2Q0dMa3k4Zk1NR092aXBzdDRMbG5aSUE0SmpENGFITGNnUS1ORkpNRTFKWjk1RkRiaHc?oc=5",
      "sinal": -1
-    },
-    {
-     "t": "Brasil precisa ajustar rota da dívida pública, diz economista",
-     "fonte": "CNN Brasil",
-     "data": "2026-10-31T11:05+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQjRMQWZmcnN0OXdLWEtyNlZ0SDVkeUZYUlhucUQzeUg4MURKcUhnYVM5M0xMbmI3bC1SeTh2MG1hRVJIOTRGNkR3OWVVOE95cUlUOWIwcGFLZFhUQXFDZFJ1MXFXUGt3cGxpYTZnQUVjWjFMdHo1RmN4LWxxY0lVUUZXYjY2SllBQzRhUlVRZ1BGcjZXZm1XM2d3RjhOdDNSdmsxcWpZd0pJSUI0Q1BPcTVydGtDOUtmY0xV?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Otaviano Canuto | É o fiscal, Lula",
-     "fonte": "Poder360",
-     "data": "2026-10-31T09:03+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE00eHROcmN0WXhISUs1VXl5TWNjOUVUM290NC1jYlhISFY5d1dUd2wwT1I3OTZYNGJ5ZmJlSlpNZWVnV3JLOWR6Mm5JeTF2S3F3TjdFMUVxOFZpbl9Cb0dPa2ZR?oc=5",
-     "sinal": 0
     }
    ]
   },
   "bloomberg": {
    "indice": 0.0,
-   "n": 20,
+   "n": 21,
    "alta": 0,
    "baixa": 0,
    "itens": [
+    {
+     "t": "Bancos cortam previsão de crescimento do PIB em 2027, com mais juros e inflação",
+     "fonte": "O GLOBO",
+     "data": "2026-11-07T07:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSm5zd29nQ0RESVV2SVVFQi1nRlUxUnZHaUxsMnVhM3BVOWRTMFotU0M2cUdqaVFBVTVQazVrQkU1OS1DWUQtQWJob1RIdGd1SDQ5WEtoTzQwaktaamw0MnFxdmFrd0tfWnlaa0twU1U5UFNvaTFYOW9Ia0hiOEZaOERmN2tpU2FUbzVtZ3FZNFNDUTFNWXFXRTJZOG5XTldiSHZGN1VVeWQ3aTdpUldpaXNMVXQ0WUZHNG5yWFh1M1FLMklKZjVpVXJRWDFDbW03NkZIWVJLTTdmel9QNkgwbndn0gHiAUFVX3lxTE9KbnN3b2dDRERJVXZJVUVCLWdGVTFSdkdpTGwydWEzcFU5ZFMwWi1TQzZxR2ppUUFVNVBrNWtCRTU5LUNZRC1BYmhvVEh0Z3VINDlYS2hPNDBqS1pqbDQycXF2YWt3S19aeVprS3BTVTlQU29pMVg5b0hrSGI4Rlo4RGY3a2lTYVRvNW1ncVk0U0NRMU1ZcVdFMlk4bldOV2JIdkY3VVV5ZDdpN2lSV2lpc0xVdDRZRkc0bnJYWHUzUUsySUpmNWlVclFYMUNtbTc2RkhZUktNN2Z6X1A2SDBud2c?oc=5",
+     "sinal": 0
+    },
     {
      "t": "PIB da Argentina cai 1,7% e Brasil avança: veja o que separa as economias",
      "fonte": "bra1.com.br",
