@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-07T01:52+00:00",
+ "atualizado": "2026-11-07T08:42+00:00",
  "fonte": "Google News (RSS), últimos 7 dias",
  "indicadores": {
   "ipca": {
@@ -1139,7 +1139,7 @@
    ]
   },
   "pib": {
-   "indice": 0.194,
+   "indice": 0.191,
    "n": 77,
    "alta": 14,
    "baixa": 9,
@@ -1346,6 +1346,13 @@
      "data": "2026-11-05T16:13+00:00",
      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8yUkw1bU42QnJDMmpEa19aYXdwb2ZFbWtURENSR00tdmNMS2hPc29ELWVoTl9wZVRVdTdTcm9UT0dRUnVKZGFxSHZISElBdUlzeDZGS1RQMnpfVlQxTHM0YzhaQWJFNEVMU0hUNA?oc=5",
      "sinal": 1
+    },
+    {
+     "t": "Indicadores apontam para contração do PIB no quarto trimestre de 2026",
+     "fonte": "boca.com.br",
+     "data": "2026-11-05T15:31+00:00",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaHlCck1Ndmw0cG5pYUlPUnZqeThJdjJic1ZsMHhHWlNTWHc1Z3BHclNBUDRkWVpyamYxb1g5ZFRxa2ZxUnFUUHc4M1p6dEdVMjlSMDJfUjNWWElnQ19MNjYyNk0zRWpERWVPQUJNN21VdjBtT2pyY2JlYjBiN3ZLQTNMbDkxZjQweHg5bDRfd2tWdElz?oc=5",
+     "sinal": 0
     },
     {
      "t": "Arcabouço fiscal: entenda as regras que limitam o gasto do governo",
@@ -1675,22 +1682,22 @@
      "data": "2026-10-31T09:08+00:00",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONFAweVNUWmI3THdWakY4alpydDU0azBoZHJld0FBQkExT3BaeEVta2ZrM2pVcExnRU9DZWNPb20wZndWRXlqWXlSRmhKS0lCRU9iUXpVclRvMi12bFVId3JiS0pBdWcxb1ctRXVxTHJSb0lTSTYyQzNkVlJKay1Kd2tPcEJhZzZia09td2pIWmdkVERWN2xrWlljbTdIcW5pU3ZiQU0yTQ?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Juros altos e trajetória da dívida asfixiam economia e desafiam Lula 4",
-     "fonte": "Gazeta de Alagoas",
-     "data": "2026-10-31T07:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTJ6VVppTFdRVVZvQW1jQk1BeFJZSFFwVTlQUEowalNxRFZmX1hfZE9IMmoxQzlCQmtVRUJQUHNwUWNBajR1RV9YbFlJcjhEd2NaUUFnMThubUgwQUhaOUZvYlJRdW1MR25Hbjdtbm5BTjN1SFh5bWRvS1VJWlFoLXZDOURlVEtIdDVwTW5FdUFPWkxiV1VIbzY5QU5GRklsUWtBcGRFQnB0cWJsUjNqeE5DcWJsd05PcGt2YlJ5c9IBxwFBVV95cUxNWEJhQ3NVd0hUNFVuRGtzZjFNYnFMeTZaWmpSelVTNTk1Qk82UjRtZEZwdnhEdkVGZTdub0Z1ZGJyWmt2QUhmV29LV0xqNVZQRkdLMDJEamJ5Z3JtOEE2WDZ2eFZtMFZvQXdrTnFua2xXUWtnMG1IVkUyal9ROG5lalRFaUcyRk9WRzlmRnlNb0RtY3VxbFZBQlhkSk1xR2VhQzl4QUo2WXA4eWxWZ0V2RTZubUlCQmtlRkdiT0p0RDNnTmdfSVdj?oc=5",
-     "sinal": 0
     }
    ]
   },
   "cambio": {
-   "indice": 0.44,
+   "indice": 0.418,
    "n": 80,
-   "alta": 38,
+   "alta": 36,
    "baixa": 2,
    "itens": [
+    {
+     "t": "Ibovespa sobe 1,39% e fecha semana positiva; dólar vai a R$ 5,50",
+     "fonte": "Vero Notícias",
+     "data": "2026-11-07T04:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTlZ0R3dpNlcxWVA0ZjROdG1zSzd6QTVOQ0JCOHZreHVFSkVmVnJ0YVRHYjNhcXBpM3JiMktZOGRPQU1vU2NHb1FsREpscVRmelBUX2FjVmZwWHFPUGRlTUtzLWljQlZHcWdSTVBZOFRCLWUxLXZCOEVPQWRDZjJ1QmZjdnp2bXFna2JRSlM5U1NRaVJ1U2lNdTFn?oc=5",
+     "sinal": 0
+    },
     {
      "t": "Dólar fecha em alta, a R$ 5,50; Ibovespa avança mais de 1% com Vale e Itaú",
      "fonte": "UOL Economia",
@@ -1888,6 +1895,13 @@
      "sinal": 0
     },
     {
+     "t": "Dólar fecha em alta com exterior e política econômica no radar em dia de dados de emprego nos EUA Por Reuters - Investing.com Brasil",
+     "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+     "data": "2026-11-06T20:20+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNWw2NTlpQV9NY3MxWnMzSmJqNllGZ0E3cldZYkZYNHI3UjZ2X1ZHbkdmZmxhSWctU255dzlzYkQtSWJvallvQmJWSHdfa3E3anhlZk1Pc1R5aG43WHEwU1hjM3F2d203M3FzWXhpRjFPYmk2ZDhIUE9pdC1rcjJENHlwQ3FIRUJsNXpwbmwwUDZldUoxMFpzNkV0SjFKSG1nNTNV?oc=5",
+     "sinal": 1
+    },
+    {
      "t": "Café arábica cai 5,7% em Nova York; dólar sustenta preços no Brasil",
      "fonte": "Portal do Agronegócio",
      "data": "2026-11-06T20:00+00:00",
@@ -1979,6 +1993,13 @@
      "sinal": 0
     },
     {
+     "t": "Dólar hoje ronda estabilidade, perto de R$ 5,50, após ‘payroll’",
+     "fonte": "Valor Econômico",
+     "data": "2026-11-06T12:44+00:00",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMGFIRV9wcFdkUlhxVEd6SGZYcmM3NGstRXJKT3RnREUxZGRYMjlsd3k2UEFvLVc1TnRkWXdvUVJzcF9LTVVHQjlaMTM2SFR6bGI1ckFpa1ZTQ1hMNVV2MndSOGRLTzhMMHNoaVpqSTkxYm9yVGEwSTgxQ3k5QlQtZUZaVER2U25qaDhOVU15Zm9ELUZaZkhtMWgxZUpuYkwza0E5VlA2ZFUwQ3ZQaEhhNXdZbEk5VmNMeVBMOE5B0gHMAUFVX3lxTE1ZSnFXaTF3WUFqNjd6V0J1Q2kzZ0pIVmx1QWVuWDREaWN2blhvVzBVLU9MY1NCQ3ByVDZUTWRwWDA2NzRLbjhHbzdDbnZZcDRLVWFxbm85QWdab3A2bGdCSTFTaUN2MFBtbjl3X05HQ3JTaFdYSWZCU1FIMWpyOTV1ekxVZHRyQkJiX1pwcHp5T2hHTWxQckVWb3dIOW4wQWJVMjRwSWhSaHhoaUI0aHdaRWFqOVl6QzFDVUd1bWwwUTVabjljS2RnbS1LSQ?oc=5",
+     "sinal": 0
+    },
+    {
      "t": "Dólar opera em alta ante o real com dados de emprego dos EUA e política econômica no radar",
      "fonte": "Terra",
      "data": "2026-11-06T12:40+00:00",
@@ -2019,6 +2040,13 @@
      "data": "2026-11-06T10:15+00:00",
      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNT3lLRklISTQ4WWZaWWpEMFRKQU5WVzlFSnNKWG15ZFdYdjRiczhXWE01d3R4YVEyNVFjNzR4N0dSMThnLVVDaUpuamxvN0l1Z3BtRG5tNnZybVVwUWdEb09YNHBldjhhczdNYjd0aTRKS2l5Mm5ZdmVvZ05GdTBJRk1HZkxTbUE5LS0xVU9SWFY0LUxSZzdqSGRnTGRlRF93WkMxa3VFQUJPcHpTaTAtdXdiUEE3RHdWamc1Wlg1U2tBcWZzV2tDMzllMVVNQkdjX1V5eGozd0o?oc=5",
      "sinal": -1
+    },
+    {
+     "t": "Ibovespa cai mais de 1,4% antes do Copom; dólar fecha no maior patamar do ano, a R$ 5,48",
+     "fonte": "Estadão",
+     "data": "2026-11-06T08:51+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPRV9ab1UxNkZjZExySE1aWHpYMFJFckR0UzBaSGhLQzhEVWMwWHlkTHdWUlpNQnlaR3NPM0dBU0lxbmtoU2tCY2RsOEpRRVdlT3VFaWs0bjBKb1ZZbllTYkZnTV9GLXpZZHFJTlF0Mkk2cHlNNTFBMEZNTFJXRFJudmxIN0M2bF96YVNiUTZlYkdIWW5nS0Q0NVdneGR5NUkwbHBSQ0RrcGJMYXVBOTdKMkxvVlpRandET0J2V2ctYTZwbXlPMXdTZUxaZE5SQkhwWFduLW41b0tDVWk5QTJqSk5MM3pNU3U5cUhQZEFfTnRYVVlCSVprVQ?oc=5",
+     "sinal": 0
     },
     {
      "t": "Dólar hoje fecha a semana com payroll nos EUA e incertezas fiscais no Brasil - Investing.com Brasil",
@@ -2222,42 +2250,14 @@
      "data": "2026-11-05T20:42+00:00",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdTdLTzRSdjI3MlNueGp4ZC1rVFd6UFZueWI1dUxtcjVnWGR2RVFTN2lnTkx6eFdWOVdLQjJjNXV5R0FwYmlzTlR6WTE1MWw4Tm4zZTNKQ3Q3dDF6aGthMTBVbW9RYk9TYlh3cFZNOGRpVEpZT1QycGFnQ2xXZWlfWnRCZG9HV2ZQay1WSVBLckl3V1llUVRKRjBDMFJmOW1YWXdKYTVlb19qWTV6SmVkMnlMZ3l3d3BF?oc=5",
      "sinal": 1
-    },
-    {
-     "t": "Dólar sobe após decisão do Copom e fecha próximo a R$ 5,50",
-     "fonte": "Money Times",
-     "data": "2026-11-05T20:37+00:00",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQS3Nzd0w2aGRZOEczeVE5MXZCREIzeTVPUGVPV0hBU1ptV0U2WjJKMVdtbFUtSlJndVlXRU1yZUNvcXY0amxpOXZ1ek51UFZhWmk5NGF6NDBkY0RZRnNOXzNLNkRGeTJpNlp1bTZ2X2hnYWZvenJtbGVTNUF0Y3NtVEZvSXdnR0FMcTNWVFhiUTRadWlaRFhB?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Dólar fecha em alta de 0,68%, a R$ 5,48, após decisão do Copom",
-     "fonte": "Money Times",
-     "data": "2026-11-05T20:35+00:00",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQS3Nzd0w2aGRZOEczeVE5MXZCREIzeTVPUGVPV0hBU1ptV0U2WjJKMVdtbFUtSlJndVlXRU1yZUNvcXY0amxpOXZ1ek51UFZhWmk5NGF6NDBkY0RZRnNOXzNLNkRGeTJpNlp1bTZ2X2hnYWZvenJtbGVTNUF0Y3NtVEZvSXdnR0FMcTNWVFhiUTRadWlaRFhB?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Dólar fecha em alta ante real com pressão externa e de olho em política econômica Por Reuters - Investing.com Brasil",
-     "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-     "data": "2026-11-05T20:20+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWVBUYjBjNkFNb3FzQWdGNkF3NFhVdS0yMkJjMWZpMkEwMGJVUklMaVl1dExRZUpwQmdmcFBVeTlWbHlEZG4wSXlmMV82ZjVyNHlVa3FyODlhN09GcHJBZTZhRGZuczJPb0ZDZjY2dUYyTkhsYUJENk9RS3Q0SEpOYl8zbmJKOVA4cUx6VTFjcUlfUGRoOTExSGdQOWd3SDNqclZv?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Ouro fecha em alta com dólar e juros dos Treasuries fracos após Midterms",
-     "fonte": "CNN Brasil",
-     "data": "2026-11-05T20:11+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcE41bm9nM29hWGtBeE5YVUpaZFZydm8ya0QzTHVJQkY5VEY1S3h0dUJJSC1ZR1V2aU53RmsxUTEza3duNkRLa0FXRHloaWhxaFdObVdXTFViNXBLRW5zRFZsNnA4UkNaVDdCaDF4QTZxenNyZ2NoN1JtcHJPOHhyczVvM2MwTy1hdjkxLWFnV1U4ZlAxNnduR1pGMTZVaG9veDd1YXJrNTB0elZBRWdjX1lkRGh5SEUxRjd3cngzRGk3TmM?oc=5",
-     "sinal": 0
     }
    ]
   },
   "fiscal": {
-   "indice": -0.145,
-   "n": 44,
+   "indice": -0.174,
+   "n": 47,
    "alta": 7,
-   "baixa": 14,
+   "baixa": 15,
    "itens": [
     {
      "t": "Juliane Furno: se optar por ajuste fiscal, Lula precisa arrecadar dos mais ricos, não cortar investimentos",
@@ -2272,6 +2272,13 @@
      "data": "2026-11-06T21:30+00:00",
      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9qUm5pOVh5VmhlNFo3LWMxbHJOYUZqX1pLdG9vYlhwVklxV0k3OE5GMFhYVlE1Q2dkdlBtaTJ1UzgtSGd1Z1BKT3JaZnlJajdBbXdiX0hhSkxVZUJNZ09neUtianJWc3FTYVhfaXVvZ0d6Vm4tUk5uclhn?oc=5",
      "sinal": 0
+    },
+    {
+     "t": "Após pressão do mercado, Lula dá sinais de ajuste fiscal e pode tornar bloqueios no Orçamento permanentes",
+     "fonte": "ncnews.com.br",
+     "data": "2026-11-06T21:30+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9qUm5pOVh5VmhlNFo3LWMxbHJOYUZqX1pLdG9vYlhwVklxV0k3OE5GMFhYVlE1Q2dkdlBtaTJ1UzgtSGd1Z1BKT3JaZnlJajdBbXdiX0hhSkxVZUJNZ09neUtianJWc3FTYVhfaXVvZ0d6Vm4tUk5uclhn?oc=5",
+     "sinal": -1
     },
     {
      "t": "XP corta previsão do PIB de 2027 para 0,3% e vê dólar a R$ 5,50 no fim do ano",
@@ -2309,6 +2316,13 @@
      "sinal": 0
     },
     {
+     "t": "'Não falei com Lula nem tenho nada marcado. Isso foi plantado para queimar alguém que defendeu a proposta', diz economista André Lara Resende",
+     "fonte": "Folha de S.Paulo",
+     "data": "2026-11-06T00:35+00:00",
+     "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNdnA1YmhkTUhQWEdHRmNFeE5rcmVmUTk1WTROZHlUUXg4T3B4TTUtUWh0Ym9zWktIT2QycDRRRnhaUFhKSXJRNXpOQTE0V01LRHIzRFZQeHY4X3FEWmRrLXM3ZWFkSXNaTU4yd0xzOEN4SVpjMUUxV09lRFdxS3pWUjZUNkpCeWNHS2VtN3RibHAyNVhzQVZuVmYyaDlfSkxJeFY3bXd1YjE4T1Jzd1NEZ0YwSU9rRzJhNWh6VTR1SXFvLTQ2YkdZeFR3SlE4VndPbmtMTXFrcmpaeUVrbUt5YzNnNmsxSTFnc2tPbkRfUGFyTVZUcFo3bFlZSFAtZG92bGhUZ1JjU3I1NlpNd3h5cHNGY3d3V1RD?oc=5",
+     "sinal": 0
+    },
+    {
      "t": "Durigan prepara propostas para melhorar contas públicas e levará plano a Lula",
      "fonte": "www.n3news.com.br",
      "data": "2026-11-05T20:11+00:00",
@@ -2334,6 +2348,13 @@
      "fonte": "O Republicano",
      "data": "2026-11-05T18:00+00:00",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSHlEYUdJbllhSTgxTFd0UmFlWkdpempFUHBOdjd4TVRmVWtydGF0MzJvd3R4LUVRNEhTMDJBaUQyejhUTE5yMkxfZHpMSTU3OWN2cEkzeExuanFoOWE3YnVXcUkxM0kyRTN2M05xb0F1Z2pfWWxKVUtsSjk4U1NmRzJPdVFaTkVBTVpWQVdWSE9LLUhOMHZ3Nm1wWXp3YnBDNWh2MFRfak8yWHpWVXpKZVZxY3dUSGJWTnc3bG9R0gG-AUFVX3lxTE9IeURhR0luWWFJODFMV3RSYWVaR2l6akVQcE52N3hNVGZVa3J0YXQzMm93dHgtRVE0SFMwMkFpRDJ6OFRMTnIyTF9kekxJNTc5Y3ZwSTN4TG5qcWg5YTdidVdxSTEzSTJFM3YzTnFvQXVnal9ZbEpVS2xKOThTU2ZHMk91UVpORUFNWlZBV1ZIT0stSE4wdnc2bXBZendicEM1aHYwVF9qTzJYelZVekplVnFjd1RIYlZOdzdsb1E?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Em reunião com Durigan, Haddad, Mantega, Luciano Coutinho e outros economistas, Lula discute medidas econômicas para o 4º mandato",
+     "fonte": "Valor Econômico",
+     "data": "2026-11-05T17:21+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTElFT3NMZTNmYkM3U1pWT1h0emRxY1JXQ2FkVUNYaU5ta3lnNDRlbnI2ZWNrQWRXdkFGLXBoNGprSFg5MTJkLXFLRUdkWk9SQ3BOQTVyTF9LYUNZSUxOT21UOGNyNmUwdHVkV284ZDIydlYzOFcwS0ljTXJTSlprelJ2bGNFMWVkcFNReHBmRmtGby1pYlExQXlraW95b2xGblFqSVhKQWh6Q1ZXRnpLVmhtY0E1ZnRpNjFSOHg4NGFXTGtLRHF6U1d5SVJjeTVCS1ZRb0NfMDNqamZudG1QddIB7wFBVV95cUxPdmRWUVF1R2FVSl9qQ2F2WEVjaEdwaE1pZlFpZXlMM2RSR1FPcnBuUklZXzM0VDlWSFp5Uk5lMXJuZzF3bHdVYmF2dGZuX1VVRTg2WklnbmdjZE9EN1JCRWFvSkh6MnlsbW45Z25CTjFVX3RQV3BJV3JOT2VpVkV0RDFITzZTc2llaWhHckM4UDkyU2ViVXJxMzBjMXN5TTh0eXdBb002OHoyU1N0X2RWektIZHZJZ1RnQjF6SjYxZjNuUGV1anBIQnhSd1hfTXh0Y0VpZk1UdlJpN25lUlRrOTQxbG5LQmxiLTJiTS04Yw?oc=5",
      "sinal": 0
     },
     {
