@@ -1,13 +1,20 @@
 {
- "atualizado": "2026-11-08T00:31+00:00",
+ "atualizado": "2026-11-08T07:17+00:00",
  "fonte": "Google News (RSS), últimos 7 dias",
  "indicadores": {
   "ipca": {
-   "indice": 0.176,
+   "indice": 0.172,
    "n": 80,
    "alta": 15,
    "baixa": 1,
    "itens": [
+    {
+     "t": "O surpreendente valor da inflação em julho, segundo o IBGE",
+     "fonte": "Revista Fórum",
+     "data": "2026-11-07T16:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNS2JVUzhYYjczOU5BWXRHTHhzY0VUdjJMRk1ua3h1TzVsdlVmdlRUcUhnTEh3REVveDhyZFMtNk50VHRsRWxlb29QWkVfWHZqeWZoRzFLcWZqdkFXUkVRSzVDOXA0RzVNV1lnWWw1QlBEQ1d2VjRieHY2anhDdmlvYkdJQ25zRGd2M1dKWkN2ZlB3SUk3RXVPVDZ3?oc=5",
+     "sinal": 0
+    },
     {
      "t": "No recado do BTG sobre mudar a meta de inflação, as lições de quem tentou e fracassou",
      "fonte": "Valor Econômico",
@@ -560,21 +567,14 @@
      "data": "2026-11-03T15:09+00:00",
      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE80QXJBeEYtOHA5VHYyVGUyU3paM3RwQ0J0S2lLbF91REMxcWV4T0pheTBBaENlb3FkbVNoMUZmd2pPLS1ZUzJIaC1fZU5Xc1hvNTJRTHB6ck5tdlNCX3U5OXM0WEdaSUpwRVRaM1ZyTXpKYVpqSzFqbERVelFxdw?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Inflação alta, fiscal insuficiente: O que eleva o pessimismo do mercado",
-     "fonte": "CNN Brasil",
-     "data": "2026-11-03T15:06+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPa2Z4ZEplQndnTHYtUk0tWVhNRGtGdEVhaDlRZ0ZIZ2hONi1jT3JvNWlNTE01N2kxUTZZUi1lWUhDai15N1lVUTBoMW84T3htbW5EN1FCdXlwc2NlMWxCdUlTTEdtSWwwblNqUW85ZkptT0hidDFWYWQybFZEdWc0cXNSdS1IaUFhSDNsb1p3aThuYnIzZDhfWElWT2NpckctMWZLMi1WUkVMai1LblRmcDB3em9VNHhuNEJ4ckVpRmlTdHg4b2dvNzBIYXJXT0lWd1lLX2tGVlRWZw?oc=5",
-     "sinal": 0
     }
    ]
   },
   "selic": {
-   "indice": 0.278,
+   "indice": 0.277,
    "n": 80,
-   "alta": 26,
-   "baixa": 4,
+   "alta": 25,
+   "baixa": 3,
    "itens": [
     {
      "t": "“Brasil é fértil para agiotas, não para empreendedores”, dispara Pivetta ao comentar juros",
@@ -805,6 +805,13 @@
      "fonte": "Folha de S.Paulo",
      "data": "2026-11-05T12:48+00:00",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQmROdUN3YW1ZWDBBR1ZNb2ZHV1JNdWsxZWFBYzVwODNSWGhZcm93V0NrZ3d1THc4SVdOZU5JSnJDMDBFeHIzeTRoTTdhQk1MU3ZOS0E3UmZpbGUyNUVVZnBnRTA4bUNXZnJ1ZUwtOGxtOTQ5LTRESjBxMEJkSko2dkZKWjd4MDBqcEdTaUM5WTMyMFpFRFp2dERBa2lIbzIwQUpVdA?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Mercados hoje: investidores repercutem decisão do Copom e produção industrial",
+     "fonte": "Bora Investir",
+     "data": "2026-11-05T12:44+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOLWxxZHdUajFWMWdhenJZX3prV1hMWkNyOXVKSGVwQ2JoUWt1XzVTdFZKQjl0b0wtdDJ4SmwydTNac00ydnBibzlBMndRU2RpbFV2WEpvTTdVSkNHaF9FaEIxQUpKZFNTNW5aZkwxQW1pc19GenpELWlpWHlXMEJSamVkdVhybEt2cFdMbVQ5bG5mbWd5dkZZWUFCT2RRcGtMWXQyMDM5SUJ1RkJ5U2k0N2ttNFRXdDRCaXpjbjVaVlZrV0U?oc=5",
      "sinal": 0
     },
     {
@@ -1053,6 +1060,13 @@
      "sinal": 0
     },
     {
+     "t": "Selic a 13,75%: Sem ajuste fiscal, mercado vê juros travando a economia até 2027",
+     "fonte": "InfoMoney",
+     "data": "2026-11-04T23:08+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPS0x5YTluZmFPX0tjYzJHV0JiclRyOXBobmdOaGtoSXlXWGZyZ0xpSGItT1A5QlFrdmtXQW4ydThIQnVXbTlFSzU1OHNXQXduMFJDUkVBUW82Sk1uYWFSbmNxd1ZhUElIVjhmclFOdzVqdU9reXdfeC1qdk8wemhnd2pB0gGHAUFVX3lxTE1LeXN1UW9TOXkxUllhYWM1TjZBUm5FSEFMWUJjSHVuVGdIYzQwSmJFRWppd0NfbEd2ZDdBVVpjQ19XQ0dtNW9GMjNlZWtyc2RsdkM4dUFSQXNMOE5VQkdLR1BWVG1HSEJFNVRNeGxmMHJTLWoyRUdTSUlFVGF2VXpHYWl3bnpHNA?oc=5",
+     "sinal": 0
+    },
+    {
      "t": "Banco Central mantém Selic em 13,75% e interrompe ciclo de cortes na taxa de juros",
      "fonte": "Exame",
      "data": "2026-11-04T23:06+00:00",
@@ -1121,29 +1135,22 @@
      "data": "2026-11-04T22:15+00:00",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSnM2NXpnbmlsa2drZEF4N1Y2amduQWtEdGgteVFPcW8wbVNPUFkxemo2TFp2MlEyWTJTWFlua1hBWFFQbzV2cEsyR0xiNjVkc0tkNDNiY09sai16cmFwUU1YbjNONldWQUZGOE8wSjdiczVHU0xBcXZXcjlVU1VkUzBodzhRTXI0eFRRUkt5QU5YMmUyeFY2X0g2T2htMnc3TkMxd3N5UGx1S3I3QXc?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Do Exterior e aqui do Brasil, o que pesou para o Copom parar de cortar o juro",
-     "fonte": "GZH",
-     "data": "2026-11-04T22:14+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQU2tib2IyQmxWcEJMLXFINzFtbllRYkVPNUtYN0NXVFdrLTVqb3Zwb3EyRDJZaGo3eHYyXzU4Tm1OLWFia0w0WjMyYXdIWm84VHdKWXhIV3BpSjBCeUx2SmduQkFkU0dGTXJOVXFlZjgzb0N0bTZmb1ZaNzdJaWd0RkNzd0xFZHh2MjQxb2l0cnJQY0hnVmFBY0ZvSWtGRmxQX1VzT0ZzM1FzcUUyVTM3VEt0QXJCUEoxUXhTcHpUbUlTQTQtdVdrMi1FUFRmQll1eHlaSE0wWmVzRVVRSV95UVNXSVI5eXZHNnFkUFdCWEFvOUVZNXlySGY3YkJlODUtbFVjbnAxUmw5QUU?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "CNI avalia como equivocada e conservadora decisão do Copom pela manutenção da Selic em 13,75%",
-     "fonte": "UOL Economia",
-     "data": "2026-11-04T22:12+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQR0oyU2tXTUVzTHhQa2pyczhCc1g3SlA4V3l4TGVrcE1FbmlQOUY4Q2RWTVRWbGRNbU5RS1F5OWZqR0hKYk9RaHlLeUdNbWdKS0JIU2taa0hrZVpzbGUtR1NUQ3hSSzFFRGVWZnE3VlFscTQ2Y0NzMUZmdWxGM1FPcDdvd25WSmNNVTRoWFlyNVhOUk0xNUFJSTNzTFd5QTNfYkdfbWpOS1FvSEJ3VmtVaFNiZGNhcFREcXNuWi1QUVZXSFd4bXZrVU5RbXNrZ2NGdEZFZGxVWGJPYXlPcWg2SUZZdUhNSUlMbEpiVEFha21JZw?oc=5",
-     "sinal": 1
     }
    ]
   },
   "pib": {
-   "indice": 0.197,
+   "indice": 0.18,
    "n": 80,
-   "alta": 17,
-   "baixa": 9,
+   "alta": 18,
+   "baixa": 8,
    "itens": [
+    {
+     "t": "Risco de recessão no Brasil ganha força para 2027 - 07/11/2026 - Economia",
+     "fonte": "Folha de S.Paulo",
+     "data": "2026-11-08T02:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbzJkVzhkcUZfZVZaMU1VOUhERzY2WDkwdXpFd2tKQ09sVHlVcnNlYnJJb1VHS1plOXlDa1I1T3BQV3ktSG5FLW1aN2tqQUJNcWJCYTR1OVZMU29ab0c0bER4dFJNQjIyNXJBbUdJblpDRi1zcUlHQWs4bmdMbE9wUmRDMHdIanhyZkFybFNGOV9Nelh5M0U0Ull6SmRpbFB4UHhF?oc=5",
+     "sinal": -1
+    },
     {
      "t": "PIB de São Paulo cresce 1,5% até agosto, impulsionado por agropecuária e serviços",
      "fonte": "Exame",
@@ -1388,6 +1395,20 @@
      "data": "2026-11-06T12:19+00:00",
      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObFUxa1MtS1lMeDRuc3dDVExwSFVRSmp3LS1JUHlCWi1OLXVlaF9BeHRoUm1lQURtSWpEckdUQXJZWXF2OGJONnNoM3NHYTR4OGRJZGlKWVMtYm5PTFd2c2J2dTZpM0syTVhkaHJPczUyeXljRWZxU05CaGRfZXBpNy1KMFVaNzFxdlE?oc=5",
      "sinal": 0
+    },
+    {
+     "t": "Banco Mundial reduz projeção de crescimento do Brasil para 1,9% em 2026",
+     "fonte": "CNN Brasil",
+     "data": "2026-11-06T08:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRFVuU19oRHQtOTFLaWNQWW5FOURUZkh2Ylpnd0xJSk0xcVdMSS1FT2hNaGhCdmZVQVU1azdsWGo0Z2ZwN0pBWW5PSnRhMFBlRzdUUFNsandkZk5FZmhVRk5GZ3BxamxaQkV0dEptOE9KdmdQRXd4cm9rTTJQcHBWdTZ1MTdPcUIxaDN6Wkc0Y1JBbzhMTmxhZjlVcDhrWVhqNW1tY3dDV3VEOGoxMDQ4eW44YzFWVTVONHR1R2NIVUFRSzdlR093?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Setor de serviços do Brasil cresce bem mais que o esperado em abril",
+     "fonte": "CNN Brasil",
+     "data": "2026-11-06T08:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeFMwMU9IR0FLZXVnV290aGg5VW5mVzgyMW1qTnp5bHA1ejZaVGF3TzcwQkZOWmJwdTMwa1VDTi1HRlBwOGJnUlhQbGlqY0E4eEJPdklFMU1GVG1LQzFMNkg1S3Utb2ZoZkh2bTJ1NWYwMTNJOXZObXdHWVdOeHNEdXRDZUpvakg2c1MzRDhpT3l0endSZlIydS1qdVNYOEs3TDJlbjJfdTlYTG0tTTFmd0pWcE90ZTNJTjRBZ0RZSmotRDJF?oc=5",
+     "sinal": 1
     },
     {
      "t": "Estudo aponta que alfabetizar 90% das crianças até 2050 pode aumentar PIB do Brasil em 29,3%",
@@ -1681,27 +1702,6 @@
      "fonte": "dfmobilidade.com.br",
      "data": "2026-11-01T14:41+00:00",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWVcyaFVWN1BIdzlfNzN1WUphelYwdGJIM1VQVmxETTJPV3pTWExJYnRfVlF1RjQxdjQ0TTR1UU9xV3NPZ1BfT2xBallCTlNzaVpJRnJNalFxZEVna0hnOWFUY2xoNFp1ay1ENnJ6ZTVfZ1BuVHZZZ3MxYzhvUU1HRjFoR3JtTWo3ZWgzbVpFMURXWmtONDVkWUxOZTlRVE1WY0NxLQ?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "Lula reeleito pressiona inflação e PIB em 2027, projeta mercado",
-     "fonte": "n3news.com.br",
-     "data": "2026-11-01T13:38+00:00",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNXdDdC15OHdtcDlQQUZsNzY5TTY1SkFPOWMwOUZuQk9TOFBZaXAxUXNpSHRZdzJUM3dPcm9jQ1lVcjUtRnR3dVk1REltMkp5Y0E4NWtNRGVROUxuRlE1bE1YSm1aX3ExWlRKVDNmYnJvN3JFaWtMRFZaNWZKd3BGOG5qZjB0VWM?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "Economia: Mercado prevê inflação de até 6,1% em 2027",
-     "fonte": "Portal Terra da Luz",
-     "data": "2026-11-01T10:30+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZ08xY3JYby1raXEyY2IxTHp4UGZIMG93eERPb1RUc0wza1hVUlBJUVhDRWtSZE5PU3FWd1FVRUZSTkppeFQ2QTJGMWFySG00OUZ0U3pJRVUtUElmY2VfSTVVRm5PckY4UHdwb04zRkZXdlk3WjdFNTRMMmlVY011NFhySmJJY3FicS1VVHlkVFh6UDAzMDdxOWdCUmhVd1JDeUE?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Mercado revisa PIB para baixo e já vê inflação até 6% em 2027",
-     "fonte": "CNN Brasil",
-     "data": "2026-11-01T07:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOUtpNXE1UV9OQ2dxbHpZMUE0bzkwUWRhOUhDb1Y0VVRpWXdSQnNfSHdDSy0xVkR0djY0Y1d2OVVJVDUxU0hCY053VDlYeE9qUXVCZEo1ZnZvWTZzOXhjSVUwTXFCdjdpWEY0OXRibkI0cGp0ZW80ZEJOZnNIeFJfOWFBaWRSZFVpWTFYN0kyM1I2RnRBUWI3aU5EVGVDQjJvSEZJZkEwYTFqaGFEd2xWTXBnNA?oc=5",
      "sinal": -1
     }
    ]
@@ -2275,11 +2275,18 @@
    ]
   },
   "fiscal": {
-   "indice": -0.15,
-   "n": 47,
-   "alta": 7,
-   "baixa": 14,
+   "indice": -0.186,
+   "n": 49,
+   "alta": 9,
+   "baixa": 15,
    "itens": [
+    {
+     "t": "Ajuste nas contas públicas: o que está na mesa de Lula e o que está fora do radar do presidente",
+     "fonte": "G1",
+     "data": "2026-11-08T03:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQRHA0dl9xQ1VDZUlZdXlsU3lRNkUtdkdXckVreDBwcEpoSXNibjFLWndVZmJWX2JTMmNSUlBzNmc3VUh4UktmbGRaTjJULWx6LV95MDJ6V1FJcE9ObGQ4Q2szeHVxMlg1aWxYTG5YY01SN2IzZXlkX1N0anJEMHRTQUJha3hzVkczaktTSkVULXdQQWRxZm5rYnVvczQ5X2VrWEF4WFlZdndsRzVPQ3RGN1pFQndyNDlvaXJaV3AzTVpOdG9KVjNIaVB5Ml9DaVU4Z0hsRFhTMVBpTEctb2huMkloNUxHbkl4ZVNFVjRzRWVGZ9IB8gFBVV95cUxQRHA0dl9xQ1VDZUlZdXlsU3lRNkUtdkdXckVreDBwcEpoSXNibjFLWndVZmJWX2JTMmNSUlBzNmc3VUh4UktmbGRaTjJULWx6LV95MDJ6V1FJcE9ObGQ4Q2szeHVxMlg1aWxYTG5YY01SN2IzZXlkX1N0anJEMHRTQUJha3hzVkczaktTSkVULXdQQWRxZm5rYnVvczQ5X2VrWEF4WFlZdndsRzVPQ3RGN1pFQndyNDlvaXJaV3AzTVpOdG9KVjNIaVB5Ml9DaVU4Z0hsRFhTMVBpTEctb2huMkloNUxHbkl4ZVNFVjRzRWVGZw?oc=5",
+     "sinal": -1
+    },
     {
      "t": "PENDURICALHOS: Judiciário e Ministério Público querem R$ 533 milhões fora do teto fiscal para pagar benefícios extras",
      "fonte": "Blog do BG",
@@ -2547,6 +2554,13 @@
      "sinal": 0
     },
     {
+     "t": "Economistas propõem taxar ricos em vez de cortar gastos sociais",
+     "fonte": "O Potiguar",
+     "data": "2026-11-01T20:41+00:00",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdmJ6UVVMYWpLUF92bTMxeWtFcnFRTFJ6OG5RMXE5cjBWWGpHOFpSRlZVamRMd3BjbEpqTnFxZGo0eF9La1R2SHVybUpwNXhWSDl2Z0d4dnBGOGM1SmRfMFpIV2ZCUHBNV3Y4R3lrYnJDdlBNVVVEOXNTRnhjT05KR05nbjdveTZLV05aYk1yT2RlQzVFZE9J?oc=5",
+     "sinal": 1
+    },
+    {
      "t": "Economista alerta que choque fiscal levaria país à recessão",
      "fonte": "Hora do Povo",
      "data": "2026-11-01T19:44+00:00",
@@ -2589,6 +2603,13 @@
      "sinal": -1
     },
     {
+     "t": "Economistas sugerem taxar ricos em vez de cortar gastos sociais",
+     "fonte": "Notícia Toda Hora",
+     "data": "2026-11-01T12:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZnhJWHdUY2RBNWxWVTJwVkNsRHlfdFB5cEl5THZlLXhabmNucmQyU1JoNzhTSWJBb3NtdDJKZDVvUTd0cnZtZ3RyX21HX191ckpKSHk3cTItMVQ0TVhMXzZZNFhZOTdSb3JZU0puQUxiVUtWT3A3LVFDWWNpN1VfZE9tT005MG1aTWtMU05FV3oyckIyWUFCSkxBcw?oc=5",
+     "sinal": 1
+    },
+    {
      "t": "Ministério da Fazenda estuda medidas de ajuste fiscal para 2027",
      "fonte": "Portal VV8",
      "data": "2026-11-01T08:06+00:00",
@@ -2601,13 +2622,6 @@
      "data": "2026-11-01T07:30+00:00",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTEtRem9JSU0yemFVY1VBREY5dEU2UzV2cC1SZHg2R1RjWl9DNzZvZ3lWeUZWSXpSbEM1U3NSWUYwS3Q2VWdnOGhGUGpfLU4yTG5tWnVuc2lHY1dSQVZpMkxZRENaeXd1OFNIWnJxRVFJaFQxNmhrQU1UWlFEV01vMzE5U1dVVkxxcmFVMWNOMXh4OTBCbTVKQlZPeGFJOVh2aGFJ?oc=5",
      "sinal": -1
-    },
-    {
-     "t": "Manifesto de economistas rejeita corte de gastos sociais e pede taxação de ricos",
-     "fonte": "Agora Litoral",
-     "data": "2026-11-01T01:25+00:00",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWlotUGpabTZDaUZsM0lISUMzR3pEWGVQamhsbUJZWFJ5dkhUNEdnYnFaUllRdVNIU3NWcWlQYjJnd1BKTllhazluMUVyeElkd1lUSm14NmI2VTg5eW10UEdVUVpaRUlSM0VBWElqTkpJRWRSUVJnU3ZEZW9hZmtJQUVPZU1CNlF3SUlrcGk3cW93YXkxRHlpcFdlaDBOalcxTzdfNk15ZnVwSXlGcUpkNkhOQkItb2xOT3RmRg?oc=5",
-     "sinal": 0
     }
    ]
   },
