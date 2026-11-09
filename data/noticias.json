@@ -1,13 +1,27 @@
 {
- "atualizado": "2026-11-08T23:42+00:00",
+ "atualizado": "2026-11-09T06:14+00:00",
  "fonte": "Google News (RSS), últimos 7 dias",
  "indicadores": {
   "ipca": {
-   "indice": 0.162,
+   "indice": 0.149,
    "n": 80,
-   "alta": 18,
+   "alta": 17,
    "baixa": 2,
    "itens": [
+    {
+     "t": "Pra começar a semana: Semana tem IPCA, viagem de Lula à COP e debate sobre escala 6x1",
+     "fonte": "UOL Notícias",
+     "data": "2026-11-09T05:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdWFjcVVWbHRrSlp4QmUxYk5qYTYzZ1U0dDBzRHQ3WlR5X1JmeElGbHRfWndmU1ZiNkJhX2RGb25INy1LWkVrMkZIQTAtUHNSenBBRWdRRUF4UFF4SV82QmJzaGxJWXhVcWFkQmcwdEs2aUZlSWE0RlFaSFVMOXVKYVZnbGtybS12NmpZaTNVSFpUZTZ3WU1xeFRUNWRXNER5aG5VTnU3S0tSd19FSGhQMXpRZ3RJejVmeDdpR2UwdFVZeG5oeDlheXFlT3I4cmM?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Inflação no Brasil e nos EUA concentra atenções do mercado nesta semana",
+     "fonte": "brazileconomy.com.br",
+     "data": "2026-11-09T02:36+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeDdJejhHM1dGeEpnclFhYWFFZEJwUE52TmlPLVpUQkU0VkxWbTBkdHctTGNpYnB3ZTBzdXIwQi1pTGxRdjg1WmM4a2l6U1E1al9EZ2preGFzUWJWNDU5cnVZRGJ6RGwwa3h6aU9OWEpwcVhsdktQUmJhZ2N0dUg5MUNCYi0zQmNJVkItYURmbjhPYnRKcExCalBWdHRCR2FMY3d4Y084TkxxQ2U2NmNaV0hDSHJqUUgtMnc?oc=5",
+     "sinal": 0
+    },
     {
      "t": "Calendário econômico da semana: inflação é destaque no Brasil e nos Estados Unidos",
      "fonte": "ContilNet",
@@ -553,20 +567,6 @@
      "data": "2026-11-03T22:40+00:00",
      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPVW9wcTJZQUNrWk5UdXhhcl9KSEF4WU1fWnVwN2VRZ1kwMFIxY1JTNko5d1lJVFEzenk4M0oxS0VZRC1IN1FjSXpGUjBOT3g0aDRoeXZTR0lzQm1JcmZPWGprT3Rxc3RIY3l3YjJLZjh4cTE3ZzBmQnBkUDN6eEFuQzR1OE5Pandmc29xNkhwLWNhd3BXVDNPeEc0bUpNdkswWW1hWXVGQ1l4Q1dQbGFNTmhLRjJ1dVRmMHZZUDZCVFZCV2hoeFd2R01tM0p6UV81a0hsLVl0NVU2VWNIaWpyT3RvTXBiUUFZcW5iTENB?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Mercado aumenta projeções para juros e inflação e reduz estimativa do PIB",
-     "fonte": "A Notícia do Ceará »",
-     "data": "2026-11-03T21:33+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZmtIOGcwbUZjSFk3YzhtLXhWQ3NJV1B0OFZTR2NGbzFENlB0dS1kb1F2SEhaSUJpYnozcmZrRTVMMExERVUyaFhsdjVsMVJZUTI2ZUJWVVpDSFVyRzVnX1hhOHQySGlCNy1nVjFGSUpPQ2VDNUppOTh0TVh0em5rZS1ZMF9KbWRVQnprY1JzMUxaOUx4S0xFcG1wdWFjOEF4Q2JrMW9fOHA?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Economistas sobem previsão da inflação, juros e dólar até 2029",
-     "fonte": "Bem Paraná",
-     "data": "2026-11-03T20:49+00:00",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUVpkT0lzYWFTVG4ycTZIS0hDWHg5LXptSFQ1bUpYTTRmZzRZX0FPXzV1QWl2NHN1OXBEMC0weHhZTFI0SERINURqdlE0NUx5RklCV2hoZ2VIMU1iY0o4VXFIVVNwd2NwYl9MOUlEQ3Y3NGlzLUFEZzA2X0VHVGlJdlczTXNxQWFZQ2hWVnVzMFhpbkhaV2YxTDg2bHVadVVlUXZjMEt5U2RPdkw3NUHSAbMBQVVfeXFMTlZGb3ZzM1lSck5TZ0xlWW52SUNqRlhyX2MxWklRSDJybXVfQXJEamhTcGpXc2ZpVTBtSkZmV2lEWG5CWHg3YnpWUlducDhKQmhHdEFwc1dvSmxOVWE0Ny1OYjhLXzc2N1JkTEg0MWloVXVHbW5MU2h4VmNoNWhjVXhZMC1rQ2s5cXlyczNWaHVWeUtYYnNzd1k1eTA5SWhTZzdXRTlWd2ZCOUFYODRESkloN0k?oc=5",
-     "sinal": 1
     }
    ]
   },
@@ -1707,9 +1707,9 @@
    ]
   },
   "cambio": {
-   "indice": 0.355,
+   "indice": 0.366,
    "n": 80,
-   "alta": 30,
+   "alta": 31,
    "baixa": 2,
    "itens": [
     {
@@ -2007,6 +2007,13 @@
      "sinal": 1
     },
     {
+     "t": "Dólar sobe a R$ 5,50 e fecha no maior nível do ano",
+     "fonte": "Valor Econômico",
+     "data": "2026-11-06T20:20+00:00",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWWthbTBpRm1hX2ZzWDRDbkNuYzZPUHJZOXFHcm1hVVh0SnV2Z1VmRjFZQzhNb24xRW1lTDF4MlZPOVZ5d0Y1dnRMN01WeE1HMk90Vm5QZkVwbFFuSURWZUdPTEc5M1lnLXAwVGQ4c1VLMUtTUlBidC1DWHUydThNTWwyTXowRFBjN3FwM0RweUtaWk1MZFNIUXhIRnp4VWR4dVV4ZUNMX1p2eUVnZXltNkQycGZCXzMtSU8tampMUDVmLWFW0gHTAUFVX3lxTE5tT2NHVGlWTEc3eTQzQVJyLTRaSFgwMWVYdWQzcndpNzh3MlA0RWlwc0Vsay1QWnZsOHYzMHNpb19CUDFtaTM3cWVyZWgwa0R6WDRkaUxLTjhIRjJYVjBKckZ4Mzc4aTZtZE9WaUdYRHlTYjBHOC1tNmNqLWFKVFlsRFdRLS1mQ2ZydDlGREdidV9PUThzaWVsMUU1TWNPSmN3S1dXWWZfRWR4X1d1YTF2eWt4MXVCNmxUTzJXWHFmVXdFb0RPU1J5QmlXM1ktOFJmejg?oc=5",
+     "sinal": 1
+    },
+    {
      "t": "Café arábica cai 5,7% em Nova York; dólar sustenta preços no Brasil",
      "fonte": "Portal do Agronegócio",
      "data": "2026-11-06T20:00+00:00",
@@ -2182,6 +2189,13 @@
      "sinal": 1
     },
     {
+     "t": "Dólar fecha abaixo de R$ 5 na última sessão antes da eleição; moeda recua 1,58% na semana",
+     "fonte": "Bom Dia Mercado",
+     "data": "2026-11-06T08:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUFVIWTNJa0F0YXdiN3JkZFgzQ1cxYWhLcVRNbHpjQkw1VnZweU44STNpek5IOU0zTEtHd2RvVnlpbmlaZUdGbERSeVZoWlU3UTBvZEhaYkZFd1Y1RUNNNl9jSndnYV9Ga1VvUmhvWWk3b1hpWW5sbnR4UzY1TGZ3YWJaRmJna083WTU1dWhBcE53b0tQZk03ajNvdGwwY2ZYX25MVGdNUnhnSlQ1a2FKVG1kWFZKMDc4blJsQVJLM3I4b05uZGdSNzBHcElHaFN5T2owYS1tSnBZbm93dWc?oc=5",
+     "sinal": 0
+    },
+    {
      "t": "Pressão em Wall Street e decisão do Copom levam Ibovespa a queda de 0,82% enquanto dólar fecha em R$ 5,48",
      "fonte": "Brasil Inovador",
      "data": "2026-11-06T06:22+00:00",
@@ -2257,29 +2271,36 @@
      "data": "2026-11-05T22:33+00:00",
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbW5YaVBGZWo1Nm5GUWFlcnIwRGV6TDFtNU1oMjJYMGhUS0lWUG1aUVlzdkV3a0NiLVBSdmZGVjZuRTZNS0dJLVpqTjhjeXJSOTM5LTZDbk8xR21OZWhZUnNzUnJSRHN0bTR2Ti03MVlrSzVYLTUtaUZuTi0xQndiVEgwaVBKQ2k2VFp4dGx1T0N4RjA?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Dólar fecha em R$ 5,49, maior cotação do ano; Bolsa cai 0,82% com turbulência em Wall Street",
-     "fonte": "Jornal O Sul",
-     "data": "2026-11-05T22:17+00:00",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON3BObFpQZUt0QnZqdUlVR3RSR1l1SHZwUzRCRXBKX2pmV3EtdDR2bTNoMGdMNUN2dC1wV2VIekE5NWg4WjNMZGZWQUI3ZHhPNllpMk45Ni0wXzhySG1RLTJwUjNHeDNHU3BpTVgydzlOWEFmX1M3MTUwNEtGYU1pdHpMY1hzV1l6Tk8yd09ELXhZdjhiRkgxbkE3bzdjeEg4UElrem1iNnhDdWNzVk9KbtIBtgFBVV95cUxOb0RnRUJuMEs5M1FqXzBNVWVBcGlZM1VwbFFrQXRfbkdxZldYNFVkT2ZRcmNvNDhQNXBVcTUwRzh6cDBRX1F4X2VZRlh4cHk5VnM3QWk5cHFGdFlfTlV3TFZEZnRZcmNoTHVuWGszT3ZOQ1ZFbUNDQmRobGZTd3VHUTBvNHVCNTh2MjhsSHdaX29fWUI4T09vUldjUFNmS0FjTnl2ZDBBQ2wxNkVfa0F1d3lGSUdsQQ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar fecha em R$ 5,49, maior cotação do ano; Bolsa brasileira cai 0,82% com turbulência em Wall Street",
-     "fonte": "Jornal O Sul",
-     "data": "2026-11-05T22:17+00:00",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON3BObFpQZUt0QnZqdUlVR3RSR1l1SHZwUzRCRXBKX2pmV3EtdDR2bTNoMGdMNUN2dC1wV2VIekE5NWg4WjNMZGZWQUI3ZHhPNllpMk45Ni0wXzhySG1RLTJwUjNHeDNHU3BpTVgydzlOWEFmX1M3MTUwNEtGYU1pdHpMY1hzV1l6Tk8yd09ELXhZdjhiRkgxbkE3bzdjeEg4UElrem1iNnhDdWNzVk9KbtIBtgFBVV95cUxOb0RnRUJuMEs5M1FqXzBNVWVBcGlZM1VwbFFrQXRfbkdxZldYNFVkT2ZRcmNvNDhQNXBVcTUwRzh6cDBRX1F4X2VZRlh4cHk5VnM3QWk5cHFGdFlfTlV3TFZEZnRZcmNoTHVuWGszT3ZOQ1ZFbUNDQmRobGZTd3VHUTBvNHVCNTh2MjhsSHdaX29fWUI4T09vUldjUFNmS0FjTnl2ZDBBQ2wxNkVfa0F1d3lGSUdsQQ?oc=5",
-     "sinal": 0
     }
    ]
   },
   "fiscal": {
-   "indice": -0.186,
-   "n": 45,
+   "indice": -0.206,
+   "n": 48,
    "alta": 8,
-   "baixa": 13,
+   "baixa": 14,
    "itens": [
+    {
+     "t": "Títulos atrelados à Selic dobram e colchão para rolar dívida pública de curto prazo diminui",
+     "fonte": "Folha de S.Paulo",
+     "data": "2026-11-09T02:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSEVQWk03amg5alFOeTNMWnlsal85X1V6MktrSVN3NndmN1FkdGlpMVo0RF9CMlpkYUlIaVhDUEJCMUpXY3VIN1hDZnlmUUxoR1pMUnh3LUk0QjM0bmo2cjVuUmxCSVRKZDhFXzEtYkFtUDlSUzVoUklNMFBsdjVnQ1Z3M2EwbFJGaVF3M3U0b0hWcTFvaEhFdlhjMWpmT0JJQlVlbHprcWE2TV8yRWMyVVJ0c3FVSnlaNzhpMzJaRVhhRXBoQWhwRXhRQk1IaVV1RWNfR3hYZUFLTjg?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Economia travada: 'pacote da bondade' eleitoral, insegurança, explosão da dívida e famílias sufocadas param o país",
+     "fonte": "Notícias Tudo Aqui",
+     "data": "2026-11-08T23:12+00:00",
+     "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQdFNIYmVkelF0VF9GZWRqVUNNbTBfY3lLOW9vdXBsWVNrVTB1RHJ4X1UyWDV2RnFIX3VXRlAzZ1NxYzhsYmhrYXhJUzI0UG1nX3JCSGV0UHkxZkhGZmNPTzc4LVF0U1YwN1c3RDB2QjJRZDU4dnA2bHI1VTEtQ081dlFrLWtrdGJibDdINGJINFNaR0lKWGNKM1FzNDYtTjlMUzhxYm9IakozX096eVVCMFROQ25xekU5UmlKRjB2NVlsb3lTY1dlemZDSElpQTc3SnZLMGIyZjZkLWR6X01wYzNXSERIZkxLd2xGNHAzemZxWGRvNWNMdkJpcHFJd0I2bF9WcHY3T0NDMjU0MzJ6Z1pkMFBTTUZlcFd3?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Governo prepara ajuste fiscal com revisão de benefícios e novas regras para despesas",
+     "fonte": "O Otimista",
+     "data": "2026-11-08T20:14+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNU5FVGxjaENTaWVIeWFITlFJb0xucHZGalhuWFRlbE9TYTNPa2h1UFZ6VjBxV3hkN0xhd0tYZ0RLZUViR204R05qUnlRN292dFQ4T1VZdTMtMzJLNlAzR1R3ck5fSFpacVQ1bkNjS2pZa2ozZkltZkNZUXNMcFIxQm9Gd2piaFpqQVpCVmlSaXBSZm9mSjN0YWtNaFh5VDhCODV6dGdseGUwcWlXd3BqMlFKaGZ1Y3dQUzgwb3ZkdWM0cktmY3N0ZFBBVi05bFBhTEFUMEdjanZiZw?oc=5",
+     "sinal": -1
+    },
     {
      "t": "Lula avalia ajuste fiscal com revisão de benefícios tributários e novas medidas para conter gastos",
      "fonte": "Plox",
@@ -2599,10 +2620,17 @@
   },
   "bloomberg": {
    "indice": 0.0,
-   "n": 19,
+   "n": 20,
    "alta": 0,
    "baixa": 0,
    "itens": [
+    {
+     "t": "Lula promete responsabilidade fiscal em seu primeiro discurso na TV desde a eleição",
+     "fonte": "Bloomberg Linea Brasil",
+     "data": "2026-11-09T01:54+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1FIN0k0Yzg2cmhyWlpwN2wzNXUzSnU1SUtGQlBmRW1PQ0VrdjZEcTA1MHlmUGJyWElMOFhCVnUzVkgzZW9MWW5HYWNHZHBzYnRsci1BRFJvX2JaMG9sbWtiQXJfdVQ0V3pkdFBHSGJvSXJjZkhvdVgwQUtDbEFOUmRmYUdyLXd2eTRNV3d0cnBhRThmUkVEZ292QmdXMUlETzlPOXVrelNNQk43STRyZ2REYXNHY1NTRF9WY2lTMS1ZNjTSAdcBQVVfeXFMUDNBb19zZU95TGlJT2xPTWtmMzBHd3RXU3VwMDRsQk9nOG5CVHJQWWd4d0RvZHp6emhCcEllOVpSMDVUczA5cXI3Q0JaXzZrSzUwTklxQWFWYWI4SFIyYXJ6NmFXd1pOekdHTHVZMzZCX0Zkb0l5TGZXMzlTWXFJcW5VelQ2SnlJczlRaUJzdjZiWHBqc1lmS0MyVElNalNVRWxBWW5udzlsNmNFZzNtd3hjSkNiQVVGRlNUMGR6RzE3RFMyTlUxR1hJYmpQdjgyazFpTThEWFk?oc=5",
+     "sinal": 0
+    },
     {
      "t": "ByteDance, proprietária do TikTok, avalia expansão de data center no Brasil",
      "fonte": "Bloomberg Linea Brasil",
