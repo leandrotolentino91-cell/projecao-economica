@@ -1,9 +1,9 @@
 {
- "atualizado": "2026-11-14T22:18+00:00",
+ "atualizado": "2026-11-15T02:37+00:00",
  "fonte": "Google News (RSS), últimos 7 dias",
  "indicadores": {
   "ipca": {
-   "indice": 0.153,
+   "indice": 0.152,
    "n": 80,
    "alta": 19,
    "baixa": 7,
@@ -13,6 +13,13 @@
      "fonte": "Times Brasil | CNBC",
      "data": "2026-11-13T20:21+00:00",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUFI3dVpoWFBVaVFfVjdjcE8xamljeFY5VUQ0WnN4ckVDSVh6SFNZNHEzSWdZbVMySU5BVWkxcHBqSkhBQ29OLUFtZWVzY3ZXRW9KMnh5YmRqbHl2YlNVVHp6TFlfZkxac3RsR0hGdUF1b1Y1bXliS0dhc3RjcmZyYkpxVGdpRHUzclFXQ2dBTE0zNnVUdzBFZzBTdw?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Copom, IPCA e pronunciamento de Lula dividem agenda da semana com nova rodada de inflação nos EUA",
+     "fonte": "Estadão",
+     "data": "2026-11-13T19:05+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPQXRFZXYzZ3dsZVZMYkgxbmhia0JIbEZsc2plakhyMmtxdzFmY1dtZjB4dzhXWjhsbko5aHN1QlVTcjRUVmwzemJvLUpWZ2tkSXdpc2szd25TMGNvczlSUWNxQlNocXpHMlNtN0ZvXzMtSE1JcmJjODJ2d245ZmlIV1ZlTzVfZ3FXbUkyc3BXT0tqYmJWRXg5ejJnVEtUWnJSZUQwS2lGMWptWndSZkRKdjY4TDREcG9maFg5bWw2YU5tUEprZmtzWF8zODI5NUotOTl5QVdqWVlILV9kdzdLQlBjOVZ3ZWo1bk8tNy0wem5qaDYzblE?oc=5",
      "sinal": 0
     },
     {
@@ -560,18 +567,11 @@
      "data": "2026-11-12T13:58+00:00",
      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSnhVQ2xPeS1WWVVFZC1HVEROVWxQU2tsWTZic09YcTJGSUl3ZXpyd01mbUpaYWtLR2dWOFVvelRZM1FKVk4zRXRMaVdGRXRVRE9WVUJLNHg5WFN6dGJKMDZQU1FvbDlJdDJMX0hNNzhaOHgxNy1pYW82cEpuN2tsYlVjOA?oc=5",
      "sinal": 1
-    },
-    {
-     "t": "O tomate está mais caro em todo o país; entenda as razões para isso",
-     "fonte": "InfoMoney",
-     "data": "2026-11-12T13:52+00:00",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdHFaTDlSVU9tYWg5WlBsR0Ywdklzby1XQk5KOWxSWE5HVFB3bWczY3Mtb3FyS2UxY0pNQldKZlBYckZlaUFzZ21Zd1c3MTlnWS01ZXJTQTg5OXZVbFNxeWdjSFJ2N215T01tWWhOSndodWRibjJ2eGVCQjJhVHU1aERlNlRYTlFuMHBJYzZlMFJ5cXIwcTlrWHhBUTNPaEhxenBaVDc2NNIBrAFBVV95cUxPZ1hqNUdHV3dkUDVSNG04YlpxMVhTU1RQdFBib2dPTzVnU1puSmE1T1AtakY5aXZqOEd1bUNSUHBoU1NlVU1hSFpYWnBuWTFKN3VDM1J1SEQ4Wk1DZThTU0gydGJfLVh6bjFQeFpHM0V2OU1TakJ2bk1GMF9TaXpJWGhZR0EyZWFEaXRmVmdtaURLU1VfR1lia2tqVWlDNzlIQzFnMXBHUE5XVkJR?oc=5",
-     "sinal": 0
     }
    ]
   },
   "selic": {
-   "indice": 0.083,
+   "indice": 0.082,
    "n": 80,
    "alta": 9,
    "baixa": 2,
@@ -686,6 +686,13 @@
      "fonte": "Jornal Correio do Brasil",
      "data": "2026-11-13T20:24+00:00",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSm1CdmFoV1pXUE1ibVdHLUdPSHl6eUF0LW5PdDFZTXV0d0xzbWJCYnJIQm1QVnBIQ2hXd3NnSGl2bjYxbVQ4cjRISVZlM1JOSGZUeDJicjR5SXpkbkNTbnkzSFVleTQzejBSZklfejBkaGNOVEU3Rk1lNDQtWTdXVUp5akpkLTJqby1ZM0gyeHBVN3NkNGk5a0Jldw?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Galípolo aponta radicalização no debate sobre juros e defende complexidade técnica",
+     "fonte": "Plantão Brasil",
+     "data": "2026-11-13T20:20+00:00",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQejlGVW5VWktBcURnaGFVNlNBLVlzWGtqeXJWZlpBejFmWGkwbkx1cmExN0tneVlUWkUtVGR0cjVYR1dhVTJFU3prQUliTkJvRnNiLVU3SE9VWHQ1SGJBekpIc3NDbmYzdkl3UUdTX1JNazJLeWVrelQ4WXdJVmh0M3RmMWo3bFBMWENZUFk3M2x1V3R6YWVzX0ZnemQ4RnlJMW5CQjBtSl9IT1FUbGNtRUt2QVcxRGFJaUZLamlRbmhiM0Y2eW9j?oc=5",
      "sinal": 0
     },
     {
@@ -1128,22 +1135,22 @@
      "data": "2026-11-11T19:55+00:00",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTFAtVG1ORDBlWktnYWM2bTgwY0ZiY25pb29nanVYMFNPNEJBdC1EM1NwWnEyTV9WdDRoeC1KcVZIbTlmdF9JWkdTU3l4STg1N294S2JmSUdEWVR4b0RFaHVNYUJ1Vmx5WE95VHgtblZaMEp5MnB6Q0EtR0VlN1ZmNklheWx3UGN6Rl9tRklJLUxRUWh3T0ZVeEZlSE9WMDhFaHJ2di15Z3kxRXpDZE9rakxoZHBqUktaNF9rVURMV0F4V2RzRVE?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Galípolo descarta sinalização sobre juros diante de incertezas econômicas",
-     "fonte": "Vero Notícias",
-     "data": "2026-11-11T19:48+00:00",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbWtyU1RrUUZVcl8wVjhOVkdMX1BHdUR4TU55Skp3bGpNSE9DenJIaG9Zc2FUa1dSX3dzMWFkVGZldVBZNlY4aWlxRXpCbnBRS01iWU9oYmJVbUREeGExRldBTHEzRzdvQXBuTF9NVUZqaFBRek5PMU5Oa3dtWU1XTEl0Q282TTF4UWg4WFdlTkVJMmxTZVNkMXJUR2R4MGZwZy1JdlBkU3dzQ1dm?oc=5",
-     "sinal": 0
     }
    ]
   },
   "pib": {
-   "indice": 0.458,
+   "indice": 0.411,
    "n": 75,
-   "alta": 34,
+   "alta": 33,
    "baixa": 8,
    "itens": [
+    {
+     "t": "Economia deve desacelerar no início do quarto mandato de Lula, com PIB revisto para baixo",
+     "fonte": "Muita Informação",
+     "data": "2026-11-14T23:27+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaFIzVDdOaFRRckhITEJoVkFUeWVZNE1WZlRPakpkdkt1UVdQRDRWN3llcDJWOTZHSmpGejhyU1V0NmNXdnZwQjVYcFlTOWl1ZjNuQjBZLU5YMjdZY0VQbjRHSG1ZN3BsbFlCdzlEdUZXMk1OOTMwLUxoY0xkc0VhT1lGWjlXZkxONzZwT2hrbG5wSG1sRmRtaUFYNWZ3VDRFazk5RTVUVEdBeVFCbEZGaWItdG1WWVJIQmZmN3V4VVU?oc=5",
+     "sinal": -1
+    },
     {
      "t": "PIB do Rio Grande do Norte avança 6%, terceiro maior crescimento do Brasil; aponta IBGE",
      "fonte": "Blog de Assis",
@@ -1262,6 +1269,13 @@
      "data": "2026-11-13T17:59+00:00",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb05UNXZJa250akU2bmswR2p5Y1JoS2RyUFE0WHV0eEUtR2VvOENVSUczWmRmM1FIZy1lZEpiZkV3aE9oNFJVZlQwR1lOYzI0NzJDMFpjLUFaQm9feWNRcWZBZGdCYjl1RW1MMmpURWlDYmQzSVIycVpUM0hSU0RzZHh4Q0NzaHYtYlpGcU5LNmltQ0ZkdEhQVHFneXBYRmhJa1BRT2E2OUJ0N3FjRlgxUU4wOC01a28?oc=5",
      "sinal": 1
+    },
+    {
+     "t": "Santander corta previsão de PIB e eleva inflação para 2026 e 2027 no Brasil",
+     "fonte": "BPMoney",
+     "data": "2026-11-13T17:40+00:00",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaG90UUlfMHBacVVKb21uQjBES1A5WkhzYmloUzN3ME5Ha0ZvTTQ5UDU5NS11MUJHRmRpa2FvSlBTOGt5bjBfcV92bzBvYTZIdF9QX1g1WGlvalJ6Rjg3dWkxclhWUndyekR5cElGR05jU1d5Q0M5UHFlWmRZVFRwa3BxcWdSUXBhbEtEaElUQnRIWW53?oc=5",
+     "sinal": 0
     },
     {
      "t": "PIB per capita do Piauí cresce 961% em 22 anos, mas ainda é o 3º menor do país",
@@ -1654,20 +1668,6 @@
      "data": "2026-11-08T14:12+00:00",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNWR6a05JajJzQXFLUjhtOVZac2c4U3NjakVUVXRCdTNIeTZUXzhobEExeWNNd3JtVWlvaVg2QmxtdWR3d1FTQjAzSE8wcHo1U0l4Y2xvX2lpUm5fdDdxY25wTlNneE1oLWVhQjdzVmUxcFNSb1Zza2JzQlVqeEdmOFhtSFpkV0pULUo1bWlfV0FUSW1NLW9EZkdpaHpxcUR0SjkxT0R6cEFrX1ppNWk4S3h3?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Risco de recessão no Brasil ganha força para 2027 - 07/11/2026 - Economia",
-     "fonte": "Folha de S.Paulo",
-     "data": "2026-11-08T02:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbzJkVzhkcUZfZVZaMU1VOUhERzY2WDkwdXpFd2tKQ09sVHlVcnNlYnJJb1VHS1plOXlDa1I1T3BQV3ktSG5FLW1aN2tqQUJNcWJCYTR1OVZMU29ab0c0bER4dFJNQjIyNXJBbUdJblpDRi1zcUlHQWs4bmdMbE9wUmRDMHdIanhyZkFybFNGOV9Nelh5M0U0Ull6SmRpbFB4UHhF?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "Atividade econômica tem alta de 0,44% em julho",
-     "fonte": "Terra",
-     "data": "2026-11-07T23:11+00:00",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOR3VTZEJudFh3dVBrQ2M2OFAwRTFiSUJJYlVaSkJpYmx1TmxUcjFtaW9oa3hWOXdNVlBDMlJIcm5XZEg5cU1PNmItdG9SQi1obXdwVFhFR2xnU1dTZHVkMl9kWllnX1l6bHBfend2V3hFQVVqUTNaSVhETkMtVktOWDBOZC14bXJ2RGxoRDFBYnkxOWV0eHlra2R5aldwRjdtSEtzdHVuN2YtYlpGb0RsY2pVSjB1RWpPd3BzNGwzSHdvRkNrZnc?oc=5",
-     "sinal": 1
     }
    ]
   },
