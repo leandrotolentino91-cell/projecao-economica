@@ -1,13 +1,27 @@
 {
- "atualizado": "2026-11-15T10:45+00:00",
+ "atualizado": "2026-11-15T17:41+00:00",
  "fonte": "Google News (RSS), últimos 7 dias",
  "indicadores": {
   "ipca": {
-   "indice": 0.141,
+   "indice": 0.124,
    "n": 80,
-   "alta": 18,
+   "alta": 17,
    "baixa": 7,
    "itens": [
+    {
+     "t": "El Niño deve pesar mais na inflação em 2027; veja o que pode ficar mais caro",
+     "fonte": "InfoMoney",
+     "data": "2026-11-15T17:22+00:00",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUDY1X1l3MV82M0RTNzJ3S2xjRWJCcER4TERXZ1hNcW1SM0tEYlBQcWQ0cW5XZGZLMjFvVEpPOHk4b1JwTGVtR0M1ZmJ0RFFYQ0dCSTNVUTlwWnFBR2ZPWFQ3TGNWb09YTnhlb0oyNFhhQ0V2Y2g5dU9hM0NMaVdGUTRIbnNMM29nRm9OeXBHSmF6cG5ycDlmZWNFTUlVVHpSVVp6cjE2U3B4aUM3cWU5SlNFVTPSAboBQVVfeXFMT0o4UEtRbmU4TUVlYUliQ3pVVDhLRnY1OW1aUER6enVEcFRwb3E2UEg5NGVsRGdTZjdFSV9aVUZYWVExVVVYdXZIMG9odTBRTHN6UEYwa19rR2hSTmdKZkNndDlrbEtaaDhPQjU1dllhNldwTkhNTnFpbWloT21DcWF6VW9RMi1SeU81dHNfZnRzamtycFFQd1VEQTRjTVE4c0Y1RjZ6RFdGZlY5RlZJNnIyTFdnM1dMS3NR?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Expectativas sobre impacto mais forte do El Niño no IPCA estão se deslocando para 2027",
+     "fonte": "UOL Economia",
+     "data": "2026-11-15T16:01+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORjBseXIwVjFvTGM3ZWpIcW1PdjI3MWRjREl1bGx1VjM3cnhheHh1TU94VXN4YkNWdm4zZ01UVUMyemgzRXhINVk5WnBDZWx2ZnpfakM0aC0zMmhxYkFsRjIwRGJ6emxlUEYtX2xXRVZGX2NDbEZSbXpkMExibnF6TWRvZlY4UDBjT041bXhpWjhDYlpTdXhzb0JGclhIcVV2OC1jZklSdS1aaFgzTVU3UlBHWGdCeFI2LXRqUWJ2SUpKUWt2OUt6RFBGUEJHNG4taXVBZGFzWFQzUzBXWG5lcUxDM2NUWVZfYjhz?oc=5",
+     "sinal": 0
+    },
     {
      "t": "Fed pode elevar juros em breve diante de inflação persistente, sinaliza Susan Collins",
      "fonte": "Times Brasil | CNBC",
@@ -41,6 +55,13 @@
      "fonte": "Confederação Nacional de Municípios (CNM)",
      "data": "2026-11-13T14:15+00:00",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcEFhRUU5WDN0ZDVSUEdHVzZNSVFrb2xOczRUYXp4SFBGdkJjR1pISUt4ZThyQkFYMHExWDlkb3JBSjhuRUJDd3M2ZmVsclRJSmZiSExHQ2x1NnY4SjlObFpCaFkzMTRXTFZ4cVNUMUhaWkNxODFZMU1mSk1ncVVPMzFOZnFvcmFVbXMtS3hKRE5TVEZtNnRZRFE2c1o1dHNUUHYxNG1NZVRpdmpJWjZ0aFFkbjJIZw?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "IPCA acumulado: outubro/2026",
+     "fonte": "Riconnect",
+     "data": "2026-11-13T13:44+00:00",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1xQUJjdmVldm9ITDUyQVJfQWU0am5wTWdNQ0VnS2FOeDZ4NWZPbGtQWTFwOU9FS1dmUldzOEU4OF9ISElUeWJBRjNGUWw3aHBkQURSMEhVdzNGd3FxMENsSndXS1JUZm1haEdTZUU4X04zdw?oc=5",
      "sinal": 0
     },
     {
@@ -401,6 +422,13 @@
      "sinal": 0
     },
     {
+     "t": "Inflação desacelera no Brasil, mas incerteza fiscal mantém mercado financeiro sob pressão",
+     "fonte": "radiocidadesc.com.br",
+     "data": "2026-11-12T15:15+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcnljY1BVZl8zYnZNa2tJSHVqTmd4NTJkTWNFRi1yWWZWVElVOWtsalRoN3loZm11Y0pMcHhPMWtpQzVtbVJ1UmRrZzlmQWhsS1FBV3J2UTVFMVFwbjJoY0VjcXNJc0lXczZjcEYxcnYxWld5am9DUUEydWRGNDFJTzA1N0ZZbkhjZ2dsa1RFR3RmUDNiMGlzLXFTU2s3QWZGbm04c1VyRE5OVTJYNHE1c0ZmTVZrMkhzQTVEajlKd18zangtUkdUSVpvdw?oc=5",
+     "sinal": 1
+    },
+    {
      "t": "IPCA desacelera em outubro, mas analistas veem riscos para a inflação",
      "fonte": "VEJA",
      "data": "2026-11-12T15:02+00:00",
@@ -539,34 +567,6 @@
      "data": "2026-11-12T14:03+00:00",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZFRfM2oxZF94VFVJVHpxdE5jSmJTODRXQWF3b0ExMGotaFd0NlJUd3I2S0xxbk1wUVBpLTZ6Q2hfeGYtMEo5dmdtYzAzazREd2VCWlByVHZ6RVhBbUlCaTN0TkdacllfOTEtRHFvamVGekdYN2VJM2ZMN1ZzemRJR1RFT29zSDkxaFJlOTBfdWdMWldmQ1Z0T0FENHlEcWl2SnpvLVBINnZBdw?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Com alta do tomate, IPCA sobe 0,14% em outubro e acumula 4,63% em 12 meses - Suno",
-     "fonte": "Suno - Investimentos Inteligentes",
-     "data": "2026-11-12T14:02+00:00",
-     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41dUN0VmhqUHBNend6SnBCOGcyYTRkOWhnaFBiaF9oZHVJYWkwZUJwVGxjUndaeVRROU8tcjNGLWZzbHVXVTVHbGFNSGFvbHdpU3NObUpFaGZYRWlRQlVqMVJodHFZeWlvRm56UWF1WGNSMEE5eTF30gF8QVVfeXFMTndNSkFWOUJIdl9pdDFSUzE3d0tKMGR3dW9PVXNUZTZNM0x0aHpCakNmRkk3aWhIV1FGUFpwVmg1YUMxZnFIZUhrSkkzREFoMlRodEdxYU1LVnVBaDdJZnBsSUF5VHdWZW5uQUJ3ZDg0VVBvZ3N2VURVVTFFNA?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Inflação desacelera para 0,14% em outubro, aponta IBGE",
-     "fonte": "Portal Terra da Luz",
-     "data": "2026-11-12T14:02+00:00",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUFJWbGZxOGpVbTI1UXJuZERzNnRuNHVqNVZXUjBEYWwwUU5vLVR1b3QxdzFPWmlzQzE1VnVSRlNSVmxjRDhxeVk0bzZVZl9HaGVPN0x5RUxFTzVwQ3N6ckNaYjVCdVdBMDJxVmFjeWNaOVNHclBTNEVQNWsyTlhZS05hcTQzUDFBcEN6ckc5cXh5ZUJQOVpCY0EwLTBXaml3VlZSU3dn?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "IPCA surpreende para baixo, mas ainda não abre espaço para corte de juros",
-     "fonte": "VEJA",
-     "data": "2026-11-12T13:59+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYklJNDhzbG1aOXNBYjJyOFp0R3d5SHJneUVWMTBiRG1NOEpmUzAxSFFUVWpmZGg1MUswdHFPTGFJSkVDeE9JbURyZXNlWUc5aE4yYmVaUEZyX0tOS1Q0ZTdNX0NPNXVRSzVRSkpRbEZNQjI1MzgzV1Y1d0YtdE10YXlkSy1sZ2V1ZTlBWWVQaV9sLW9PVlRzcnVIdDRJZUhySVllRERpb3hzM1hEYXR1bU91S0d1VHRuTGIyQ3F6Vlh3YjA?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar hoje: moeda se aproxima de R$ 5,60 com pressão fiscal e Ibovespa em queda no Brasil",
-     "fonte": "Portal do Agronegócio",
-     "data": "2026-11-12T13:59+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNTkJhUGRCRUZIeXRUZklTRnlEQVd6Q01sWFBVNDFjUjVSbmU2X0JHUlF5dVpEWVlndGtJcEJvNXVGOUlZWmpQbTk5UFRfaHhUaUVaUmdGT1FrczBVcFptSUcweHphdTRVVlVJRFo4NnNpTFA4OG9zN1c5SkNOZnkyOU5UWmE0aUZoQkI0Z1F3bmUtOUZQYmk4SzNPR3dJRUk1RVJBeHRYb29JVnV0YnFsemYwRU8zZkJYbWt5S2h3ei16N3dWNGpYT2JrTGpWYl9RNTFIaVR6Zms1c3IxTXdHSVZPMzlrZ09XYVFzU002Y3k4Qk1VNGc?oc=5",
-     "sinal": 1
     }
    ]
   },
@@ -1139,11 +1139,18 @@
    ]
   },
   "pib": {
-   "indice": 0.385,
-   "n": 77,
-   "alta": 33,
-   "baixa": 8,
+   "indice": 0.382,
+   "n": 76,
+   "alta": 34,
+   "baixa": 7,
    "itens": [
+    {
+     "t": "PIB do Piauí cresce 3,34% e chega a R$ 87,4 bilhões, aponta IBGE",
+     "fonte": "GP1",
+     "data": "2026-11-15T14:35+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNenQyS1cyUGc3RWJYVldHN3JCZXkwNjgtc2hrV1VPc1FoQTM3cFpQellCeG1SekkzWEg2b2pZRVdhbkNGUTZMQmh4VXhtZERJVDdnb1ZMN2xPNVVsRFd2WUNpNTlYTmF6U1BBamJ4bUt3cW8tNHNvSWtzeUVuZWF1UW9CSzdkYm9tUjJ5Zno1d0FRbVpidFl0Y0JNTmh6ZmZaLTI2T3ltTWMyOGpGY19fTURXdUdBbjRqak000gHAAUFVX3lxTE5Ua0I0dF8xT3FHQmtwb0txX0dJaUNZVnA3eWdmRXp6LTJRZjROWXlEWHJwSTFIMzlkRzZfOU5aQjFNR1NsWktabWVId1p1VGNIOVdZYVVGSmJWSGsxWmp3WUpYTUdmbXB2UXlZOTEzc3JyWV9RTjNJdTkzanhJU2FfSFZXbXQxS29NVkdjcjJPTUdORkpydjJLRFltTzdfNEF2WmNFTGZVazIxQ1NIb0stUTJVaUw3a3JGS3l3ejZmNw?oc=5",
+     "sinal": 1
+    },
     {
      "t": "Calendário Econômico: prévia do PIB abre semana curta, que passa por varejo dos EUA e ata do Fed",
      "fonte": "Estadão",
@@ -1185,6 +1192,13 @@
      "data": "2026-11-14T16:02+00:00",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVDZwbHcyMUZMcDROUWszX3d4U1BGd0haUExRSFprem11elNpcWc2S0xBNWc2Qkc5Z1JvQ0xxMC1sNXdjSlR1Q3JJMVNHNFV5Rng5UnVlZ1J6di1YMWtEMzUyU0dZajU1NHFwZWFjRGRVVjNqX0dGOVA0WmsydXRxdFlPM0tIZGQ5VkUyYU95bGx0QVMwOFdrY3ZCMWdVOURyeURWZUoyX3pkYU95YS1CelRHQ01lN3gxWDNzYi16NXdndw?oc=5",
      "sinal": 0
+    },
+    {
+     "t": "Desaceleração e pressão inflacionária desafiam economia no quarto governo Lula",
+     "fonte": "Folha PE",
+     "data": "2026-11-14T15:47+00:00",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbV9YUDd0X25vT0VQZ3dsQUJsRVpwWlhGWDNmVDJLZ3ZOVXhDdjhlQXlFdVpESkN1cDRWWmJUUFdGUkZBcVdZSHdDT182YndKREM1YUdrYjVWSlBSdnVrdERhWVgycjdpNkpmaDFHT3E5anE0VDIxT1B6MkNZaG9tZC1rSFFMMEh5MmpWTU1BWWdOal9YWEM2LTVDMVJpd2NmRDViZlZQRmdmVzdhQWxyd1RR0gGyAUFVX3lxTFBtX1hQN3Rfbm9PRVBnd2xBQmxFWnBaWEZYM2ZUMktndk5VeEN2OGVBeUV1WkRKQ3VwNFZaYlRQV0ZSRkFxV1lId0NPXzZid0pEQzVhR2tiNVZKUFJ2dWt0RGFZWDJyN2k2SmZoMUdPcTlqcTRUMjFPUHoyQ1lob21kLWtIUUwwSHkyalZNTUFZZ05qX1hYQzYtNUMxUml3Y2ZENWJmVlBGZ2ZXN2FBbHJ3VFE?oc=5",
+     "sinal": -1
     },
     {
      "t": "PIB de Sergipe avança 4,2% impulsionado pela Indústria e setor de serviços",
@@ -1661,27 +1675,6 @@
      "data": "2026-11-08T19:36+00:00",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYU5yQ0NvNXdDdjlQRWJ1SlJub1FXNmx3M0VXejFKZy1vSjYyMTlYTnJ1UC00Rnd0YWg3bHQtYU1PMloyUDloNUM5T01LVTFBcGJ4RWRWdFlpYXRyaVRja0x3Ty1SbkJGb0toN2NnN09PS2Riczh6b1BOdkMzdkdKYjFzR1VWZTVNeWlDanliZFZ2UGl4TUEtdGVtQkt4NXM0ZG8zU1B3SkFpVUUtOVpybXNoM0k?oc=5",
      "sinal": -1
-    },
-    {
-     "t": "Brasil corre risco de recessão? Veja o que dizem economistas",
-     "fonte": "SBT News",
-     "data": "2026-11-08T17:11+00:00",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdWxNYS0zbTV6b3l4dzdqT1dtTjdUeHloMWN3ellpSlhhempmc0E1cEVSRGtlcFRscEQ5SFBMU0tuN3U0ZDFjTG9tXzZMemdRQjVWNUxBR2VXYnk1YmFwamtDT1VNbWJFaC0yQ0JfbFFSd3dieDJpZmJtcDdSelp4dG1xZzFUN3F3VFp1SUszN2syMk5SMzNCTVB3RXlsYnM2Z1ZnXzhn?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "A economia brasileira pode entrar em recessão em 2027, impulsionada pelo rápido endurecimento das condições financeiras e pelo enfraquecimento dos motores que sustentaram a atividade recente. Projeções do Ibre-FGV (Instituto Brasileiro de Economia",
-     "fonte": "Instagram",
-     "data": "2026-11-08T14:22+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBkSERCREFvWHZjYTcwdlVnZ1l2cnlQRFBZelB1cU1RMjNOeklfOUMwbGN6MENhWFFaWEVZQ0F2bG1wbGozWU9UdV9KZ0NvRWZkWnc?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "XP projeta crescimento próximo de zero para o Brasil em 2027",
-     "fonte": "Portal Terra da Luz",
-     "data": "2026-11-08T14:12+00:00",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNWR6a05JajJzQXFLUjhtOVZac2c4U3NjakVUVXRCdTNIeTZUXzhobEExeWNNd3JtVWlvaVg2QmxtdWR3d1FTQjAzSE8wcHo1U0l4Y2xvX2lpUm5fdDdxY25wTlNneE1oLWVhQjdzVmUxcFNSb1Zza2JzQlVqeEdmOFhtSFpkV0pULUo1bWlfV0FUSW1NLW9EZkdpaHpxcUR0SjkxT0R6cEFrX1ppNWk4S3h3?oc=5",
-     "sinal": 0
     }
    ]
   },
@@ -2254,9 +2247,9 @@
    ]
   },
   "fiscal": {
-   "indice": -0.418,
-   "n": 53,
-   "alta": 4,
+   "indice": -0.414,
+   "n": 52,
+   "alta": 3,
    "baixa": 24,
    "itens": [
     {
@@ -2271,6 +2264,13 @@
      "fonte": "SBT News",
      "data": "2026-11-13T18:48+00:00",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZ0hkU2VmUDNEcVAxZUtxc0Q5WDlSTkc4MmY5Y3hrYW1LblktU1dOOHlpb24xUUhJLVFaWmk4X0FrS1k1RXo0ZWUyemtKWi1MNTNkQWMySUxXYVNjUWdmclE5OXpCMjVVMzVxeEVNUTdyNVlQeWZ5bk9qU1pUU1hRYVdUemRQVHR6cFlkMVRmSzAzZFZFdHVKMXBrQkJKYm5VYTBwYVJFR2pycWY0Z1dj?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Mais da Coluna do Iander",
+     "fonte": "SBT News",
+     "data": "2026-11-13T18:48+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Nc0FOQjN4RUUyNGJ4ZkF0di1kZXF6aEh1cUZSalJIUWJ0dFhGVEhNWjlKUXZfUjJTcnhSMHc4bk1BQkFic2ZQWGNMN0xlRlpuZUVodlF5SzgxNVpqcVR2RQ?oc=5",
      "sinal": 0
     },
     {
@@ -2615,20 +2615,6 @@
      "data": "2026-11-08T19:20+00:00",
      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONzk4RGlaLUhsVlhUQ2EybzV3UjNIY3BCR1M5T29MOWtUcmdWcEpIdHhaR0NBeWdVdHFpcGhMSHlmRmFKZ2lFbjFkQ3QxWFk4RndHSTh0SmhlV2k3aUpGM2xqQzBKTGktQnJSUFlva2NaR20tRjhUVEk1cm5fVXhXRFdnOW52bnUzUXROcWJEUGJHQ2hhQTNSc0FHTmVMNi1PODdnS09qNDBFYUlVVXdpMHlCYzhkWXRZaGRCZ3Bxejg2aHQ4WVhhQ0EwdVRBamR5QjdNMk9TcHM?oc=5",
      "sinal": -1
-    },
-    {
-     "t": "Déficit primário cai a 0,52% do PIB com imposto dos super-ricos",
-     "fonte": "O Cafezinho",
-     "data": "2026-11-08T15:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNN0JjMGY1YTlwYnU0OVpPQXJYNHFFa25YN3NkT1Z3blJ0UVp0NWlBVGpnZjVoeEdfRHcweUZFdW00dHJLSHYxTlNxNmhVTUx0OTNvVHF6U1NZLVJ4SnE3UXM5T24xdi1XbDZLekREb2xyaGhseHNrV1pnNk9xZWcyUGd2VU85cmtFT0pKazI2LXZHQUh2RTZFTHRFaFFuV1BmRmtqNFdZTdIBpwFBVV95cUxNN0JjMGY1YTlwYnU0OVpPQXJYNHFFa25YN3NkT1Z3blJ0UVp0NWlBVGpnZjVoeEdfRHcweUZFdW00dHJLSHYxTlNxNmhVTUx0OTNvVHF6U1NZLVJ4SnE3UXM5T24xdi1XbDZLekREb2xyaGhseHNrV1pnNk9xZWcyUGd2VU85cmtFT0pKazI2LXZHQUh2RTZFTHRFaFFuV1BmRmtqNFdZTQ?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Governo estuda cortar da saúde, educação e programas sociais",
-     "fonte": "Diário Causa Operária",
-     "data": "2026-11-08T12:53+00:00",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZUlLREFrQThWNVhmY181TENMMWRfSlY0RlY4UU5WTmRVTGpYZTFnR0pOY3FSZzNBdGwyekI2LUpMVzQxOW5Nbm5VYkVyX2lmakR5YksyZ1dBUUt6Y1owSHFjRWcwRTM4VlpNaTBINm9qbkZRV3lScl9UaXNldEhKa3dkMGlsQ0dmVDZCMmFvT0dXOUI2WEMya2ZB?oc=5",
-     "sinal": 0
     }
    ]
   },
