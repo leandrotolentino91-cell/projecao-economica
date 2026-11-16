@@ -1,5 +1,5 @@
 {
- "data": "2026-11-09",
+ "data": "2026-11-16",
  "metodo": "Projeção própria: parte dos números de Focus e Itaú, corrige pelos erros já observados (curto prazo em 2026 e histórico do Focus 2006–2025) e usa câmbio no nível spot (passeio aleatório), que historicamente erra menos que as projeções.",
  "anos": {
   "2026": {
@@ -7,25 +7,25 @@
     "v": 1.5,
     "min": 1.4,
     "max": 1.6,
-    "porque": "Aritmética trimestral (1,8 / 2,0 / ~1,3 / ~1,0 % a/a). Bradesco e BTG já projetam queda de 0,2–0,3% t/t no 3T (sai em 02/12), coerente com o número; o Itaú superestimou 5 das 6 últimas leituras mensais."
+    "porque": "Aritmética trimestral (1,8 / 2,0 / ~1,3 / ~1,0 % a/a). IBC-Br de setembro caiu 0,2% (esperado −0,3%) e indústria, varejo e serviços recuaram no 3T; Santander foi a 1,6 e o Focus a 1,72. PIB do 3T sai em 02/12."
    },
    "ipca": {
     "v": 5.2,
-    "min": 4.9,
+    "min": 5.0,
     "max": 5.4,
-    "porque": "Itaú e Focus convergiram. O erro mensal do Itaú em 2026 foi de ~0,07 p.p.; com 3 meses à frente a faixa é estreita."
+    "porque": "IPCA de outubro veio 0,14% (consenso 0,25%) e o Focus caiu a 5,11; mas alimentos (El Niño) e dólar a R$ 5,65 pressionam nov–dez, Santander está em 5,3, XP em 5,2 e o Copom projetava 5,6. O Focus subestima o IPCA historicamente: mantenho 5,2 e estreito a faixa."
    },
    "selic": {
     "v": 13.75,
     "min": 13.75,
     "max": 14.0,
-    "porque": "Copom manteve 13,75% por unanimidade em 04/11 e encerrou os cortes; resta só a reunião de dezembro. Corte está fora; alta só se o dólar for a R$ 5,75–6 (cenário citado pelo BTG)."
+    "porque": "Copom manteve 13,75% em 04/11; a ata (10/11) chamou o juro de 'substancialmente contracionista' sem sinalizar dezembro e subiu a projeção de 2026 a 5,6%. Corte está fora; alta só se o dólar seguir a R$ 5,75–6."
    },
    "cambio": {
-    "v": 5.5,
-    "min": 5.3,
-    "max": 5.75,
-    "porque": "Spot em R$ 5,50 (PTAX 06/11), cerca de 10% acima do pré-eleição. Bancos estrangeiros veem exagero, mas não extrapolo nem a alta nem a reversão: uso o spot."
+    "v": 5.65,
+    "min": 5.45,
+    "max": 5.9,
+    "porque": "Spot em R$ 5,65 (PTAX 13/11), maior nível desde jun/2025, após alta de 2,6% na semana com frustração com o pacote fiscal. Uso o spot (passeio aleatório); Focus em 5,40 fica abaixo do spot."
    },
    "desemprego": {
     "v": 5.6,
@@ -39,25 +39,25 @@
     "v": 0.6,
     "min": 0.0,
     "max": 1.2,
-    "porque": "Onda de cortes pós-eleição: XP 0,3, Bradesco 0,4, Itaú 0,5, Inter 0,7, C6 1,2, BTG e ASA perto de zero; Focus 1,15. Com juro real perto de 8% e Selic parada mais tempo, desço de 0,8 para 0,6. Não vou a zero: em 2024–25 os bancos subestimaram o PIB e revisões feitas logo após choques costumam exagerar."
+    "porque": "Bancos seguem cortando: Santander 0,8 (de 1,3), XP 0,3, Bradesco 0,4, Itaú 0,5, Inter 0,7, BTG e ASA perto de zero; Focus caiu a 1,02. Juro real perto de 8% e Selic parada mais tempo. Mantenho 0,6: não vou a zero porque revisões logo após choques costumam exagerar."
    },
    "ipca": {
     "v": 5.2,
     "min": 4.5,
     "max": 6.1,
-    "porque": "Focus subiu a 4,9 (de 4,76) e Top 5 está em 4,8; bancos revisaram para 5,1–5,5 (XP 5,5, Bradesco 5,3, C6 5,2, Inter e PicPay 5,1) e Itaú 6,1. Focus subestima o IPCA historicamente, mas o 6,1 extrapola o choque atual. Mediana dos bancos perto de 5,2: mantenho."
+    "porque": "Focus subiu a 5,0; Santander foi de 4,0 a 5,0, XP 5,5, Bradesco 5,3, Itaú 6,1 e o Copom projeta 4,7. El Niño deve pesar mais em 2027 e o dólar subiu mais 3%, mas o Itaú extrapola o choque. Mediana dos bancos perto de 5,2: mantenho."
    },
    "selic": {
     "v": 13.5,
     "min": 12.5,
     "max": 14.5,
-    "porque": "Copom interrompeu os cortes e o mercado subestima quanto tempo o BC mantém juro alto (erros de 1,5–3 p.p. em 2024–25). XP, Itaú, BTG e C6 já veem 13,75% no fim de 2027; Bradesco 12,75; Focus 12,5. Subo de 13,25 para 13,5."
+    "porque": "Ata do Copom reforçou juros altos por mais tempo e o mercado subestima quanto tempo o BC mantém juro alto (erros de 1,5–3 p.p. em 2024–25). Focus subiu a 12,75; Santander 12,5 (cortes só no 2º semestre); XP, Itaú, BTG e C6 em 13,75. Mantenho 13,5."
    },
    "cambio": {
-    "v": 5.5,
-    "min": 4.95,
-    "max": 6.1,
-    "porque": "Passeio aleatório a partir do spot (5,50). Em 2025, quem extrapolou a alta do dólar (BTG 6,25, XP 5,85) errou; não projeto nem reversão nem nova alta."
+    "v": 5.65,
+    "min": 5.1,
+    "max": 6.3,
+    "porque": "Passeio aleatório a partir do spot (5,65). Em 2025, quem extrapolou a alta do dólar (BTG 6,25, XP 5,85) errou; não projeto nem reversão nem nova alta. Pacote fiscal de R$ 60 bi aprovado no Senado é o principal fator de reversão."
    },
    "desemprego": {
     "v": 6.4,
@@ -78,5 +78,5 @@
   "Focus Top 5 tem erro menor que o Focus geral na Selic (1,77 vs 2,00 p.p.) e igual no IPCA e câmbio. No PIB o histórico do Top 5 é curto.",
   "Histórico Focus 2006–2025 (dados oficiais do BCB): o consenso de janeiro subestimou o IPCA em 0,6 p.p. em média, com erros grandes em anos de choque (2015, 2021)."
  ],
- "noticias": "09/11/2026: Copom manteve a Selic em 13,75% (unânime) em 04/11 e encerrou o ciclo de cortes; projeção do BC para o horizonte relevante subiu a 3,5%. Bancos cortaram o PIB 2027 para 0,3–0,7% e elevaram o IPCA 2027 para 5,1–5,5%; Focus de hoje subiu Selic 2026 a 13,75% e IPCA 2027 a 4,9%. Dólar em R$ 5,50. Semana tem ata do Copom e IPCA de outubro."
+ "noticias": "16/11/2026: IPCA de outubro veio 0,14% (abaixo dos 0,25% esperados), mas 12 meses em 4,63% e alimentos pressionando; ata do Copom reforçou juro alto por mais tempo. Dólar subiu 2,6% na semana a R$ 5,65 com frustração com o pacote fiscal (R$ 60 bi, aprovado no Senado); IBC-Br de setembro −0,2%. Santander cortou PIB 2027 a 0,8% e elevou IPCA 2027 a 5,0%; Focus: IPCA 2026 5,11, IPCA 2027 5,0, Selic 2027 12,75."
 }
