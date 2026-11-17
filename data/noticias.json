@@ -1,18 +1,53 @@
 {
- "atualizado": "2026-11-16T20:59+00:00",
+ "atualizado": "2026-11-17T03:49+00:00",
  "fonte": "Google News (RSS), últimos 7 dias",
  "indicadores": {
   "ipca": {
-   "indice": 0.075,
+   "indice": 0.079,
    "n": 80,
-   "alta": 10,
-   "baixa": 2,
+   "alta": 9,
+   "baixa": 1,
    "itens": [
+    {
+     "t": "Instituições reduzem expectativas para inflação e economia em 2026",
+     "fonte": "mixme.com.br",
+     "data": "2026-11-17T03:16+00:00",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPS0J2T0x5SnBSTDZLR3NUdVNtdTNLY0xlY25sR2VZaXY5STViX3U5SkdIVDhwdGFwYnJhX1lmLS1SWVVZOGRjazBEdmtNaFNhZFZWdTl0S1lHYnYtZW9rbFZnTUllWHEyN1JKdmpZa0d1LUVjVGY3WDUyVHJJS09pRmtzbEp4ajhPaVFEcWJrbmlqdw?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Mercado financeiro revisa para baixo expectativas de inflação e PIB para 2026",
+     "fonte": "Diário Carioca",
+     "data": "2026-11-17T00:53+00:00",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVWprR2tVUE1EbHFsclhFaHRzNHhHMlFwSHJjOU9zQVVGX0RYS3FwWmNqMWhKOTB5X2Rfd2pDMWlVUy1EVlZPX1VlNEtsbThQTXJWMllyM25RVlR0OGpDOXNKQmZKbVAxNktZNUFxY3Njd1c2ZGwwaGlxYnF1OUVYN0ZHMFVrNE5yRUYtWm5DbG9aeHhPUTdRS0RR?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Mercado financeiro ajusta expectativas para 2026 com inflação menor e dólar em alta",
+     "fonte": "Plantão Brasil",
+     "data": "2026-11-16T22:09+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZHR4ZVRRT2hNWGNQVUswMzlfQWlnSVhOSjBlT2VPVFBmdTRPZW13d1RjRWd1NXdsbTlBSmdBSjQ4cjVjQWpNUTRwMjRmRzhRZWtpR2s4OHNORlotQVFZREJseEhjQnVKbUJlaHFMZlFrdkREb1VkWV8ycnJwM0ZYak1VV2RiTERlOFNFZFBIOU1NdG9lQmRnMnNMWVIxQTVHLUg1ckIxRTJ6VmZyU1lXdWItV1hWOE5yYk04TFFpdEUtOFNwckJsQw?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "PIB do Brasil: mercado reduz previsão de crescimento para 1,72% em 2026 e 1,02% em 2027",
+     "fonte": "Portal do Agronegócio",
+     "data": "2026-11-16T21:40+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVEYyTFVuNWVUdXpaS1NvNmhlbHNqVTg4S0tZYUl4Q0RLdVdaSHZ3VVJhNTF4NGZ2dXZLUVNmaUZNMjFuT0Iza2p1OFMwZnQ3OWFrXzdBaHRPN0c2WXJ5RWl6enctZ2NsM0l5TG5WMFBaOXNROTZrR3k3ZzJyYi1iYmdRQ04wLUZCSXBfck9lTXZocG02Vmd5S3NILUpIU3pHMndSREcwYW5wVFdSelQ2ZDJxTVdSU2NicGJBd1Q4cUFSUkNiZFhZR1NyR1FtZG9OQzV1QTM1bWNlc2ZXT1dOcDV3?oc=5",
+     "sinal": 0
+    },
     {
      "t": "Mercado eleva previsão do dólar e reduz expectativas para inflação e PIB",
      "fonte": "A Notícia do Ceará",
      "data": "2026-11-16T20:32+00:00",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZEYzOUZtcWpNVVdYSFFrNkYtbHc0Q29pQ3NlM3hseWczX2ZseGgzU1lUTzFaVVFaRXlQOVRjRktBbDhEeVhLa3J1Nl90bXlhQnNIMG85VFdLQVhiU3dMMEtCSjlORlB2Tm5La3p6alJKemtTODlkQ0FZcmVNMFdPdnJiODFUZmFFOTF6ZDc5WWVMRjhnazdSaEZ6QVFlaHVzZ2xsT1RnRQ?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Boletim Focus: mercado reduz projeções de inflação e PIB para 2026",
+     "fonte": "Portal Tela",
+     "data": "2026-11-16T18:50+00:00",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQ2ExZGMyaUlYWFU5QTNGTUY1OWxSdHQxMDVudUJobWZkUU81QXlKX3FCdTVuUHM0ZnRaUnprdTNGYlc4MmZINmtoTzdld3o4Z080c3lwc19rOHJEdUxXUHdkdzVOODlMS09zNUZwNTRRYmJRSUlQV00yODBqWGRhdFhZYS12T2I4OW54d2Nub09BVjhVcUhmeE9paWF3eHc?oc=5",
      "sinal": 0
     },
     {
@@ -65,6 +100,13 @@
      "sinal": 0
     },
     {
+     "t": "Fim de subsídio extra do diesel ajuda Petrobras e muda dinâmica entre distribuidoras",
+     "fonte": "InfoMoney",
+     "data": "2026-11-16T14:08+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ1kxUGxhWlBkOThYb2NZaGFoR1dnTTJTWHFpcFVvUHhyQVFjQmpBMEpvZWgwb2VrZjAtN3VieVNqX3hYTk9jTVJhcFpoeGszSFNXdzRBZ09FVk82UkVJaTFYMTlDQTBPMUpPU0pPdkVXSzJIcHBaa04xWENfZmhVSnh3UGNKeUFJM0tjUUZiWnJ1cWhmY1ZBa0VfNXFONlJrM1kyLVBVemR1blM5bjNmWElXX0YtaDBYQVBlNEpsVnLSAcYBQVVfeXFMUG0xWVU0SXBvdUdhNW1jbjJzd2F3XzMyV1VTX0VPUTR2MVJkODlORjlBczU2bFNqZnA4UWp4SWkwUjB2aERneEMyOUhhNVRzczVLQmZsckk4UjQxTWZscU5OdVF2ZC05dTZXNmxMTUZUc1prdWt0Y010b1BqTUp5ZHQ3ZDMzcURMZ0VnbmhjRU9paU1pa2x6dkYyUnptUTNwRU1YcEM1VTlYdEVTT3JWQjZ0Yi1zdUEwVlVMZHRVdDlHV3ZpMEln?oc=5",
+     "sinal": 0
+    },
+    {
      "t": "Focus eleva Selic de 2027 e IPCA do próximo ano",
      "fonte": "SpaceMoney",
      "data": "2026-11-16T14:07+00:00",
@@ -91,6 +133,13 @@
      "data": "2026-11-16T13:34+00:00",
      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONVBsc3hBVTZyWnl5azY5ZDZPWElwMllNZnZMM2lYdTFhQTZxZGl4dHk5dmJHb0pIVmp1b1hSdUpwUWZobC13ei1hREdQSjRIZHhBNEFZQVRGYnJLMGZGdkFjcGtzamtEbHhHeEFuVG9uTTEzRDBHSTEybzdtbGZRdGFhM2NjVzJnSkxWbjFYWGFTdTJIUHZhQW51Tzg0YXRRcmMzMnNIR0tndWstWHR6X2ZiMU9TT2gwWF9nNmx6S0RFZFZZUll6YVpKdndFRkpUZHlRWA?oc=5",
      "sinal": 0
+    },
+    {
+     "t": "Projeções pioram e trazem alerta para inflação alta e economia quase parada",
+     "fonte": "UOL Economia",
+     "data": "2026-11-16T13:30+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc1RrM25lTWpMZnBYZzBVMkF2bGpQRWkwZFFmaV9BR1BnRno2T0FsZDNDd3BkcG5vNnUxVTFIUHRPZnFjc3V5cWFUcVh6T0hBZmJ3ZGRFM3V0QVZkT2lJdjh3dU1JYmJfdXMxMTlQaHdldzBaQVNBLVA1UzNjWUROS3Jnb0NtMGhwZzV2RzIxNVFKbGE5ZHRMdlQwZnduekFwdnpILWtwRjFYanc3cWRKRVZob2dGMDYzT3hid1RGXzZHalByUjNlYV8taTRoUmwt?oc=5",
+     "sinal": 1
     },
     {
      "t": "Mercado prevê Selic a 12,75% e inflação de 5% em 2027 com piora das expectativas",
@@ -518,64 +567,22 @@
      "data": "2026-11-13T07:10+00:00",
      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOY283WWw2bF90anJsZUszU0xaRFJwT2tmaXdYSjNZOEVZa21CRTY0d0k1d04wRjN3V2xsMS1yVlVtVTZlQXJGZVMzVG5odFpwM3FhdmthWWV0OGZoXzdGWGN3Rl9BdkdTMjQxR1haMm1fblJybldXMVhFNTU2YTlkVVBSYkxQN19hUU92OFlDWVFGYmxSRDF0SlFraHo2OFM1V0hCUmJ1MjFrbENnUVhvaExTYWw2R2NVeUNqb1cwT1UyYzBIcHM3RzYxSlRKSXgxOUFJOFoyLUFhbnhzVkE?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Alta dos alimentos pressiona inflação, mesmo com IPCA de 0,14% em outubro #shorts #JR24H",
-     "fonte": "R7",
-     "data": "2026-11-13T03:32+00:00",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNU1QzWXFXTGgySHRBZldTUjA3eEw4MHo0MDJFaGJqT05rbzJlRi1JOUotc2lYc0xWYUt6RzExaHNvc25XWTNWeU9vWTk1Z3Q0VjBtMkF1dlg3d2c4ZXNRUEs2WVNFeFZFQ0tLQlpCVmVLTmlPSkMtV0d0VXNRVDRuUzF0M1ZPZ2lZSXBoQjJtTE9pY1kwUm1LRExaaUVJTWxVRkR0T0NqZDlsV1FLWHh1Q09OVVlpbDdPcDFQMlVRSms3U01p?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Alimentos pressionam inflação em outubro, apesar da desaceleração do IPCA no mês",
-     "fonte": "R7",
-     "data": "2026-11-13T02:04+00:00",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOU2VNai1mZFRaNEgyTXp1VjUydkxpQWduNjd3MEpzaVpVUjdZUDZ3RkgwY19qdFZaekMwVmlmdFAxWGVqNmlmS2ZlSGs5NUdNaEZlOG9pQ2pzZXBuR0ZTOURVUXJ0Mi03d2Nvcy1UUERhTEJzYkhUUHZYdHJvWTRQb1gza2V3TTNoZEJxbVB4YWtiZ3g1dGMwZDl1ZTY4d09NN0k3RWkySjVKVTVmYXpHZ3B0ZU1OYklsbUhKd0JyN3hrQlFSbTlv?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "IPCA de outubro desacelera para 0,14%, mas estoura meta",
-     "fonte": "Acia Araçatuba",
-     "data": "2026-11-13T00:36+00:00",
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9pRm9HWWtGVjFWMDVtb09pS2xKSjBUeFJ1NE0tT3Jab3ByNGw4eS1ObXc4WDJJM3JhWWhzTkVqY0JNUGZtOFVQTFlpaERFR1djd2tvRE1kT1NVcUIwVmNYMXVvRnU4RWctX1ZoQUFsRk1rU3MxY1hUVllpaw?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Inflação desacelera em outubro, mas continua acima do teto da meta do Banco Central",
-     "fonte": "G1",
-     "data": "2026-11-13T00:14+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQd2hkTk8xc01WUVd0UUoxekthRUx3MWdHeW0wM0lNUUlGdk96TXBRcWlaZERzUVVGa1dVYllqOVdBRlF1RjRON2xHcTI3aU05cjFXYzhvcWZBV2syV1g1dmkzUDBNdEtKRG1VY0N5TDQzWmhOQ3lzdFktQjNtdWhHSktNOGNGakFua3RVSms4MktsSEh0OWY0ZjVpYTE2SGNFUnNKaTRhMnk2aW5LbzgyVHpKN29CRGRhRElLN3JSZ2w0VEJDeFY2d0VvSDFLSWdXd2dSTGdXTGg2Y0RW0gHrAUFVX3lxTE9ndlROWXRNWUJpQkctQmRuZkV2Q1VYVy1XTThDYV9Oc3JyTV8ySkxuc2JGSXBsTzBoR2ZHUVhuVDNGYWRfQ3pzaVU0LUR6d0tpSDAtQVBPQ1FMWFoxQ2pYS1lrVldfR1hjWktSSzFlMVRGQmVjcXdpWWlkeXY4NE8zX1M1dzlDWVc3eVFBNk9TUXQ4UUtVTFpCU3o4UlJXRktVTEkza1BUa1N3blFza1JuVExRSmlNQTdBcFU0UmJsWE1FVGN2WC1GY3pEd3VCc1hPSzBSR1lrV2VZNlBoMFFlM2t1V1dsTEZadmc?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "A inflação de outubro ficou abaixo da expectativa do mercado",
-     "fonte": "G1",
-     "data": "2026-11-12T23:51+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSmRaV3E2QWphYVVDXzk0OVdpZ3pMZ05iMEFZZUZnczF3UlF2VDdna1otNUNGTllWcnpBMmZwbnRMMGc3Qld0dXJRS0ZfeHlFaU1IdmtRQllBWURtNzZNa1oxc19HTi1xR1pfc1c0dkxIMzliWGFpLThwS2RrZTNCZU9nWnY1WkY2cEJyeTZnM2NfRmVuVDU4RWxmVmQ5NHRMNDY3aVAydUtrR0NqTVNmdU5VcUtlaXd0VDVybGU5Y3I2Sk9MMlQ3N9IByAFBVV95cUxQSmRaV3E2QWphYVVDXzk0OVdpZ3pMZ05iMEFZZUZnczF3UlF2VDdna1otNUNGTllWcnpBMmZwbnRMMGc3Qld0dXJRS0ZfeHlFaU1IdmtRQllBWURtNzZNa1oxc19HTi1xR1pfc1c0dkxIMzliWGFpLThwS2RrZTNCZU9nWnY1WkY2cEJyeTZnM2NfRmVuVDU4RWxmVmQ5NHRMNDY3aVAydUtrR0NqTVNmdU5VcUtlaXd0VDVybGU5Y3I2Sk9MMlQ3Nw?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Inflação desacelera para 0,14% em outubro com conta de luz mais barata, mas segue acima do teto da meta",
-     "fonte": "diariodenoticias.com.br",
-     "data": "2026-11-12T23:24+00:00",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTkd4bGtsUjU3NVR6TnNkblZicjJscEFMUG51OTdwc3k4Y3d0dE14SnZ5UEZ3SjdkWlRDRnpGNzlCdU1fcWtpd2NjZWdTNFZMVU1BYjBOT2dQOXpIMC1vb2JPaHJsWm1ydnlGVEcwV1hDSWNvZVAwLUlSWFZjMVVWSWh0UXVaT045ZFdHN2dDX2hyMlE?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "IPCA registra alta de 0,14% em outubro de 2026",
-     "fonte": "Fecomércio RS",
-     "data": "2026-11-12T22:37+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTmVZVnczdWhjeWhDS095cE0yMzRSN2N2ZHRkYlljV0k1czFCT25UMG1jTE8zWEtLR1VVdEhMUkVwdmY0dnBJR0FqSFU5Z3F0QVk3RkRiSTlPa3ZIYTBPWk5BMWNQSEhiNlJQQWxIYjI0enpyRGRidVhYSk9RSzVVWDhrVDhxZEZheTdEN2NxTFJqczBwMDFMd1A4cnQta3RmZnJSWFVPMVo4NlRabHVtZmpwV3oxMksyd0g1bUw1Qk8tTm45cUVuN1hucjR1bXptNmhxamJIemRWQQ?oc=5",
-     "sinal": 0
     }
    ]
   },
   "selic": {
-   "indice": 0.084,
+   "indice": 0.078,
    "n": 80,
    "alta": 8,
    "baixa": 2,
    "itens": [
+    {
+     "t": "Taxa Selic hoje: confira o valor atual e o impacto nos seus investimentos",
+     "fonte": "Nord Investimentos",
+     "data": "2026-11-17T01:04+00:00",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNG1nTk9RaFJwUFVzRVM0YUMyS2pmQ0dqU3RxS21VOGtDY1paODhHMEdYTV9qazY3VkF3ZFhpeWVUTjhoZk9mWm12ekZsQ1Y5MjBPQzBOSEtuemMtRUcxclNqZ00tZndDTEJHYTdYemlLc3IxVTdPTkloUHNfRndwbS1zTlNBTk02aE52aXZJV2g0QdIBlwFBVV95cUxQS0oxeU8tOXJRcDBoRVplNTZ0b3pkLUdiOHFNdFVuYVVyREUtUEgyell2T3ZyUk1HdWYtblM4VmpTU1UxWkZhNlREMFpJWVJQMHZuckp4ZkFoVWE5UEw3cFZUOWJxN213SFA5ZjhkdEp5amg0WnVBUUp4YkFQbXdnbXBxUG1MZF9BdlpjNkZUZFFNUkFVNWJZ?oc=5",
+     "sinal": 0
+    },
     {
      "t": "Mercado precifica possibilidade de alta de juros em dezembro e Selic de 15,50% em 2027",
      "fonte": "Valor Econômico",
@@ -591,6 +598,13 @@
      "sinal": 0
     },
     {
+     "t": "Queda da economia no Brasil: o que aconteceu no terceiro trimestre e como afeta seu bolso",
+     "fonte": "bra1.com.br",
+     "data": "2026-11-16T18:12+00:00",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNam5JNS1JMXhIVlhYbVc4ZUJqaUdJRURkbDhaOEc3ZjRWV0szNnVXbkFRR01JdTNkLUE1MGp0dEhYdnZ1MHZJZGFPOHZ1V0w2Qm9rTkxBcW5HVEZKZkRfTXhsZ2JpVnc2eEVRd3hQLVB5MWEyUE5uOWZrLTB6YmU3QUE1WDFCNmdzLXdJSWlkZDdmSC1Wd3czOWlKQTJvRkRsRlNUaE9WSktpSWlud1Foa01PTVE1eGhLQUtsaVNtMGZnMTBSMFg0UWpzak0?oc=5",
+     "sinal": 0
+    },
+    {
      "t": "Galípolo sinaliza pausa nos juros: até quando o BC segura a taxa?",
      "fonte": "BM&C",
      "data": "2026-11-16T17:30+00:00",
@@ -602,6 +616,20 @@
      "fonte": "18horas.com.br",
      "data": "2026-11-16T17:24+00:00",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQa2p4QV9BcUVKUEVYR1ZXQk8wVk5jMm9XNS1lYXFlMkUyZzVfZUhjdjBxRUY3Ry01dWU4MXhwMEJGYW1UUWx4YlUwNzlpUm9mbVp4MlF3V280V3R6cmZXV3ZlQ3ZzNzZNakhvT25jTHpLd3lCSTdUQ0hjcjFzd1BWcTRhc2hGTE5teDZqM2RZRlRzeUtIN0ktajExaUpVU3c?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Selic caiu: o que muda nos seus investimentos",
+     "fonte": "Nord Investimentos",
+     "data": "2026-11-16T16:03+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rYWpYY1NnQmdzRjlyMnpHYXctS0FDTWR2Qkt6dVZCRkQ0RTA2UDRkY1E4UjdfSWI0QkVZaUp0YXBKYmJIVmlXczBRTmxLX0tPdTJRa0hDQS1YcVVvemsxS2VGY9IBaEFVX3lxTE9WZG90TTVBcUZveGxlR19VSUNvczQ0QnF5UGlCVzdtdTlOM3NsSjl3RHJRMGJsbWFXbmh6RU42cVVhbTdsbDRMUkFjVVJWN3FiNEE0SUZfNVFEZk1YZllreEpGcmRtOEVm?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Mercado reduz projeções para inflação e crescimento da economia em 2026",
+     "fonte": "TODODIA",
+     "data": "2026-11-16T14:52+00:00",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeGN0TmJVWVlBTUhZQW54cHFuaG51RkJpa2kwSE9fNjF6cEFnT1RTQzNpOTVSV1JIMmNQSzNpR1ptWXVvcE15TURjZ2tqUVpyX3NSUXNIYkt3QWd0VDBmNVpTVDZCU1BBOWhXMEJiQWxzTHVjSVNHT2ljcW5ObjRNOHlnT0N0N1k1VjlQdDNBQUZ3clNOaVJTNjBrejNXb0VjeW1vZ1B6MVFWN0RB?oc=5",
      "sinal": 0
     },
     {
@@ -1107,43 +1135,36 @@
      "data": "2026-11-13T14:40+00:00",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRkp3VHhzS1M3SGpWOXpEaERwTjBHajlOQjJBSHhOLVNNZXV0ZEptc1dzaER3OGVFeUw2eEtPdjBNWHhmRTZYc2ZGTmxKeFlFOWdDX05TbDdpUTlpajkyd09oWkdKVzBpc1Z1Z1BVblRaZDA0MzVrNkRfbUVWb3o2dTNYaXBRWUNrLXJQRmNUOXcxb21IWG92MjhvMHdla0JvZHNsVQ?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Gabriel Galípolo aponta que controle da curva de juros exige credibilidade",
-     "fonte": "Sobral Online",
-     "data": "2026-11-13T14:39+00:00",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iY0pxWVRoLWdRQWgtaWlnYUQ0dXZDMi02NHJaRTdVUEFEUnJEV1BIQXpWRVIzQlRrT2duSlQ3NkQ5OTRZVkh2QWFDZFF4RzRac2ZJXzY0blVQNVBRM3A2WEVSZnZkaExTYWkweDlhd2hVREdjNHJHWHpHQ25zdXc?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Galípolo diz que BC não precisa mudar mensagem sobre juros e evita antecipar próximos passos",
-     "fonte": "Exame",
-     "data": "2026-11-13T14:37+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUhWQmI4dTJ0eVctQjJlc1ZnYU8yRzVOZEllb0NkWDg3TGFWMHYtSnFhYVRkTTF5RUNqd3Q3bG1VY285NV8zWHZwdEd2bHkzZ0IxczRsLXdwUS1XQ1dDQlVVZk1QV2pteGtrMmJoWWViMlpQbTJkd0IxOWxfSTdfRzFocDBBZjlPcE9WWnFxNHEwN0NiT0xyOUNxU1FicUVCekhqLTE3ZE9SUlljNkxPQWdiRUd1bWd4bWc?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Galípolo: Prêmio da curva de juros depende da credibilidade do país",
-     "fonte": "CNN Brasil",
-     "data": "2026-11-13T14:29+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYkczbUdOQ2tWc0pPSWxHWDl2TG9sb0RuOEp0UjY2VzEtdy1TaE5nYTBjME5vZjFVSjBUMXhyQ3NhejZtdXplSlp0N1BDMkFlRS1uTm0wSnFVbE01X0lsTjVucWpqSy13RUhMVE5BNVZjaFpjbDBQT2hHUlNsYWpheVJfQ19za2NtRVg0cGxqQkxNWWhON253WFB4YTYxdU41RnVsdHhsX0d2UGVKZW85MFQxZjN3NUpFS1NBZEJza1BOY28?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Debate sobre juros parece disputa de torcida organizada, diz Galípolo",
-     "fonte": "CNN Brasil",
-     "data": "2026-11-13T14:27+00:00",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVUliVFl5WnZkLWlHUlRIOC1VWWZoOVpLLTJKNVFmbm9SOXEyM0RzcHliQWExMHJ0WTZmOUdXczRrTHBZcUFWSE9wNW1mNkJSc3VOYURiSC14enFVN0hhMW9VSGNHOW45T2hCQ1VVc2U4TGdYTnNpWmhYRkdub1pzTDRUSmR6eWRhclppdjRhWGVueDcteXUyRE5YS2tUczU1MTItM3ZXS1VjZ05mRlp3X2pyM0NWS19kZVk3UFlqMUZHcUtYV1E?oc=5",
-     "sinal": 0
     }
    ]
   },
   "pib": {
-   "indice": -0.235,
+   "indice": -0.258,
    "n": 80,
-   "alta": 26,
+   "alta": 24,
    "baixa": 26,
    "itens": [
+    {
+     "t": "Atividade econômica brasileira recua 0,9% no terceiro trimestre de 2026 com juros a 13,75%",
+     "fonte": "Brasil Inovador",
+     "data": "2026-11-17T00:47+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNUZjVmpmV1lhcC1Icjl0VHZNWnJwZDZzSThwQmE3cU1MTEJCRmZrZTQ4bkc1NkpjaXpESmxmdGZHZkh4eU1OSHlfWHlRclU5T1cxX3RfQzVSQ2Y4Y3dGOWUwdWxweHpfMlNvTGstVU53Z2ZSYThXSnl6UzBqNW1YOTZuTzVfODRVM2t1N051aFlselh6RHRUcjBpZk1pYWlYNFpYclVlN1dLT2NnWTlUZWJJZGtMOW9F?oc=5",
+     "sinal": -1
+    },
+    {
+     "t": "PIB do Brasil recua 0,9% no terceiro trimestre após baixa na indústria e serviços",
+     "fonte": "Agora Litoral",
+     "data": "2026-11-16T23:55+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONjdNb0Nzenp5WWxrMGYyVHBiNmlMaVZzUGFXb1NmR1Qydm1FQVY2NE1vYXB2cm9hZ2ZoVjZJMFR4aVdsZnpreUU5TlVYTnVvb2lacDd3MUd5UjNqNWpvSmJFSklveXBQTk9DU3FLek5GMkdqdDlVYWZjbE1ici1DTTZHdjFZN0tvaFY3WjFsbGJlN0d6Vk5VZUN4aVAwemlGQUx5aDIzOEdrLWVXVGs3RTVLQ1dkX2tiSXhn?oc=5",
+     "sinal": -1
+    },
+    {
+     "t": "‘Prévia’ do PIB cai e reforça perda de fôlego da economia",
+     "fonte": "Jornal de Brasília",
+     "data": "2026-11-16T23:47+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMEdoY3JqaVFrU083V2VkOW0wQkY5ajMtRFM4Mi15V0dJMGU4Q1hILXl6VFN6TFdrdVZCU0dURkdkY1hDZGYyaHltcm9ueGtndVRaNFJYWHoyM080RU5JWHJOVTY2Wmg2TERxeDF3bFZrNjNVZkpoZDBmbTNCclZpTlRKbUlHOFIwVkMxRDNIZUNienVpQjhxTnVsR01iU0QxLXgyUHl0S2RNZw?oc=5",
+     "sinal": 0
+    },
     {
      "t": "Atividade econômica do Brasil recua 0,9% no terceiro trimestre, diz BC",
      "fonte": "O Liberal",
@@ -1157,6 +1178,13 @@
      "data": "2026-11-16T19:51+00:00",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ1diLWt2eTdtcXlnWGt0YURTWU9lZVJBM3lqU0pnYkIyYWVPaVYzSzJzR1I0Z2FwLUZsYjUweHVTeTZqa3hqR3BIMERXR2F6a1Nod3JzVDBBa0NfV0NLRnVGYUZ3SEY3YlhPVHlpMExXbTZDaVFlU29CX3U3QVlPZDdycFJhcjM2aEJvU2RwWUo5a3ZIZTl2STFWdGkwMjVKeTBnYktELV9aRzFJVFJ0RGJNMnE?oc=5",
      "sinal": -1
+    },
+    {
+     "t": "Economia brasileira perde força no terceiro trimestre",
+     "fonte": "Jornal Panorama Minas",
+     "data": "2026-11-16T19:46+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZkJHSE1qbzBLc2EtZ0YyOWJ5VmFTNmd5NEhjcWdTOHBtZllFNFNFTGFFVzFjZGVCWlVRYlRybVMycm1lUGowWnpyck9Gc0cyNE1KTkhYT0M4ZEJhY2ktRHU4NThoUWtBUzVFX05fa2RmbFE5SnFfS21qQU5NYmQ0dkdpZFFCbThON3g4eDlVVDdUQzRkQnpMUm9oRXRfX042LWhqSzhIbTQ?oc=5",
+     "sinal": 0
     },
     {
      "t": "Economia brasileira recua 0,9% no terceiro trimestre e preocupa indústria e serviços",
@@ -1268,6 +1296,13 @@
      "fonte": "SpaceMoney",
      "data": "2026-11-16T13:43+00:00",
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVWpPaWU3MGVYTVdvLWFOeGhVSWtqVjJMMUMwSF9LT0hPNm9KdE82bHZ6bWFocmdHVERSUktyQmlRR0VtVTMxU1AxeDFFT0t4ZWRZdXhwYlVfYzh2eUt3UDJST3A5UWdSaEltc0JkTnFGN2ZHcXkxbkR1WlAyR21SQVBTaU51Y2E1TWdzOWhuMUd4dVpoT2U2cUJn?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Projeções pioram e trazem alerta para inflação alta e economia quase parada",
+     "fonte": "UOL Economia",
+     "data": "2026-11-16T13:30+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc1RrM25lTWpMZnBYZzBVMkF2bGpQRWkwZFFmaV9BR1BnRno2T0FsZDNDd3BkcG5vNnUxVTFIUHRPZnFjc3V5cWFUcVh6T0hBZmJ3ZGRFM3V0QVZkT2lJdjh3dU1JYmJfdXMxMTlQaHdldzBaQVNBLVA1UzNjWUROS3Jnb0NtMGhwZzV2RzIxNVFKbGE5ZHRMdlQwZnduekFwdnpILWtwRjFYanc3cWRKRVZob2dGMDYzT3hid1RGXzZHalByUjNlYV8taTRoUmwt?oc=5",
      "sinal": 0
     },
     {
@@ -1668,50 +1703,218 @@
      "data": "2026-11-13T13:00+00:00",
      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNXJSVjNFVGREa0RaUXE5NGxOUk1UN1AtRE0tY0pfTzNvSHRqSzhhZ25WYUNTNzNtWWlPNENKdmxmMGdmOG9LbE9oNk0zTVRZZ19TN25SS01fR3BNZW16WlFpVWlxc0NBY3VrUXBna2tuTDc2czBYZ3pFOHhyd2pEQUFIUUdCN21FQTFEaGItVWcwS0l0anB3VW9XU3NubVRxZEJZTVY3UnMtQnQxRnBjSTI1M29IN3NnSGJVaWJmQTIyaS1HNVJlVE5ZWXlLckI2bFdMdzRucUQxUVdhNUszTDJXUQ?oc=5",
      "sinal": 1
-    },
-    {
-     "t": "Brasil pode entrar em recessão em 2027: dívida recorde, juros altos e crise fiscal ameaçam economia",
-     "fonte": "Guia do Investidor",
-     "data": "2026-11-13T12:20+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPOHFMSGl4ekFqUHlHUnRZVld6Ml93UFdncktnMUtIQ1BfUmROajJaLW9TVHQzaVJaUERmTmtlTkdVd05TRjk1cWYwZ0E4TFVNQkt6YXlTU0J0NmpXS1BEaWc0X1d3MGtvWDRjdk13eEUzN3dneDBaMXZ3QkJnbF9UM2hvbnBfTzJsTkhGWjhaNWlwZlNwTWc0MTBGR2Y2MjRFMWxsZEpxbG9fUHhtbXlmRy0yQVZ1eUZjSms1ZUoyVVFwMHdJbGZza1VSWFZGZjNmandIekx3?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "Agenda econômica desta sexta-feira (13) conta com PIB da zona do euro, varejo no Brasil e inflação nos EUA",
-     "fonte": "Money Times",
-     "data": "2026-11-13T09:30+00:00",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUnlEZExkTTBlRmRaRHR6RFdoMmVpSFowQ1J6OExtblpESlBoejV6NjlWUWVCcGVRSmJ5TXhRUGxsX09kNVU1b2lJcmVJbDk5d2xQTHhaTEw5NWtTaEF4VHNaT2JWbnFRWlRsRGx6UmJlRGJPdVBZdjRKa1ZwSHdmMUpSbVdkVi03RF9fMXk2NWcyeG9yLUhkdll0Z3dqLU81cjN2bXJjSm04dnh1RjJMaFkwdkI?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "2026:Abramat projeta queda do faturamento real da indústria para 1,3%",
-     "fonte": "Portal Você Online",
-     "data": "2026-11-13T04:34+00:00",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUkdVNURkcDFXWmN3S0F1ZnFnQk9tblJUYUR4cjg4RFRPMmRvdnpHMVJ0SDR0YWlfUHJpRGFjNnRkbDktWXB5TkRVZ0Rxc3ptQ2JVZW5iUDFnUmtSdzNOS1ZPYnJ1SkVfRmJXdml0MjlYUS1jTjdnZXdYVGtBek9oT1c4STR4WjZTRHNXd0JOYjlmOGJE?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "Exportações avançam 9,2% e PIB da cadeia da soja e do biodiesel pode crescer 7,21% em 2026",
-     "fonte": "DatamarNews",
-     "data": "2026-11-13T00:09+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUDFqdGg1bGxTZmVldkI5Q291RjRvbXhfN2VPWVpjR2VoUnhobVRybk1US2ZEMnlHc21CRkJJUl85aC01YnNURHRpSU5iby1YT0wwaWhweHJEYmt1RWZNN0h5YU9LWUpsTFhsaXk3QVZfNWgwZS1BMHNQNC1HUm5teC1TdHo0WjlVbE15M3VDSjVNWGhmSWhrX292NVpuRlgtNzVocUtzVzRyeWtobGJwLTJXVWJLNnI1WDFQOTNLZ1g?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Expansão dos biocombustíveis pode adicionar R$ 403 bilhões ao PIB e gerar 225 mil empregos",
-     "fonte": "Planeta Campo",
-     "data": "2026-11-12T21:13+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSUpmX3JVUUhkU2N1ck9hSmtUVWhCNGZXNW5RTGtUZjM1YWZjUVlHNDl3OWZ3MU00bF9qT0pjemlrQVRxeFBISW02Q2NpR2I3b0o4QWc1VUFFV0FqcVFvRld2V3RYQlhaaXowQzI2NVdNUzlPR1RCRlhydWVOWDRwM1RnWGhEVER3MHVkWENnSDFycHYtQktqRTBzVXNuM3hfMXhGQ1h2eTVFSER5bUsxSXJpQzJmRE5hQU5yZnFBSVhMUDFBMHNld0JITXVianFtakpR?oc=5",
-     "sinal": 1
     }
    ]
   },
   "cambio": {
-   "indice": 0.259,
+   "indice": 0.465,
    "n": 80,
-   "alta": 20,
-   "baixa": 1,
+   "alta": 33,
+   "baixa": 0,
    "itens": [
+    {
+     "t": "Dólar fecha em R$ 5,77 e atinge maior valor desde abril de 2025",
+     "fonte": "Tribuna do Paraná",
+     "data": "2026-11-17T03:06+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOX1BfVlNwNXFGYmhTb1VxMEJlZktEeXpqbnc4Ylc1M3Bsa25LaXA4R2JYd1VzN1dTejkycnNIYmhtWk9ZY1ZvZ2NKcWlnQmpmNUhXZmdpVWw5cWVFYzNUeVVuWU5IdzBmVlIyQzBpZlVWU29VaGlNY2c1X01mcnh0MzRKQ3QySFFvSFhrT2dQd3ZQRldvRkhyT3hnTzlnRktRY01KT01IRkM0WTjSAbABQVVfeXFMTnRGTVptZ2lNUFl5WkxDa0hlRlRtOFlNYUhFWm9fYlljLWphYndnZktEbHdZNXowZ1o1R094MDdKYTZiNEN3N1Bna004aGdwREVjRjJ2VDlHSnNLQWFtZFRSckJnNkVUSU1yMTJWRmg1dDdiMWJuZlJoM0IwVFVpdkttMmxQdktsWjBKSndHZDVfLWFaaUtJZkUwbnJlQzVvUVJlSmdZVTdtelpwUUl6c2I?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar já subiu mais de 15% desde a reeleição de Lula: o que está pesando contra o real no Brasil e lá fora?",
+     "fonte": "O GLOBO",
+     "data": "2026-11-17T03:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQQ1BhdzdCUVpFSmtTQzRndmxHSVV5R1ZsWEV4RHhaZlRyTnhzOHJKc3A4MmpJSnhQM1BveHdadEtaT3puUXc0S1dFb0l0S1BkYlp6OWNUR2JoOHJMdXBMT3VLS1FRaXR1NlBBR2JmeEdkajI2VXlwajRxVlYyZ01uR01vaXAtRHdvOVZJejlUZXpuRFdtY3RQYmNYQ2dVTEk2b3BCRm5NcmdCNmhaNXB3b1hfXzl3MkVjSy00YllRVURDcDZfTnBQV09WYUQ3UFE4UlNma3BBZkNfR0pRcjN2U3M1dFdIbExCZ3AwNkVuWU1PdTlfdXVKSm8zRXRtVFBQbmZ0aFMycWlHYknSAZoCQVVfeXFMTXVvNXc1bTR4V3JKZDBzam9Rc1Ffd3BpREhoVUdxejRwNWVnUFF0RnFURVE2S3dydjcxb05DWnA5VUxWQS1OWm9NV1QyY0MwdTQtYUh0N3hwTmZ5SElkVHF5STFSR2NNZWlZcEhFaklJM3BzczgzSjhpNzJCdlpSY01jZUw5cEdUdlRrenA5eGtBaENXcGNaUjQwU0NrUkNrd0lkNFQxMWdza2FheGdRZVYyb0ViLWRqWlRvMjFjZ01fSFBldDdsanQ5b3p5dmltMFdYSDNfRzdEMGJzM3FxNzJIUUpybDYzaG1LdTlFQVhSRlV3VTRwaWZwT2RQbkwtOVVQUXpKcEJmWHVJek5WQTVHel9wTGRKUVpn?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar sobe 2,17% e fecha a R$ 5,77, maior valor desde abril #shorts #JR24H",
+     "fonte": "R7",
+     "data": "2026-11-17T01:06+00:00",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRVBxcTJSWE9uM2lTeF9IUHpaOFROdWJfd0t0NUF2UU5qczNRYnN3aHFKVkt0RnJpVFZ3UU10M0txM0VWTzZUMnVseF9LNlBzYVotdVpiWmg3QWtyYlZoNzZMNzFIZnRRZnNJaDcxbEp1OTFMbzBlTmRnX0R4WEhwQks5enhnWVdFY3lMcy15cXd4RW1xeVRzaVpvODJfTHJ4bnR0dkRWNGFEdUpUODcw?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar sobe para R$ 5,77 e fecha no maior valor desde abril de 2025 - Portal IN - Pompeu Vasconcelos - Portal IN",
+     "fonte": "Portal IN - Pompeu Vasconcelos",
+     "data": "2026-11-17T01:03+00:00",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMnNQVFl4SUxkR210ZjZNd3IxRWJqM2pON2FrNy10RjVlbXFGbmJJQ1VoM0d6RkxVcDQ3Nm9jdUc0aV9INVczWFFBUFVQaEVtTU9FdER0S2dmMC1GcDlZSVNlUFhxWkVUWnV1cHBXRXdvTGhZY2lVWFF4OXNIOGstUnJEdE44Tl9zczh3NFF0TTlCclhOVEtXUzJ2SFJnX0FFVEhfSw?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar dispara e fecha a R$ 5,77, maior cotação em 19 meses",
+     "fonte": "Revista Oeste",
+     "data": "2026-11-17T01:01+00:00",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcXVpekdWdUhSOVk2ZVdPYzhQcWQxZ21HeENRb2JTNG9KZWZuSVF3cHYzb0h4aVIyRjk1eXBUcmZxRUd6OUNJOXJ4V1ZtcGlxbmt0c3Qxb3pSS0dpUWctTTlMZ0doRmthb2tuNFV1Y2xGYWlPeW9EeVJpMnFEdDRGczBZM20zNXFJZUVNcmI5X1Nvd2Uz?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar sobe 2,17% e fecha a R$ 5,77, maior valor desde abril de 2025; Ibovespa cai",
+     "fonte": "Blog do Mário Flávio",
+     "data": "2026-11-17T00:17+00:00",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVUdjYmVSOFp4d1JlM1RoV2hJUW5xNFdLd1A5UWJOSVVjemZVYlhCblNjNllDNzZTdlZfcHpSZy05dkV0LTVjVUpDMkw1Zm5sSUZLLWFET2FLMGpDVzVmbnpmZ1k2WXdGYkZ4amtNLW43Mks0aGlRWEdhY1EtSXREQThkZDZ1U0RPNm5GNmRFZmFOeEM4QkFESFhxR0FWNTZBdTRWZDJPVGFWcmplQ0E?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar sobe 2,17% e fecha no maior valor desde abril de 2025",
+     "fonte": "Brasil 61",
+     "data": "2026-11-17T00:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOVVGNnd4Zm85NWN5WGFHclMxdXhnMUV3NVZ4T0NqLW5iTnJrcnlITjZPbGNWT0ZIRnlnUW9LRkpwa3ZKa0xmemVQQklRbHJzcWRvcU51c0JxY1FUVmdoVzRhRHA1VC1wSVZZUFFJeVhTcXd2MTlVMElRZVVjc2l3ZzVtZ0JkU2FCMlZYVUFiY05yUmZaUHM3QdIBngFBVV95cUxOLXoxOTFfejNRV2FaVG1QN1czeHRaN1NtRkN2ZmQ5Z0VjN2NGNjRNR3ljdWE2cE1qdUQweHFuUGxVZ05wcHowZkRrUFpiU1g3MjlDX3Y0Y3F5dW5vd0ZFSE95enJVZkg3cXVwQXB2eXJNNDJsY0hQeHh1YzNXdTJfMHFRRWZaQTEtMG9YX2lxenE2WVZFREpSdGI0eVFUZw?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Ibovespa fecha em queda e dólar dispara com incertezas sobre política fiscal",
+     "fonte": "TradingView",
+     "data": "2026-11-16T23:30+00:00",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1YSWFlOTVxX3FjRGJyR0g0dlFHSi1PeGM5RF9VUnFleU51WGcyUHhlNUcyMWlmd04yU1Atam9ONVNSOGhId20xR0huRW5WakFhZ24wakY4S2puSDJuM2FBcV9WbG8tYTQyY0JaUE1mbjlNMmk4QVBF?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar sobe para R$ 5,77 e fecha no maior valor desde abril de 2025",
+     "fonte": "Agência Brasil",
+     "data": "2026-11-16T23:06+00:00",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMHBzSUxzdzk2TXVUYkNmcWpXUW1xQnB0bnBsZzhnUDNZQWVQbmJXVkFSbHFTUkxWODNVLUpleUMtdUhuak5oOXUwM0xTcXpUSkhCRXAxbzhHb1h6U1FnZUlRMGtwZ09PbkxyTDN0LUNEcmFsemQ4bU9OQW9KcGdROWpENk9WSE14SVl5a0FmSDRYQk1JQUNJRXZaZ0o3MnhJMG1sYXo2QlR3VHlEbnJITEw4ajZjT2FWZEhHVnY1VQ?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Índice Big Mac: o que é, como funciona, como calcular",
+     "fonte": "Investidor Sardinha",
+     "data": "2026-11-16T23:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3QjRqWldabDVIbE9yVk45dkcwRGs3YUpGRUQ1UVdCVllwNVdta1Ezd3FiN05oeEx1Y0c4R0N1TkRCZy16QnNZQVJvbmZEQmpPbk12V2labFpSbXlYVWZqMHMyQ0lpZw?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Alckmin questiona alta do dólar, que fecha a R$ 5,77 em meio a incertezas fiscais",
+     "fonte": "tmc.com.br",
+     "data": "2026-11-16T22:07+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWlVBd2ExZzJaOG81bmJES2NIWi0wSU56QVBpaTN3OXlTMVFQNjRpNEptQy1FbE9MbUdqWlZmUzFzcDRQNEVIbS04YmFJbVNtaFVUa2FPb2d2V3J1dUdHSUNwajB0RGpfQS13V0d3WkpKTzlIUEk3aEozUnNia0xrb2FaRGJEZkpiRjNMXy1MNU9WVVg5ZzJVRGlwVG5lTDlDeTBEdjUxZkNaMUk?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar dispara e fecha a R$ 5,77 em meio a dúvidas sobre pacote fiscal; Ibovespa cai",
+     "fonte": "Oeste Mais",
+     "data": "2026-11-16T22:03+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVFUxRnBLYTdNc3lRcTZMc2VYQ2pxXzRVZlh0V0NOY1liemh1bXlyYjU2NHNnRW03aE1oOUV3RVZDQ3h2VGN5TmQ2RC1PR3pZdjZsd0dVcTBocWJGdWJsWmppeU5zT1hXclFqUTVpQVRHelJSZUp1cXRmbzRiSm9iMHNEU3hzYmxHeUtLczhwUUw4MUxFcGtnZ0ltc3NEcVBVV2RZeEhvbEc3ZHl2aVpvMnZZRE1tRnB5RXlEQlBNbXpYXzBCcXlhdjd3?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar dispara e fecha a R$ 5,78, maior valor desde abril de 2025",
+     "fonte": "Poder360",
+     "data": "2026-11-16T21:51+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU2pLcUxCY2U1RzRZYWh1X0NwZW1Sd0hmMWlhTEN4QjNIbEsxX2lxV1dpX1I1VzBnY1c4TG5sSnNNc3VQZnVBeFl2R0VBZC1CNWliVGpNX25OMzJUakVjMDF2ZjJqX3c2OFhKYjNkWHhyMmdma00xcHBiejdUY0xBTTBpeWgwQ3h0OWJJMGVUSE1laXlSdFhlSmk2UlhqeTN1N1cwdTE1RFI?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar dispara 2,17% e fecha a R$ 5,77, maior cotação em sete meses",
+     "fonte": "MundoBA",
+     "data": "2026-11-16T21:47+00:00",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSDV4VmpYcDc3OXJ1eHUtNG1YSHF1WDMwQ1pFcW15MU43NEVRQ0R6YTl4cGMtOG5wajdKRVJzU3hKRUliMlEwRVBaTDl5b3U0RHFQZ0Z0WkNsZ0s5NmRiaHhTcWdSV1RCRGtLV2dPV2RfVFBDQ1ctdGtTMXM5QU1rY25EOEZ2bVNid2hkWk5CdVB1VGRJRVp2aHB3?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar sobe 2,13% e fecha no maior valor desde abril de 2025",
+     "fonte": "Rede 98",
+     "data": "2026-11-16T21:44+00:00",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZHJLRWdrc1FtdXZsZnktbmZ4dW00VVN0R2Q0Z2g0MmZnUjBoSnp3OEx1THA3WDE2WHB3b3Y4U3BybjA4LTRiSWhqeC1Tb3ZKeTJSMDhQZ1NJNTVyejdraXhkNjUtSmdGR3BWZDl4MG91bFVJcjc0Tm9iZ2hZc1JScmNsUHljeW1FcmZURFlVWHpyMFllTERyZ3NCeG1EOEk?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar sobe 2,17% e fecha no maior nível desde abril de 2025",
+     "fonte": "Canal Rural",
+     "data": "2026-11-16T21:41+00:00",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUFpTQkhSaTF2dTk2QS1XY3NLeGRQenJsT1UwamcxdENJcElYMEZEY1BsT3A3cWZVTjFkZmdfQXVjdXQtcWpwVmhDNFB5R2x4T09xYUUxdXdrZGlFcVctZjE3Zmk1c1FDQWg5LVJzV1I4cFBGRVVyRHlSa09iV2Q1c21UN1hBeEl6ZjhRaTlsd0RnQzl2cFdPd0JNalJQZw?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar dispara 2,1% e fecha a R$ 5,77, maior valor desde abril de 2025",
+     "fonte": "MEON",
+     "data": "2026-11-16T21:40+00:00",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNR2RKUGhSNzFRcHNVNXUzYUdCN3ZzMlVRTU90Tm00dFJ3QkJaaDNUMXVadXJMZ1ZVM2VaQ2VmWWZ5YlJkRnNHOXNfNmpkOXF0SXJIakphQ3VNS1ZBeG4yQTQwaW1hdEhuaUc2ZUpJc3oyX0dMdHdEM3g4cUFCZmQ0LWg3a3RQazJsRmQzQll3a0pBdHktQ3RZNEh3?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "DÓLAR SOBE 2,17% E FECHA A R$ 5,77, MAIOR COTAÇÃO EM 2025",
+     "fonte": "Bahia Econômica",
+     "data": "2026-11-16T21:36+00:00",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdkhkbUxPT29qSFlhMm5OQVIyN0JHb0p2bVYxbDBmSWoyNGVzTVU2X2RPY0x6b1VvLTh6QWFtc2pVVnQxMFpCM1NiU0ZUVXBfSmNESGRFcG1mZ0xmaWNldzdmUkNFRUVwRmN4cEJTcWdGUUVFSmIzVTFxOEx3Yk9SZy1uY1k1cFAyLVZ3M3htNEdURHQ3X2gta041UXZpTjA3Mzc2NzVvMmpmTlhaNUE?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar fecha em forte alta e atinge maior nível desde abril de 2025",
+     "fonte": "Agrolink",
+     "data": "2026-11-16T21:29+00:00",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVEV0cHZnSUxWeEhWWGxlaVVFdGxvQV95YmFxa0NLUVlYNk9nN3JzOGdHTi12d0tWMnF3QVZPMWdDdE5TNVBPUG5GQVgtMkVNWk5OYVUwb3FFLXZXZzFuQTFLTEFBZXFBSWJHQlNuald6OG5XSmhPaHlEb2lDSWdqQk5XdE0xNzdCdkRBa1ZPeXJybHlqX2xsdGw4Qk9jOGhDNmJYdHoyUWItQm10Sy1TemxSTkRtdw?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar fecha no maior nível desde abril de 2025; Ibovespa recua com pressão fiscal e saída de estrangeiros",
+     "fonte": "Times Brasil | CNBC",
+     "data": "2026-11-16T21:29+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdEZGYjJzMFFiY0oxTnJNLWlpSmJ4SDNRSmMtRXZjeUVaUTdSaTlZUG1TQ1lZYXNUOGItN1pPb3hPOXU1NGxkQUNPVFBwd0JQaWJOWFl1aVlBNTFlLTJ3d25qcmhNeWdhTm1Tc0Q3MllFTkNSbzdjVW9CS3Q2ZnUzbTVBcm15RkgwV0tMbC1uN3FVeW5nUWkzcElVSEhZVmhvQjNj?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Ibovespa fecha no vermelho com incertezas fiscais e queda do petróleo",
+     "fonte": "Money Times",
+     "data": "2026-11-16T21:29+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRS1PNFR5UjdBc0RZX3lCaUpEU2V1dlBRbVY0clpPTmduU2h5RXU5S3NSUzZxWm04OXl0YS1LeG0zbVljV0pmWVEyWXVtSjN0ZmdPYjlGeXV1Z1NTWTFYR0lqVl9wRlpiaFlQWW9SOGVYUVlXU1VwOV9PeGhXV3F4RVZ0TFpMdWdOaS1WdWM5X2FLUkwzUE5FZ2wtTjRNejcwcnFRMFBvWHI?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar fecha em R$ 5,77 e atinge maior cotação em mais de um ano diante de incertezas fiscais",
+     "fonte": "Jornal de Brasília",
+     "data": "2026-11-16T21:29+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYVVHYnVNWmc2RVVXRl9iOFpmX1BOOUVUaVlDakozUTFPNlo1WGdBN21nQnlNTWNQeEdtY1RhOVlBUTd4alU4OWVIRG5RV25TRzdMR0lEeHlPQ3FjTm42YlhRYjQ5WkRMVFVPTk5nQ2NuZmRMNnRZVmhXcUdrb29OdThub3ZONzVwN01uOTFHWWJGb1BnZGMyeFp4V1E4SENXb3hSQUd0WDMwRi1mUS1jb1JNUmRKQjJnQndqTXUwZ2pBNXJFRHBibXhUemN4OTVkNm1QRFRGWTE?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar sobe 2,13% e fecha no maior patamar desde abril de 2025",
+     "fonte": "n3news.com.br",
+     "data": "2026-11-16T21:27+00:00",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMnU1aXZ2WmZ4S082RWRRVV9uanlCRnBFWkk2cjk0RnA3Qy1ZbTB5Q0lmM3RMdkw1OEJ4elhaMlRTNDJWd1VQeHE2NW1rVWRSRmNSbmd2Rk1Wckd3RmRoczhuZVlGbXk0UWQtMnk2d3lkSU92cWFObGVqZFZ5UE1Bc3o1NmYxSjA?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar dispara 2,13% e fecha a R$ 5,77, maior cotação desde abril de 2025",
+     "fonte": "TV Guararapes",
+     "data": "2026-11-16T21:25+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeW5XNTRNM3FMTVBVdG5vUE5JRGJMMWY1ck02ODdja2pqTjl2Z3NGSWxkOVFqRUpFVHduQlZPcmN5Vkd4dXNScmlUYS1GMU9JMmduMEh1ZVJVRHB3d1RaSmEtUVpKWFFPb0xfNWZvMGE4aDg4cWp5WUpJWkwxUTFnNk9rM3BfaXJsOHptUld1S1JMS2xvTWtXNEFZVThyTHh0dS1rZEY0d09ZRVJLQTl2SDVYZTYzTTROOG5pWDVRSEFPQQ?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar dispara 2,12% com incerteza no ajuste fiscal e fecha em R$ 5,77",
+     "fonte": "Band",
+     "data": "2026-11-16T21:21+00:00",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMFRYdnhpaWtfNU5Ha0gxcHFCRWluWURSYUdCWG1ja1hWWHp0WEhSMUZmcEZIZlB0OG91RFdhcVRVQmZrQ01BLS1EVzNHTE1ZTUxlcnFOVGVoMHB3ZWt1aTBIaVRjeGhkdC1LZXFsUHNSWjhPeDVWSWg4OHJuZFlaZE5scnFqOUViYzZRN0RDM01FTkpaREJvU3dUeFIwMlk?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar sobe 2,15%, fecha a R$ 5,7767 e atinge maior valor desde abril de 2025",
+     "fonte": "A Crítica de Campo Grande",
+     "data": "2026-11-16T21:15+00:00",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZXhnMmNmZEZwUWVQOXVJOGFGMF9fRjFhSHE5dFZtWEpfc2lnREt1UlRKZ2YtTl9hTS1fbVlUb0w4eklhQjk3X2FfZFlYdVhaSHRMeWlpRkZmbVNBYy1TMXRjdDJ0c1dWQUtGZm5zTURiZVZDV1dZYlZrUkJpMU14RzBTSzh2Yy1CUndLS1BsWUU?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar fecha a R$ 5,77 com desconfiança sobre ajuste fiscal",
+     "fonte": "Tribuna do Paraná",
+     "data": "2026-11-16T21:07+00:00",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVG1va1JCVGMxTFl5OTRnSURpbmVCSVQtTWFGaU9IejJoV3VVdVhqQ0RlRWp2RTVEZXhwTFJtTXBfNTRCekEtQ0xkSUM5ZnN6OEtZNXRYYWh0T1hEcHkyZU5SenNiMHhhTkdFbVJZY2dfaGFlTWViMmJwck9lZ1pSRmthNWprWUZjekU5czA2TDY5ZXFFX3U2bi04al85MVJTUkN6VFJ1b9IBrAFBVV95cUxNMC1KYXFzT3BVRnZYT3RidUROLUpxVDRuYnZtQ0FRcFZGUFRZd21wSno4NE5vSVJJVEdycFJsOVZRNXFKLUhpWHlXY0t0WFZoZjNRVVZhS2FsbjNWNl9CeUhHZGsxZjVkU2tIYnpPU2FEa2JjSXBqZk5pQ0R3S05pd1g3VFVLbjdTLUhSUWYzbF9Ga0JsdW1HSjI2ejg3VEVaTlBydG5TUFBSLUxw?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar sobe e fecha cotado a R$ 5,77",
+     "fonte": "Brasil 247",
+     "data": "2026-11-16T20:57+00:00",
+     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE01WVhtNTVkU0xhenJVblZxUEUwaFFRUWQ3OEZ6VkhMeFlMdGxObGNUVEkwU1I0ejFab2hYRWhZZmdlaXV5QmhQeEhmNGR6cjF6SXpTVlNfbUNqMlNycjFSWE42MHZjUlFfSDVNVDlYczNvNWZlSHMxNA?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar dispara 2,17% e fecha a R$ 5,77, maior valor desde abril de 2025",
+     "fonte": "Alô Alô Bahia",
+     "data": "2026-11-16T20:54+00:00",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNME9ObGhFRndIMTl6bEtuaWVSMDdGUGRhTGcwV2xXcjhhOWZwZWt3THg2cWQ1T2wtc0IxbUhoU00zZ2p3eXkxLS04SE1MTlNiUEg3czhjQ3A2bHV1eV9CbFliQmo5bUlCeGhnakhORFdkRFYwSzN2aFQ2ZzNtZ2FvSXdqNVJRVjFaVEV0dXpHd09FSXJZbkd5dVp5VldXTGpaVGRHT2FjSGszOFozRmFj?oc=5",
+     "sinal": 1
+    },
     {
      "t": "Dólar dispara 2% e fecha a R$ 5,77, maior patamar desde abril de 2025",
      "fonte": "BPMoney",
@@ -1720,10 +1923,115 @@
      "sinal": 1
     },
     {
+     "t": "Por que o dólar ultrapassou os R$ 5,77 nesta segunda?",
+     "fonte": "InfoMoney",
+     "data": "2026-11-16T20:38+00:00",
+     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBrY2VwenAtQjc0dXJVM0tZd0JiVnVqZ0ZULWMzMVVtOURIZko2alNiUDBMcGhNSU9ac19GVldGVXRLQW12TV9iUkpiZHYxNzlMMnk3Zld1dnA0a3I2S0d3a1d3NjBqd1RTV2JoWTVjWXh1MFhoSnl2ZGc0c9IBgAFBVV95cUxQLWFTQW5FNkZZdFNaUS1KWndmYm5ablg2dVBpbnBNZDBzTnZDQm40dkt2VU5ySEJ6czVyMXdJYWtXaFc1Ym9senVBelhIMS12V0tsZ1l4QjN3ZzNISW9naE5nQmw2cEJEQm5qcEw4U0pHTXFvb0pGb19aal9aaFp3aA?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar dispara 2,17% e fecha a R$ 5,77, maior valor em mais de 18 meses",
+     "fonte": "GPS Brasília",
+     "data": "2026-11-16T20:38+00:00",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONGE4YWNaRjMzWGF0OTZrY1NhbmllRlBrQ05iNThCcW9vQ0s2cWsyX1I0XzJjWURKSFNPaDRmSDhteENfb1NFd0xxd0U5Zkp0Q2tqWTY2ZmRtRWt1Ni1fV2UzM0JRXzhaUVZZdGxnTm1YZkRkaE5ybVBReTFXRlpESU4tcmRTZER3YzVJSWhUdEV3cTBaeEJ4ag?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar dispara e fecha em R$ 5,77, em meio à insatisfação com ajuste fiscal; Bolsa despenca",
+     "fonte": "Jornal O Sul",
+     "data": "2026-11-16T20:37+00:00",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbUwzS21ZS01XVllkWG9MVGlnSW11Njg4cmNoUFNaMG1OeTlabTlJbWlUbHNWdjR5NGF6bGozVkpzQXRIRFhYZVdxdWsyVjU0YnBBUEF4TzdMdEVKR2ZDRGtFYnprTWdwTHFZMDBvbnVXLVFCdmtsQWlXdm1OMzMyNHFNdVRKZW9LWFJDUWxrc3JjXy11R0luT0I2WXRnN1ZlRzFqTkdWVWhHbmNVeFhzU9IBtgFBVV95cUxOTDRwOFRIckppSjV1aWsyLURFeEp0U3haWllfNU1GaW5iMFhoUzgwbHUzakM2bzEwcktOU1Vhcm5oc01ab0VtVnV6LVYzRjh3QkU5WnhILVVJVTZoS0RLNDRjWXVTUXNwS2lOYU9wTlBjM3U4WGR4d3kxU2dkT3pBTWJzVnVEM3ZNenFWZWU4MFBLcnMwX0lmOUdjekpSeDNtS0FzNmZ4Y2RZcDJJS2xsdDA4dVFaUQ?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar dispara e fecha a R$ 5,77, maior valor desde abril de 2025",
+     "fonte": "Metrópoles",
+     "data": "2026-11-16T20:30+00:00",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWGpBdERtMXFhcUhuaUpVNmJpSElldVRxc1ZBa0RYVzYzRkk3R00zYjFLQzFfbUtoWE1oSUI3N3IxRUVoYVRhS0YyUklEbk0tVzl5eEVTMEN1WWkyRUtCRlYxSjRyRE8tV1RpVUZEYy1iTGpZNUZiV2NUTDQ0UlIydnN3NjRhWHQtQjdpMWpqMnk4bzZ1dnd0cjVlRQ?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Dólar fecha a R$ 5,77, maior valor desde abril de 2025",
+     "fonte": "SBT News",
+     "data": "2026-11-16T20:26+00:00",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdDAxSTBfdkRvMXFhbHhMVkNWUXA2elIwQTNPNFhnYmpYUjByYkZnNXJZVEdMZk1wVVJ1RFhhSDNTbjJoSndOQ2xFS1NTMTVJa05leEVBT0JPM1QxeFZMdjI5ZmM3Y09sb1lsaEM4STJCNU9HR29pb3BNVXpFVXBKSmgxY2R3VDNfamQ1NjM1WGxrRDhLVjRPMlgyZkc?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar hoje sobe 2% e vai a R$ 5,77, maior valor desde abril de 2025, com risco fiscal",
+     "fonte": "InfoMoney",
+     "data": "2026-11-16T20:21+00:00",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQXzB6T2RBZmlEWW9KNzBla1NzRTJXZExKc3pzbGRjWXI2ai1pU0FOVXppOTIzMXA3bHRTZVN2WVZBZjR1NDJGVEs1TS1RZ2ZrWnp3Z3BTbWVmTE5CNm5GMzI3dkVjNl95OWtSeDJGYUdSc3d3dGN4Zy1mTnNaMWFQdmNrWV9ZamdpeHUtc3NNYUJUZDZOSVd4cTVVUk5zTEZ1dHhPbnp30gGrAUFVX3lxTE1sRFBjZ3RxbVkyanM0OTJBWWxEX3hydmp3b1RVczZ5RHpMUHRqbFFKVUJEQThYcVRVd2VzT0d4OU8zeXo5VnhUR3RQYUcyQlFLclRwVW9aNElHX0hhTDhfVnhSX2t1N2ctTS1KT0dCSXNVLURfT29BUWNia3dhZ2p3M1hubHp0NVd5aEpfTDc3Q1pqWTRmREhLTEY0NlpsTUU4eXNrNVBwbjFNcw?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar fecha em R$ 5,77, maior valor desde abril de 2025",
+     "fonte": "GZH",
+     "data": "2026-11-16T20:17+00:00",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOckJ1cGRRRDhEQlhrZFBDLXhKMW9lVjZ4U25yMExwaFlZTUUwTnh1VnY1S1M3TzJXVWxDY2FUMk44ME5IdTJ2MlRNeWZVNlM5X2hXSGF3cnE3YXV6Zmd3M09acE14OFNmVDI4MU1nN1dqd2ZhY1dfYzVaeFQ4NmhDbU5ib3FLZWMzZ1FQamdVQlBDS1BTNjlSMFhQYTJTM21TY2ZLZHNGOXc4Qll6bFdFV3BicGJPV1hnOWF2enNkSHU4NzUyLUE?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar dispara e fecha no maior nível ante o real desde abril de 2025 com política fiscal no foco Por Reuters - Investing.com Brasil",
+     "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+     "data": "2026-11-16T20:17+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeVdSLUo4YllENl93Z29ZRVVWX0djMEhvdlVNNllsMXVqZ1MzZUNjYW83VDN2X0tnMm1WWno5cWUtMV9IV0lScjVIUHd6aXdzOGJlSmtKem9rVHpYNU1IY1dSeGpQOE9pTHl3eHRIek02RlVMd29OcjlheC13RG9JMTktSHYtY0c1T3FVTFV4STNSd1pXV2ZvVUpZeWllUFVuMDFF?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "IOF de 0,6% no dólar futuro é a chave para a economia, por Henrique Porto",
+     "fonte": "Jornal GGN",
+     "data": "2026-11-16T20:15+00:00",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQLVdzeTIzbUt3aUh5NGdpNkZweHJub1plVVc5ZkpzVnRNR2YxUlpGbTV0SGNqMWlJV3NsMGJMNFc3WjUwZkZfN0huZmJwdTZkd29halA0OXdKLUFHOGhSZW8ycG8ydFNnVUxkYkZiZFRZd0hZXzQ4WjRRUXRxNmliYTFrZEV3Nm5BdVZOdE1nUUs3WnJDdFhyYg?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar fecha a R$ 5,776 e atinge maior valor desde abril de 2025",
+     "fonte": "Campo Grande News",
+     "data": "2026-11-16T20:15+00:00",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaGpqZVplUTloelVNUkFpOWZHaTJRZ2lsYUJwUnJhNWltSUFnT2hjLVA5RVd4cEtINGJ4bWpTVU1SOHh2VXJXdm1JMjhFZy1JSjhCLUtjeTlyNi13Q2JBV1BXdnBHVU0zTHZXOHB1dDNIUlprSmFYZkZWT2dWNVZha2ZmenNlaGJlSnJNbnFYeW5rQUxUblAtNGZENkM5V2oyMTV1ZNIBpAFBVV95cUxNcVRxQ05leERtellzM2hHMWN1TXpmWTFfeFZfWWdKTGFUbUJBcHI0cFhXRXdQR19CYkNmQmQ0enZWQllYWUJUcDY3ZWRJZ0JsbEhpcUNRSVh4bExpTnFydWktVksyUDdrZlBfNnluSnFPdkF0em9PazIyQjJUcm1RRDlhR0JTTVc1b0hxOUlFd1hBQ0pQVVVJbWFPeXBKd1hKUmhZVA?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar à vista fecha no maior valor em mais de 18 meses com incertezas fiscais no Brasil",
+     "fonte": "Money Times",
+     "data": "2026-11-16T20:14+00:00",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYmk1YkRfMWZEMnZtZkVVbW1qVHdVbVZNSHoxWmFZY3l6c0RHOFRLNXdVeVVDbkxLYnZMRWJTaHdtY3IzTjNyTkF3Sno1T3RrZV9IcU5KZzNuWHNZSExWNlIzcE5hajI3OTJ0dzFlZ3NvN0lfRGNHWUc0RkhOa0FhZjBZUFNDcXZEY1lDU1A2Rnc1ZW5mVGx3ODE3d1Q3Wm9QWHZ6UkV6WQ?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar hoje: moeda fecha em forte alta a R$ 5,78 nesta segunda-feira (16)",
+     "fonte": "tmc.com.br",
+     "data": "2026-11-16T20:07+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1cy1ocEFfTU1xdno0aW5hSEcxdHJFQk5Ma3Y0Tk1qeTBoeXp4TUs1Y1hhYnYwSWg1aTRSRG5JUjRVYXFWWmNIX2hfQWhoV2lZdW9POEdrT0VoR2NydHBDQzd2amlMUnVpOWc?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar hoje sobe 2,26% e chega a R$ 5,78 com dúvidas sobre ajuste fiscal",
+     "fonte": "Acionista.com.br",
+     "data": "2026-11-16T20:03+00:00",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3R3ZGTFdSaGFpSzhXdTBQZ3BReWhXMHdmdzcyVkZnaW5wamR5WkFtSlgySVpRUE5FOGZLU3k3dnFrR3VwVjZZWUNYRUswZ3BCWXFOTDhjendmLTFxVzVDdTFZRUgybV9CeEdDaw?oc=5",
+     "sinal": 0
+    },
+    {
      "t": "Aposta do estrangeiro contra o real sobe US$ 20 bi desde as eleições",
      "fonte": "Valor Econômico",
      "data": "2026-11-16T19:15+00:00",
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMjdIemtDbFEyYVY0SUdGN2NCa0xTYkR0T2h2UmpwY2pQVVM3aXBGbDlBY3NWc2ZvMEQwbDZGQWZDd1ZYTWQ5SkJkQThDTTZBdUVvWjNPdERDV2s5SG8wRjEzOUg1RU5wVXRJdE9ER09BamliSjRkUzRveEpyaEdHUWZJRE1Hc1J0aVVCYXdObDhTODJRdDhGU3Rjd3pnRng4MkUwRWZFZXBvc2FQS3RMTVhmbThxclJYUzJfYXFuNWNSWDYtU2tF0gHWAUFVX3lxTFB1c2l4MTQ5WWg2RWtVeEJlcGZObDFpWGcwMEstWk56Vm1IY1BKLTFNcnk1MFNldGRmaVBJTDNTZzcwMGNfMzYxZFNObF9ncDMySHhzYXJiUHloVW1aWUVNMW5MNjBJUDZnUVg3Q21UVGRObVJFU1dkWHZwNnhxLUFoejNtNUI0ODZZSGtzcVFDV0pUX2RPU00wbVp0Y3BEbVNLQ0NGWmxMY0dxMVNPbUZBbWYyQ2pvMDlxMEU2SGltLWxYdWpSSUNSZ3NJZ1JjOWI5eFV3ZkE?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Ouro fecha em queda e atinge menor valor em um ano",
+     "fonte": "Money Times",
+     "data": "2026-11-16T18:51+00:00",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMEpPaXNGTlZWNmk4YVpIVjlDd2FXUXFKTUQ3cXVjSjVlLVhfRmdjbTBhNW5UUmpINi11eHVad0VPWkxfOGJUM0kxZFZMMGxvaTRuS2tjcGgwbDdWWC1tMTRrR1JqbUtYWlFZRUNqeGhLb3ZPenk3dWhtWEJZM2YzRjZUYWEtUlJQd0RhcmNnZw?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Ouro fecha em queda e toca menor valor em 1 ano na sessão com dólar forte e Fed no radar",
+     "fonte": "UOL Economia",
+     "data": "2026-11-16T18:47+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNcHRTek1McGJyVUJ2cUpSN1VEd1hwQzk2b25pLS0wS1Z4SUhyclY3RDhmVVhUbUE0NVlYTHRfZE9JeXVjMmVxZFp3VkdxNHVQdE9pZzRhdlpuTlBqM3BSU0FGa1RrNV9WcDdEbXowWFlHNEJvU3cxdG1RRUdJR25pRWFxVmQ4Mi1IZlZuTzA0bXFGUm9RcFpZN0x5SmhqUVRmdmNNTFJwUUFMTWhKeUdpVUlXT0dKMWlkNUxQS0FBdWZNZzY1RFYyeFFLS1k2ZmpxdndMWXFYU193N05kSE9EaUZEbk5wbXpFNWhLcnJR?oc=5",
      "sinal": 0
     },
     {
@@ -1741,10 +2049,24 @@
      "sinal": 0
     },
     {
+     "t": "Dólar dispara e fecha a R$ 5,77 com ajuste fiscal; Bolsa cai",
+     "fonte": "iG Economia",
+     "data": "2026-11-16T17:54+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaTlYZTdsbFFCYU1OLTcwZ1lDT1ZJUzB3SmhFQjVNdzlvbkJYYnlsaGFteGFxUFlaeF9VQWVlRGo2Sm1pb0kyR1dKNWJ4anY2NkV6elNJTVJ6X3hBZE13MkY1OGhCdFp6WnBOTTVYV0hmQ0dfUUI1Y0ZhMmU1cHdjRVc4UnEtSDdVUk4xdDFPVXV4TDlFRHNaSkdvNnhKdHRsd2VTX1I5STNVOGfSAbABQVVfeXFMTUhzYlY1R1N5ZzlqYW5rS1FoWlRhOWdCaUJFVjVOaVVwT1RfVGJrVXJSZC1qU1VyZXhfdEh6VlJJVjVOeVZfZm16amJrRWdKRjVBWllFYTR0dDU4a3FZUVJScVFRaTNLUEJkejFDcTBFSGdrT281N3R6cVpWemdPeUtIYU5DU3hZTGF0NUM1YkxITW5PQUl6SkRGUzJFcDBzdEpLMmI2NnlpTElSVXNTS3M?oc=5",
+     "sinal": 1
+    },
+    {
      "t": "Dólar hoje supera R$ 5,70 e aumenta pressão sobre custos das empresas",
      "fonte": "Economic News Brasil",
      "data": "2026-11-16T17:51+00:00",
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcUhyZmtfWlpjbHROdG1SUFUxeFVJNlF3WEdVQTVsOEZlbFlqMzRrZGxJVXVmSUptbDBqTlJNdDdnUXV2LW5fVVdXMnEwZ3Z0YUZBdzdTc0VHWDRNTWxLa3R0YXRVNjU0TFNsYUpjUWN4SmFNcm9DMFFYa3pnSHMzYm85Z1MwQUpaZFRSWW5R?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Ibovespa recua em meio a incertezas fiscais; dólar fecha no maior valor desde abril de 2025",
+     "fonte": "CBN",
+     "data": "2026-11-16T17:18+00:00",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNblRhYm1qYy1JYUJyaHlQdndkYW0waEpmS3JJR0Rkekh2bU5kOW05MEoyTF96ZHg2M0drQTYtckd6OXBxajFRMjNlVE50R2R5UFBXMHNJR3ZfTXJmRlJSNVB5RXFzUWp0WUpLRndIUGN4QW52a093WDZDVTJPbjBtOGg4bWxrY1d0ZXRPMllaeERha09pOXVXT1pwUTBaVG1QMXR6MFpHWUtDcWJKQzFiRjJ6N05rcW9Pek95dXhYdGZJdE5BWHfSAdQBQVVfeXFMTno2SThSZDB1Rk4xRjZtS0dmTmNQRVlSY2NKakpPcVM3NzlCMFA2bUg4V0hxcE82c1Q4V1dyMkdMUTF1SXJiREZJVVdhOWx2VThjTUluUE5aRnVyVWFaNHFfamhaank4UUMyOVhsdGRWeUxqZzhVblI0R0V2b1A0WUxPcTJ0VTFuTlB0OU1odElkTmppaWllWU9QQTRvMDVkckEybktKM3hSc094N2oxMGluS0E0Sjl2ell3RTNpTTVxY3U3bzZFRjdJMWpreXF0VlZpS2s?oc=5",
      "sinal": 0
     },
     {
@@ -1753,6 +2075,13 @@
      "data": "2026-11-16T17:06+00:00",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUXEwelZ0VzRZZjMxWkMyVVplYy1rZDA2dDR1NW1Td0szWVhEVlBwUC16ckRpVHA5b2w3eDRSN3ZnZGZheFFQRlpvdGtwamVER2wxVVBHWk9zZFVGRzEwZVlyOTBxcVRTdWs5ZXE5c0RZRHgzbXJIOGV1SXNzNkdTLXJZOFZQU0tNcDZsQ1c5blFHZ0FseS1iT1BKaF9zRjVlcmdPTVJiZ2doUVJnLXM5Nlc1NnA?oc=5",
      "sinal": 1
+    },
+    {
+     "t": "Dólar fecha a R$ 5,78 e Ibovespa cai 1,95% com temor fiscal",
+     "fonte": "TV Sim Brasil",
+     "data": "2026-11-16T16:39+00:00",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdGMyX2paaFVHZTFZMy1pdEJPdGhyWnIyRkxZVVBXWW1rOFZlMm1HdlpURGZCT0lSTzhCQlVXSXBHZUowcFBCUmNXVnBmM1FSc2h2LXdVWk5iUENYNWdDb0YxNWhDRFhDejViZXJpaThBZVkwT2FmU20yZTRncGVNMnVaVnhXcFRrT0VCSWNrTVVlZVFwdHNqYmk2Nm5ualRteE8zVQ?oc=5",
+     "sinal": 0
     },
     {
      "t": "‘Fantasma’ de 2024 faz mercado temer nova disparada do dólar, alerta HSBC",
@@ -1776,6 +2105,13 @@
      "sinal": 0
     },
     {
+     "t": "Dólar sobe a R$ 5,7350 com aversão ao risco e pressão fiscal",
+     "fonte": "Canal Rural",
+     "data": "2026-11-16T14:31+00:00",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOX25UYnI2LWRZT1k0YmZWUEdTU1Y3R2QxNmF3bnJ0SWRvNE5FVFlldV9NMElsS1BVMXUtSldfc3dzRVFMdXYtVm43b3VFTVNEV29ZVXBkY29CbHdsV1dYaGNqd0hrYTdMclZ2YmRJYTdLQ3c5TDEya1VJckh0MTVIWmYxWnUzb1dEdGFjclVoZElfejRJcG9HODMybVdrSTQ?oc=5",
+     "sinal": 1
+    },
+    {
      "t": "Dólar sobe com pressão fiscal no Brasil; veja valor hoje (16)",
      "fonte": "Game Overdrive",
      "data": "2026-11-16T13:51+00:00",
@@ -1790,11 +2126,53 @@
      "sinal": 0
     },
     {
+     "t": "Projeção para o dólar no fim de 2026 passa de R$ 5,35 para R$ 5,40 no Focus do BC",
+     "fonte": "UOL Economia",
+     "data": "2026-11-16T13:08+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPb3hHOGE3NXdYcFJCSG53RGhVMWxBN0owa2ZFSk9qZkNmdXB1SjhpVzVlcVFaY1hnUEpGRDlEYkY0Si1COUF1Mm96RXNydkotREdPR1QxcW8yanpudUctVXFzNjk4NWIya3lzRDVyaTNFbE1sX3E1ZExCSmdCQWRVZW95RVFkc0ZQdnhMNUFIeFBqbFZfM25DM0V5dVpPS2tHNnNmb1M2bGtpaDNtRVU4R1ZUMjZuVnhzdW9Sc2ZseVF6VWQ0X0VYWlBPaE5PaU1FNE5qMEp2SXhrcmd1TGhJ?oc=5",
+     "sinal": 0
+    },
+    {
      "t": "Dólar dispara mais de 2% com desconfiança sobre fiscal e atinge maior nível desde abril de 2025",
      "fonte": "Valor Econômico",
      "data": "2026-11-16T12:37+00:00",
      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMVU5dFFZWHJIY1lsa3lnNk1PdEFPZEJwV2hGLWhmWjRId1ZyU0RyWEswcGJjeUlrQ2pSM3lYLUFwbGdZNU1HcnVreGZIZmdGVDk4a3lCRHh0Q2lta0RzVmVYQ1VPN2w2aHpBVVRZb3p0dXU1U1JPV19Yd25oa1pSM2pwME5LOW1oUDRwV0xtcHNFUW44bHRzempmU0k2MG1wRDB5cnRzMjRUNFpLN1FHbWlQVFVNcWo5N1BSZzJjR1BJM3Z0czhuTERuNmk0RmJ4Q0HSAeABQVVfeXFMTUlmUV9fQU1KRThZOGh1UGpJRFF5aEhYMk82Z1FXSWNGMjIyVWtYc0Z2NnNXSlI2YlpEOVJMR0R0TTc4Z01EbjJ1VE5UU3R3U2JKWXhNYzVlQUZ6YWhrWkI5V2x0aDc0YV96WlJ4ZFFwZW9hZkszMlM2dkp5bmFEcXJvcklya2tEdi14eWtSS3V2VDhJX3YxZ2RpNllaQkVmeDk2cmVwd1NTSWs3eG5ncHpBNEhhWkctWWtpS3pzd0dyckxxTXM2RW5BVHpCeDBaMlJEUHNxM3cxUXhRczV5RG0?oc=5",
      "sinal": 1
+    },
+    {
+     "t": "Dólar salta e fecha em R$ 5,77 com temor fiscal; bolsa cai e juros sobem",
+     "fonte": "CNN Brasil",
+     "data": "2026-11-16T12:34+00:00",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdlZHNEo0SkR0cjZ2VzZxTF8yRnNOWEUwaGxLRUdWaHk5UTEwcnpzVW12cVNFcFNhUXBqd1JzSTl5elBLWHVUcGNQa0REOUcyemswcG1wS0pjdlJsZ0U2MDV5R2NDR296a29aaUVndVVFUTVJRjhqZ2xxd3lmQzRBM1o0ZjRzOXdVWlV6T0NTVURlemZCTVdmcEFwUkR3VE94Tlg4MXdR?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Tempo real: Ibovespa cai mais de 1,80% e fecha abaixo dos 170 mil pontos; dólar alcança os R$ 5,7777",
+     "fonte": "Money Times",
+     "data": "2026-11-16T12:21+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qNkMzOTBhU2gwbTd5M0ltRXQ3NUthQzZwSldZaXhnNDl4cGtaU3VYY2FUYVBoUFdYUzVNVUNpQXdjTXFKalFISGxEWExzZnZCY0p3RGU2YmhrUVBYMDRjbkY0M1BxbEd4?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar tem alta expressiva e bate R$ 5,79, maior valor em 19 meses",
+     "fonte": "Metrópoles",
+     "data": "2026-11-16T12:17+00:00",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5xeWtrSDlmdzNJa0Fpc2hDc3RJUWlWS1oyRHRoUVpuTjlRSnlMOG9XcmVBWDR1bGtsRUZtYTU5bk0ybFhKTENtYmhIb19ZSDExS0FyZk1yOEdnTTdXZzJJY0J1dEUxS0dTZWJr?oc=5",
+     "sinal": 1
+    },
+    {
+     "t": "Ibovespa fecha em forte queda e dólar vai à maior cotação desde abril de 2025, com preocupação com fiscal",
+     "fonte": "Valor Investe",
+     "data": "2026-11-16T12:06+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaC1lR29jU3BHNkdtOVlCaHhabWQtakUxWE9PdGJST2pNSzRLeW04TjNjdlA2UTNkVkd4aF9HZ1NnYkJOS3RPZEZYM2t1YVUyaklsMVBYY0RIcXNQM19mTmt6UWxhQ1ZFY3UyeWNxaVd3YXg4anFuY0pSNFRYT2hsQm1Wa2JPRF9HbzA4alV0OV8wbEk2QXZrdVlqWldJNndlWW5ZVXVJc3dYLUxhalFydnNDRi1LckRPN2NmTmJPQU5SVGhzSnlYQi1BTHM0cUpNbGNuMnU3cETSAecBQVVfeXFMUEF2SXFOR2ZudW1BZW85ZGFSSkphYlp2Smp1RXdHdnBsRnBXejgwVVdRVEF2Y2pYQVdzdmV2cVg1YVJIaThuY2xSR08wVy1tbTI4Qk50Wmt0VmFwMFlsYkdwQmNTS2JOR01YM09EcEE1dEwzQmU1ZjBmeDFRR1VnOGlrWC1WWjBGQVlwZDN1SmFmajFxM3RIMWZ2TlhIMFhGclVSSThDSmVrMlNLNEVHVjJTOTBucjRkMTAwYWcyUnY3Nm1tR2gzZTFIcTBFcEthTmdKTG12TUphdU1DSUVOMld3R2w4eW8w?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "O céu é o limite para o dólar se o ajuste fiscal decepcionar, diz economista do UBS",
+     "fonte": "Exame",
+     "data": "2026-11-16T09:40+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUl8yT2xFMVAzQzFRWW5ZRVRlVFVOZ1JpckJUQkY5S0YtRWJmcWVjUmRVeUJQVXcwX281bTRzQ0phRjJ1ZzVUeTA4RElJV2p5aVgxd2Nrek40c2tSNkFfbno2QzExYzJia09Oa2NmYTNkb0gwcm1Ma0tRNnp4X1pyN2k4blYtOEFmX3o4NGRySzJ3NHRXNHdpek82UWtSVzZ5cDlYRDJkRDVPS2hqZXRYTWt0QnJ3a2pX?oc=5",
+     "sinal": 0
     },
     {
      "t": "Dólar fecha em leve alta, a R$ 5,65; Ibovespa avança 0,66%",
@@ -1893,384 +2271,6 @@
      "data": "2026-11-13T22:13+00:00",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSWxtY2NyWVFucVBBX1ZWbVU2dTdObGZvUk5ZVGg1UFdnRkMtTGllN0ZVcm9OUG02TjhFbTZYWHYzSWZaTWNQZDNTejl2TjNNSmluWFR6VVc4NkptenY2U2NxWGk3OGtLcWxOS0JzOWplRDZmTjZBLTZjVkxsOXdLT0o5WUtsRlM2dnFUQXNXYjkyMVp1MGx1V01tRHA?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Dólar fecha em alta de 0,05%, a R$ 5,65, com pacote fiscal no radar",
-     "fonte": "Diário de São Paulo",
-     "data": "2026-11-13T22:13+00:00",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRXNZaUFkcUVxR3RFMExya19jcHdLS3FUdWNvaFZrUV9JbXJSUXNrR1lLZjFEOG5VTW5DaGpCeGd2MFR0djNZU0dkR19nRV9OcGxTWnZMaWdTSDRDS0VqN2RFaldOQm1ya09jakZTbUdOTGhWalNVYUFydXJTODR5ZjdCNUlGZzNLRnhQclVRYXlqb3JrWEdCcVU2WGw3bFQzUEtHa09yX2hhZ2N40gGyAUFVX3lxTE11Z2JkaGlaelhxWW5tNnN6T3Z5eVpZay1Xb2UtOXNBWHBQVlVpYV9ydWZXUWJDaS12MjdwanNHQ2tSLWFjdTFrSW56SU43d1dwNF83RHRXbzVvbHNaamo0VlYzbkE1SGVLX3hTcGJKWHdJTEtrajdoMFZ5RnBZY1VJcXFsdzVJS3lNU3A5OXBpZHk4STkzdkVOZHdXUDZyaU5peVlJQ2hEaldYT0FwY1dzSXc?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Ibovespa Tem Leve Ganho; Dólar Fecha Estável ante Ao Real",
-     "fonte": "Forbes Brasil",
-     "data": "2026-11-13T22:09+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeTVRVm1ja3lhSnlNMXEyS3lPUVQwTXFDczcwWFA3VVhtdUx6WkFzTzR5YmJSNlJUUW51TThWbVdIZ19yWjIwbHhRV2g3ZVo3Wk82SlFicFloRUNPeDVDOXhtaVNZUzVVSE4yNG9uek0zLVRPU1VHdWhKSGY5cDN5c1ltdThwck96Mnd4dEk2ejBpN2lHVFZqTWpHdjJfbUpqVkE?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar fecha a R$ 5,65, no maior valor deste ano; Bolsa avança",
-     "fonte": "Bem Paraná",
-     "data": "2026-11-13T21:59+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOVJwNHZ4U0o2Z1l3ZDJWUVdWUXJfSDZ6WU5NSEpwNnRueE12YTBQQmNOZ1owaHlLbXhfbnRuMnF2UjA1NnBUUGlIYnhxWFBpOHRTeUVnRDJCcHN6NTkzbUU5LVd1cDNiYUR0MDM3MjhQTExrSjlDMjUtN19CZmtSSDQxb2dHMFhpeHNpOTBZN0pZOVNEUGhtcXJTc1ZGQm1NYm9qcjJ6TEnSAa4BQVVfeXFMTy03dWJyaWRLSjFZT3BYXzBwRC04Q21xOEJDOHlhcnV4TzNLRm1RQzQ0RktlTjgtVjZNQmZZVEhZbzU1YUVmc0pNWkhvbnVaYUdFanJ2ZjQtMG54ampTakhIbHNYT25tTUNhUmcyTmxPSWdPLWxaemkxc3ZwNFpxSHFydHlmc0RrY2ZCa2NOZXNjY01mVklXN0t3VHJkQ256djVjS1dMamR6anFvVjBn?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Ibovespa fecha em alta com o ajuste fiscal e recuperação do petróleo",
-     "fonte": "Money Times",
-     "data": "2026-11-13T21:58+00:00",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb0ZwTzlHbEdMVTFvekI4VlZBRWdOZWE2c1llWUh2aV8wZDBqcXpLUm02T2ZzVVkyTkJ3V0gwOEtBMWd2eFVVQVNoZ2FuRHAyaFh0ZFQya09jcnlUN2E2UThNNlcwLVVNWXRiWmRXQVd1YVRBb0RkN0l2d3dkNnV3cDFvLVlNUnRzRFdyRGZlNEl6NG5PekZ4aGxLclYxNnNfZjJmQ3d1bw?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar fecha a R$ 5,65, maior patamar desde junho de 2025; Bolsa sobe 0,66%",
-     "fonte": "Metrópoles",
-     "data": "2026-11-13T21:54+00:00",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fcjdybmp5ZFZWZFpwdklnV0F0cjhaZjlSMWJPNHppdGdaSm9HUUpIcmtQbTV5R0tGdDUwMG9NcmE0c0ljZ3F6cjdhTlJ6Rnd0Yi00SnBlSnJoRGxDUHU1dlZ3ZlhMV3ZkU3pmdzZNT0Rua1Fv?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar fecha estável a R$ 5,65, mas sobe 2,63% na semana",
-     "fonte": "Agência Brasil",
-     "data": "2026-11-13T21:53+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUjlfTVRsNndCZms4QXFyT0cxeXZWS3dmbWxDbV9CLUJvLUFOdWd3b1U3MThndEcyak8wTXN2R0U1UUdaRlp2UHpFb1FsQnRiT1U5V2NTczZmaUhGNnppLXdUbEJ2Yk43a0xhaGNHQ3MwMkZSZDQ0TTR2Vlcyck44cWJfMk5JZHVOMFJWcWpZWV9SVG9oeUd1NFlwZE9ZWnVERjFwTWxJTGQxQQ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar fecha a R$ 5,65, no maior patamar do ano, enquanto Bolsa avança com balanços e alta do petróleo",
-     "fonte": "Jornal de Brasília",
-     "data": "2026-11-13T21:43+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNNWFXY1V6UmVyUS1XbEkwR21TbHp3aUJQd3V6emtmRmZ6OFhjQk5Jck9NMnRIc1RxeEQ4ZG1EeC1GYnZINHk2RjY3ZkJqcmpmeW9ZUm1sNlZvbHpRMjdXaEQxY1gxYzJvN3ZJRWc1ZmZfYlA1Wi1TY016Uk9jazMxcmpiWUNWaGx1eDROdExuQ3JZeVBLQUFRQ3VPVEcwcEUxVE92NDlXUDhzS3BXdWdTckpHZGxpcEJnX2w4TV96M0ZsaXVxRHlfT3g0dmpDV2w4T3FTdVZwX1Rtc0NlbmdZUm9B?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar fecha em leve alta, a R$ 5,65, com pacote fiscal no radar; Bolsa avança",
-     "fonte": "Rádio Pampa",
-     "data": "2026-11-13T21:34+00:00",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeTlZRmZRdG5iNGtnYmJJWVhLS1BWZE0xUWRXX2k3eE1ZTlUwV2dXQmhiQUIzTHZmQWFaVVdadEFmWGNMNGdaTHdSdTNzcWhVSWJhbmhMQmhWVFBHUEd0Um9YSUhXR1ZWSDNQWlI0TmRnYnhHS29yNWtUYUtsa2JWMlNYLXdVR2pXcTdtZHFwS1JsSENJOTVOMmZNVy01eFdFVEdZRG5R?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar fecha a R$ 5,65 e acumula alta de 2,7% na semana; Ibovespa sobe 0,66%",
-     "fonte": "Goiás 246",
-     "data": "2026-11-13T21:34+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNT1lPRXFVeHhxZ29uR0otaEFjTU9OeWFtY0M2aTM1bFp6azIwNDhKWl9meWtkaFBBc0F3cURsNTU1TE1YeTB6YUZHcXRPcDdqb2x6eHQtUmxLTTF2WHJEQ2RmRWZzVXNNVHV0eV9icHJjdzJ5YmxZSlI3M1Fxc3d4VnlxdDdhcjY0UXZmR05nbjF5VWc4SVpoV1ZfMkVMS3FKNzU4NFR5dW4xVDZSenZmbTBjQ3BDZFVLSTUwSkpRZTFIaDliVG1DUGs5bGNJc09XZWU1Vw?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar fecha estável, mas sobe 2,66% na semana com fiscal e Fed no radar",
-     "fonte": "Tribuna do Sertão",
-     "data": "2026-11-13T21:30+00:00",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb0xqdUhyTmRLY1Fnb1k1VnlEUEpBaFhBYjF4aTlnalBmZFZBUGVLRUJ0VXdhTFJfUnExYUpYT0hiYXBYN1F3UEFRc3VVUVB0Qm02RTYxUUlxQUlScEtUYVFqczZOUFRXSFk4X2lBX1FWQXlxMzVTam8tVVBqbDFObXp6bTNzMnpSUXBKSkxBeWFFWDVVckxsanZLYk1Ca1lxVWVjU2xXaWwxZ2dELU9GclZUem5qV3plaXdYXzJEckRwRnpNbUdn?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar fecha a R$ 5,65 e mantém patamar de maior cotação do ano",
-     "fonte": "VEJA",
-     "data": "2026-11-13T21:25+00:00",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWWR1a1BJbF9fMzBrLTdhaG1iZWdyR3RhRnlKOG9HNE9zY2ZteC00emFQc2s4V0VOX0pvblNnWHpaWFREOWFibFZMUmZnUUkwV3FkdjIzZTZqOHdGeVVxSnNld3ZiSWZLb0pZcHZ6bHFILUNudmVxOEVYeTF5T01QSEtVUzJzdHp4OTBGZVFpOVNIRW45c25BR01obGE?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar fecha a R$ 5,65 e renova maior cotação do ano após Senado aprovar pacote fiscal",
-     "fonte": "Portal 98 FM Natal",
-     "data": "2026-11-13T21:20+00:00",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX1VZdGVjR0FINWl2UEdkZVpLeHh3UzZwSHJuS24xMFdKeW4zVUctUUhUUmwzM1lPNnR5bGZNZ0Z3anNFb0JmaXVaRmc1ZmFEU01VZ1B6ZkNkazVEbzVnR1NTelZKWTJYcHRhTHNpeVhVM0tMTDA5cjJOUmJreDY1RDhLZnU5TVRBU3pXbGFROEt1bnVBTWY4VmdjVWRhcmc?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar encerra a semana em alta de 2,63% frente ao real",
-     "fonte": "Agrolink",
-     "data": "2026-11-13T21:11+00:00",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUHBQcm9KbG54ek4wRmNkQmR4cVNDVmxtNzBTMGVvbGowNU1OOUFRa3o5MnJWOHJfS2MyLV9XMVA3SzBkejFneWhqT2xVcEh2eGxBM1pYeVkwVGtMSlFRazlLdHBSb3FtR2RydTlFX1p6T3Y4VWtUZ2p5NEdJLVdvaExRbXNmR0lIYldSaThma085eEQ2c1VFWm5xdUNQTVJFTk9CSTR3?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar fecha a R$ 5,65, no maior patamar do ano, e Bolsa avança",
-     "fonte": "ICL Notícias",
-     "data": "2026-11-13T21:09+00:00",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUW1GU0d6Q0NxclpET1o0R2Fma3hYdHJSNWx4SG9iZ3k4SDdDbzdydHFrSW1kWHFQZjQwVlpxbXhNNDNOSjNiNWxmX2NpNXNrN1FLUWExUHZVZW5WRnI0MVBVSXdkVjF3UG1hV3BtUlh4b1dqUGZfeGhBTDFiVHhOQg?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar fecha estável a R$ 5,65, mas sobe 2,6% na semana com reação ao pacote fiscal",
-     "fonte": "BPMoney",
-     "data": "2026-11-13T21:03+00:00",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQT3JMODNVemY1dHVlMElSLVNkMWE2d3NTTkZMMl84Ri1UQ2J2TWJyclF3RU05Nk1MdjBNWnZyaXh1MFFNN2JlVHR0Nk9wRXBOX1dnR0JqUEZydUF3VFdpdUExdG9BWjV3cEZrRDM0dlNQWi1HcTRVTTZjUzZFei1aX2tjMDlhQUswazBHTmRJeDZTQQ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar fecha a R$ 5,65, no maior patamar do ano",
-     "fonte": "Band",
-     "data": "2026-11-13T21:03+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZ0tGMjhQOTdwa3hzRGdCUjE0TEdFVmhMSHpPYm44Vm1EenZHSm92V3NyaGkzMWZIVjhlWFJrdXZ3a2xuSzk0bUNxcld6YkFkWkZyYURIOXJ1OFBlQlFPbmo5QUIyS0hnaFlRZ2FTQi1zTDdUSGZGYWVqSVF1dzhtMTVR?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar fecha estável ante o real mas sobe mais de 2% na semana de olho em pacote fiscal do governo",
-     "fonte": "Notícias Agrícolas",
-     "data": "2026-11-13T21:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOSHltYmFhUjNvenBRNnd2aURLa2ZxWDBlVG44QWJ3eC1HUmloREFIVDItVUtUNUgwcWxVZ09kQldpZUFoeDVYeklqWHdWS1ZGRGRxY1dmSjNQeDN4N0tkREVLUFlqak9oNjMxYVdUdGliY0VfeDR0MENBc1Exd01Hc3lLOEdLWGFQaXh4TzlEaXpUcG1Hd004c3JxbGxkZ2Z5YjFndjdKU0trMjd6N3Z6d05SLWRhQkVQdDA3U2paN3gzMmtELUd3VkRJb3RISzNtU242Q2NjdVVyNXUyMVBCUWdhZDJKRkJuQUxDZjhrYzNSSlBKa1JoTmZmM0poVW5pSlHSAYcCQVVfeXFMT2pHb3o0cEdXMTBGc3N3TXN1VmxTR2c4M0dMR1ZvcVdieDFZQlg3SmpDcmI5YTFDRDJVYUY0T2NMWVptZFlHcFJkSFdrNXhSSV9GUTN6VFR2aUVjUXVFbVYwQVdlQnpyZUt6czZBRmNGWG9Nb3JKcmE2d1JjYnpyM2pwYktpb1doV3I2TWUxS2FtNURyVVZ2dGpZVzdGREs3bHp2M1ItYTR1RXJQQTdDZnBmR2t3REhmVS1icVRlNFAzazFmTnJPdFNaa21meUZPZlFFeHJwWWNuNm5KMW5Ja0xJVzd2Wl9ualI2TlJ5YWJKV3lKb1hZLWpPMm5WeVV0OFBlMHRucUU?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar a R$ 6? O que esperar após moeda atingir máxima em 18 meses",
-     "fonte": "InfoMoney",
-     "data": "2026-11-13T20:53+00:00",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZV8xdWctNW1VaHlicW5pZWZIN3BiOVZZQWFLNXJxN2FtS3N5eEVYdmcweXZESlh0NTBvQkZUVkQ4UnFNRW1lejB0d09HRUF0Qk9RUHFVZnp0eFoyUG1SN0FCZFdFdm4tMENQZWlPZ25yUjBaLXYwU1R1VkcwaVZFRmFNYXVhNWltUTZ1WlhoYVFvSlY2Q0E5VVJfOS10T291X1AzWtIBqgFBVV95cUxQWWxnRzR6dnIxeGNsSENfclR2S1lITzJlX2pTb2UzRTBsV29wSDZ1MGlBc1YxcXFKWl9XMnpkOEJNYS1pdWFNTUt3QjFfSnZFeTFMME1waDVwT0tOQjdjQWpheTV3b2Z1TmNMX196emRPbnhZQWdEZFRnTWdZQ1dmV2cyUFd5YTR6aTU5RDZ2NG5NdEtLcHNiYkF1VmtmcVlmZnR3OEFnbm1FUQ?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Dólar fecha em alta, pressionado por cautela fiscal no Brasil e expectativa de novos aumentos dos juros nos EUA",
-     "fonte": "ADVFN",
-     "data": "2026-11-13T20:38+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRWN1Zmx1UDJqYzQxT2o5MGUzUFd3RUQwODJmMzJTdWNCMGVGaWI3OEdwWjNIVVA1LTgySnFUX2lrLTNhRXh2MWVzYmxqaGY2N2oteW1uLVZ6QmFlTlVocVNaYUZKWlR1bFdsalF2Q3JJR2FZLXN3MTZIWU8wbzN2WWJJdlRrZmh6Z0d4Qk4wV1dVS0pDeWNaSmltRXh0NTZlcmpRaWJ2Mzh2cUZIc045b2pOVGdUWmk2YXJPLS11Zi1qRmFwdXBvMk9kVTl3ZHZubVRYSTNYWjM0aUZRUVA4?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Dólar fecha em alta, a R$ 5,6550, com incertezas fiscais no Brasil e política monetária dos EUA",
-     "fonte": "Money Times",
-     "data": "2026-11-13T20:29+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GNDdBNlNGQmpiUUg3d2hiX1hKQ1ZQeDMwN25lQURtVEs2VXAteHhGYjlkUmlsR0Q3ZUZqRld6cGRsdTdhLUFzelJqMXp4a3hkajNJbGRJRUFibVU?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Dólar hoje fecha quase estável, com mercado atento à inflação dos EUA e ao Fed",
-     "fonte": "EuQueroInvestir",
-     "data": "2026-11-13T20:25+00:00",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUTJkdEdkdXAxOG5hc1N1bnJfWkI5RzVpMzNBd0M3dnBkRHdsbWM2WndodTZXQ2VPMzlIQW5zanlnOVdRWEphZUctZWdvSGZka1dSX1oyWG5NekNyRDFORGdQTmhlLXd1NmVwWlEzNDB1TG96eDNVbVcxRWlQRXlQbFg3Qmh3QkdfQUpWbzBNWUowSTF0RklIQnJQc1BoeHFYeVNrckJMSkUxZjFpUVU1MmZn?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar fecha a R$ 5,65 e sobe 2,7% na semana; Ibovespa avança",
-     "fonte": "UOL Economia",
-     "data": "2026-11-13T20:22+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNanBqT1N3aGpNUVpwZVJsRkxibDM5NkN5R0ZpbldsM3BZclBSZEJqUGpCUFVJYVlKWXJHZU96aE9kT1I2TGJDZnNTTV9EU28ybXgwLUN5alZwMmFvWHVPLUpiN25UNVpaM2pKWnc5UEtTRlJHWTZLLS1LbU1SbUlnR015Q1l6bGdUQlB2dnQ4RjVfMndRM0pvaG1YbFRjUWVwSDRDLUFqV0ptZzVQWUEtWGhiZlZiM2N4QjlxcTFCeGc3UWZ1TWFsd19qR3RWNDVhS2FV?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar à vista fecha em alta de 0,11%, a R$5,6567 na venda",
-     "fonte": "UOL Economia",
-     "data": "2026-11-13T20:16+00:00",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNd2tJdUsxa3BqUjdPMW56eDdCa0x1Wnp0YXNLYWVScEE2SlJUendPYnl6RmZFNGFvcTQybnluZ19qMmtxMUt6V1RzTDBucy1FNWxmbUM4T3VrU2FTRTk4M0FaVDRNSHdGOVRYYktOcnNROUNIaEFaUWg5SXJUaVc2NHZMWTcwdWUyVnU4M1hiTjgza2c5TWhHQkRyVm1hLWtDaGJFaFFVcVJlaGdnRUhuSWp3?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar à vista fecha em alta de 0,11%, a R$5,6567 na venda Por Reuters - Investing.com Brasil",
-     "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-     "data": "2026-11-13T20:16+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbUhvUDdreWR2RmhxUG9lWl9mRzhVWTFHc1JPaE5DTjZfMm04aHQtU3BlTFJDNHFOSkhPUEUzSXNTSnRqUUxfWUJQQkJoMkFpWEpyeng3SlJ5VEZJMVpLRTJZOGoySkR0SU5kTmQ2YnFGYU9RTXc1TDFuUjRhc0EwRm9tbk1yWHN5VkllNTVYU1B6UEIyaDBoeUQxTmg2ekxLZ280?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Café fecha 6ªfeira (13) em queda em NY, pressionado pelo dólar; mercado físico brasileiro tem poucas alterações",
-     "fonte": "Notícias Agrícolas",
-     "data": "2026-11-13T20:10+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNUWs1MGprei1Oemhfd2Y1U29jSkNyeFVuZ2JXNlQwU2t6WU9NdlY0Z1g4cWs4Y3NMVTI1RDlLd0NiTTNVeHBvN3ZSMlVWdlVBYWd1dFdIZTBjMzN5MmJBOHhOLVp2Rk1lS2NUWkg0b0VhOTQ4T3FQeno5S3F3TnVpVElkdkhxTXlHdzcxbzV4RDBFZG1rd09kMzFTYzY0aHdSeGsxRlFpSFhyeW9lWUpJWWFWSWFlbUVFb3hxQlpiM3pFQzRiMUhhWnRnMTVibzQ2bUJ2VHRvZ0NhU0ctQ0pqNDNtM2pDUTFmSWg1MjJRY3Bsa0ZUOGJfWGJWc2NzNlnSAYQCQVVfeXFMUEVCZEdveWdoeGd4bWx5aVkzMlNqUjJuSkhad0pYYmY5ZXVPcERyWXRjMlRrTFJSV0J0NUdtRExJMk5qeVhCUTU4NGk3WDFmLXB0ZUFlWTFodElwbmxLdUdIcGRrR2JncTNyQUhKeTB2U3lfd2stcHgxcWF2NGFnamR4dC1qLXZiXzBGZXByTmZhTU9BeGt4aklKOGxfMkFEYnRnX2tZTmNQd1UzNG1FMGxydzJvOTN6ZVlCX1ZIQjN5TE5remRCWW0ySExNVGNoMGV4RzlmWmlvNUFOS0tQemRpUjJEa0xlak1reFlDaDEzRU8tbDAyZk9tMmFVTFlBcVpTWDc?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Banco Central afirma em reunião fechada que o uso de stablecoins caracteriza lavagem de dinheiro: “dinheiro bom se torna ruim”",
-     "fonte": "Livecoins",
-     "data": "2026-11-13T20:09+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUHlGN3lMS0h6VDE4TXJ1ZDBCYWE2Sk0zbWZnWWE3aVprNTRWbzR5YXVZQmRzbDBRVGU1RnRoZGkwS1ZQbVl5SGdEUmtYUEtKVmcwZVpCdllSem1JYkEzZnRfS3lZQWFvOWI5NGpsUVg5OW9fYmVQR29LTFRBa21Rc3p3QlNuZDU2SVlXMUVOZG9Sb1lxOUlWNDNhX0dvMXMzWmt1a2JSWjlSNlZPS1pncXhiZmJGSUwxNXZEVi1pNUhFckFkYnpKS25YN29JZHl4R00zR1F2d0h2YXlPbENlZlExONIB6AFBVV95cUxPaktsbE91LTdtNEZzZTd5U21ScUYzclR1bWZ6ZnIxaG9LNVJBYmhrbGRKQ29hVUxYQmgwN0U4Q1lueGdRbWdQVjFEZTFuR0EyNVhMa2JEaVJNOHVGZFFwUUpCWVVuY2RFTWVDU1N6Zi1xVWJpYVlqY0I4ZDRnVWxiTHpIdjVzSklRN0JLc3MyUEJBTVdvcy1oVGhsMlI3emtvVkhBTnEtakkyN0d5Y1NucnpOQWZqaEZEcEpFM3NRUThadXFSeTA2Y1N2a2hZc19WVTRURjloSkE3ejlpTzh3YVJyaTZmTFN4?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar hoje: moeda fecha a R$ 5,66, maior valor do mês, nesta sexta-feira (13)",
-     "fonte": "tmc.com.br",
-     "data": "2026-11-13T20:07+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Kdy15YVZvek5Qb1EyMUdHcWVuT2dERXVkLTd4VDA3OUpMWWNuUWtSM3dWUzh1YmstaGxycEE1Z25GLV8yM1lzTEtISVhiZ1l3ZVJPeUhVMlFKRHFZcE5sUE9aaGNNWFZGWGc?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar deve registrar novas altas no mercado, segundo economista",
-     "fonte": "CNN Brasil",
-     "data": "2026-11-13T19:33+00:00",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbm83UkE0ZERBZjJWZVlhQUpJdXFZNFJrM1VOOGpUbzVEWVNDQldvODlEUjYyOGxxSXBFcUdYemd4YW4xSnMybXZZUlhWb3lybFBzVVVNNWVmZWQtUWtOMFJ6NmJPajFjb1lJQnNJRkdRSERfeXA2TzBXdjc1ODluejZKY1JIMC1BZ2FzZlY2cDVfRUlwM2YzZVAtZDA4UXJOZmdqWk5abmpZaU1ONFlJbGtYWlQxdw?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar americano Hoje (USD) | Cotações",
-     "fonte": "Remessa Online",
-     "data": "2026-11-13T19:29+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HRThwQzlMRTZUOG1OQml4VENkSFVCdU1hYXZmQXVtWHdvaExtY2N6RmM3VWZncU5TVkR1dmV2RzlSZzVPRWIxME44d2p1enZidzFRRlpUeHA4N2F5RzJDTXprdUg?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar australiano Hoje (AUD) | Cotações",
-     "fonte": "Remessa Online",
-     "data": "2026-11-13T19:29+00:00",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9aSGp6ZUdUNzJSWVBoOWdNNk1XMmdnNmtKb3Q3QzJZTWhrU2FCbjF4dGh5cGFISzBZSHo5b3FuTG12d05Cb0N1dDdHMUVKdmhoLUdob0VhNGJsNnZIWW5uZEwtMEhhZ3RpTzcxS0NrR2pqY0VF?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar dispara e fecha a R$ 5,65, maior cotação desde junho de 2025; entenda o que pressionou o câmbio",
-     "fonte": "Mercado e Eventos",
-     "data": "2026-11-13T16:56+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOcTN2M09ucEE4aEFzc0lhbWdZSDBUeU56Z0JaVjV2UmZOVHNhT0NyVDJMQnlkNU50czZSamJmcDRzN3ctZm1oaTMwbW05dGpPUW1xN1dVT3lMcHM2clpseW90ZmVLNjFUREFvMUdDbUFPOGpIbnFtdFFwS3ZSd0xRWTB0UUx0T3pCdVlzaW1lWDVsYy1SZlo5alpEdUFjaGs0YUJ2T2ZLckZfY3dvTTVUNlRkUm8wYi1SLXRPMmdLZEFoWkg2VWNoNDBTZTNUWWZJQlJlYWQxRWMxNndyamtkRjNWdHRYUklTY3lEdDl1MVA?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Real Perde 69% do Poder de Compra em Dólar desde a 1ª Black Friday no Brasil",
-     "fonte": "Forbes Brasil",
-     "data": "2026-11-13T16:37+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQnVpWTlWUGNQR3RqVzMwN1FGZmc3d2NDd1ZhaFlMSmw3TnoxZVl3a1B4bXFfQjZrclB0UllzcHFxMlFHS0s2WG9HcHpxc01wYVFWQWFWMHlQWUMzaEo2WDQzT29ZY2FwdF9mVE9GT1NDaGpLWXBWUllnTHpSNHNkaExEQVZNNHFrRldpTnNBYmNTaDkxbXRoU1dweEhVQVBGNDBKMHBJTkVTeEl0LXlfeVJKc1hTaTBWUklZ?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Dólar Hoje: Cotação em tempo real",
-     "fonte": "Avenue",
-     "data": "2026-11-13T16:03+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBTUUgxcmFWUkVkcnd5MzFXZndfQi11em9RcjBXY1VydF9NWm15RDVVaVFPQWJkejF0ZEVlUWRyQUpfREk?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar recua ante o real nesta sexta com foco no pacote fiscal e dados do varejo",
-     "fonte": "BPMoney",
-     "data": "2026-11-13T15:40+00:00",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTEtYenFrNFl3czJ6ektqeFp3bV9ibFhoMk5FbnlxUmcwYnU3M2ZMR09XSjd6VG5XRG96VEFOVUk5UmMyTk9mOGY5UWNrWEtVUWJiMXgyM2VrUmp6cVpNN1QxUzZWOHJjMW1PNTVYUUhfTjgzYlVoaHdkajQtbW81c2VzN1llcnJRaWlWNzFn?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "Dólar sobe nesta sexta e amplia ganhos após maior cotação desde junho de 2025",
-     "fonte": "BPMoney",
-     "data": "2026-11-13T12:53+00:00",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVHVZUnB3UXBGZ0lpZmdYR1JPNmx5M3dtY0VmVkhvRnZTR0RxbldwMnliVUkzaVVNZ1dMUFdaRWlZaE5pR091aHhpTTFHTWxzakpaVGVmRzlkNDJSSUU3RzRUWm1oazdZbVREWWlpMDdZN1FvT1dKekE3bHJPV0s5WXJwc0F6anBvaURzN01SNnREamJnRlE?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Dólar sobe 1,58% e fecha no maior valor em 17 meses",
-     "fonte": "Blog do Esmael",
-     "data": "2026-11-13T12:47+00:00",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94MnBjUi11ODc5dlNTNGhNQ2dybFdlT19nTDhqeWcxeU93aE1IRHlaQUZpRXFvM3hyQmxVYnpMZHl4ckJ1YW5LY1BsUVowQzFFSW1SMlNHUHc1SGpZZHpuWnB4NHM5RTZubE10bHNMdUE1REsxRkJJZ3JEblJLVDg?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Dólar abre em queda a R$ 5,64 após atingir maior fechamento desde junho de 2025",
-     "fonte": "Vero Notícias",
-     "data": "2026-11-13T12:40+00:00",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM2NOZHZ2dVFaXy0wX3l0RnhEM0hlY1lTNVlRY25GVDhPSVd1X3FBWE1HTjBhN1E3Y2E4MWkyM281aGVpdEYwR2VEanJyRGFSZC1sWUdTY0pmeGEyR1h6NnJiNVkwU2ZiQ1pfNlN2VDBKYVBxQ1lCdnM4Wk5MUS1Sd295WUdiZFRZS1NXTlZpN2lhOFBjejZJa0FfN3Jibmo3dEtaX0d3UVlQeElCV0hCNFFB?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar opera estável ante real com fiscal no radar",
-     "fonte": "Notícias Agrícolas",
-     "data": "2026-11-13T12:26+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUTduLUlZNWNGUWduT0txNXJ1cHU3WGtQSXNiLTVUa3hjX19GRkxmQlplT185bFlLYXNtMHFEVWNoZm5wb3RjUFpjUm1US2ZHOGhFcWZsX3ZJbTNKU3RqYkt5bkM3Y05YWDhtOXo5VlhYalRObUdNWFVyWW5SX3J6RTF1X1pENlRsVW1meU9ZaGVtcHhlaFJFeGhURjdPNkJqaGlNTjByU2Zqc3VzSEZWYWZSdVNjUFdqM01jMmo2bUtsbnPSAcgBQVVfeXFMTjBralNqRF9qX29CQzhWX0tSM042TnZzX2p5R0dZcW5wM1RxWTNvMExaWmRxNXRQM05nQnQxUUpWcmlpYTNNeUFOWmFLTUdhd0w3aUk5ZVEtSzJwalRMY29nZDVkVXI3SVlubDdZdUFfSERBSmRKUG1wX3hSWnMxaUMxYS01VjBRX21xRWpucU5NMUdKaFJyX28wUFRrWE1CNW84bGFwU1o1ZDYzOGh2UnpTOUZ5SHhjNzk4cEUxOGVXTjJqa0czaHQ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Ibovespa fecha em alta e dólar estaciona nos R$ 5,65, apesar de preocupação fiscal",
-     "fonte": "Valor Investe",
-     "data": "2026-11-13T12:20+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeVVXdXZ5R1VXRnZLbkpSVk5aeE83QmEzRExVMzVfelh3blE0X1otUmZMTTNQRkNRUnJxeU9yUnY2dDN4NU9EVENJajk1SEVFOVlRdHRSNm90SGNHdWFySzgyOHJRVEp4VEZqTHBFbVBNUFFsTlI3cGZiM2toNXZJRjJpWjd5Vnl2NGNOQ2NJS0xPYlNRbUpoMW16S0FGNm5LWk9oUkppSmcwTThhU2Q0WjY5NlNOaUh6MlFEUkh3WnN2SEYtaXJrRVJyN1VuWlhFcHl6TzVKeXXSAecBQVVfeXFMTlJJQVhnc0xGMmRXRV9uYXMwQ0lJZ3NPenFoZFFndGdJc01OT09sZ2FQUm5GaThfdmRyQXV5TThSaDVmcnozN0ZnYWdYMmNacC1va0pjNUQ5TWk3Q2VFYVVPZW5IbDNnZmJabUE5LXFscHI1VlhNWVhsUk8wQ3Q3bDhZOFNINHFyQ2p1cnloTDYzV0E3WkFDQXVVY0NkenJkTWJpVFF5V08zWF9fcG5KS3JreGc0UUx5MWZ6QUZRT0dOOTBkY05GQUxsRElwOWdKOXJnMU1mRUZGWi1FMFNQUXRuekxrR0xr?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar fecha em leve alta, a R$ 5,65, com pacote fiscal no radar; Ibovespa avança",
-     "fonte": "G1",
-     "data": "2026-11-13T12:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBYVjhkQ2RBbm5DbDBtcDFVblRuUWp1cll5cGd5ME56QUliQVFsazJfVk9KbXNYLU9teXdoVExtcVNPOWNELVowb1JYSWxQaFJnQVkwQTFxNUxBVXJkaURmdjM2aWJSakxzMGJfRzRqVTRZUnZ1VUl5c9IBhwFBVV95cUxPQUJ0RVMxdGdiTmxXQ1ZBVzc1VXpIWWdFUW90SGNxMGU3blJhaDJ1UXV6b3BiSjFmbkFJdEgzVWFscGpyQ054YjgzTmkwYi1leWNpZ21HU3U5VWNDZEpLMzdPR1JrY0tkdy10c09qYXNMQjBJRUo2eVp1SXJfUjY4SW9LNXFZZnM?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar hoje: siga ao vivo o valor da cotação",
-     "fonte": "GZH",
-     "data": "2026-11-13T12:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeHBvajM0MmpaZmh3cU1XeEtsZV96V2h6ejhNeWd1RlpYZ1RnczFDS1VrRW84bEhCRFFBVGpNTC1zZklxX2xxZ05sZXpVV1ZDMzMyWXNBbVZpdFJKeUpzWm5hUEhMdUZobjhaMnpuTXV0VTVxOGNPOWpQUkZZQi1BaGUzYWJCZkFRWkMxUFBvWVVsY1hWZzQ0VG01N2VrNm5leXJvRVZYQ3FUNGN1U1RsUkxiSEdzOF9oV2V3aURPM0xwT2R0Wnc?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Mercado reage a texto do ajuste fiscal no Congresso e balanços; Ibovespa em dólar sobe nesta sexta-feira (13)",
-     "fonte": "Money Times",
-     "data": "2026-11-13T10:23+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVUhKdDFtRW9hZVJPRVI2TmVDY1RZZUt6aWdpZjF2Sm5JdWdxdjB3YlRybGhtclBYVy1UT0pLYWRUZlJWdFFZcFEwaV81SDJnZGdVc3BBYzJIeWhDd1d6UFpZRER5WWtHdzBqMWRhWEpKNThxMkpwWE94VF9zamFoTUJVaWdxTGdPNmJjRTU3UTRkN014dmc1Qk9TYS10XzdSQ2RxVHRqeGdGdzlxRDU0Y1ZjdU1BdUU1VGF4Y19TYkRyc3J6YkltRFpYdk83QlQ2WXlRcU4wRWpnZw?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Dólar fecha a R$ 5,65, o maior valor desde junho de 2025",
-     "fonte": "Rádio Guaíba",
-     "data": "2026-11-13T10:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMWZkaHJiaUZvOEdnc3dzcG5oVG5wbmlDVFB5UWk1emEzSUJ1NDlJSGxWamRIZkRuVlZvNUhsT09JWTBKVEI5WlhzTmYzZ09DNWZ0a05vZGs0YXhVSWNyS1VTTVdfV3RUR0hDamlWWVNDZU1za1pvS3l0Z1Rfb2J2MllR?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar dispara a R$ 5,65 e atinge maior valor desde junho de 2025",
-     "fonte": "Prensa Mercosur",
-     "data": "2026-11-13T09:04+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQzZIeTlFZnBISlRYZWt4RlhtZFVGWVItU3FMWlRZNl9GeUFLT0tQMFJjemhyTmJyYlFNUE94U3JzNlNZX2VpQ28ySXVMOUI2NGhWV0N5M0JYUm1vSXB0UXRGVEU5bkxuR1JTN0xJZDc4YklUbmluQThaUUxNSUl2NzBQRDdmbC1tVG5xeDRfSEpxLWF5b1MzNktuQ3U3b3N2dWxN?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Dólar sobe a R$ 5,65, maior valor desde junho de 2025",
-     "fonte": "Poder360",
-     "data": "2026-11-13T02:30+00:00",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNURwX3FweHBJRkJVT1dSNjNtMmJaeTNhS2xITWlTWUp4eEhNMUE5eEdyQk5NVllGVWNCZmdJUjc3TU1fY3FuRTBBWmpMbnphSnVmZE9nUFVySEQ5QUowMFNaLXlUTGE2WjRxZnBlc2lJb09QRW5JUzlHR2VqWGpGSnBud1o2Mm45QXRRUU5vdEpPRjREaVlqelZNNA?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Dólar Hoje: moeda americana dispara e fecha a R$ 5,65; entenda o que provocou a alta nesta quinta (12)",
-     "fonte": "Portal de Camaquã",
-     "data": "2026-11-13T01:49+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQlItNGd0YS0xMEFWUDc2d1lFS1Z0U2I4dmw3ZTBXQjd6ZXg2MWw2dVZ0cVJOa3dqTzY2aEk1ajUyMXlsRjVjRW92elQ4TDlQeFN2eWM4UU5CSm8xdU1pMUVQSEIwN0FZbGdiYUpLNDluakctMXYtNDBHUnk3dFlmTE5WdUozSnR2emd5WXlrNHBITG5KSkdLcG9pU3RMMWJiTThmZE45ajB4VHpCNXhqbGN2X2RMZHdkZ1VDaTdKWFAwb2NDNm9PcnptcFY0aXE0SmVxNVZXSDF0azlSN0steW50MkZaSjRl?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar sobe 1,58% após pacote fiscal e fecha a R$ 5,65, maior valor desde junho de 2025",
-     "fonte": "MEON",
-     "data": "2026-11-13T01:43+00:00",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOGlNSlg0aFpQTnRBaU5kWTlpRTBFanBJRmJIa0EyQlptV19Za2h5MVN1UC10X1p3LVd4WS1iODFrTHZoXzNTSk8weXd5MFpDb2k0VEgtWnlON0Q2cXlPdklMV1NTZmlNS1RJTDhNQ1JiQ0pjR2Z2SDlRMU43cTN6UEQ0TGVPN1VfR0VaVkpRODVtaFNJRnljWTZ4UQ?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Dólar sobe 1,58% e fecha a R$ 5,65, maior valor desde junho #shorts #JR24H",
-     "fonte": "R7",
-     "data": "2026-11-13T01:33+00:00",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWXlHdm13Rm9OQ3RSeTFmSjdmVjFhTGEzRzFRUmpmbmU1aDlrQ19iRmRLZ3FXYVhWZC1SYy1IR0ZaWXhBUkI3ZkZ2cUJ4Rm9XOVRjMnFyMWNaZE83M1FXYTdmbmxGN0lmZDVTcURZZ3RfZXZFSGFXZEsyZFVVNEw1eTBXYWJnVXloSnpoanVxNlh4SWNIT2Z3MmVkb3lDQmlBSUpURkh6YzF2NnFYN1Z3?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Dólar fecha a R$ 5,65, maior valor desde junho de 2025; Ibovespa recua",
-     "fonte": "UOL Economia",
-     "data": "2026-11-13T01:15+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZHJ1c0FaWFNQM2R0Z3VrbVFNMlJSMUNnV2FyQTNBLXVzeGJBVEdIcEgxc1hZNjhWaGZYXzl4cTFkSmxjSlBNeVBfdk1uSldCYjJ1MFVJREViLVNBV0tweWNlWVJfWjc5bGhqTjRtZnJBdkdkNDVVOUZwMjhrbnREdFZzMktvTmRyeDRwTmEyWFJjMnJ6SEk0TE5wV2c2dUg4LTlpeDRWRkxwZUFscHBIcExHcXRpdDRRUF85M1NhcHd4eTFaYlpxeUg2VG02NjFGU2c?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar fecha a R$ 5,65, maior valor desde junho",
-     "fonte": "Acia Araçatuba",
-     "data": "2026-11-13T00:31+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJSzlOSEFPczdWTVhyUi1zX0c2S2dBRFRzVlF6ZzNmdGxQc3E0TjdlNkR5VmxaWS1hVUdUeExjSEhOd0p5SlR2ZGdhRFZ3dTlTM1JLczQ5V3p1amtVNC1OLWZyZjJCN2hFTGc?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar dispara 1,58% e fecha a R$ 5,65, maior valor desde junho de 2025",
-     "fonte": "Brasil 61",
-     "data": "2026-11-13T00:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMVgtZ0phYUlab0xManZNVE1PUGlWeUNueFZVUkNnNjlESEZ2VnBOTlNfQmVPSFB6Q0J3UGdINzh5UC1SOUpPWC1DbjY5U2ZOS3NhelZmN3ZFajJsZXVHNFdLTmZSOHRUdkRNVUNYRk1rU3A2WjZuY1JPY25zUHQ0azlsS0ExNk9ZTW5MaE9HWnE0SXN1QzFiS0cteWZYd202WFdwdtIBqgFBVV95cUxNZXNHQk4zYlpYNzFsSm8xdXMxcUhNd3JpQnlMMHBaNzlnaXU5VTJQMWItc19hRnJ0VExtZ2FUckVTb2hhOWRkVGQzSGNjazIwYjYzc0s4cmRBR2M5aGY3ZDA3bzYtbGlyRHNxZkdZU3ZMZWVLSmVJdGxLSFdIQVNLSEl0S3lhSGhNSDNYMFVzZ3NQTGdXREJaZmVSY0xRM0dubUZpNmk1akxZQQ?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Dólar fecha o dia a R$ 5,65 e registra maior valor desde junho de 2025",
-     "fonte": "R7",
-     "data": "2026-11-12T23:58+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVnFrNTNPMmtDeFZqb3NLS3Vnd2twNnRnVWRvR1NPWURwZVBlOXNOaDY0eTkxT19HR3RjTmJVaTRfVWMwNWxZN0lWbFpNY3NRUk16TzA5UXBaVjk1aW1PWXIzSjl6d2FveWhDdWE0UnhPSFFyV2RqYmNNRWFpWVJtQV9PNWdEbUxfZ210Y2tTSEJFMTdiU1p4R3dRb2l2Q3NxZlNIOWFMR1I3YzJvSjVEX2txQjFBMjNG?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar fecha na maior cotação desde junho de 2025",
-     "fonte": "G1",
-     "data": "2026-11-12T23:56+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZEVWaEswZzAzOUZ0a3Bib01CT19mQWFEOEdtYjlWMHZWR2M3U1BqcHdYNllRVlZEYk1OUDk5a3pFb3NjbGg1aWJiMDFxek9INXRaeUpPZXR6cTJjaW9zTWJic1l6UlJTMXVLR2RhM0VhdzdGRWcwbFhnZGdGdnplMVYzYm1EV2pUUGRlUXRRdDZva0Uyd3ViSTVfQ0NSblo5MldjUUNwZHhwaldTZFF6eS0wOWJseUxV0gG4AUFVX3lxTE5kRVZoSzBnMDM5RnRrcGJvTUJPX2ZBYUQ4R21iOVYwdlZHYzdTUGpwd1g2WVFWVkRiTU5QOTlrekVvc2NsaDVpYmIwMXF6T0g1dFp5Sk9ldHpxMmNpb3NNYmJzWXpSUlMxdUtHZGEzRWF3N0ZFZzBsWGdkZ0Z2emUxVjNibURXalRQZGVRdFF0Nm9rRTJ3dWJJNV9DQ1JuWjkyV2NRQ3BkeHBqV1NkUXp5LTA5Ymx5TFU?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar sobe 1,6% e fecha a R$ 5,65 com mercado insatisfeito com o “plano Moretti”",
-     "fonte": "Portal 98 FM Natal",
-     "data": "2026-11-12T23:45+00:00",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSkp1T0hCcU5fTUd6UzFEX1RkQnF2d0hnMU1VWkp2cWM0Y0Q0VVRGLWY4RWlfdGtUa1RRTHdMNlZTbWJDb2p0TkhZWDZIZ090UC1fWUc0bWIyVl9nMkJjZzI2RXdoQ2N1VzZPai0wVnpOYnVZMjJ0U2NBaDdNTlBHSE5oZkRJdHBycnlNY3hBbkNMb2FVYk9qU3BqUUE4QQ?oc=5",
-     "sinal": 1
     }
    ]
   },
@@ -2669,10 +2669,17 @@
   },
   "bloomberg": {
    "indice": 0.0,
-   "n": 38,
+   "n": 41,
    "alta": 0,
    "baixa": 0,
    "itens": [
+    {
+     "t": "Dólar atinge o maior valor em 19 meses e ativos caem com dúvidas sobre ajuste fiscal",
+     "fonte": "Bloomberg Línea Brasil",
+     "data": "2026-11-16T21:20+00:00",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcEx0MDhRbXcwV3Z2Q2RsUTNsNE5TaE8yd3ExN0NsS2VodmpXZ3VNdk0yUEs4c2RielNJVkZ6Q3pZaTd6Wmt2Uk1FcXJQSkxFc0RkYzdmQms2MmRSS3N3Zi1yM2dlMElmbWpVako0SU4yN0RPRFVfeHpfZG4xZWU2MVk2QUI0Vk5IV2hRcTRXbGFIX0hmOHFrNWEzV0laVGVkZVY3UFNRendVNnZaYjVuaEVhV0czUXJENE44Zl9HeUJrZ25XTVhv0gHbAUFVX3lxTE9WTy1oVUpUV09UMnhsRV9jbDFsc0lRVXdZWVY3ZklqUTg1eWdYOVQwaUVhSTdPS2c2VHpZUFRnc3FVTE0ybWpsTjktQmRiZ2g2OUZZVzR3ZTgzZHVBWHVIWEZ1TkZyU29Qd0xHN2xHUElnQlJpdUM5NVZhWG1KRERIWVhXUTZHSWpFRUo3WTlKd1I0MmNabXZGTTdSQnBlY1NZUUVFSjhYWk4td1NVYVh0eTAzc1drbzFoRzBQQ0trcnJ0X2VLU1dRYUZTMWNub2NfYkRFWWNMVmdOTQ?oc=5",
+     "sinal": 0
+    },
     {
      "t": "Morgan Stanley rebaixa ações brasileiras e projeta queda de 7% do Ibovespa em 2027",
      "fonte": "Bloomberg Línea Brasil",
@@ -2685,6 +2692,13 @@
      "fonte": "Bloomberg Línea Brasil",
      "data": "2026-11-16T10:18+00:00",
      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRW9Qb3ZCNmExOGNVbExDa1BOWVhPYmZIbkl4bHlVaENoUXpLTjBjYkNHOVpuOW5zNFhQQjZVaHpVZk1FckFHSGZBblBaTlhDMlk5TUZQc1dxQ21nX0pJRVdhc2Q5Mmh6TkR6RlphOFFDbTdmS2VkSVhTaXBQVzg3Y3BNNlRPd05mRTJVdXlMOTcwN0ItczJPck90eEl2NHZxeTM3a0Z1QlRpNkpQUlllcmk0bkx0TWlVR0d5VzNGQnBhVVlNOEh0LV85Sm9ZVDY3R29vQTVn0gHWAUFVX3lxTE9Fb1BvdkI2YTE4Y1VsTENrUE5ZWE9iZkhuSXhseVVoQ2hRektOMGNiQ0c5Wm45bnM0WFBCNlVoelVmTUVyQUdIZkFuUFpOWEMyWTlNRlBzV3FDbWdfSklFV2FzZDkyaHpORHpGWmE4UUNtN2ZLZWRJWFNpcFBXODdjcE02VE93TmZFMlV1eUw5NzA3Qi1zMk9yT3R4SXY0dnF5MzdrRnVCVGk2SlBSWWVyaTRuTHRNaVVHR3lXM0ZCcGFVWU04SHQtXzlKb1lUNjdHb29BNWc?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "ING prevê queda de 5% no dólar em 2027, mas alerta para riscos de crise nas ações de IA",
+     "fonte": "Bloomberg Línea Brasil",
+     "data": "2026-11-16T10:07+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTFRjSGtWbkg3cl9kYWNjNGl3R2dXQUlMSUMyLUxEWmdKWFdwRGt5TVZzb3BFOTFpdzR1MUlKXzhZY193WUFIbnBLamVITnNPNF9fQUJBT1N1Sy0tUFZBVTdPTzB3ZkhBNy1WWWdxRzY1MzVGRHBYUVJEZndiRFpleVZzN1Q5eFVzTGJFeUxfZXRnYWw1UWI0T2g0eGNXZ0ZJSTZlY3hpSTNTU1ZPS0JMRDJtX2FkcjlteDJka3RrSmFlcGVMN0hvRlI4Z2FwTjhlSTBUXy1VV1Y0TUht0gHcAUFVX3lxTFBMVGNIa1ZuSDdyX2RhY2M0aXdHZ1dBSUxJQzItTERaZ0pYV3BEa3lNVnNvcEU5MWl3NHUxSUpfOFljX3dZQUhucEtqZUhOc080X19BQkFPU3VLLS1QVkFVN09PMHdmSEE3LVZZZ3FHNjUzNUZEcFhRUkRmd2JEWmV5VnM3VDl4VXNMYkV5TF9ldGdhbDVRYjRPaDR4Y1dnRklJNmVjeGlJM1NTVk9LQkxEMm1fYWRyOW14MmRrdGtKYWVwZUw3SG9GUjhnYXBOOGVJMFRfLVVXVjRNSG0?oc=5",
      "sinal": 0
     },
     {
@@ -2762,6 +2776,13 @@
      "fonte": "Bloomberg Linea Brasil",
      "data": "2026-11-12T15:17+00:00",
      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObnpwdTJKTGg4VnpJeVV4UFNPeUEwMUkycV9USzZhNGpaOVdxTzdUUlRCSHd5dUgzdmJ2Z3NCd0VCVmxJcHhwWXdLT21fNmZuT215WnJvLXpRTnd0NHdmRVJiblNRcHNUV3JEcW9Ua1ZwalMtOXpxeEQwajBSMmM4VkZfOVdZalpYSVdacFhTYy1SN3BhSHE3YUltOHdYSFRGUTI2Y25OMXZKOFRvZ0w4YUpsUjNRbUVvWmVKX3ZwR0w5WlJw0gHYAUFVX3lxTE5ySmcxWUZFalhTTXI3ejE4VzBuM0lyN1p4ejdmMS1jVnRVbXlZWWtyQm9Jb0ZqOXFTcVU1dFdHRFB3dDRIR24wbUtJd0ZYSHA5YmZLSzRjYjZvWVNYZG9hbE14TzBJWU92dlVOMlBNNFJlV0ROMU45TGFScF9KZDZYR0pvb0ZOckJiVFhJRjFmanl5VWJOTFY0cy1GUmxHR0ItaVFIT3ViOHF4LWJnRzJ3eTJqN0I0bGFRaXg5ajhKNUw2VWFNSzVudHhfMHFZdmFNY09pbXJWdQ?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Ibovespa cai após IPCA e de olho no ajuste fiscal do governo Lula; 5 coisas para saber antes de investir hoje (12)",
+     "fonte": "Money Times",
+     "data": "2026-11-12T13:40+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZDZiZGJ3b0dmNW93RmZSRUFVa0FrR09nTDBnbEh1WjNPelE2dW9jdU9BalJTbmdqeUhtdnhQZmNZaU4wbERIalBxbUVMT0ZFTUZMUFJtc0xkVTc5ZFBtbjdVQW9kUXVZNWlxbkpmZXd5N2pmQ09tSXhSOUtHSldHamFmdVJVcXpYdTN4Q0RfNVFsXzU4N0JhMnV0WFdKSG0wc2x6YzJYVFdrUTNpSXRSaDZTNElWME8td2NYemQ5QnFrY0J6QlRzSkpUNzVyT0VtY2dHV2l5Z2RBTVE2dzgzUA?oc=5",
      "sinal": 0
     },
     {
