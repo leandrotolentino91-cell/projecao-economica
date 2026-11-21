@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-21T17:26+00:00",
+ "atualizado": "2026-11-21T23:09+00:00",
  "fonte": "Google News (RSS), últimos 7 dias",
  "indicadores": {
   "ipca": {
@@ -1707,9 +1707,9 @@
    ]
   },
   "cambio": {
-   "indice": 0.298,
+   "indice": 0.288,
    "n": 80,
-   "alta": 26,
+   "alta": 25,
    "baixa": 1,
    "itens": [
     {
@@ -1823,6 +1823,13 @@
      "data": "2026-11-19T23:50+00:00",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSXZLV0NKME5tMFJRc0czS1JsTVlQS2lDN1dlck9HYVFWU1FTd2xJMVZaeHUyNWJFbU9ESGNwOEx5N3BvcUszc1h5N1BOc2hCZXA5YVo0eE9XV3NndjBDdUI0aTItNkt2dlZ3RUc2Qk1rQmtsT3J6bUNsTGo3a013c2szWTA0MmxBeGZsSEtVOTdGQ21XQlhNNE5OWklkR3c?oc=5",
      "sinal": 1
+    },
+    {
+     "t": "Dólar fecha a R$ 5,93 na sexta alta seguida, mesmo após BC vender US$ 1 bilhão",
+     "fonte": "JB FM",
+     "data": "2026-11-19T23:21+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQV3dZY3B1RTRPRGdHTVA4OUdHdVhZLXA2bG1MdlpDaWtZbFNCV3ZqTWlnbE82c3pCZ3lFX0lSVXdOUkdiRFprRDV6cE1hSWR1VHdJNFVVOWg4NkJ5d0d2RU1US1BUM0Q1UFZFYXpfUVZIaFdXd0FnTjJDeGdNbXRvWjhhX1FOa1BVTDdHVmpUMkE1Xy02N0J2OFczckpUd1hNNWFaZDU1ZTRvei1PeE80c1o1NTlLVklQb3pMRFctOVNUWldmSEgxVGpObw?oc=5",
+     "sinal": 0
     },
     {
      "t": "Dólar deve seguir forte e limitar o real em 2027",
@@ -2264,13 +2271,6 @@
      "data": "2026-11-18T20:28+00:00",
      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5DcHFoVXMtYlEtM0dzRWpoUVJVdnhPUW9wMVpXN3VSTUI0RFc2SnRwc2pYbU9oRFRFTGRWTTZNQ0tybERJNGFidTh2QVVuYTdiUHBaOElER3NEOHljcjY1MmxNakNCLWdveUxJeDJzTXZnazhpQS1WQ2l3VWJ5QQ?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Petróleo fecha em queda em meio à alta do dólar e recuperação da oferta",
-     "fonte": "Money Times",
-     "data": "2026-11-18T20:27+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU2MxVUlWU1EwTUJVdVZHZzRNWF8yLXY2TFBZT2d4RW9NMDFjRDV3S1lzQ2hQNk1HNnBoRU92VUx2ekx3UHlybEpJdjl0VkxJdmcxWTBVXy1oQko5V3FEYzdjejViS3VvbEZlMjZQekZGdzItYS1wd1NUU1M4ajhOQ2VRN1FoZlpacE95bXhYc0hEVjBSazdvdHpTNzRKb1VKZlpSaUVXb3hLMUU?oc=5",
-     "sinal": 1
     }
    ]
   },
@@ -2578,10 +2578,17 @@
   },
   "bloomberg": {
    "indice": 0.0,
-   "n": 34,
+   "n": 36,
    "alta": 0,
    "baixa": 0,
    "itens": [
+    {
+     "t": "Troca de cadeiras no Banco do Brasil (BBAS3)? Equipe econômica de Lula avalia nomes para substituir CEO, diz jornal",
+     "fonte": "Seu Dinheiro",
+     "data": "2026-11-21T20:03+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNUXIwSmZKbGFvOVZwSjRXa1ZkM1pVVmNiNUNIQ3hNOGd4eXRBZS04enMwVDBPVFUtZWVMd0FveDBlNGpSSzZVMmxTVTlWaW80ak1sellLNGdHdjlpdlBicUp0VGRxZXVNdWduam5malJPUnhKMGlGMW5LdXBqM3JJUkF2d0pjal9SQWZscGtzbEZTS0x5UDA2LUpnbkpaS2l0MVl5OHQwZkRBbFgzVU1VclJwSGMzcloyd0w0TXd6ZUhOOVVQRFRCaW1ZTWRpZFJfc1RaZDZBMmhYRXZRNHJpRlFuQ2g4ekkySmhvd21yT25veEE?oc=5",
+     "sinal": 0
+    },
     {
      "t": "Bloomberg Línea Summit debate agenda econômica e oportunidades do Brasil para 2027 em São Paulo",
      "fonte": "Brasil Inovador",
@@ -2657,6 +2664,13 @@
      "fonte": "Balada IN",
      "data": "2026-11-19T16:36+00:00",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeG9xbGZuQ2xGaUFxRWlaRFBkaXVpRTh5X0dCOXF6enpJYzlIY1lVWGpCM3hfRWlaVnJ2dVFnbzM0ajFib3E2b2VmLVY1QzJGODdiM0c3SlNiWk1nMkVNX3lyNDdpdHB2ZHk4OTlXa3I3YXZqUjFlSVI4ZF9CelRxcW16NTFEZk9HN1BTZlpCQmN6NGxuZDg4MDhkQWtMYngtQ3l6cVV1WnZBbzhoZXpxaXRuVmNMQWM5?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Inadimplência bancária cresce na América Latina; Argentina e Brasil lideram ranking",
+     "fonte": "Bloomberg Línea Brasil",
+     "data": "2026-11-19T12:22+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZzFBXzA5c1hIZTBaeEZ2U09ueXBhOW5VRmZ6eFdIdV93WFpDWmhPaG4tQV9lbnV2Y3gwa001Rm9qWmRqQVJ2ZEtjZWl2ZUw5bWt0NUk0TFBkc2c0ZHlEUWxOSlJ0Tm9QcFhpak5uWFNodEhrN2tLZFF3MVp2Mi1zZzYzdTNDY0hNQkZ6S3JJV2tSb0FvTm56Z2RJNXdoTkVHd094RGstNnZaMlE1aHJrcXlfdUFpcWxiVldVd0czT0RVYkQtVFVQYVN2SdIB3wFBVV95cUxOVlREdm1ONk5Dc3ZtbFd5N1JnRzFkZTIzcXUzZGJkYjItcW1YaWp4ZTVkRXVyaTl3Z2QzMnZWTFVQejlGS3Q2TGpzWGRxdDlWOFhCU2QtUUFBZGpsanJHTWZkMU9JeE9HbEppaVBuM0V0T19GX1NMakgtMHBBbnlGTnVPNnM4S2JZUDB2SjBJc3lEbUZNSlRkai1TaG1DdGM1TFZPWTk5MWZuaDljekF5Sjh5aTZWbENkNm5QRW9mX2ptVmx1WHJpcmNiRnVYOWJ4SFp1SXU3X2pldlBJZWo0?oc=5",
      "sinal": 0
     },
     {
@@ -2737,6 +2751,13 @@
      "sinal": 0
     },
     {
+     "t": "Citi prevê forte queda no preço do café com aumento da oferta do Brasil e do Vietnã",
+     "fonte": "Bloomberg Línea Brasil",
+     "data": "2026-11-17T12:01+00:00",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUmNKeE1LdnhWaGo3b01TMHM4YWpaSUxUOFpObGdBSzZaMHg5WWZKcHdBSVFjbWMwZlhnUXJHTEFha2R3TnFxdXBPMXlscUNwaExPc0g4bkZuNHBudG5mRmE1V1B4WUJvc016YkpNRUVKYkQwbHhrM1h0MFNtZkxWX2JDYkFnTlhBV0xxS1pHUjBzSzRMckNpbVFfMGlLdTdwRVM5NVRuSURQSS15SlQ0cVBQcldnbFpGbmtVLdIB0AFBVV95cUxOOFVhSkNUWDF4cnNyWlVQbHZSRDZ0UlJVaHNZQXNGUE9iTFZnTU9RQ2NydGhOci1uUFlrN2F4SWFHUWlfbDBRMnZxR29sQjdObFpia3BOMWZvMUk1TXk5Mm4ya2laZVBDR1JxeU1mU1I4RTBoQ3Z5ZDFRNXlBVTNIdHhiVnlvR0YwdnNEenV0aFI3czdZRVhQeFAwNGo2Z3lwZWJ6SEVTclVNNjdjd3pBcG9tQXg0WXhMTGNzWk83OTcyUG1BeWpYbHFhdVJHeUNm?oc=5",
+     "sinal": 0
+    },
+    {
      "t": "Inflação acelera na América Latina e supera metas de bancos centrais; veja ranking",
      "fonte": "Bloomberg Línea Brasil",
      "data": "2026-11-17T11:56+00:00",
@@ -2811,13 +2832,6 @@
      "fonte": "Bloomberg Línea Brasil",
      "data": "2026-11-16T08:15+00:00",
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMnJxN0NCUjdxZDZDREJBZjZVekNqRThqc3NvczdNMFhna0p6cnhfUEJfODFVVUZ6Nms0cnBzRnRnaDNiLVZFMDByU3dtbjZOZUdGdkJ0b0p0VEJpVDVUV3ZvZ0JXMjgyVEVrMjdnMEZFZ0g0d0JHWUtKU2FBeDRoR2FGbFB2T1dRQVpreUh5a0pIdVpkMFBxRGhqVTFoSVFQMkZKTldxOWpzRlVtUXRYV1hxaXprVFk2Z1dRS29zVFRra1RUSEN3OG5hZUtYanPSAc8BQVVfeXFMTTJycTdDQlI3cWQ2Q0RCQWY2VXpDakU4anNzb3M3TTBYZ2tKenJ4X1BCXzgxVVVGejZrNHJwc0Z0Z2gzYi1WRTAwclN3bW42TmVHRnZCdG9KdFRCaVQ1VFd2b2dCVzI4MlRFazI3ZzBGRWdINHdCR1lLSlNhQXg0aEdhRmxQdk9XUUFaa3lIeWtKSHVaZDBQcURoalUxaElRUDJGSk5XcTlqc0ZVbVF0WFdYcWl6a1RZNmdXUUtvc1RUa2tUVEhDdzhuYWVLWGpz?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Banco Central tira instituições do mercado, Banco do Brasil (BBAS3) decepciona no 3T26 e renda fixa volta a brilhar: veja o que bombou na semana",
-     "fonte": "Seu Dinheiro",
-     "data": "2026-11-14T18:16+00:00",
-     "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNVlVSWnBpZHFkLUtMLXA2UEU5N1B3QlFnSGh6aEt2RHc1Mk9wZ3lneHRuVzlpeHIzanpyWVhpSGQtUkVEV3JkU3ZMNU8yUjF5TC1pTzNJYTZoRGtCMF90eEhWX1ZOV0tTbUV3Sk9ZQ1RQdWdUeTUtWEIxdVpHeEUwMjZmN3Roc1JGeWJWSlkwcE4tRnZ3T1pZeHJhWmV6SHptN29sTldwek9xV1g5Y1dCbkRjWDBhM3paenRzZGxxYjRKM3g3bEhXNVU0YVFFLU9jbmgyWnMxblZ3UDRPeldRblEySWtpSW5tTVpWUHZLa3M4SkVLeFZfUHBFQmdGZU1mUVFqclRaZkFpdXlaZUFjWGM1elprQ1E?oc=5",
      "sinal": 0
     }
    ]
