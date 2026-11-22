@@ -1,13 +1,27 @@
 {
- "atualizado": "2026-11-21T23:09+00:00",
+ "atualizado": "2026-11-22T06:38+00:00",
  "fonte": "Google News (RSS), últimos 7 dias",
  "indicadores": {
   "ipca": {
-   "indice": 0.291,
+   "indice": 0.272,
    "n": 80,
    "alta": 24,
    "baixa": 1,
    "itens": [
+    {
+     "t": "Goldman Sachs: Brasil precisa de ajuste nas contas públicas de R$ 400 bi",
+     "fonte": "CNN Brasil",
+     "data": "2026-11-22T01:22+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPanVnNEw3dkJ6RUZlazFiQ1hSX0xVcWZndU1fOURjdU9CeTR0eXRweEVlUEdqNnpCWFR4SU1XbUx0ZTZKZFJ0TmZ0SlB4SVZOOVlsYUpFWEdVNUN2cXZscEYyekd2LXc4a3V0dVRFRkFWM1dWajZ1MENGZkVybjh3S2E4bHZsajhhR1MzVlRua2NVLVlmRWoxMGEteGdQZGNPV25meDY3eXB2NU9kc0ljVHZVaE1RT3UxbFpDZXhLVUNlQ1FtY25MZw?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Efeito El Niño na inflação deve se intensificar já no começo de 2027",
+     "fonte": "TV Pampa",
+     "data": "2026-11-21T23:23+00:00",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdkZZeFBVSHRpQTVodjdMYk85UFBPREJjem9zdHJiNzdoUXJNdlVUY2lZYWVMRFVQTkpSZV9TSW02RWF2MEUzVFhwVGpEaXc4bkUyeVF5Mngyb1FrbUFOOHVPbXVLbUU3MnpBZzhGUXRsVmcwMld3bkFBQWpiWm9vZ01vbWkxcjFUVVpDXzBxd2JIRkVHNm90Y1JGeXc?oc=5",
+     "sinal": 0
+    },
     {
      "t": "Mercado financeiro reduz projeção da inflação e do PIB em 2026 e eleva estimativa do dólar, aponta Banco Central",
      "fonte": "Jornal Grande Bahia",
@@ -553,25 +567,11 @@
      "data": "2026-11-16T19:07+00:00",
      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMXF0WjVJS3NZWFp6eDFKYnAwaWo1WFlkeVhRMkxfLVFUNUVfZVcwMnBSaUhXWUJLbFJIWXRwc0pwZVA0eDVBc1hlczZ1SXkyQXlwU2NIb3YtckxLRVcxSVVMM1ZCTmtuamsyXzNsUHNXMGZuNHFqeEFlQjVqUGJ6a2hmM29jTVR3SjdZZnJTVDdnam9yUVV2SGNVRHpLRW9zUGMwUjZPUlV2M0FBX0wzSC1PUzhoeDBBU0xLVnhJa2hpY294UFl1Y01UVGw4UkFUTjNV?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Boletim Focus: mercado reduz projeções de inflação e PIB para 2026",
-     "fonte": "Portal Tela",
-     "data": "2026-11-16T18:50+00:00",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQ2ExZGMyaUlYWFU5QTNGTUY1OWxSdHQxMDVudUJobWZkUU81QXlKX3FCdTVuUHM0ZnRaUnprdTNGYlc4MmZINmtoTzdld3o4Z080c3lwc19rOHJEdUxXUHdkdzVOODlMS09zNUZwNTRRYmJRSUlQV00yODBqWGRhdFhZYS12T2I4OW54d2Nub09BVjhVcUhmeE9paWF3eHc?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Ibovespa cai e dólar salta para maior cotação desde abril de 2025, com preocupação com fiscal",
-     "fonte": "Valor Investe",
-     "data": "2026-11-16T18:48+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaC1lR29jU3BHNkdtOVlCaHhabWQtakUxWE9PdGJST2pNSzRLeW04TjNjdlA2UTNkVkd4aF9HZ1NnYkJOS3RPZEZYM2t1YVUyaklsMVBYY0RIcXNQM19mTmt6UWxhQ1ZFY3UyeWNxaVd3YXg4anFuY0pSNFRYT2hsQm1Wa2JPRF9HbzA4alV0OV8wbEk2QXZrdVlqWldJNndlWW5ZVXVJc3dYLUxhalFydnNDRi1LckRPN2NmTmJPQU5SVGhzSnlYQi1BTHM0cUpNbGNuMnU3cETSAecBQVVfeXFMUEF2SXFOR2ZudW1BZW85ZGFSSkphYlp2Smp1RXdHdnBsRnBXejgwVVdRVEF2Y2pYQVdzdmV2cVg1YVJIaThuY2xSR08wVy1tbTI4Qk50Wmt0VmFwMFlsYkdwQmNTS2JOR01YM09EcEE1dEwzQmU1ZjBmeDFRR1VnOGlrWC1WWjBGQVlwZDN1SmFmajFxM3RIMWZ2TlhIMFhGclVSSThDSmVrMlNLNEVHVjJTOTBucjRkMTAwYWcyUnY3Nm1tR2gzZTFIcTBFcEthTmdKTG12TUphdU1DSUVOMld3R2w4eW8w?oc=5",
-     "sinal": 0
     }
    ]
   },
   "selic": {
-   "indice": -0.058,
+   "indice": -0.056,
    "n": 80,
    "alta": 1,
    "baixa": 6,
@@ -588,6 +588,13 @@
      "fonte": "Rede Estação Democracia",
      "data": "2026-11-21T17:00+00:00",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMDhaNU55Vy1PZWJIZks4QmdsX0gzLUJHSGJoTFVVRmh0TWdQaHRGY2ZadlZYRWJ1MmtrLTRlNmo5ekE3REd4eWJyRlJldjRGNVY2NV9aVHpWa0gyeE51T1ZOSXQ2NXU4bkZCRThTNkdRdW9BUERLQzFzRV9qa0FsdnpQamFTdlROZTRFX0hiZzRhX2Fpd29B?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Atividade econômica tem alta de 0,44% em julho",
+     "fonte": "Terra",
+     "data": "2026-11-20T18:55+00:00",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOR3VTZEJudFh3dVBrQ2M2OFAwRTFiSUJJYlVaSkJpYmx1TmxUcjFtaW9oa3hWOXdNVlBDMlJIcm5XZEg5cU1PNmItdG9SQi1obXdwVFhFR2xnU1dTZHVkMl9kWllnX1l6bHBfend2V3hFQVVqUTNaSVhETkMtVktOWDBOZC14bXJ2RGxoRDFBYnkxOWV0eHlra2R5aldwRjdtSEtzdHVuN2YtYlpGb0RsY2pVSjB1RWpPd3BzNGwzSHdvRkNrZnc?oc=5",
      "sinal": 0
     },
     {
@@ -609,6 +616,13 @@
      "fonte": "Jornal Onze de Maio",
      "data": "2026-11-20T11:47+00:00",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbG1UMXIwczRSNGlyb2xmc0o1NFhOTGg1TDNKNXU0RE4wdTJLUDh5cGlBT3Vqb2JNS0F3OS1jTHlzeTk3c3NkSnY0czVSMkR3OFZGamxzZEdIbGs1dlgybUFLSHBWT3M4X0szUWcxa1hSODY3YkNZUno5QjVGY0JZTVlVbG1WUS1maTljNlhONEFWY05YRlBsdkFKQVg?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Mega-Sena: quanto R$ 40 milhões rendem todo mês na poupança e no Tesouro",
+     "fonte": "Brasil 247",
+     "data": "2026-11-20T11:35+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX21MRFRsTHY3dmpnT0hLcS16aTRLdENUWWtFUXZrLXhuaERVTGpaUWxqbXhINGFWc0J6ZFAxNGFaSTV4Q0hMWHZtNVJkZ1FpNU5DOTZma3gyQ21rUlREQ3F0YlU2cTBqOHVMd1VwNXg1d2drQWpjXzE4UWVsaTJ4TmtBWEtCT2lmX2VBdTdDNjNqb3dEdUlMVHlQV1pIZEZuRUN3LWpFY3lKbk5JbHRUVkdQVzBTUzAyVVpr?oc=5",
      "sinal": 0
     },
     {
@@ -742,6 +756,13 @@
      "fonte": "Repórter Ceará",
      "data": "2026-11-19T13:20+00:00",
      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdWdRM1VGV19JNTh4NHdFdG55OTBVNkpBWkNfdlVwSXFYdnF3cDBkbGtpZ28tdUhhOGNvbU0xWTRpem1RUHlFMk1zeUQ2N200MTIxajEyQkJhRFpMaGFXOHdqV21zNnRYZjNoNm5fX25vem1xWHVPUlVVZ2ZxUnYzQ3pkdElZMW1RSk5naFlTUjNhMzRIZmR1eDExdzNvVU5NcFRaZWZoNDVTU0JlbFkwcVp1bDZoeV9udDNxR0IzdEU1MVpsckNESzM5eXdjNUpCeHfSAdIBQVVfeXFMTnVnUTNVRldfSTU4eDR3RXRueTkwVTZKQVpDX3ZVcElxWHZxd3AwZGxraWdvLXVIYThjb21NMVk0aXptUVB5RTJNc3lENjdtNDEyMWoxMkJCYURaTGhhVzh3aldtczZ0WGYzaDZuX19ub3ptcVh1T1JVVWdmcVJ2M0N6ZHRJWTFtUUpOZ2hZU1IzYTM0SGZkdXgxMXczb1VOTXBUWmVmaDQ1U1NCZWxZMHFadWw2aHlfbnQzcUdCM3RFNTFabHJDREszOXl3YzVKQnh3?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Faturamento real das PMEs recua 4,8% em outubro",
+     "fonte": "Sitecontabil",
+     "data": "2026-11-19T12:16+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZVRLLVZiRHRSd1RWU3VwV01VR0RrSlF6UGpfeTIwMHllRThqTkk3YmN1bEdYOUR2V2xuUjBHX1RtaXRJTDNDenJfbHp1R3JCMFlLcnVLb0tTRWU1SWE3MXFuYWFuVTNtX01TdFpBMzUzYmI3Nmgtb3paQ0JiWm9ZZzlYaHNFS3oxMFJtM19ydjZ6aWxXeURPQXh1d0Q0T09mZGU0?oc=5",
      "sinal": 0
     },
     {
@@ -941,6 +962,13 @@
      "sinal": 0
     },
     {
+     "t": "Lara Resende diz que reduzir a Selic é “a única saída” e critica postura de Galípolo",
+     "fonte": "Diário do Centro do Mundo",
+     "data": "2026-11-17T23:21+00:00",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeUxySk9OaVlJdnFkeFdfZHFmc1h2dFplejBoY19SV0JtSVFpT2RySHV3SWRMVE1DMkdlNGp3ZXpTUXlzU3MwZTVUYWl3TVhmaloxMVpCUXR2czhLSjhwdlhRMm9UeE13UlNiQlVjXzNTSGZ5bTVfQW9Wd29wcTVVUEZuQXZXVTYxakpRdnF2eFZDeDNidktFTw?oc=5",
+     "sinal": 0
+    },
+    {
      "t": "Lara Resende desafia política monetária e aponta juros como entrave ao crescimento",
      "fonte": "Plantão Brasil",
      "data": "2026-11-17T23:09+00:00",
@@ -1107,43 +1135,22 @@
      "data": "2026-11-16T21:29+00:00",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWS1yRlJKV0JWaWZTU0VRVXd4em1Od0tyd0FuZ3h5eEZ2U0Y1SkkwWlhvVkw1OFdWT01wbWhzVGx4Wkdad2Q3bXZBYWl6ZmRXb1NGS1ZOaW9jUnI4Zmw3WHQyWG5Rd2lOX1hFc05ueHF5WGZrNnNMLW4xdms5RGJFSUt1eWNVck1hNURtcERaeTBBN0w5QmZDZ3RqZnNpdTNDdVFnZA?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Taxas de juros sobem com percepção de maior risco fiscal e disparada do dólar",
-     "fonte": "Tribuna do Sertão",
-     "data": "2026-11-16T21:22+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOamh2N0ZjNXBmcXUxZUtpRU94aDVzUGNzaHQ0cE5PODNhd0JOVWdEcHl4Vkc3Wl9aamVPZHBUUEtnc2ExMUZ6Z0xQYnpoNm5QcWZMbl8zV0R0S0Fic3lWSkZIVnBhTlhXalRqdUZ5VWt2MmJTNXJMc2k4Y2JubTQtSExNUkZiSVprejJxLUU2QVB2RFRHVDYxN211c0NTak5jNGVCTndERWdSNENmVkpWaEZzQldQUDYteTlxWDYzVWt2TDNMcG9NOF9raUpYLTRLZzMw?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Juros futuros disparam em meio a desconfiança com política econômica do governo",
-     "fonte": "Valor Econômico",
-     "data": "2026-11-16T20:58+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVlNjYTNGSXcwRFVsQWJFUWxoUmRMbGNYOHp3MDRfNDl2cU1iWFJrQVNMZ2ZLM1ZxelNkbDdkMTFjbVhPNXNFM3gtcEJWMkt1TVB0RzZSN1NlLWFTeFNaYXc5dGcwRWpRRFlYWlJ5clUwWGlnMHNTUUVORC0zTDR3dXdtMXVSVDNqYWJyQkVWODMzTmxWMnlhRVo1ODNxWEdUY091X21zM0twazJub1V5NTBkbVF4RnlqZ3lsLXl2TmVraG40cTlvWlZOQnpwaTZ4Nzhv0gHiAUFVX3lxTFBvUkU5Y2lkMmFWVFJFVGdTOFdxQUNnVWhRd3N6R0p1SFpkcGRnaFY0RG9YN2J4SUJTT0F6UjF6WTY1WDRnTlBGcGtldHFYQWYzMkdVYjFfRUFLR2dBZGtIR2ZZaVFfdkRSRERNQVpsclVId1FQOURXNDRBMmNwbExiMUZFRV90VzdMQVdOUnNISWdmb1F4NXo2Q2EtdkxZTmJieHh5aW1TQzlkclBoYW45bFcyRVZRT3VOSHNwR204OEUyZmc4MUVjUzMxd0owdVJjbm1aNnNwbU9UMWYyRDVwZEE?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "XP eleva preço-alvo de Vivo e TIM após balanços do 3º trimestre",
-     "fonte": "BPMoney",
-     "data": "2026-11-16T20:20+00:00",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX3J2dHhqN0JUTkh0VGZlNHBNZ3dOUndlZ1l1TEVUS0xPN2kySE5WcmVpRE5YVlI4a1kwbDZ2bVhtamc1TW9nY1psNThNQ3IxbWl6aTVNcEg4VC1yRkJiWDVEdlRyVjgwSGhQYTRiQ1VBRGdKaVN1VzhfMFNfYVZWbjkzY2NqbGRGZXYtUQ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Galípolo abandona Belluzzo e Conceição",
-     "fonte": "Revista Fórum",
-     "data": "2026-11-16T19:53+00:00",
-     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aSkIzNnNkWjFHdDUxck1FWUExb3h6eUFvX3hZRHU2UDNwZjRQRGdCYkpzOGltMzluR2VpUWdrNWFHUjRsUlg4WnNlN21qTDU0V1dfdF9DcVhuZFUyemRFZnluWjdkOWZ0SlZTQzkyWlU?oc=5",
-     "sinal": 0
     }
    ]
   },
   "pib": {
-   "indice": -0.47,
+   "indice": -0.444,
    "n": 80,
    "alta": 3,
-   "baixa": 45,
+   "baixa": 44,
    "itens": [
+    {
+     "t": "Custo Brasil chega a R$ 3,5 trilhões por ano, equivalente a 27,5% do PIB",
+     "fonte": "Porto Ferreira Hoje",
+     "data": "2026-11-21T14:02+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZm5veUhpb21yNTdMTjh2Q1diZXhZQ1RxRnBudXZ2VGpERDZDNklqUVlKNnRDNUwyd0FiTE1OZlRJTXg1UUJVN0dKcVZxSEpYdkZHYjZadEd1MHF6bmF5d0ZudGVIR05vN3JwY0hHLS04SVE5SFlHZWRfc2VVMEowOEJ2Zjk2VjNKZXR4aWEwZGk4Y2tPUmR4eW92WlVmUmlMQzJfckFtbmxicUJDVDlFMWp2QUx5V1YwbWtiakh1cWJRQQ?oc=5",
+     "sinal": 0
+    },
     {
      "t": "Movimento Brasil Competitivo calcula o Custo Brasil em R$ 3,5 trilhões por ano, 27,5% do PIB, com infraestrutura, contratação e juros como os maiores pesos",
      "fonte": "CPG Click Petróleo e Gás",
@@ -1696,13 +1703,6 @@
      "data": "2026-11-16T12:22+00:00",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQ1hBMzUwWkstbGpOd1BzbmdXSUtOc0xCNnozbnhDSnBwR1hqZlBrNVZBWWljbEJUTEJVWFE1X0hfcjlzNEE1OExnQ19sbXp5MjVTY2xqZFdETFNkQmp2Q1BkQVlWWnpGNUdBVG5EcG1LUTVEOXpod0xiSy1XYzlJM2pXTkE1d3NIY0REVXNzMGVBVGVLZ0JHS0toMjN2eFBoRXY4TElaeHBOejQxRGJ2VDRIMjRtbWhL?oc=5",
      "sinal": -1
-    },
-    {
-     "t": "Atividade econômica do Brasil recua 0,2% em setembro e acumula queda de 0,9% no trimestre",
-     "fonte": "Vero Notícias",
-     "data": "2026-11-16T12:18+00:00",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUWc5STFURkZJYVB0Y0M1VVZwSkkwT2hHbTlQc2VhbEtBVXg1M1E0TmU2TTkzaWlzNjBWWnZtRHdrcW9uY0Rjc1F5VWdSVHZEcnZtOWV2TV84VGJJX3dIWE1Xcl93Q2hGSUF4R3dWVzMteThDNVFaNUNwQ1JiSEFPRXAyeVRaR194MnBSTzRGbVF1T043SlRkQlI0bnF2ZnBTSHJYMlpCWWNlbXU4c3JCX3pCUVJJWWlxV1dxeQ?oc=5",
-     "sinal": -1
     }
    ]
   },
@@ -2028,6 +2028,13 @@
      "sinal": 0
     },
     {
+     "t": "Dólar Hoje: Cotação em tempo real",
+     "fonte": "Avenue",
+     "data": "2026-11-19T16:04+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBTUUgxcmFWUkVkcnd5MzFXZndfQi11em9RcjBXY1VydF9NWm15RDVVaVFPQWJkejF0ZEVlUWRyQUpfREk?oc=5",
+     "sinal": 0
+    },
+    {
      "t": "Rumo aos R$ 6? Dólar rompe os R$ 5,90 hoje; entenda o que impulsiona a moeda",
      "fonte": "Money Times",
      "data": "2026-11-19T15:59+00:00",
@@ -2131,6 +2138,13 @@
      "data": "2026-11-19T10:00+00:00",
      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRkVCNzQ1RDhTTlptQWxIcmRxRHVyQVFuak1QM3ZnUmtMVWppZFptNkNlQ0FILXlRZjZCeFVpMFI1YjEtS2NiYjF6N0lJRjhpcXQ1eGF3WFVNUVBMYXh6RVlzLUN6cU5maEpQU2hVMHcyTkpUNC1hSmpUaDBwRkZkRXlDa9IBiAFBVV95cUxOTXgwRFFaVEFJRjZTcTJzUmh6Z1ZGMDBHWk0yYkpBWEZQZWJqbEZ3dVVrbFNaamFlM1pJVjhPbE43c0RTNWdqczdScTFZTWJ2NHVSbl9sbHFkZmFncDdDUms3SV9IQ2xzMFladTQyOGF4SlByM0o5Znl0RlNoZnF5ZS1oY1oxUTB3?oc=5",
      "sinal": 0
+    },
+    {
+     "t": "Dólar sobe pela quinta vez seguida e fecha a R$ 5,87, maior valor em 19 meses",
+     "fonte": "MEON",
+     "data": "2026-11-19T09:03+00:00",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNjNIM1oyQlZ6ZEtRRWFrZHJ2RVc2VElxTXZzTVZYRzdsSWN1Rk1oNjdWYlR2b2VwaGVVOW1TYmpUT1UyRmt0TEVTNXlmVXRzM0lOcUZEcGt6UUVjS3lHM0hkeFhSejBrQnRqaW5lQnpfSmJWZzF2VXVQMTFSemZIXzJxZlNPYjZWUlhNamJ5VmdUY0loMUFN?oc=5",
+     "sinal": 1
     },
     {
      "t": "Dólar fecha a R$ 5,93, o maior valor desde abril de 2025, mesmo com intervenção do BC",
@@ -2257,20 +2271,6 @@
      "data": "2026-11-18T20:30+00:00",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWTNUUk1fOUhGVGdVUnVjOHVhdE4wQ1R3TjQ1OFBWZ3R0QkZaRjNLS21LYVJ4NzBqTUFsQzFPN3RWeV9WRWdSS3JTZVp1eUNVaE9GTHZTaFQ2M0lPemRpZFlrM1J6UldxeVpQclVlZ0o2UjQ3SnNjeUJTNGUtek84dkM1RzVINjZ0cGFVaWpJR0lCN0tjOWNRZnUwRkZaX1dFY1ZIdmd5aGl0ZEpWblFpcA?oc=5",
      "sinal": 1
-    },
-    {
-     "t": "Dólar dispara após vitória de Lula, mas alta pode estar perto do fim; veja avaliação do Commerzbank",
-     "fonte": "Estadão",
-     "data": "2026-11-18T20:29+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWnNqLTZGeTNCa081RlRuaXZIbGhyQll5bHBobDUtTDRjRHNEVWc5UGVtblJzWS15ZTdPVDNobGoxM05PbWFxSWlBNFVXUzh3U1lSa0toOU94ZTBfTmdEbElyV25IOG9qQVpLMXVWRDl4R0l3b1R0OXptRkNXdjcyN0c5Nm9WWU55ZXNzblhMV3ZiXzNueDl5RGQtMmJBOFJWZnFiSkFiNnY5Q0ZLWkllQUhTRkl6dGFwUEJ0dmpMTkFNNklFd3Z3bUVmdU9jcFdSampJYnV1bUpJd0FRcVM3OEZrTXZNVk05V0FFR9IB8gFBVV95cUxPQjlXS0xXdEhOVnpCTFlzNjA3MTlVTTZhVnhMSWZkT2s1cm9YbFBDYkxmRXFHODhmQkw2Z2dwUTFjemxId2xROXJYcElYZnRVZlFSaU5SRS11cllDem5LYms1U2IyanptSE1IblNrc2tFR1hnUkZUREhnSklkOWdFdGpLQnlQN21JRUxkOWp0Rk9ISFRtSWFTZzA1X01NekV2MWctN0xMOXRwT0VYdElERkJBcFpZNUNyWWRHY1haLUZJb01TNGJSUkRnd2p5bEs3anQyN2RNcUtyR0JFQkl6MGVzeXBwN2pmOGlsQXJ0Mzg1QQ?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Dólar fecha a R$ 5,86, maior cotação em 19 meses, sob pressão do drible fiscal de Lula",
-     "fonte": "Claudio Dantas",
-     "data": "2026-11-18T20:28+00:00",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5DcHFoVXMtYlEtM0dzRWpoUVJVdnhPUW9wMVpXN3VSTUI0RFc2SnRwc2pYbU9oRFRFTGRWTTZNQ0tybERJNGFidTh2QVVuYTdiUHBaOElER3NEOHljcjY1MmxNakNCLWdveUxJeDJzTXZnazhpQS1WQ2l3VWJ5QQ?oc=5",
-     "sinal": 0
     }
    ]
   },
