@@ -1,13 +1,41 @@
 {
- "atualizado": "2026-11-22T06:38+00:00",
+ "atualizado": "2026-11-22T15:15+00:00",
  "fonte": "Google News (RSS), últimos 7 dias",
  "indicadores": {
   "ipca": {
-   "indice": 0.272,
+   "indice": 0.22,
    "n": 80,
-   "alta": 24,
+   "alta": 22,
    "baixa": 1,
    "itens": [
+    {
+     "t": "ICMS sobre o diesel acumula alta de 735,7% desde 2002, acima da inflação acumulada, aponta estudo",
+     "fonte": "Estadão",
+     "data": "2026-11-22T15:05+00:00",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSUhGZ2Z2YTRxQVduY2NKSU5JX3lBTS1ENVYzZTZXaVVkNHdLNUZGTWpsa1c2TlAtZWxjZ0pzSU80SzM2WVRTbTRpcnpEX0NIa2ZlR0J3aEZ0bm1TSUFDTUU0M2tkem5wc0QtcEJibW1VcVduWDY5Z25TdmJXNHF2LXc5TUhCdVV1bVlTcmt2MWFKN2RlQlh30gGcAUFVX3lxTE53WG16NHI3ZHd3a3kweFQ4V2NUZkNNTkpjZUVhUTFvQVdsSlk4NXRvUEs1ZUF6YXBvX3NFbllsWjFPb3MxWTN6TFJWOHRvcjRMLUtHZm1uXzNTV01TRVhuU2xyaDlJejJZbVh1NUJTOTJ2d2gzRllyelFKWFFoa1E0bXZlRTlTTkJTV0ZwTHBET0szOHhUTm05dllTaA?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Inflação no Brasil e nos EUA movimentam a semana; veja a agenda de indicadores",
+     "fonte": "Money Times",
+     "data": "2026-11-22T14:50+00:00",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1lxQ1Z0TjhVQkltOGc4VnNyVFp2eXdaWnVvOGlBb3FHanNqX2pyOEdHMUZmMjVaODdyUFBOenl2TDBkcWNtdHFUM3pUUkNXRnJDanZlWjJBWVdCQnRMU0tEVGNrM0x5aW1ySDJBaDFkLTMtT1R1S0Jkd0g1bkV4dUhOYkRnbkY2Ynp4dTlLYU54NGFOT2dhVWlIeVpzYmxGbDA4dkF6Sll3RkVG?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "AGENDA DE MERCADOS: Dados de inflação são destaque no Brasil e nos EUA",
+     "fonte": "Valor Econômico",
+     "data": "2026-11-22T13:04+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPM2dKSHNJVHd3RXlkTGlTLVh0VDBPS1VfUWVFd1RGRDNNamhoLWFWVHBhYXhVb21PaVhNQzhwQ1VmUzBRcHVjaTA2REFZcTVxT1BwOHk4WlBMMENGY3Y3SWZ3N0s5OG5jQ0FCM3NKMmhFMHdEdWsyakhvZDZIY2xyT2o3aXJNUnNPRzV2enNZMUpVSE15UDBfYWJhM05UdnR2NzVLc0ZxS3dyS0V4aUphQUFEOVlOWnFoeXhNMWQ2VjVkeHRJOGNVVWpLTlJLTm5TN2czb9IB1AFBVV95cUxPM2dKSHNJVHd3RXlkTGlTLVh0VDBPS1VfUWVFd1RGRDNNamhoLWFWVHBhYXhVb21PaVhNQzhwQ1VmUzBRcHVjaTA2REFZcTVxT1BwOHk4WlBMMENGY3Y3SWZ3N0s5OG5jQ0FCM3NKMmhFMHdEdWsyakhvZDZIY2xyT2o3aXJNUnNPRzV2enNZMUpVSE15UDBfYWJhM05UdnR2NzVLc0ZxS3dyS0V4aUphQUFEOVlOWnFoeXhNMWQ2VjVkeHRJOGNVVWpLTlJLTm5TN2czbw?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "PIB nos EUA, IPCA-15 e desemprego no Brasil: o que mexe com o mercado nesta semana",
+     "fonte": "Estadão",
+     "data": "2026-11-22T07:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMTQ3YUkxZjZJSWpSR205S1JEWDBLQzYxazBnVHhTT0pCVU9WQWRCVkx3M1pJaEdpVk0zREZ2UV9nV2Q0enF1QzZZMmpoXzlocEtteHpJS0lKMlBReFFOVWlQZ3ozZVExRDhUMHFtdk9IWlUtem5iUUhnTENpY0RyNmhuN2h1SldEMHIyYW9VRzJPUEszTnNQaEs4Q2ZXRjVxMDB5bUZBTkNhS0VQQXFMMnJ4YU5MSmRGY3F0cjY0bGpCdzNzNEtMQUE3WE9idzBCWWFaQURn0gHbAUFVX3lxTE43VFlWMUlMb2JMTERkWVk2WFd0LU5IODZnWmNQcnJJQWM5U3BjX3pCS2hSOUszZlYybUgxOTVHa3BrTW9kZ01WbXZXd0RtQVBZd3hpMVluUkktSkNrdXpXTjNVZ1RSS0hJSzljZ1R4X2RmbUJodDYxbTgxMDFMX2k3M2EwQW9aMnh3STdRUE55MVNUZjh6VzluZml4S1AzTG04akpZOGJsUGwxRXhHSGJxU3FXbWRXUU1FZDhqSkNFNWtHWGJQTi1BdmozQmNobjJTeElXVWJLaTNLZw?oc=5",
+     "sinal": 0
+    },
     {
      "t": "Goldman Sachs: Brasil precisa de ajuste nas contas públicas de R$ 400 bi",
      "fonte": "CNN Brasil",
@@ -132,6 +160,13 @@
      "fonte": "Valor Econômico",
      "data": "2026-11-19T11:54+00:00",
      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbnV1ODFKWjZyUGN3Ukg2bXh6NUtsTkphVG92UnE4dXQwWWdBMm1SWGhYbUFfaEtPNHFOd0dzU0gwbC1IVXMzTTNocWcwTkFrQ290OFhqOWQzOFNXM1VJbWs0QzM2RU9ITUtXeEJaQS1vZmwxRVk5NnZGR2pWa1gxbkthVmxTaWN1TWoyV2xzZUxoMjAwY29zQmgtcjlIUXctdkl6TWQ2Qy1idG1EUlhwM2FPZy10QjljRGRIZDB4SkZHaldhX3NWa1ZjUWlqdDM4MDNrVkU3X2tqZW1l0gHcAUFVX3lxTFBudXU4MUpaNnJQY3dSSDZteHo1S2xOSmFUb3ZScTh1dDBZZ0EybVJYaFhtQV9oS080cU53R3NTSDBsLUhVczNNM2hxZzBOQWtDb3Q4WGo5ZDM4U1czVUltazRDMzZFT0hNS1d4QlpBLW9mbDFFWTk2dkZHalZrWDFuS2FWbFNpY3VNajJXbHNlTGgyMDBjb3NCaC1yOUhRdy12SXpNZDZDLWJ0bURSWHAzYU9nLXRCOWNEZEhkMHhKRkdqV2Ffc1ZrVmNRaWp0MzgwM2tWRTdfa2plbWU?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Câmara aprova crédito de R$ 6,6 bilhões para pagar subvenção aos combustíveis",
+     "fonte": "BiodieselBR",
+     "data": "2026-11-19T11:28+00:00",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcjhGcUV6MWJYTVpWT0hnbmg5SjBvOG9jSGxHX0ZiVkJzcW5FMW0wOFlpcXdHb0VWVS1GdGhjUnZhTVZCREdBVS1PNGdlaXE1ekRCZEV3cVh3MHB5aGs4aGNYSU5DS1k2Tm1oUE5VdkE1Y2tESG1UNUdXNlV1TGlvT1hFcXp2Y0dyTFdYQ21yd3dNTlNNdGhLN2FVRU11UDNKVkc5M0gzakUwNG4tOENoSXM3bDk5S1lra1pJejU0dmhFbjJZbzBXckI3Qno?oc=5",
      "sinal": 0
     },
     {
@@ -532,50 +567,22 @@
      "data": "2026-11-16T20:24+00:00",
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWjAtcUtPVUtIVllJRFRQNWg4REVRZXJTeUdMcVo2M1lDeld0UlpsOUQ4bjVNcXlmZU5EMzh0V2Q4OEhsNF9yaEg5allBYVBpdEM4WEVwUTNGSVlYUThRM1Fkb09Rc0MtU0hTMmJ3RTFBUHpPOUljcDJxR0lLMWdxNlY2NkRJb3hGTVZMYzZwVFZDNTZMYWNURG13clI4eVhNU0N6bDlaN3pDdnIwTjJtSm81dUZoamxlU1h3R2lQV3pEZThKbVUyYUJ6eE9QeFE?oc=5",
      "sinal": 0
-    },
-    {
-     "t": "Dólar dispara com incertezas fiscais no Brasil, enquanto projeções de inflação e Selic sobem para 2027",
-     "fonte": "ADVFN",
-     "data": "2026-11-16T20:23+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVFoxSEY3c0VMU3NmdllEUWwyTmVmN0RqRVVDMFNJNERtTEJEd1c0NDQ0Z21QY1FtbmZrUDVhVlJRdTcxQS0yM0htU2FVZHo4TTNwOGVITk5Ia3ZmOERzWDRKSm5mXzd0RVA3LU04Zkp4YzhITmJQSzNWUHNBOVI2R05JUzRsR0NseUw2ZE1QdXgyOTFXbC1yMjRDcVp6RmtwQjFQdWh1NDZFaTlLdGVPT2tFa212N1ppRWNWR1hTNkNiYzc4QzdTRnp5bGNVYTFWZE9r?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Salário mínimo de R$ 1.741 em 2027 ainda pode mudar: o motivo está no cálculo do reajuste",
-     "fonte": "Correio Braziliense",
-     "data": "2026-11-16T20:00+00:00",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWERfWFBYbTRaaXRJUmtSU1V1bTRpaDljOVg2TkRBcXoyLTdVLUY3TlRIMGRsSHBBSHBYeEUwXzE5RDgyUUFpNDJIbThaX0JfeXpnb2RUbWd4WHJDQkNXWFdrTEJ2S1QwaXhpeG50TUJGTjZjNVBxWWNpZjdtczN5RENJVlVYalhabmhWQ3Z0Vm9ZQQ?oc=5",
-     "sinal": 1
-    },
-    {
-     "t": "Inflação deve continuar acima da meta em 2027, mesmo com redução da previsão para este ano",
-     "fonte": "Jornal da Fronteira",
-     "data": "2026-11-16T19:45+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBemJLQzM2dnNXYXFQbGMwbnJhbHNDbkJKaTlDenU4ZTh5M3VoVHdKQWRQYjVnMEQ3WHNGS3dKcThFZHh1QVpwejdRSV9ra1VmQmdiSDgwUzdveEE?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Mercado prevê inflação a 6,1% e PIB quase zero em 2027",
-     "fonte": "Ver-o-Fato",
-     "data": "2026-11-16T19:22+00:00",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPS2Z6bEdhNndfbDdIdTZQX3M5Mk8wSTlkNkFhbFktRkdRZEFqc0d5Q2lRQUtwRG5kUkh1QmJIa3JfTjB6XzRLRUY3RTFYWU1DM2VOcXR2dFhZbVpvelRXUi1xVWR0ckhqSmlUVTVFN09oaXlkNGhINXpRd0M2V1ExMUFOV1VqUQ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Desaceleração pode abrir espaço para cortes de juros em 2027, apesar do risco fiscal, dizem UBS e BNP",
-     "fonte": "Funds Society",
-     "data": "2026-11-16T19:07+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMXF0WjVJS3NZWFp6eDFKYnAwaWo1WFlkeVhRMkxfLVFUNUVfZVcwMnBSaUhXWUJLbFJIWXRwc0pwZVA0eDVBc1hlczZ1SXkyQXlwU2NIb3YtckxLRVcxSVVMM1ZCTmtuamsyXzNsUHNXMGZuNHFqeEFlQjVqUGJ6a2hmM29jTVR3SjdZZnJTVDdnam9yUVV2SGNVRHpLRW9zUGMwUjZPUlV2M0FBX0wzSC1PUzhoeDBBU0xLVnhJa2hpY294UFl1Y01UVGw4UkFUTjNV?oc=5",
-     "sinal": 0
     }
    ]
   },
   "selic": {
-   "indice": -0.056,
+   "indice": -0.053,
    "n": 80,
    "alta": 1,
    "baixa": 6,
    "itens": [
+    {
+     "t": "Resultado Mega-Sena 3089: veja os números sorteados neste domingo",
+     "fonte": "BHAZ",
+     "data": "2026-11-22T14:02+00:00",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4wbjRBczZzbG5OdUVkTHdxeGZWeVB1M2JNekZGNzVXVVdrOGtWSHI3WkRpaV9YOVdsYWU4ZWoxR1NXRGVaV1M4NUQ1dVZyVmNUSmx4WE5GY3BXUWsyME5WdUMxZG5mZ3QxdlJVZ05R?oc=5",
+     "sinal": 0
+    },
     {
      "t": "Galípolo perde influência para as próximas escolhas da diretoria do BC",
      "fonte": "Poder360",
@@ -644,6 +651,13 @@
      "fonte": "Acia Araçatuba",
      "data": "2026-11-20T02:06+00:00",
      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYWERjZ2hQSFpFUkNXbURhQmp1NUdlc2pCYVNIcnFSdVU2TklNbkZnaGF0YmJfU0J2VlNtNW5SeExCYUppcGF0OXNoMjhSUWFaRDJtOGc5SXp4WC04bHlmaWEzZkNKN2ltcUkyaVVfSUk?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Juros futuros sobem cerca de 30 pontos-base e taxas de 2029 a 2035 passam de 15%",
+     "fonte": "Diário do Poder",
+     "data": "2026-11-20T00:37+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVmEtaUhsMUxnOERqWDRHZTNhZTlKLVhialFKb192OTNwN1BTZk1wMWRUUFJjUS1FaTRPV2dCWEtzbF9QWFB3eDhGWWo1ZWxCTVNUbEJ1eUs4WmxId3FaTEFkMVBWRnFMX3U0LUJEa0hDTTZHaVR4d2Y5bXdkOGJmRXZYSWNfaE55QXJack4xNFd3SkF1VmZqQVF6ZHctM0loWUd2YUUyZ0RZNnB6WnU5TlhyOXRvTFl5OE1BMkdiN2RGUG9xWU1zOEc2N1RBdzhaOVHSAdcBQVVfeXFMUGd5elI2QUtST0ZTbUY0RFpDTEFjb2dQS0l3ZWNxTWtzNkY3Wk95bEhGWTZ2bWRWYlJYUUJqSnBDc1dKblVtTkktUmhoUm1pMDY3MVB3dm5sSkJVTmlmMXBrZUE3bFZpMkFEOG1uVjdJbFF6S0F3d2lqQVBjYzdSMWNhUmo3RER6ZGVjMEVSMEJVQTdfX0hkbVUwSTlMem1lcTVWaC1LQjdYTDNCWlpPNGZ2YS1tU01naDd0SV9xdVJDTThLQ21mZUR6NDdjQTdVYllOYm5fOXc?oc=5",
      "sinal": 0
     },
     {
@@ -1046,6 +1060,13 @@
      "sinal": 0
     },
     {
+     "t": "André Lara Resende rebate Galípolo e defende redução da Selic",
+     "fonte": "Gazeta Mercantil",
+     "data": "2026-11-17T14:08+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUEo2czBVNkdNbDl0UHVlbEh1RlYwcVhEc1Q1c2ZCVHozOVFkSXpVUHJ5Tm1ZcHpaankxZ0xrXzIyeldyQ2p4WG0tQ2dLQlh5WnNnemZ2ZWR6UDEtQXlwTUx2MjQ1NldDS0VtNjV3Wkd5X3NKNjY4bGVDSktTSTlJU1lB?oc=5",
+     "sinal": 0
+    },
+    {
      "t": "Enfoque - Informações Financeiras - Enfoque",
      "fonte": "Enfoque - Informações Financeiras",
      "data": "2026-11-17T13:28+00:00",
@@ -1113,27 +1134,6 @@
      "fonte": "Complexo Luz e Alegria",
      "data": "2026-11-16T23:22+00:00",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTWw0cUN2SEZwcGlZN3dlbkRSMGhmUTk0eTRjczJfTWo2dkJuOUpBMEZfYTRjalV6SDVWb1FVXzNDcnZPREl2VkZFRjMyaEhacWpQbEl3alBBWkZWUTlsbEF3NkI5Ui1yS2dvbXpkVktNMjJxSEU3OFphQ0p1ZmJybTBHS0g0VFVjaURRTGNuT1E3cEJyelNudFlrLW50SWQ4M0lpYTFTTQ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Mercado reduz projeções para inflação e crescimento da economia em 202",
-     "fonte": "O Maringá",
-     "data": "2026-11-16T22:37+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaFg0ODhzbDVwQzl4Q0U3TkxyVVlvWTRicG00Y1c4eVVmck9SMFNrQ09melJPZUxGZmtVUURyc09Vby1PSF9GYVpXMk1QN1F6bElENDVhZHBkVXpLa3V5QW9zTk0yZUJKMXdQOWQyUWw5QzhtcnIzbmtlZmlOQ09CUTE3RmQydzhTY3lCMl9LQzNreDhJZHpSMy1IRUV3dzdveG9WN1Y1VzNLazjSAasBQVVfeXFMTmhYNDg4c2w1cEM5eENFN05MclVZb1k0YnBtNGNXOHlVZnJPUjBTa0NPZnpST2VMRmZrVVFEcnNPVW8tT0hfRmFaVzJNUDdRemxJRDQ1YWRwZFV6S2t1eUFvc05NMmVCSjF3UDlkMlFsOUM4bXJyM25rZWZpTkNPQlExN0ZkMnc4U2N5QjJfS0Mza3g4SWR6UjMtSEVFd3c3b3hvVjdWNVczS2s4?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Curva de juros pressionada por câmbio e risco fiscal",
-     "fonte": "SpaceMoney",
-     "data": "2026-11-16T22:27+00:00",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOTA4eFZVQ0ZPZGVsVkoxYXRSd05SdXg1XzZPUjJVakVRUnNlQW1sSmg5a0xCeVRjM3VzRERsc19YOVJaUFdrelJVWERzQXA5U3NLSUNOQWRtcEV5cDFYUE5YMzd5cW1FdEhiUUdycEpEU0g1Sy14UkZMNjNuaEp1bGFTelRVR0ZOdzZZczRCaw?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Juros futuros sobem na B3 com dólar em alta e incerteza fiscal",
-     "fonte": "Canal Rural",
-     "data": "2026-11-16T21:29+00:00",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWS1yRlJKV0JWaWZTU0VRVXd4em1Od0tyd0FuZ3h5eEZ2U0Y1SkkwWlhvVkw1OFdWT01wbWhzVGx4Wkdad2Q3bXZBYWl6ZmRXb1NGS1ZOaW9jUnI4Zmw3WHQyWG5Rd2lOX1hFc05ueHF5WGZrNnNMLW4xdms5RGJFSUt1eWNVck1hNURtcERaeTBBN0w5QmZDZ3RqZnNpdTNDdVFnZA?oc=5",
      "sinal": 0
     }
    ]
@@ -1707,9 +1707,9 @@
    ]
   },
   "cambio": {
-   "indice": 0.288,
+   "indice": 0.276,
    "n": 80,
-   "alta": 25,
+   "alta": 24,
    "baixa": 1,
    "itens": [
     {
@@ -1738,6 +1738,13 @@
      "fonte": "O Otimista",
      "data": "2026-11-20T19:32+00:00",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUnhTcGFveC13cWJOU2xVd1JjZkxPTnFXTHJ1Tl9JQnBobkt4UU5rbUtiaExWZWY3ZlowMHJHMHNrWHdyeG1qT2RndnQ2M0lmSjNZdHVITm0ydFk2MXR1eTgtWW0xSURFX3F0YTVNNktWV1Z0ZUk0c1k3YnpLdkdqaG9uNGZ4MlhqNElkZk9DckhsbnBZbmNHdHF1NzFHN3M5bWxVa3VB?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "Dólar americano Hoje (USD) | Cotações",
+     "fonte": "Remessa Online",
+     "data": "2026-11-20T19:29+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HRThwQzlMRTZUOG1OQml4VENkSFVCdU1hYXZmQXVtWHdvaExtY2N6RmM3VWZncU5TVkR1dmV2RzlSZzVPRWIxME44d2p1enZidzFRRlpUeHA4N2F5RzJDTXprdUg?oc=5",
      "sinal": 0
     },
     {
@@ -2264,22 +2271,22 @@
      "data": "2026-11-18T20:31+00:00",
      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQOGM4UTNCaWE4VHdSdm16d3c3dnVkd0hqd1I2VmgxSFR5cWExdmJDMEptYkJCUDdhRW5hQVhTMFN0bTYyZDh0anF2UE1RY29KT0xHbmhuY2hPOWY1UG9jdlV2d1g1SXBFTHU1ZnZZSVlZY3BENjhrbWROckFLRE10bl9yLTBYM0JabDNkb3FHT3dlcExiVWNfVDQ2aDIyZEFvVEh1U3lsN2JYZTRIc3VHSG9MYjdqMDNWNkRZc3A5OGd4d0VBbmlPQ1RnSDh0VHk0Rm9McVU3aHpPRFRYTVEzQTNjYVJYYUgyX3M1djZPLV9yUll4aXdfVW1NQU44UFNa0gGGAkFVX3lxTE1jSVVoVzl1NXZaTGU5Xzh0am4wLWFaN01vRkdMN3Jlc21ESlduMktTRmZwRXNfN2lXVWgxZnZhZkg4cHFFUGZJUGJMbl9mYjNSM1dpT2NJOFE4M3NsZk5GdENtOWkxdjlTNU80c0UxaS1mVTBkZ0hFUXJNTEVHTDFqM1Zha3M3S1F3RVdDVXhsVk1NSHNNNkI1T1RlRTg1bWZ5N1ZaZWhtRG9Id0t6MS10NEJ2RWVncG0zcHNzZG1teS1tNm95SjRhSzhuaGZjcDY2bGxFT3ZSandpX0hyRHlxQ0c3bWdOOWhsM2wxSExTbWJUbXhYeFdSeWhDLTZxTTJ5dHZPWXc?oc=5",
      "sinal": 1
-    },
-    {
-     "t": "Real perde 10,8% ante o dólar e registra queda maior que outras moedas emergentes",
-     "fonte": "Paraíba Business",
-     "data": "2026-11-18T20:30+00:00",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWTNUUk1fOUhGVGdVUnVjOHVhdE4wQ1R3TjQ1OFBWZ3R0QkZaRjNLS21LYVJ4NzBqTUFsQzFPN3RWeV9WRWdSS3JTZVp1eUNVaE9GTHZTaFQ2M0lPemRpZFlrM1J6UldxeVpQclVlZ0o2UjQ3SnNjeUJTNGUtek84dkM1RzVINjZ0cGFVaWpJR0lCN0tjOWNRZnUwRkZaX1dFY1ZIdmd5aGl0ZEpWblFpcA?oc=5",
-     "sinal": 1
     }
    ]
   },
   "fiscal": {
-   "indice": -0.457,
+   "indice": -0.443,
    "n": 42,
    "alta": 4,
-   "baixa": 19,
+   "baixa": 20,
    "itens": [
+    {
+     "t": "Moretti e Durigan ganham confiança de Lula com pacote fiscal: entenda por que isso não garante que continuarão no governo",
+     "fonte": "O GLOBO",
+     "data": "2026-11-22T07:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNVWlQaDFVUjdGdDhFYklIbE1uTDVxNUw1cnFXN3FCcGNkcnFsVDBnblV2bUdNakNnQm01LW9qVmhkNDM4RFljNTRyOWN5VFJySmF5T2t4RnpJTDNQOHBBX0dPeS05WXBNM2dqcmY2UEY5UVE5Qk9jbHdUZFhYVDNYRmFDUm1VUWtHWHg2NTZTT1lpSXFTRE9PUE1ic2oteFk1bXRKbEMyNWc4WnVueUs3TzU4X29fOXZ2clA0ZGdZdFV2VFlIMmhleTVCcXpKdi05MTBoOWtLRGNVT3o5RVc4WG8zQUFVM1R0ZjVWUTlyRldkSHI2U2ZOVDQ2NUxSUHJGeVJQdEhzZ1hvZnFMWkRxUGpSTmkwNzd6S3fSAZoCQVVfeXFMTVVpUGgxVVI3RnQ4RWJJSGxNbkw1cTVMNXJxVzdxQnBjZHJxbFQwZ25Vdm1HTWpDZ0JtNS1valZoZDQzOERZYzU0cjljeVRSckpheU9reEZ6SUwzUDhwQV9HT3ktOVlwTTNnanJmNlBGOVFROUJPY2x3VGRYWFQzWEZhQ1JtVVFrR1h4NjU2U09ZaUlxU0RPT1BNYnNqLXhZNW10SmxDMjVnOFp1bnlLN081OF9vXzl2dnJQNGRnWXRVdlRZSDJoZXk1QnF6SnYtOTEwaDlrS0RjVU96OUVXOFhvM0FBVTNUdGY1VlE5ckZXZEhyNlNmTlQ0NjVMUlByRnlSUHRIc2dYb2ZxTFpEcVBqUk5pMDc3ekt3?oc=5",
+     "sinal": 0
+    },
     {
      "t": "Por que Juros Longos não Caem? Dívida Pública, Rigidez Fiscal e Impacto nos Ativos - Investing.com Brasil",
      "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
@@ -2306,6 +2313,13 @@
      "fonte": "Opera Mundi",
      "data": "2026-11-20T15:00+00:00",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX3pJZFMtajMxMm5FSndTaG54WkloM0Rkalk5NmdpM3E0bGhtV1JNbEV0bnNWRkdPaElqRVFMSXJkamQ1aVV3U0FsMG1uaDNmVWtUN2F4emFjaDNzUTJ5eVNYRk9VT2RFeDctOExOaTN3SHVOekhxM2QwT1RsMVlReWlNSjlCY2tFZk1kdThBdlBCZGFjOURmWEpNVmNmSkwxRU11S0duRUdGQUhXZlhjRjBaVUg2Q0k?oc=5",
+     "sinal": -1
+    },
+    {
+     "t": "Entenda o ‘plano Moretti’, proposta de ajuste fiscal do governo Lula que foi aprovada pelo Senado",
+     "fonte": "Bem Paraná",
+     "data": "2026-11-19T12:15+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQREZYOVN3OXdxVDFGQ1ZYUWpSMGR4aTNDOFhOcFo4bV9mUGZhN3JTby02N010Tk5SZ3dzMm04UFRpNFZHNk81MnVwRXZvSTlNcFFlVTBwWWVDc3B4NzNVN0c5cGhxb0hDM1AwdmFCQm5jNHhKMW9DNm9sbXpibno0UTJ4a2FkYlpMcjRLbWR0MXJFVDFxUi1ETlkwMjNTcV9zOHoyWnExQzQyV243d1dGNGhMaENOeUROamhINE5QeFVwejlwYUlUSHlDcnV4MzlTLUlnWHBQbnowN05LSVNN0gHfAUFVX3lxTFBERlg5U3c5d3FUMUZDVlhRalIwZHhpM0M4WE5wWjhtX2ZQZmE3clNvLTY3TXROTlJnd3MybThQVGk0Vkc2TzUydXBFdm9JOU1wUWVVMHBZZUNzcHg3M1U3RzlwaHFvSEMzUDB2YUJCbmM0eEoxb0M2b2xtemJuejRRMnhrYWRiWkxyNEttZHQxckVUMXFSLUROWTAyM1NxX3M4ejJacTFDNDJXbjd3V0Y0aExoQ055RE5qaEg0TlB4VXB6OXBhSVRIeUNydXgzOVMtSWdYcFBuejA3TktJU00?oc=5",
      "sinal": -1
     },
     {
@@ -2559,26 +2573,12 @@
      "data": "2026-11-15T18:57+00:00",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUjRQUUptMXllWnNSbDF1bXNZTnQwX2JnYzhpRFpGcTlXYXBiSzNNa1JJeUI0eGJ2bkpPcDMyemZtNlZwWVlaTS1idENiTEV6TmNHSjN3SkF3Y0gwTTBYSWk3OUNZQ3JGTUNpMzN5WkpFMU1zVkVrN2ZmSGluZGZoMmFWS0taZnFmQjVMdDA0c1B0N3JWTG9QcHdxenFXNlBkeTdTZV9QUQ?oc=5",
      "sinal": 1
-    },
-    {
-     "t": "Crescimento sem tesouraço",
-     "fonte": "O DOCUMENTO",
-     "data": "2026-11-15T14:06+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwOHFkVVpLeUlVMjB4eGFLMWVESzd4TU5sdVMtc1dORWpiN1lsdXo3WEdmMjFYaGpiSDNoU2VLVjFFbTZ4Qi1TNDFRTWpYSVNyZW9XRFZhZDZYenVQWkRNZUx3?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Críticas ao arcabouço aumentam com subsídio ao diesel fora da meta fiscal",
-     "fonte": "BM&C",
-     "data": "2026-11-15T10:07+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQVpvOTFoS1VhYXR0dUY3LWhtclFGZnJaOE1hOE1SMEhXaUdyWWdrbjNvUkdJVHB1UW1OcG9Sa3VfdUc2WWxTQnRSbzZXSm1UbkU0WnlDS1p2TkNKVnhLM01OR1JnWFlJdkpUWncyTVgtV2lQcXVUb1AyaGdZanBxUnF2cEdyVXgyLThBci1LRnp2UThkSFBvZmFDZW1uZnBjc3dfTVUwMmtSZw?oc=5",
-     "sinal": 0
     }
    ]
   },
   "bloomberg": {
    "indice": 0.0,
-   "n": 36,
+   "n": 37,
    "alta": 0,
    "baixa": 0,
    "itens": [
@@ -2748,6 +2748,13 @@
      "fonte": "Nord Investimentos",
      "data": "2026-11-18T08:06+00:00",
      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YYVJUQnhmUVZTYzY0YVFSUHd3eWt3SDhhXzloUDM0ZDJNeXNTY1h3QTJpWFo0TElKS2E1UU9iajBfTEZBMDdBanFtbndaV2VReUxBZW1qdkJ6c1FtWUZ1ZdIBZkFVX3lxTE45NG5TUkNBUjMtZGc3cUZOQmVzWmxzMGIwS2t0TDBqQTVtLV9Pd0JEWThBMEpVWjJxVEFkOVBWN0M4d3c2MThIZ0xHQU5Gd05SUzlFU0hzSmVzWUNWczVQSjAxdlV0dw?oc=5",
+     "sinal": 0
+    },
+    {
+     "t": "B3 vai incorporar ações de empresas brasileiras listadas no exterior ao Ibovespa",
+     "fonte": "Bloomberg Línea Brasil",
+     "data": "2026-11-17T21:28+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd3J4Qm0wejdldjdGQ3J6SnRhSzNBTVdSWW12dm9helV2N2JmTEo0azZnUUg2ejdselM4WXBQak5rSUxEdnczVUIwYVJER1hHSWtfUm53bjZkZXlVNkIteWpwQVJEWUp2TzhHZGpyandzR1ZzOWJ4OXFFRThfaUlodGxKaER5UFNreEhwdExzMHdiZElTSWZmMmN2NjBtVG01RFlQdWdfRDRFSDJqbTdHVW8xbHB1eXJtOHNjQmJEYjVTZ9IB1gFBVV95cUxNaEFCZXFDVm9qRjVRVmlwcThhZmh2cENzRlQzTjl3cUZHQmFhN0tNMHNIdV9oalZzQkFucFctbWZfcTkyYXNoWUJ6STVnUjhWNVhxYVljMlVFQnI2N2tmamVkYm4tSlVxZzdneEhrZllzNXpnNmlyT3dWR3h1cXpLN1QzZEhISzFFNDd1dW5zSzkxNi05eHhKdFNfbnVnd2RmLVlDWEVRLUNqWVY1ZFhNemlCdGVZZDFVcE9QaTFyODlGeFlwZkVraXNXMWRBWXlnY2dyOXBR?oc=5",
      "sinal": 0
     },
     {
