@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-25T04:53+00:00",
+ "atualizado": "2026-11-25T15:32+00:00",
  "fonte": "Google News (RSS), últimos 7 dias",
  "indicadores": {
   "ipca": {
@@ -1139,10 +1139,10 @@
    ]
   },
   "pib": {
-   "indice": -0.09,
-   "n": 65,
+   "indice": -0.064,
+   "n": 51,
    "alta": 3,
-   "baixa": 17,
+   "baixa": 11,
    "itens": [
     {
      "t": "Atividade econômica da Argentina cai 1,2% em setembro, diz governo",
@@ -1499,104 +1499,6 @@
      "fonte": "melhorinvestimento.net",
      "data": "2026-11-18T15:52+00:00",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNa1VZY2UzMVc2ODlwUTdIR2tNWk1ISXpiZkxsMWpJSFN1ZDhsOGg2Sy04Z2ZlNlVUOFp5a3BHTkRveTU2dXdwYjdvUGFYd2U3di1kT3owc2N5Rnpsd3A3SFNkZXo3Y3JKekVFX2JLUzc2SEZQZ3hIdVZrMU0xbjg3aVhPT3M?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Custo Brasil atinge R$ 3,5 trilhões com inclusão de segurança e juros reais",
-     "fonte": "Agua Boa News",
-     "data": "2026-11-18T15:32+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbGRkdzJvejFneEhPbUpCNTZBb095UG1pOTk1QjFDdnJ6S3dsYTlnV1lqbTFQeWN2enZGWGdJSTg2MjA1ekNrM3hxenRNYmJEVUNFZWprdk1oQk02OWE2Mk9tdmQxTjFXcW8tS2htbGFOTGN6Vk5NLVVHejlucG9OSkR1V3lzbzdXOEpjYjR2VTlYTmlyNkF4VFE1cjF3elU2eGtVRlZEMGRpSmlLZm45bEgzeTRxQkE2dy1ZaFJXRnJCMWdyWjktRVh6YzI5NXdGbGRvdzhlWjE?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Custo Brasil chega a R$ 3,5 trilhões por ano, o equivalente a 27,5% do PIB, diz estudo",
-     "fonte": "O Cafezinho",
-     "data": "2026-11-18T15:27+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUGlrT0xfdHBVa2hVeHJRaEJsRGxqVjRfcUwzNUE1NUNrUk82NHV4NjRVcmFFRTdBUS1yT2IwamxnMEJPUTZzRzAycTZTaGlXQjVfeDdlV1laQzZsT2FiR0ZqbGt3WGdjbHpQU0RsYnlPWExyZVQ1QjVUTlRBSFFxT0RRRmR2Zi1WX1V5SzFxaklpNWtoa2M5OTQtc09NeUNBalhtRko1ZlpDSmhDOEJLaUhDVWVGR29jTTFZ0gHAAUFVX3lxTE5tZjVKLTZkN2xlVVA5TjJLVFJva1NfR3JfeFV5OEJnSnEzZjBjX2I4UzFRUjFzR2EwRnlnOHZ5TDVZaFpCS1JTQUh2azZVTmh2a1BHd1VaLThPeHNlUEtkNnNLcVQ0RmdZbXpSZTBoWFcxUnJGUEtMT3FmSXZFRzNtNlA5MmN6LWRjMU5McUFib3Zha3VuWkxycEJKVTU0c3JiVTBydVpvNVJQNEZIS3d1NHBlV00taElYbXVhUzdrZA?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Custo Brasil chega a R$ 3,5 trilhões",
-     "fonte": "n3news.com.br",
-     "data": "2026-11-18T15:20+00:00",
-     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15WEJvSWQwMDQ2N1hDZEt3aWZmYVM2OEtJeFpyUmxOYjlFTm9LRzI4UVRIZVg3eGJ5dlZnS011cG1sRExEbEVUSEttSG0zSW42bk5oUERBLTNhTDk1NU1BWnNkNjZYMWZCVzduOHFXbkozRnp4SGdB?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Monitor do PIB medido pela FGV aponta queda de 0,2% no 3º trimestre",
-     "fonte": "CNN Brasil",
-     "data": "2026-11-18T15:18+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOajhuektic2d2NXdXOWFuRWlJeTFwLXJiV3RyLXM0aWRjZUxOUHRpdk9PR21MUVJoYktLWi1TYkNRM2RwSWdJMVA3d0RGS2hXRHpkdXlIekwxUDhsSTVhWnlEVWRNbFZYV1lNN3RaNlZIaXk0cmR5d21mUjgtUXpGWW4tNHA5M19scm92eFRfc2RoLWJpWUtHdmRyLTJfZXQ0RURLQ1ZNVWhNcVNTSXh0QU5GQXNRbEJTNVdYX2xSZTdvUQ?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "Custo Brasil chega a R$ 3,5 trilhões por ano, aponta estudo",
-     "fonte": "Diário do Comércio",
-     "data": "2026-11-18T14:36+00:00",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RbzNUWVYyUUdtSnJXbFhGdE9wNTdFZVM4dFdLNlBGeEtwYlZEX0g3THhKS3hmVWJaM1RHTW1QSjdNbm9aZXNqM2lVZkJONnhHemhTeExSa2h6MUNqbmg4SUJWNGEwTllySHl1N2RoVDJWS0dzUGR1UVItdUk5VTg?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Monitor do PIB da FGV aponta retração de 0,2% no terceiro trimestre de 2026",
-     "fonte": "paranahoje.com.br",
-     "data": "2026-11-18T14:33+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeGxWczVlWjU4anVoQTVTWTlYWTRNTzd1cS1ZVmxHSkYzZEdJUlNQM2FIWnE3aDN0X3B6V0l6WFBaY1NTeHNzN0pLVTVuVk1YTjVOeHhDcWFIc0ZXUG0ybVQweWVBT20xN0kzYm5HNHFwUEdrb1FpTG5CMlVQdEpwbGRCSDZjcEViSjBpMGZfSG1fTXBtdHVGcHJLb19jcnM1Y2c?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "PIB recua 0,2% no 3º trimestre e encerra 20 altas seguidas",
-     "fonte": "SpaceMoney",
-     "data": "2026-11-18T14:27+00:00",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZkh0QWo5eFV2OTdBSTF0YjBnWUJlOFZXNVY4eE1hdlhIMWp1aFlSdU4tc2ZXT3YxYzJOOENFQklmS1dZMmRGT2pQV0k2ZkNsQjg4WjlPa29oYnhuUy13ak9RSmM4QWFwdzlrY0g4UnhER2h3XzNkNC13TnkwY0p2Vm1VOVZWbHdhRm5GdDVSVF9HUm1iR2g4b0N4ckI?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "Monitor do PIB da FGV mostra queda de 0,2% no terceiro trimestre de 2026",
-     "fonte": "Canal Rural",
-     "data": "2026-11-18T14:02+00:00",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYXFmR1JRdzVFMHBYZVNLbkZQTFpWa0M3aGk3blBSTUZnZnZrWFZHUm94UjlsMjJWbU4wLXdoV0h4SU8yb2NPQlFadGxWYl9aeDg2YVpGdlpPQ01TdXJQRWNNQk56SE5DVUZxSVRFb29waFR4Z1NiVUhOdV9weGltQlRCcXpnXzViM0w0ZWZ4LXYyQmpuQmNNMnVXNzRpb3N1NEpkMTZnRExIX2VxN3Vn?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "Monitor do PIB medido pela FGV aponta queda de 0,2% no 3º trimestre ante 2º trimestre",
-     "fonte": "UOL Economia",
-     "data": "2026-11-18T13:54+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNb1BlcElUYy1uejVucUtBT2QxSHZKTFA4UFpKb2pEelFOS0FUQ1V6TUxoc2haTG81TC0tY3dqZ085X1J5RUsycWItNjh1WnV4Y3Q4WTEybjhoYkcxSks4LWlrTmFTYnQ3RXh4QjdmRXBnS1RMQ3c1dVVtNHpDOGpJZ21tOWJRNUNHVGZXdXM2N0dVSTI2Z0J5ZExiV21xTlF5eDNSZkNEUmZLVXV1OUFTZzdQS3ZJOXVQczYxWkZZR1Y5UVNhWWwyTThoam41THJDUDdUdGgtbGd4ZC1ZdGFwWGJhSWo?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "PIB brasileiro recua 0,2% no 3º trimestre e interrompe 20 trimestres seguidos de alta, aponta FGV",
-     "fonte": "A Crítica de Campo Grande",
-     "data": "2026-11-18T13:54+00:00",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaEwtVnhKdE9rclZBeFdldm95eTQxWjVIWnp3aVhmTzBMMlBpems1bS1CTTktWnpFNU9oSEVMOWNEMWZSNVZwYjNsemxlZU16OXVLQVpyTjN5aDRaTENXWWEwNUtiTUJySEJfd2NiM2ZqcW9wdmNqSDBjb1BIVXlTR2N2Z0F0Q0szWXhBRUgtMGFmbGQtSWdqNTBVdnNIUVZzMFcyc2dzV1l2S0dm?oc=5",
-     "sinal": -1
-    },
-    {
-     "t": "Economia brasileira recua e interrompe 20 trimestres de expansão, diz FGV",
-     "fonte": "UOL Economia",
-     "data": "2026-11-18T13:38+00:00",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQXNLSndPLVM3cWt6ei1CRFBqczdvSjR0NzFja3dKRVhVME5SS0FrYmJocmttT1lvNGxoMzdnSW5Qdm1KU1c2M0VNNHhQRElIYXhleVVsamxCNFlVaFVzVmZPVUdPQ0RZeWNyQUlfRUF3NGtXSDBlcF9QRnFVMkZRb0tQdFk3OVBEcER1LW1vUlJQT09kdkRHUVdZY2swRHd2YWN6Y2xIQnRwLWo2S3RJdGZkUm9mbUd1a3lTenFlV080VVpUNDZF?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Custo Brasil chega a R$ 3,5 trilhões em 2025, equivalente a 27,5% do PIB",
-     "fonte": "Mercado e Eventos",
-     "data": "2026-11-18T12:56+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQlJfMG9DaEk3bF9WWXU4V3NJTy1vYkMzYU5LVWhqTWxMdFd4a2lHQUxpemFyWEc0SDREeEhCVHVMU3hPc201dHYxQzJIOEQ3UlZfWDNnRFNBSWJ3bVI5eVo1WEtBVHVpMnY0QXVyelFSUDMwUU5zNUx6b29JTXRJS0VTZ0FQRGpualNSYlJ0WXVOQ0FzMVNGeWIxcE9CdTB2Ylo1MExLcGNqSjg4cC03RUtfcVNuaEE0T3ltWTN6dWZUb1NuT01uYg?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Atividade econômica cai no terceiro trimestre: quais setores e empresas podem sentir os efeitos?",
-     "fonte": "Contadores.cnt.br",
-     "data": "2026-11-18T12:04+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPX1V2dlpRcVlKRmoySnFtcG13cFhCUGhmaFZfRWxrUXd4Q3NfSWVGc0RZbVdrcjZfNUxLNGo3SzVjRlIwaWFWYTUtRDMtTGFIR3ZVNXZiaG5Sc3JMOWg1ZDJKVmRqVFpfMVhUVXBCWHZqbTM5cDdjdkpMcUZ3aGg4VnRPaGVlS25feF80WHlIT3dtYUZsRjA0TFpQaTdZT01kNTFsU3E3d3BTTXlzMDJaTVV1X1ZyNlhPaUdKUmxZSUtfMHZUTDRKQTRIYnZNVUVPNU9CdklsQ0JzM3VCM05aXzkxeV93Y1V2ZEtmYzdhejRfZEFj?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Saiba quais indicadores e balanços saem nesta 4ª feira",
-     "fonte": "Poder360",
-     "data": "2026-11-18T09:11+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYVFzeUdxMl9FMkRXdklSU0ZNd0M0Q3lJYl9STXVZUlgxM3MwU2RjTHJnX3Y0TXhKMXFtMGRtTmdISFR0cnJER2JhUnNtTWR3RzNrS1VqcnlHeGpYRE1pd3dodk92LWJ4ODZ6bWFrVmthWldYSmZvTjZ6TUgwcUtRTDYyUlNnNlVfdDFVVWpWbk5Ea2JaU1paN2pOMDFSRDRSRHJn?oc=5",
      "sinal": 0
     }
    ]
@@ -2739,7 +2641,7 @@
   },
   "bloomberg": {
    "indice": 0.0,
-   "n": 42,
+   "n": 37,
    "alta": 0,
    "baixa": 0,
    "itens": [
@@ -3000,41 +2902,6 @@
      "fonte": "Bloomberg Línea Brasil",
      "data": "2026-11-18T21:05+00:00",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaE1NTzBiSHFTTjczbU1VaDhxek1Zc3F6a1RZeVJfM2NQRjN3N1ZjWDN4UWhWMlJkZ29SUENlU1dtWi1nbHRWT1E5dUdIQzZKdllKeEhiWXVnM3NKZDliVmo5WEFLLVhfem1RcUFpbGdmVVdqU1Z0YWd5OG4tR3lZd2hYQlVNd0x1aFgtRVI1TnhnS0xUSnZzMzA4Tmd0a09QMG9ZbFNyLWRmT1B4TjFwR2s0OGNQRWxqZ1BJ0gHPAUFVX3lxTE1Lc1N3WVNETHJjSE1uNFluaW9tbEN4VVdwSFlhQmZKTTRJdkMzdllwdkhBU01hRFVqS3hRVzRCU09TbDE4SE44LXRxdUdoTE93MFJPWS1iZTluN1g1S2tGM29zVzVPMDBNUWJKbk91dW1Hd0JVQWJFWGhxVkNSclY4RVRtcDBicXdJTnl1NXQ1M0VMWlpZVDFkcWJoeU1LN3pKR0sydmRvMUxjcHlSUTJGcHgtRElyS1ZwZFFXZTVZMG5ESTRoenpydWI1Uzl4OA?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Dólar forte e juros nos EUA levam TS Lombard a reduzir exposição ao Brasil",
-     "fonte": "Valor Econômico",
-     "data": "2026-11-18T15:01+00:00",
-     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSDFrb3pJTFBQNkhYTzdoNEdrQklfNHVqT2gtMnBybG1aRjdVRDJRNW1LcFBfV0g0SjkxbnNhTUtpQmtYcWZLRFpiTGpSYVJJN0NoV2lXeGxpUzBrek5jSnhfSER2WHZRdTJIenIyaHRzbzVhSDVhN2xEZ2k0bE5QVjkzYkJYVDhmS25TbXZuMFE5UUFrQmgtd3luUGc3eXQtd2ZZZXhxWm0xQjh6bWJQOF9lR2VaNzdPakYxRFE0MFJrZEFKc2lIVXpMYk5pbm9OVkFJZHo1SdIB1wFBVV95cUxPSDFrb3pJTFBQNkhYTzdoNEdrQklfNHVqT2gtMnBybG1aRjdVRDJRNW1LcFBfV0g0SjkxbnNhTUtpQmtYcWZLRFpiTGpSYVJJN0NoV2lXeGxpUzBrek5jSnhfSER2WHZRdTJIenIyaHRzbzVhSDVhN2xEZ2k0bE5QVjkzYkJYVDhmS25TbXZuMFE5UUFrQmgtd3luUGc3eXQtd2ZZZXhxWm0xQjh6bWJQOF9lR2VaNzdPakYxRFE0MFJrZEFKc2lIVXpMYk5pbm9OVkFJZHo1SQ?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "BlackRock compra SulAmérica Investimentos e amplia presença no mercado brasileiro",
-     "fonte": "Bloomberg Línea Brasil",
-     "data": "2026-11-18T12:52+00:00",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaHpzSjJUUXVsV3FsOHl0b2JjMnltZ08zNTk0a1VUZHY5UElVWEc4bVU2LXlmNGdmVDN5Vzc2UER6QlVKemNXVmxTbFJxdi1PVHFPcDFkaTNhQThTZ1RXNVNaYVdCT3N3Rk1RT2U3c0tMVnBaZ1czNlBpMGpEUVo2ME5tTG5kVU92TjRPRDdoQVdpVGJDbGJrX0R1c092cUdnU0gxZWpVYlZfUkxJc0hmXzBGd0ZlSzNBdkIxVGN1Zk1tWk40MmfSAdoBQVVfeXFMTmU0RnI0cWZZd3lyZ3hIVmNMcUlOc29GWTloNXl4UmtFZV9SY0hacnRTeU5EY0xLVGprSW5Gajd5ZWx1NE90aFh1SVJ0am5PV3EzYkFNcnRVTWlId1otbHFLRmg3QTFQM01KSVBUMlJRS1FkZFRTa3VCMHR4cjhFOUhfbF90aG1BREUtX0t3VnpfcGtDT0tmZ09uaWc5NUwyT0g1SnBmcEoyVEJXOGhpcVU0alprVkpXWEJNNFg5S3h0Z184WjZfc2hBM3A0WVk5eUxCdHZfOXU0SUE?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "IA, inflação e juros definirão a economia global em 2027, segundo a Oxford Economics",
-     "fonte": "Bloomberg Línea Brasil",
-     "data": "2026-11-18T12:16+00:00",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZXRFYlM1X19fQWI5Q2VubkJTQmtwV0NmNXlBM0swLTBLZ1RrZDZ4NkI3WTFFRFFVY3o2TURqNVRzNnNWdkZEQzRsTWN6UEoxeEZTZDMwTEFOeEQ3OTY5N2NLTk9aSnpUclcycklGVnVSS1ZNdFlYd1hnc29fR0FTQzRfYUE3MU9tdDBqX1lRSEtCVXUyd09JX3otaXotZE1fQTVVSnl0VWJMUnJzTy1rQ1hNRXZOMFZnTFZRYzRqalFxZFVV0gHYAUFVX3lxTE5RWEtQVEZSSU1Ca2hBRkJ6QkwyMnc1Yi1KODVDajFaUlVFSmZsa3BCLWxydk5KRTRyX0NNSk02dEtPZ3I2ZEQ5UU9lZy1nQ05tVFBJc2xnd2QwdHQ3SXM5S2ZGZUI0TFNNU3puanNtaGN6eGt1NmlzdGowbXRfcFBjcmxDd2k1ZDNwblUwZTVlUUIzTmZWWnhqT3lnSnhPYWZDTnZmTEJLZU0wNUJEdnBaQjFDVElpWEI0SzFxUm0wSkNiaFR1bTNUS3F1TXZkcnQ1eDMta29UQw?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "Mais ‘maduro’ e ‘acessível’, mercado de cannabis medicinal ultrapassa R$ 1 bi no Brasil",
-     "fonte": "Bloomberg Línea Brasil",
-     "data": "2026-11-18T09:27+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb1pMWmw5a1RmS1BrSEpXZEFOVVZBRlhQOEVOeHlIN3BXaF9yU1dhU29zQjdsbklHdzlhTl8yVmY3bmNGT01oOW1SQ1JJWDJ5V1V5Mk1vNjA0bjlmZ1NOSVhuRFJ5aW1JS2w5WWdrdUZtaHFaUlVxUWxOUzVkN2IxSG0zZFFnemFKcEduSXlGc1dxeUxJSWR2emJuMUFjTFFhNEJUaWx6MmRrTXo2NkluZW5hM3lQZjJNdDVIc3doNk1tVnPSAdcBQVVfeXFMTVRZNTVudFFzdHZSMUlxMUFWTDBvcHdORGttUkhKYlh2UnNuUDF6UXFMY1lGbEVBZ1RtZndGbmhZVk1CeXAybURlVkJGNjVjUElKMXp3WDFYa09icUVGX3dIUmVUTFJWTUk0eVZtNnpYT0FVSHl5TzJlU1RnUVFuLXM3ckVMaFNwX0tEOVRHR1gxbXFDTDM1dnpVUzN2ZWJOcTNLZjRhcC1BUjJkVzJMN0kxMU9aNi1UQkwzVWRuNFJhSXBVeGVnaXM2algwaVJKSDZPanVUNTg?oc=5",
-     "sinal": 0
-    },
-    {
-     "t": "CPI: inflação dos EUA vem acima do esperado e reforça novas altas de juros",
-     "fonte": "Nord Investimentos",
-     "data": "2026-11-18T08:06+00:00",
-     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YYVJUQnhmUVZTYzY0YVFSUHd3eWt3SDhhXzloUDM0ZDJNeXNTY1h3QTJpWFo0TElKS2E1UU9iajBfTEZBMDdBanFtbndaV2VReUxBZW1qdkJ6c1FtWUZ1ZdIBZkFVX3lxTE45NG5TUkNBUjMtZGc3cUZOQmVzWmxzMGIwS2t0TDBqQTVtLV9Pd0JEWThBMEpVWjJxVEFkOVBWN0M4d3c2MThIZ0xHQU5Gd05SUzlFU0hzSmVzWUNWczVQSjAxdlV0dw?oc=5",
      "sinal": 0
     }
    ]
